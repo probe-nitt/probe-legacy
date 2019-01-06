@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/events', function () {
+    return view('events');
+});
+
+Route::get('/events/paper', function () {
+    $filename = 'paper_presentation.pdf';
+    $path = storage_path($filename);
+
+    return Response::make(file_get_contents($path), 200, [
+        'Content-Type' => 'application/pdf',
+        'Content-Disposition' => 'inline; filename="'.$filename.'"'
+    ]);
+});

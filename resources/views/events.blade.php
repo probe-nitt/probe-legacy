@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">PROBE 2019</div>
+                <div class="title">EVENTS | PROBE 2019</div>
                 <h2>COMING SOON</h2>
             </div>
         </div>
