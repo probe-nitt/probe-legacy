@@ -70,13 +70,7 @@
 
 								<!-- Content -->
 									<section id="content">
-										<p>A spark in any human's mind is priceless, as it has the potential to conquer
-										the entire cosmos. And if that person is an engineer, there's certainly no stopping
-										them. If you have an idea that you think could revolutionise the current
-										electronics and communication research scenario, where better to debut them
-										than at Probe! The Paper Presentation event is here to be a platform to convert
-										your ideas into reality, and you can showcase your practical knowledge and win
-										exciting prizes.</p>
+										<p>A spark in any human's mind is priceless, as it has the potential to conquer the entire cosmos. And if that person is an engineer, there's certainly no stopping them. If you have an idea that you think could revolutionise the current electronics and communication research scenario, where better to debut them than at Probe! The Paper Presentation event is here to be a platform to convert your ideas into reality, and you can showcase your practical knowledge and win exciting prizes.</p>
 
 										<h3>Prizes</h3>
 										<ul>
@@ -98,11 +92,7 @@
 
 										<h3>Guidelines for Paper Submission</h3>
 										<p>
-										Prospective authors are invited to submit papers reporting original unpublished
-										research and recent developments in the topics related to the event. All papers should
-										strictly comply with the standard IEEE camera-ready format (IEEE standard format,
-										double column, and 10-point font). Submissions must include title, abstract, keywords,
-										author and affiliation with email address.
+										Prospective authors are invited to submit papers reporting original unpublished research and recent developments in the topics related to the event. All papers should strictly comply with the standard IEEE camera-ready format (IEEE standard format, double column, and 10-point font). Submissions must include title, abstract, keywords, author and affiliation with email address.
 										</p>
 										<p>
 										The IEEE templates can be found at:
@@ -110,12 +100,10 @@
 										</p>
 										<p>
 										Send the soft copy of camera ready paper in PDF and WORD format to
-										<a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a> with <"Paper_author_name_college_name"> as the
-										subject.
+										<a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a> with <code>Paper_<'author_name'>_<'college_name'></code> as the subject.
 										</p>
 										<p>
-										Shortlisted students will have finals during Probe2019 at NIT-Trichy, where they can
-										present their papers in the form of Power point presentation.
+										Shortlisted students will have finals during Probe2019 at NIT-Trichy, where they can present their papers in the form of Power point presentation.
 										</p>
 									</section>
 
