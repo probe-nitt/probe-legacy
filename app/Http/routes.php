@@ -22,3 +22,37 @@ Route::get('/events', function () {
 Route::get('/events/paper', function () {
     return view('paper');
 });
+
+Route::get('/events/bullseye-event', function () {
+    return view('bullseye');
+});
+
+Route::get('/events/cryptech', function () {
+    return view('cryptech');
+});
+
+Route::get('/events/embedtronix', function () {
+    return view('embedtronix');
+});
+
+Route::get('/events/matrix', function () {
+    return view('matrix');
+});
+
+Route::get('/events/probequiz', function () {
+    return view('probequiz');
+});
+
+Route::get('/events/makeathon', function () {
+    return view('makeathon');
+});
+
+Route::get('/events/probeit', function () {
+    return view('probeit');
+});
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::post('/register', 'UserController@register');

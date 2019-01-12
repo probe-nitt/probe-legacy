@@ -15,6 +15,13 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password', 60);
+            $table->enum('gender', ['male', 'female', 'other']);
+            $table->string('department');
+            $table->enum('yos', [1,2,3,4,5]);
+            $table->string('college_name');
+            $table->bigInteger('phone_no');
+            $table->string('probe_id')->unique()->default(NULL);
+
             $table->timestamps();
         });
     }
