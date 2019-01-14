@@ -1,6 +1,6 @@
 @if ($regbool==1 && $ispaid==1)
 <script type="text/javascript">
-    window.location = "{{ url('/workshops/') }}"+"{{ $workshop }}";//here double curly bracket
+    window.location = "{{ url('/workshops') }}"+"/"+"{{ $workshop }}";//here double curly bracket
 </script>
 @endif
 <!DOCTYPE HTML>
