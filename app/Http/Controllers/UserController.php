@@ -290,10 +290,10 @@ class UserController extends Controller
 
             
                 $email = $registrant['userEmailId'];
+                
                 $workshop = $registrant['ticketName'];
                 $wid = Workshops::where('name',$workshop)->first()->id;
-                $user_id = Users::where('email','=',$email)
-                                ->pluck('id');
+                $user_id = Users::where('email','=',$email)->first()->pluck('id');
                 $reg = WorkshopRegs::where('workshop_id', '=', $wid)
                                             ->where(function($query) use($user_id)
                                             {
@@ -307,12 +307,12 @@ class UserController extends Controller
             }
         }
         else{
+            
             $registrant = $data;
             $email = $registrant['userEmailId'];
             $workshop = $registrant['ticketName'];
             $wid = Workshops::where('name',$workshop)->first()->id;
-            $user_id = Users::where('email','=',$email)
-                            ->pluck('id');
+            $user_id = Users::where('email','=',$email)->first()->pluck('id');
             $reg = WorkshopRegs::where('workshop_id', '=', $wid)
                                         ->where(function($query) use($user_id)
                                         {
