@@ -287,6 +287,7 @@ class UserController extends Controller
         try{
 
             $data = json_decode($request->getContent(), true);
+            Log::error("Hook data",$data);
             
             if(is_array(reset($data))){
 
