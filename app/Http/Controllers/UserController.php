@@ -282,15 +282,37 @@ class UserController extends Controller
 
     public function tswh(Request $request)
     {
-        $data = json_decode($request->getContent(), true);
+        try{
+
         
-        if(is_array(reset($data))){
-
-            foreach($data as $registrant){
-
+            $data = json_decode($request->getContent(), true);
             
-                $email = $registrant['userEmailId'];
+            if(is_array(reset($data))){
+
+                foreach($data as $registrant){
+
                 
+                    $email = $registrant['userEmailId'];
+                    
+                    $workshop = $registrant['ticketName'];
+                    $wid = Workshops::where('name',$workshop)->first()->id;
+                    $user_id = Users::where('email','=',$email)->first()->pluck('id');
+                    $reg = WorkshopRegs::where('workshop_id', '=', $wid)
+                                                ->where(function($query) use($user_id)
+                                                {
+                                                    $query->where('participant1',$user_id)
+                                                        ->orwhere('participant2',$user_id)
+                                                        ->orwhere('participant3',$user_id);
+                                                })->first();
+                    $reg->paid = 1;
+                    $reg->save();
+                    
+                }
+            }
+            else{
+                
+                $registrant = $data;
+                $email = $registrant['userEmailId'];
                 $workshop = $registrant['ticketName'];
                 $wid = Workshops::where('name',$workshop)->first()->id;
                 $user_id = Users::where('email','=',$email)->first()->pluck('id');
@@ -303,27 +325,12 @@ class UserController extends Controller
                                             })->first();
                 $reg->paid = 1;
                 $reg->save();
-                
             }
-        }
-        else{
-            
-            $registrant = $data;
-            $email = $registrant['userEmailId'];
-            $workshop = $registrant['ticketName'];
-            $wid = Workshops::where('name',$workshop)->first()->id;
-            $user_id = Users::where('email','=',$email)->first()->pluck('id');
-            $reg = WorkshopRegs::where('workshop_id', '=', $wid)
-                                        ->where(function($query) use($user_id)
-                                        {
-                                            $query->where('participant1',$user_id)
-                                                ->orwhere('participant2',$user_id)
-                                                ->orwhere('participant3',$user_id);
-                                        })->first();
-            $reg->paid = 1;
-            $reg->save();
-        }
-        return;   
+            return;
+        }catch (Exception $e) {
+            Log::error("Hook failed".$e->getMessage()." ".$e->getLine());
+            return;
+        }   
     }
 
 }
