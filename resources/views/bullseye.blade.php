@@ -12,7 +12,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">PROBE</a></h1>
+					<h1 id="logo"><a href="/">PROBE</a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="/">Home</a></li>
@@ -62,7 +62,7 @@
 											<li>Questions vary like multiple file format changes, double encryption etc.</li>
 											<li>There is absolutely no preparation for this game. All you need is free time and a lot of patience. Sometimes, obvious clues won’t strike you and at other times you might get deviated from your path by misinterpreting a clue. When this happens, take a break and play later.</li>
 											<li>The moderators are there to monitor the progress of players and glitches/bugs. An official clue tab will be available that gives a certain clue for each level and it will be updated as and when required.</li>
-											<li>Spamming on the forums, using offensive language, cheating or helping other players are all forbidden. Moderator’s decision is final if he/she so chooses to ban you or report you. In case of such offenses, we will withhold the prize(s) for all those who were involved in breaking the rules. Your attempts are tracked and unfair tactics will lead to disqualification.</li>
+											<li>Your attempts are tracked and unfair tactics will lead to disqualification. In case of such offenses, we will withhold the prize(s) for all those who were involved in breaking the rules.</li>
 										</ul>
 									</section>
 

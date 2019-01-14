@@ -8,6 +8,8 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Validator;
+use Mail;
+use Session;
 
 use App\Models\Users;
 
@@ -41,6 +43,20 @@ class UserController extends Controller
         $cn       = $request->input('cn');
         $phoneno  = $request->input('phoneno');
 
+        $checkmail = Users::where('email','=',$email)->first();
+
+        if($checkmail){
+            Session::flash('message', 'Email already registered');
+            return redirect('/register');
+        }
+
+        $checkph = Users::where('phone_no','=',$phoneno)->first();
+
+        if($checkph){
+            Session::flash('message', 'Phone number already registered');
+            return redirect('/register');
+        }
+
         $user = new Users;
         $user->name = $name;
         $user->email = $email;
@@ -49,6 +65,7 @@ class UserController extends Controller
         $user->department = $dept;
         $user->college_name = $cn;
         $user->phone_no = $phoneno; 
+        $user->yos = $yos;
 
         $user->save();
 
@@ -58,9 +75,77 @@ class UserController extends Controller
 
         $user->probe_id = $id;
 
+        $confirmhash = md5($id."arut");
+
+        $user->mail_confirmation_hash = $confirmhash;
+
         $user->save();
 
-        return null;
+        $url = "http://localhost:8000/activate?confirm=".$confirmhash;
+
+        $data = array(
+            'name' => $name, 'pid' => $id, 'url' => $url
+        );
+    
+        Mail::send('verifymail', $data, function ($message) use ($email) {
+    
+            $message->from('no-reply@probe.org.in', 'PROBE NIT TRICHY');
+    
+            $message->to($email)->subject('PROBE 2019 Registration');
+    
+        });
+
+        Session::flash('message', 'You have successfully registered for Probe 2019. Please check your mail for instructions on account activation and activate your account before logging in');
+        return redirect('/login');
+    }
+
+    public function confirm_mail(Request $request)
+    {
+        $confirmhash = $request->input('confirm');
+
+        $user = Users::where('mail_confirmation_hash','=', $confirmhash)->first();
+        $user->mail_verified = 1;
+
+        $user->save();
+
+        Session::flash('message', 'You have successfully activated your account');
+        return redirect('/login');
+    }
+
+    public function login(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'email'     => 'required',
+            'password'  => 'required'
+        ]);
+
+        $email    = $request->input('email');
+        $password = $request->input('password');
+
+        $user = Users::where('email','=', $email)->first();
+
+        if(!$user){
+            Session::flash('message', 'Email not registered');
+            return redirect('/login');
+        }
+        else if(md5($password)!=$user->password){
+            Session::flash('message', 'Invalid email/password');
+            return redirect('/login');
+        }
+        else{
+            Session::set('email',$email);
+            Session::set('name',$user->name);
+            //code for dashboard
+        } 
+
+        return redirect('/');
+    }
+
+    public function logout(Request $request)
+    {
+        Session::flush();
+        Session::flash('message', 'You have been logged out');
+        return redirect('/login');
     }
 
 }

@@ -18,7 +18,15 @@
                             <li><a href="#two">Events</a></li>
                             <li><a href="#three">Workshops</a></li>
                             <li><a href="#four">Tech Talks</a></li>
+							@if ($name = session('name'))
+							<li>{{ $name }}</li>
+							<li><a href="/logout" class="button primary">Log out</a></li>
+                        	@endif
+							@if (!session('name'))
 							<li><a href="/register" class="button primary">Register</a></li>
+							<li><a href="/login" class="button primary">Log in</a></li>
+                        	@endif
+							
 						</ul>
 					</nav>
 				</header>
@@ -42,10 +50,10 @@
 									</header>
 								</div>
 								<div class="col-4 col-12-medium">
-									<p>PROBE had its modest beginnings in 1992 as a way for the electronics buffs all over the country to exchange ideas and has now grown into a techathlon that boasts participation from not only Indian students but also those in the Gulf, Singapore, Japan, Europe to name a few.</p>
+									<p>Engineering has been the natural form of expression for creators over the past century, breathing life and inspiration into the human race. To defy convention, to change age-old perceptions and to capture the pulse of today’s crowd, a new breed of engineers that can think out of the widely-quoted 'box' is required. This has been the crux of Probe, the genre-defining symposium conducted by the Electronics and Communication Department of NIT Trichy.</p>
 								</div>
 								<div class="col-4 col-12-medium">
-									<p>With a milieu of activities and workshops guaranteed to provide a life-changing experience to those seeking to find their inner engineers or just be that golden achievement to those seeking to add glitter to their resume with a participation in Probe’s industry-oriented workshops from Atmel, Cisco, National Instruments, Cypress Semiconductors, Intel and Schneider Electric.</p>
+									<p>Probe had its modest beginnings in 1992 as a way for the electronics buffs all over the country to exchange ideas and has now grown into a techathlon that boasts participation from not only Indian students, but also those in the Gulf, Singapore, Japan and Europe to name a few.</p>
 								</div>
 							</div>
 						</div>
@@ -60,7 +68,7 @@
 						<header>
 							<h2>EVENTS</h2>
 						</header>
-						<p>Gear up your competitive spirit to prove your prowess in anything and everything ECE! With 7+ events that cover every aspect of the domain, there is something for everyone to participate in and win exciting rewards!</p>
+						<p>Gear up your competitive spirit to prove your prowess in engineering! With 7+ events that cover every aspect of the domain, there is something for everyone to participate in and win exciting rewards!</p>
 						<ul class="actions">
 							<li><a href="/events" class="button">Learn More</a></li>
 						</ul>
@@ -89,7 +97,7 @@
 						<header>
 							<h2>TECH TALKS</h2>
 						</header>
-						<p>The first step towards success is by learning from the lives stalwarts. Probe's series of tech talks features accomplished academic and industry personnel whose scintillating words are sure to inspire and uplift you!</p>
+						<p>The first step towards success is by learning from  the lives of stalwarts. Probe's series of tech talks features accomplished academic and industry personnel whose scintillating words are sure to inspire and uplift you!</p>
 						<ul class="actions">
 							<li><a href="#" class="button">Coming soon</a></li>
 						</ul>

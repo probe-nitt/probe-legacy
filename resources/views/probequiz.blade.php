@@ -12,7 +12,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">PROBE</a></h1>
+					<h1 id="logo"><a href="/">PROBE</a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="/">Home</a></li>
@@ -68,6 +68,7 @@
                                     </ul>
                                     <h3>Registration</h3>
                                     <p>On spot registration</p>
+									<h4>Participation certificate for all the participants</h4>
                                 </section>
 							</div>
 						</div>

@@ -12,7 +12,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">PROBE</a></h1>
+					<h1 id="logo"><a href="/">PROBE</a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="/">Home</a></li>
@@ -75,6 +75,7 @@
                                     <span style="cursor: pointer;" class="icon alt major fa-exclamation"></span>
                                     <h3>Probe It</h3>
                                     </a>
+
                                 </section>
                             </div>
                         </div>

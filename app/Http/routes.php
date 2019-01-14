@@ -55,4 +55,31 @@ Route::get('/register', function () {
     return view('register');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
+
 Route::post('/register', 'UserController@register');
+Route::post('/login', 'UserController@login');
+
+Route::get('/activate', 'UserController@confirm_mail');
+
+Route::get('/logout', 'UserController@logout');
+
+// Route::get('/sendemail', function () {
+
+//     $data = array(
+//         'name' => "Arut",
+//     );
+
+//     Mail::send('verifymail', $data, function ($message) {
+
+//         $message->from('no-reply@probe.org.in', 'PROBE NIT TRICHY');
+
+//         $message->to('arutselvan710@gmail.com')->subject('Learning Laravel test email');
+
+//     });
+
+//     return "Your email has been sent successfully";
+
+// });

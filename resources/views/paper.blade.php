@@ -12,7 +12,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">PROBE</a></h1>
+					<h1 id="logo"><a href="/">PROBE</a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="/">Home</a></li>
@@ -105,6 +105,7 @@
 										<p>
 										Shortlisted students will have finals during Probe2019 at NIT-Trichy, where they can present their papers in the form of Power point presentation.
 										</p>
+										<h4>Participation certificate for all the participants</h4>
 									</section>
 
 							</div>

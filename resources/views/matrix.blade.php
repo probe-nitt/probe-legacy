@@ -12,7 +12,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">PROBE</a></h1>
+					<h1 id="logo"><a href="/">PROBE</a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="/">Home</a></li>
@@ -81,9 +81,9 @@
                                     <h3>Format</h3>
 
                                     <p>
-                                        Step1: Register with a maximum of 2 members per team at probe.org.in/events/matrix Questionnaire will be sent to the registered email ID.
-                                        <br/>Submit the codes answers to the questionnaire before the deadline via email
-                                        <br/>Shortlisted teams will have finals during Probe 2019 at NIT Trichy. Finals will involve a MATLAB coding round. Problem Statement will be announced on spot.
+                                        Step 1: Register with a maximum of 2 members per team at probe.org.in/events/matrix Questionnaire will be sent to the registered email ID.
+                                        Step 2:<br/>Submit the codes answers to the questionnaire before the deadline via email
+                                        Step 3:<br/>Shortlisted teams will have finals during Probe 2019 at NIT Trichy. Finals will involve a MATLAB coding round. Problem Statement will be announced on spot.
                                     </p>
 
                                     <h3>Rules</h3>
@@ -93,6 +93,7 @@
                                         <li>Mail the codes and answers to the questionnaire to the given email id as word doc/PDF with <code>“Matrix_<'team name'>_<'college name'>”</code> as the subject. Also mention the names and Probe IDs of the team members in the mail. </li>
                                         <li>Only one submission permitted per team.</li>
                                     </ul>
+									<h4>Participation certificate for all the participants</h4>
                                 </section>
 							</div>
 						</div>

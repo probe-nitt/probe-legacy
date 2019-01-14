@@ -1,3 +1,8 @@
+@if (session('name'))
+<script type="text/javascript">
+    window.location = "{{ url('/') }}";//here double curly bracket
+</script>
+@endif
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -12,7 +17,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">PROBE</a></h1>
+					<h1 id="logo"><a href="/">PROBE</a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="/">Home</a></li>
@@ -26,6 +31,9 @@
 						<header class="major">
 							<h2><b>PROBE 2019 REGISTRATION</b></h2>
                         </header>
+                        @if ($message = session('message'))
+                            <p style="text-align: center;">{{ $message }}</p>
+                        @endif
                         <form method="post" action="{{action('UserController@register')}} ">
                             <div class="row gtr-uniform gtr-50">
                                 <div class="col-12 col-12-xsmall">
@@ -39,15 +47,15 @@
                                 </div>
                                 <span>Gender:</span>
                                 <div class="col-3 col-12-medium">
-                                    <input type="radio" id="male" name="gender" required>
+                                    <input type="radio" id="male" name="gender" value="male" required>
                                     <label for="male">Male</label>
                                 </div>
                                 <div class="col-3 col-12-medium">
-                                    <input type="radio" id="female" name="gender">
+                                    <input type="radio" id="female" name="gender" value="female">
                                     <label for="female">Female</label>
                                 </div>
                                 <div class="col-3 col-12-medium">
-                                    <input type="radio" id="other" name="gender">
+                                    <input type="radio" id="other" name="gender" value="other">
                                     <label for="other">Other</label>
                                 </div>
                                 <div class="col-12">

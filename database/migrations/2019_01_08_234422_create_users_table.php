@@ -20,6 +20,10 @@ class CreateUsersTable extends Migration
             $table->enum('yos', [1,2,3,4,5]);
             $table->string('college_name');
             $table->bigInteger('phone_no');
+            $table->boolean('mail_verified')->default(0);
+            $table->boolean('acco_needed');
+            $table->string('mail_confirmation_hash');
+            $table->string('forgot_password_hash');
             $table->string('probe_id')->unique()->default(NULL);
 
             $table->timestamps();
