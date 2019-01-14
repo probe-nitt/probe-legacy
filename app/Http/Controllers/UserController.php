@@ -10,6 +10,8 @@ use App\Http\Controllers\Controller;
 use Validator;
 use Mail;
 use Session;
+use Log;
+use Exception;
 
 use App\Models\Users;
 use App\Models\WorkshopRegs;
@@ -284,7 +286,6 @@ class UserController extends Controller
     {
         try{
 
-        
             $data = json_decode($request->getContent(), true);
             
             if(is_array(reset($data))){
@@ -327,7 +328,7 @@ class UserController extends Controller
                 $reg->save();
             }
             return;
-        }catch (Exception $e) {
+        } catch(\Throwable $e) {    
             Log::error("Hook failed".$e->getMessage()." ".$e->getLine());
             return;
         }   
