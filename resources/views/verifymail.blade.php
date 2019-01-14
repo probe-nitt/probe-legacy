@@ -242,7 +242,7 @@
                                                                                     <h3 mc:edit="header" style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Your Probe ID is {!! $pid !!}</h3>
                                                                                 </td>
                                                                             </tr>
-                                                                            <tr><td height=30 colspan=1></td></tr>
+                                                                            <tr><td height=30 colspan=1></td></tr>	
                                                                             <tr>
                                                                                 <td valign="top" class="textContent">
                                                                                     <div mc:edit="body" style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Please click the link below to activate your Probe account</div>

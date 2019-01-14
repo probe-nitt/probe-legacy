@@ -95,9 +95,9 @@ class UserController extends Controller
             'name' => $name, 'pid' => $id, 'url' => $url
         );
     
-        Mail::send('verifymail', $data, function ($message) use ($email) {
+        Mail::send('activate', $data, function ($message) use ($email) {
     
-            $message->from('noreply@probe.org.in', 'PROBE NIT TRICHY');
+            $message->from('noreply@probe.org.in', 'PROBE, NIT Trichy');
     
             $message->to($email)->subject('PROBE 2019 Registration');
     
