@@ -11,6 +11,20 @@
 |
 */
 
+Route::group(['middleware' => 'checkSession'], function() {
+    
+    Route::get('/payments/processing', function () {
+        return view('payments');
+    });
+
+    Route::get('/logout', 'UserController@logout');
+
+    Route::get('/workshops/register', 'UserController@workshop_reg');
+
+    Route::post('/workshops/register', 'UserController@regworkshop');
+
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -59,27 +73,12 @@ Route::get('/login', function () {
     return view('login');
 });
 
+
+
 Route::post('/register', 'UserController@register');
+
 Route::post('/login', 'UserController@login');
 
+Route::post('/tswh', 'UserController@tswh');
+
 Route::get('/activate', 'UserController@confirm_mail');
-
-Route::get('/logout', 'UserController@logout');
-
-// Route::get('/sendemail', function () {
-
-//     $data = array(
-//         'name' => "Arut",
-//     );
-
-//     Mail::send('verifymail', $data, function ($message) {
-
-//         $message->from('no-reply@probe.org.in', 'PROBE NIT TRICHY');
-
-//         $message->to('arutselvan710@gmail.com')->subject('Learning Laravel test email');
-
-//     });
-
-//     return "Your email has been sent successfully";
-
-// });

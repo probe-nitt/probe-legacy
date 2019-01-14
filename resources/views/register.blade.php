@@ -74,9 +74,19 @@
                                 <div class="col-12 col-12-xsmall">
                                     <input type="text" name="cn" id="cn" value="" placeholder="College Name" required/>
                                 </div>
+                                <span>Is Accomodation needed?:</span>
+                                <div class="col-3 col-12-medium">
+                                    <input type="radio" id="yes" name="acco" value="1" required>
+                                    <label for="yes">Yes</label>
+                                </div>
+                                <div class="col-3 col-12-medium">
+                                    <input type="radio" id="no" name="acco" value="0">
+                                    <label for="no">No</label>
+                                </div>
                                 <div class="col-12 col-12-xsmall">
                                     <input type="tel" pattern='^\+?\d{0,13}' name="phoneno" id="phoneno" value="" placeholder="Phone number" required/>
                                 </div>
+            
                                 <div style="margin:auto" class="g-recaptcha" data-sitekey="6Lcc64gUAAAAAJz1vzmGRfscTPKk48wWvEpOlJYH" data-callback="callback"></div>
                                 <div class="col-12">
                                     <ul class="actions">

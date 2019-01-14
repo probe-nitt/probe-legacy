@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateRegEventsTable extends Migration
+class CreateRegWorkshopsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,17 +12,17 @@ class CreateRegEventsTable extends Migration
      */
     public function up()
     {
-        Schema::create('reg_events', function (Blueprint $table) {
+        Schema::create('reg_workshops', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('team_name');
             $table->integer('participant1')->unsigned();
             $table->integer('participant2')->unsigned()->nullable();
             $table->integer('participant3')->unsigned()->nullable();
-            $table->integer('event_id')->unsigned();
+            $table->integer('workshop_id')->unsigned();
+            $table->boolean('paid')->default(0);
             $table->foreign('participant1')->references('id')->on('users');
             $table->foreign('participant2')->references('id')->on('users');
             $table->foreign('participant3')->references('id')->on('users');
-            $table->foreign('event_id')->references('id')->on('events');
+            $table->foreign('workshop_id')->references('id')->on('workshops');
             $table->timestamps();
         });
     }
