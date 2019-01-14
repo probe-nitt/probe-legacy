@@ -289,14 +289,14 @@ class UserController extends Controller
             $data = json_decode($request->input('data'));
             Log::info($request->input('data'));
             
-            if(is_array(reset($data))){
+            if(is_array($data)){
 
                 foreach($data as $registrant){
 
                 
-                    $email = $registrant['userEmailId'];
+                    $email = $registrant->userEmailId;
                     
-                    $workshop = $registrant['ticketName'];
+                    $workshop = $registrant->ticketName;
                     $wid = Workshops::where('name',$workshop)->first()->id;
                     $user_id = Users::where('email','=',$email)->first()->pluck('id');
                     $reg = WorkshopRegs::where('workshop_id', '=', $wid)
@@ -314,8 +314,8 @@ class UserController extends Controller
             else{
                 
                 $registrant = $data;
-                $email = $registrant['userEmailId'];
-                $workshop = $registrant['ticketName'];
+                $email = $registrant->userEmailId;
+                $workshop = $registrant->ticketName;
                 $wid = Workshops::where('name',$workshop)->first()->id;
                 $user_id = Users::where('email','=',$email)->first()->pluck('id');
                 $reg = WorkshopRegs::where('workshop_id', '=', $wid)
