@@ -301,10 +301,21 @@ class UserController extends Controller
                                     })->first();
         
         
+        if($p2=="" || $p2==null){
+            $isregistered_2 = null;
+        }
+
+        if($p3=="" || $p3==null){
+            $isregistered_3 = null;
+        }
+
+        if($p1=="" || $p1==null){
+            $isregistered_1 = null;
+        }
         
 
 
-        if((json_encode($isregistered_1)!='{}' && json_encode($isregistered_1)!=null) || (json_encode($isregistered_2)!='{}' && $isregistered_2!=null) || (json_encode($isregistered_3)!='{}' && $isregistered_3!=null)){
+        if((json_encode($isregistered_1)!="{}" && !is_null($isregistered_1)) || (json_encode($isregistered_2)!="{}" && !is_null($isregistered_2)) || (json_encode($isregistered_3)!="{}" && !is_null($isregistered_3))){
 
             Session::flash('message', 'One or more of the provided Probe IDs already registered for this event');
             return redirect('/events/register/'.'?event='.$event);
@@ -382,9 +393,21 @@ class UserController extends Controller
         
         
         
+        if($p2=="" || $p2==null){
+            $isregistered_2 = null;
+        }
+
+        if($p3=="" || $p3==null){
+            $isregistered_3 = null;
+        }
+
+        if($p1=="" || $p1==null){
+            $isregistered_1 = null;
+        }
+        
 
 
-        if((json_encode($isregistered_1)!='{}' && json_encode($isregistered_1)!=null) || (json_encode($isregistered_2)!='{}' && $isregistered_2!=null) || (json_encode($isregistered_3)!='{}' && $isregistered_3!=null)){
+        if((json_encode($isregistered_1)!="{}" && !is_null($isregistered_1)) || (json_encode($isregistered_2)!="{}" && !is_null($isregistered_2)) || (json_encode($isregistered_3)!="{}" && !is_null($isregistered_3))){
 
             Session::flash('message', 'One or more of the provided Probe IDs already registered for this workshop');
             return redirect('/workshops/register/'.'?workshop='.$workshop);
