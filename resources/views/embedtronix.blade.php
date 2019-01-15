@@ -12,10 +12,20 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="/">PROBE</a></h1>
+					<h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="/">Home</a></li>
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="/workshops">Workshops</a></li>
+							@if ($name = session('name'))
+							<li>{{ $name }}</li>
+							<li><a href="/logout" class="button primary">Log out</a></li>
+                        	@endif
+							@if (!session('name'))
+							<li><a href="/register" class="button primary">Register</a></li>
+							<li><a href="/login" class="button primary">Log in</a></li>
+                        	@endif
+							
 						</ul>
 					</nav>
 				</header>
@@ -32,6 +42,15 @@
                                 <!-- Sidebar -->
                 
 									<section id="sidebar">
+										<section>
+											@if($regbool==0)
+											<a href="/events/register?event=Embedtronix" class="button primary fit">Register</a>
+											@endif
+											@if($regbool==1)
+											<span class="button primary fit disabled">Registered</span>
+											@endif
+											<br/><br/>
+										</section>
 
                                         <section>
 											<h3>Important dates</h3>

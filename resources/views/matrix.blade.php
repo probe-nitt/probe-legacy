@@ -12,10 +12,20 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="/">PROBE</a></h1>
+					<h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="/">Home</a></li>
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="/workshops">Workshops</a></li>
+							@if ($name = session('name'))
+							<li>{{ $name }}</li>
+							<li><a href="/logout" class="button primary">Log out</a></li>
+                        	@endif
+							@if (!session('name'))
+							<li><a href="/register" class="button primary">Register</a></li>
+							<li><a href="/login" class="button primary">Log in</a></li>
+                        	@endif
+							
 						</ul>
 					</nav>
 				</header>
@@ -32,6 +42,15 @@
                                 <!-- Sidebar -->
                 
 									<section id="sidebar">
+										<section>
+											@if($regbool==0)
+											<a href="/events/register?event=Matrix" class="button primary fit">Register</a>
+											@endif
+											@if($regbool==1)
+											<span class="button primary fit disabled">Registered</span>
+											@endif
+											<br/><br/>
+										</section>
 
                                         <section>
 											<h3>Important dates</h3>
@@ -82,8 +101,8 @@
 
                                     <p>
                                         Step 1: Register with a maximum of 2 members per team at probe.org.in/events/matrix Questionnaire will be sent to the registered email ID.
-                                        Step 2:<br/>Submit the codes answers to the questionnaire before the deadline via email
-                                        Step 3:<br/>Shortlisted teams will have finals during Probe 2019 at NIT Trichy. Finals will involve a MATLAB coding round. Problem Statement will be announced on spot.
+                                        <br/>Step 2:Submit the codes answers to the questionnaire before the deadline via email
+                                        <br/>Step 3:Shortlisted teams will have finals during Probe 2019 at NIT Trichy. Finals will involve a MATLAB coding round. Problem Statement will be announced on spot.
                                     </p>
 
                                     <h3>Rules</h3>

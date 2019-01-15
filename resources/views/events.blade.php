@@ -12,10 +12,20 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="/">PROBE</a></h1>
+                    <h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="/">Home</a></li>
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="/workshops">Workshops</a></li>
+							@if ($name = session('name'))
+							<li>{{ $name }}</li>
+							<li><a href="/logout" class="button primary">Log out</a></li>
+                        	@endif
+							@if (!session('name'))
+							<li><a href="/register" class="button primary">Register</a></li>
+							<li><a href="/login" class="button primary">Log in</a></li>
+                        	@endif
+							
 						</ul>
 					</nav>
 				</header>
@@ -29,7 +39,7 @@
                         <div class="box alt">
                             <div class="row gtr-uniform">
                                 <section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/events/bullseye-event">
+                                    <a style="cursor: pointer;" href="/events/bullseye">
                                     <span style="cursor: pointer;" class="icon alt major fa-bullseye"></span>
                                     <h3>Bullseye</h3>
                                     </a>
@@ -62,12 +72,6 @@
                                     <a style="cursor: pointer;" href="/events/probequiz">
                                     <span style="cursor: pointer;" class="icon alt major fa-question"></span>
                                     <h3>Probe Quiz</h3>
-                                    </a>
-                                </section>
-                                <section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/events/makeathon">
-                                    <span style="cursor: pointer;" class="icon alt major fa-lightbulb-o"></span>
-                                    <h3>Make-a-thon</h3>
                                     </a>
                                 </section>
                                 <section class="col-4 col-6-medium col-12-xsmall">

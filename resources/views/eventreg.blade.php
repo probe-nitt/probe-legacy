@@ -1,12 +1,7 @@
-@if ($regbool==1 && $ispaid==1)
-<script type="text/javascript">
-    window.location = "{{ url('/workshops') }}"+"/"+"{{ $workshop }}";//here double curly bracket
-</script>
-@endif
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>{{ $workshop }} Registration | PROBE 2019</title>
+		<title>Event Registration | PROBE 2019</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
@@ -30,6 +25,7 @@
 							<li><a href="/register" class="button primary">Register</a></li>
 							<li><a href="/login" class="button primary">Log in</a></li>
                         	@endif
+							
 						</ul>
 					</nav>
 				</header>
@@ -38,13 +34,13 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2><b>{{ $workshop }} | Workshop registration</b></h2>
+							<h2><b>Event registration</b></h2>
                         </header>
                         @if ($message = session('message'))
                             <p style="text-align: center;">{{ $message }}</p>
                         @endif
 						@if ($regbool!=1)
-                        <form method="post" action="{{action('UserController@regworkshop')}}">
+                        <form method="post" action="{{action('UserController@regevent')}}">
                             <div class="row gtr-uniform gtr-50">
                                 <div class="col-12 col-12-xsmall">
                                     <input type="text" name="p1" id="p1" placeholder="Participant 1" value="{{ session('pid') }}" required readonly/>
@@ -60,7 +56,7 @@
                                 </div>
 								@endif
 								<div class="col-12 col-12-xsmall">
-                                    <input type="text" name="workshop" id="workshop" value="{{ $workshop }}" placeholder="workshop" required readonly/>
+                                    <input type="text" name="event" id="event" value="{{ $event }}" placeholder="Event" required readonly/>
                                 </div>
                                 <div class="col-12">
                                     <ul class="actions">
@@ -69,23 +65,10 @@
                                 </div>
                             </div>
                         </form>
-						@endif
-						@if ($ispaid==0 && $regbool==1)
-						<p style="text-align: center;">Complete your registration for the {{$workshop}} workshop by paying the registration fee (for the team) using the link below</p>
-						<div style="margin:auto;text-align: center;">
-							<h4>Registration Details</h4>
-							<p>Participant 1: {{$p1}}</p>
-							@if ($mc >= 2)
-							<p>Participant 2: {{$p2}}</p>
-							@endif
-							@if ($mc >= 3)
-							<p>Participant 3: {{$p3}}</p>
-							@endif
-							<strong>For successful payment please do not edit the pre-filled details</strong><br/><br/>
-							<button onclick="popupWithAutoFill(getPreFilledDataTS({{ $mc }}));" class="button primary fit">Pay and complete registration</button>
-							
-						</div>
-						@endif
+                        @endif
+                        @if ($regbool==1)
+                        <p style="text-align: center;">You have already registered for the event</p>
+                        @endif
 					</div>
 				</div>
 
@@ -99,51 +82,6 @@
 		</div>
 
         <!-- Scripts -->
-		<script>
-			function getPreFilledDataTS(max_count){
-
-				if(max_count==2){
-
-					return {
-						eventcode:    "{{ $ec }}",
-						name:         "{{ session('name') }}",
-						emailid:      "{{ session('email') }}",
-						ticketname1:  "{{ $workshop }}",
-						cq1:          "{{ $p1 }}",
-						cq2:          "{{ $p2 }}",
-						ticketvalue1: 1,
-					}
-						
-				}
-
-				if(max_count==3){
-
-					return {
-						eventcode:    "{{ $ec }}",
-						name:         "{{ session('name') }}",
-						emailid:      "{{ session('email') }}",
-						ticketname1:  "{{ $workshop }}",
-						cq1:          "{{ $p1 }}",
-						cq2:          "{{ $p2 }}",
-						cq3:          "{{ $p3 }}",
-						ticketvalue1: 1,
-					}
-					
-				}
-
-				return {
-					eventcode:    "{{ $ec }}",
-					name:         "{{ session('name') }}",
-					emailid:      "{{ session('email') }}",
-					ticketname1:  "{{ $workshop }}",
-					cq1:          "{{ $p1 }}",
-					ticketvalue1: 1,
-				}
-			}
-		</script>
-		<noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript>
-		<script src="https://www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
-		
 		<script src="{{ asset('js/jquery.min.js') }}"></script>
 		<script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
 		<script src="{{ asset('js/jquery.dropotron.min.js') }}"></script>

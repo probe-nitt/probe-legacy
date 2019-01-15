@@ -11,12 +11,11 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">PROBE</a></h1>
+					<h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-                            <li><a href="#two">Events</a></li>
-                            <li><a href="#three">Workshops</a></li>
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="/workshops">Workshops</a></li>
                             <li><a href="#four">Tech Talks</a></li>
 							@if ($name = session('name'))
 							<li>{{ $name }}</li>
@@ -85,7 +84,7 @@
 						</header>
 						<p>The best way to learn anything new is by doing. With the guidance of industry experts and takeaway kits, Probe Workshops are the best way to acquire your next set of marketable skills!</p>
 						<ul class="actions">
-							<li><a href="#" class="button">Coming soon</a></li>
+							<li><a href="/workshops" class="button">Learn More</a></li>
 						</ul>
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>

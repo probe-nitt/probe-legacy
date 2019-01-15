@@ -12,10 +12,20 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="/">PROBE</a></h1>
+					<h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="/">Home</a></li>
+                            <li><a href="/events">Events</a></li>
+                            <li><a href="/workshops">Workshops</a></li>
+							@if ($name = session('name'))
+							<li>{{ $name }}</li>
+							<li><a href="/logout" class="button primary">Log out</a></li>
+                        	@endif
+							@if (!session('name'))
+							<li><a href="/register" class="button primary">Register</a></li>
+							<li><a href="/login" class="button primary">Log in</a></li>
+                        	@endif
+							
 						</ul>
 					</nav>
 				</header>
@@ -32,6 +42,15 @@
 								<!-- Sidebar -->
 									<section id="sidebar">
 										<section>
+											@if($regbool==0)
+											<a href="/events/register?event=Bullseye" class="button primary fit">Register</a>
+											@endif
+											@if($regbool==1)
+											<span class="button primary fit disabled">Registered</span>
+											@endif
+											<br/><br/>
+										</section>
+										<section>
 											<h3>Contacts</h3>
 											<p>Email: <b><a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a></b></p>
 											<p>Srivatsan : <b>9444741197</b></p>
@@ -44,6 +63,7 @@
 
 								<!-- Content -->
 									<section id="content">
+										
 										<p>Discover the Sherlock within yourself! Flex your brains and use your intellect, delve deeper and unravel each layer of mystery as quickly as possible. Probe, NIT Trichy presents Bullseye- an online treasure hunt event which will test your skills in uncovering clues and solving riddles to discover the hidden treasure. Survive through a series of levels, along with clues in various forms and containing a plethora of labyrinths and puzzles and win exciting prizes!</p>
 
 										<h3>Prizes</h3>
@@ -64,6 +84,8 @@
 											<li>The moderators are there to monitor the progress of players and glitches/bugs. An official clue tab will be available that gives a certain clue for each level and it will be updated as and when required.</li>
 											<li>Your attempts are tracked and unfair tactics will lead to disqualification. In case of such offenses, we will withhold the prize(s) for all those who were involved in breaking the rules.</li>
 										</ul>
+
+										
 									</section>
 
 							</div>

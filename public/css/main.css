@@ -111,12 +111,12 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #0000FF;
+		color: #f44336;
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #0000FF !important;
+			color: #f44336 !important;
 			border-bottom-color: transparent;
 		}
 
@@ -2182,7 +2182,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #0000FF;
+			background: #f44336;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -2254,7 +2254,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #0000FF;
+			border-color: #f44336;
 		}
 
 	select {
@@ -2353,7 +2353,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #0000FF;
+			border-color: #f44336;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2824,8 +2824,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 1px #0000FF;
-			color: #0000FF !important;
+			box-shadow: inset 0 0 0 1px #f44336;
+			color: #f44336 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2867,7 +2867,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #0000FF;
+			background-color: #f44336;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -3108,7 +3108,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #0000FF;
+			border-color: #f44336;
 		}
 
 		.spotlight.style2 .content {
@@ -3170,7 +3170,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #0000FF;
+			background: #f44336;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3205,7 +3205,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="button"].primary,
 			.wrapper.style2 .button.primary {
 				background-color: #ffffff;
-				color: #0000FF !important;
+				color: #f44336 !important;
 			}
 
 				.wrapper.style2 input[type="submit"].primary:hover, .wrapper.style2 input[type="submit"].primary:active,
@@ -3309,7 +3309,7 @@ input, select, textarea {
 			}
 
 			.dropotron > li.active > a, .dropotron > li.active > span {
-				color: #0000FF;
+				color: #f44336;
 			}
 
 		.dropotron.level-0 {
@@ -3399,7 +3399,7 @@ input, select, textarea {
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #0000FF;
+						color: #f44336;
 					}
 
 					#header nav ul li > ul {
@@ -3876,7 +3876,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #0000FF;
+						background: #f44336;
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;

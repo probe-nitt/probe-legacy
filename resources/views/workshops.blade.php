@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Probe It | PROBE 2019</title>
+		<title>Events | PROBE 2019</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
@@ -12,7 +12,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
+                    <h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
 					<nav id="nav">
 						<ul>
                             <li><a href="/events">Events</a></li>
@@ -31,35 +31,32 @@
 				</header>
 
 			<!-- Main -->
-				<div id="main" class="wrapper style1">
-					<div class="container">
-						<header class="major">
-							<h2><b>PROBE IT</b></h2>
-						</header>
-						<div class="row gtr-150">
-							<div class="col-4 col-12-medium">
-
-								<!-- Sidebar -->
-									<section id="sidebar">
-										<section>
-											<h3>Contacts</h3>
-											<p>Email: <b><a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a></b></p>
-											<p>Srivatsan : <b>9444741197</b></p>
-											<p>Madhan : <b>9790381738</b></p>
-										</section>
-									</section>
-
-							</div>
-							<div class="col-8 col-12-medium imp-medium">
-
-                            <!-- Content -->
-                                <section id="content">
-                                    <p>To all the ardent quizzers out there, PROBE IT is an online quiz for all the tronix geeks who find order and meaning in tangled wires. All you've got to do is to LIKE and FOLLOW the official PROBE page to receive frequent updates on questions. A whole range of exciting goodies and prizes awaits those who consistently get them right. Get your grey cells working and gear up.</p>
+                <section id="four" class="wrapper style1 special fade-up">
+                    <div class="container">
+                        <header class="major">
+                            <h2>Workshops | PROBE 2019</h2>
+                        </header>
+                        <div class="box alt">
+                            <div class="row gtr-uniform">
+                                <section class="col-4 col-6-medium col-12-xsmall">
+                                    <a style="cursor: pointer;" href="/workshops/ocr">
+                                    <img src="/images/w1.jpeg" style="cursor: pointer;" class="icon alt major">
+                                    <h3>Optical Character Recognition</h3>
+                                    </a>
                                 </section>
-							</div>
-						</div>
-					</div>
-				</div>
+                                <section class="col-4 col-6-medium col-12-xsmall">
+                                    <a style="cursor: pointer;" href="/workshops/probot">
+                                    <img src="/images/w2.jpg" style="cursor: pointer;" class="icon alt major">
+                                    <h3>Probot</h3>
+                                    </a>
+                                </section>
+                                <section class="col-12 col-12-medium col-12-xsmall">
+                                    <h3 style="text-align:center;">More workshops coming soon</h3>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 			<!-- Footer -->
 				<footer id="footer">

@@ -15,7 +15,9 @@ use Exception;
 
 use App\Models\Users;
 use App\Models\WorkshopRegs;
+use App\Models\EventRegs;
 use App\Models\Workshops;
+use App\Models\Events;
 
 use GuzzleHttp\Client;
 
@@ -85,7 +87,7 @@ class UserController extends Controller
 
         $confirmhash = md5($id."arut");
 
-        $user->mail_confirmation_hash = $confirmhash;
+        $user->mail_confirmation_hash = $confirmhash;       
 
         $user->save();
 
@@ -161,13 +163,44 @@ class UserController extends Controller
         return redirect('/login');
     }
 
+    public function event_reg(Request $request)
+    {
+        $event = $request->input('event');
+
+        $pid = Session::get('pid');
+        $uid = (int)ltrim($pid,"PROBE19");
+
+        $w = Events::where('name','=',$event)->first();
+
+        $wid = $w->id;
+        $mc = $w->max_count;
+
+        $isregistered = EventRegs::where('event_id', '=', $wid)
+                                    ->where(function($query) use($uid)
+                                    {
+                                        $query->where('participant1',$uid)
+                                            ->orwhere('participant2',$uid)
+                                            ->orwhere('participant3',$uid);
+                                    })->first();
+
+        
+        $regbool = 0;
+        $p1=NULL;
+        $p2=NULL;
+        $p3=NULL;
+
+        if($isregistered){
+            $regbool = 1;
+        }
+
+        return view('eventreg',['regbool' => $regbool, 'event' => $event, 'mc' => $mc]);
+
+    }
+
+
     public function workshop_reg(Request $request)
     {
         $workshop = $request->input('workshop');
-
-        // if(!$workshop){
-        //     return redirect('/workshops');
-        // }
 
         $pid = Session::get('pid');
         $uid = (int)ltrim($pid,"PROBE19");
@@ -210,6 +243,87 @@ class UserController extends Controller
 
     }
 
+
+    public function regevent(Request $request)
+    {
+        $event = $request->input('event');
+
+        $p1 = $request->input('p1');
+        $p2 = $request->input('p2');
+        $p3 = $request->input('p3');
+
+        $lid = Users::orderBy('created_at', 'desc')->first()->id;
+
+        $p1 = (int)ltrim($p1,"PROBE19");
+        if($p1>$lid){
+            Session::flash('message', 'One or more of the provided Probe IDs are not valid');
+            return redirect('/events/register/'.'?event='.$event);
+        }
+        if($p2!=''){
+            $p2 = (int)ltrim($p2,"PROBE19");
+            if($p2>$lid){
+                Session::flash('message', 'One or more of the provided Probe IDs are not valid');
+                return redirect('/events/register/'.'?event='.$event);
+            }
+        }
+        if($p3!=''){
+            $p3 = (int)ltrim($p3,"PROBE19");
+            if($p3>$lid){
+                Session::flash('message', 'One or more of the provided Probe IDs are not valid');
+                return redirect('/events/register/'.'?event='.$event);
+            }
+        }
+
+        $wid = Events::where('name',$event)->first()->id;
+
+        $isregistered_1 = EventRegs::where('event_id', '=', $wid)
+                                    ->where(function($query) use($p1)
+                                    {
+                                        $query->where('participant1',$p1)
+                                            ->orwhere('participant2',$p1)
+                                            ->orwhere('participant3',$p1);
+                                    });
+        
+        $isregistered_2 = EventRegs::where('event_id', '=', $wid)
+                                    ->where(function($query) use($p2)
+                                    {
+                                        $query->where('participant1',$p2)
+                                            ->orwhere('participant2',$p2)
+                                            ->orwhere('participant3',$p2);
+                                    })->first();
+
+        $isregistered_3 = EventRegs::where('event_id', '=', $wid)
+                                    ->where(function($query) use($p3)
+                                    {
+                                        $query->where('participant1',$p3)
+                                            ->orwhere('participant2',$p3)
+                                            ->orwhere('participant3',$p3);
+                                    })->first();
+        
+        
+        
+
+
+        if((json_encode($isregistered_1)!='{}' && json_encode($isregistered_1)!=null) || (json_encode($isregistered_2)!='{}' && $isregistered_2!=null) || (json_encode($isregistered_3)!='{}' && $isregistered_3!=null)){
+
+            Session::flash('message', 'One or more of the provided Probe IDs already registered for this event');
+            return redirect('/events/register/'.'?event='.$event);
+        }
+
+        $reg = new EventRegs;
+        $reg->participant1 = $p1;
+        if($p2!='')
+            $reg->participant2 = $p2;
+        if($p3!='')
+            $reg->participant3 = $p3;
+        $reg->event_id = $wid;
+        $reg->save();
+
+        return redirect('/events');
+
+    }
+
+
     public function regworkshop(Request $request)
     {
         $workshop = $request->input('workshop');
@@ -218,11 +332,27 @@ class UserController extends Controller
         $p2 = $request->input('p2');
         $p3 = $request->input('p3');
 
+        $lid = Users::orderBy('created_at', 'desc')->first()->id;
+
         $p1 = (int)ltrim($p1,"PROBE19");
-        if($p2!='')
+        if($p1>$lid){
+            Session::flash('message', 'One or more of the provided Probe IDs are not valid');
+            return redirect('/workshops/register/'.'?workshop='.$workshop);
+        }
+        if($p2!=''){
             $p2 = (int)ltrim($p2,"PROBE19");
-        if($p3!='')
+            if($p2>$lid){
+                Session::flash('message', 'One or more of the provided Probe IDs are not valid');
+                return redirect('/workshops/register/'.'?workshop='.$workshop);
+            }
+        }
+        if($p3!=''){
             $p3 = (int)ltrim($p3,"PROBE19");
+            if($p3>$lid){
+                Session::flash('message', 'One or more of the provided Probe IDs are not valid');
+                return redirect('/workshops/register/'.'?workshop='.$workshop);
+            }
+        }
 
         $wid = Workshops::where('name',$workshop)->first()->id;
 
