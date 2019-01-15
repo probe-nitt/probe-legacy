@@ -92,14 +92,14 @@ class UserController extends Controller
         $url = "http://".env("HOST_ADDR", "probe.org.in")."/activate?confirm=".$confirmhash;
 
         $data = array(
-            'name' => $name, 'pid' => $id, 'url' => $url
+            'name' => $name, 'pid' => $id, 'url' => $url,
         );
     
         Mail::send('activate', $data, function ($message) use ($email) {
     
             $message->from('noreply@probe.org.in', 'PROBE, NIT Trichy');
     
-            $message->to($email)->subject('PROBE 2019 Registration');
+            $message->to($email)->subject("PROBE'19 Registration");
     
         });
 
