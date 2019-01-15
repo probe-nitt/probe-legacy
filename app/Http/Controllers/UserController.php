@@ -91,7 +91,7 @@ class UserController extends Controller
 
         $user->save();
 
-        $url = "http://".env("HOST_ADDR", "probe.org.in")."/activate?confirm=".$confirmhash;
+        $url = "https://".env("HOST_ADDR", "probe.org.in")."/activate?confirm=".$confirmhash;
 
         $data = array(
             'name' => $name, 'pid' => $id, 'url' => $url,
