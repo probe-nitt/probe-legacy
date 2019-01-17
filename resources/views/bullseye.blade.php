@@ -70,7 +70,7 @@
                                         
                                         <h3>Format</h3>
 										<p>
-										The participant who cracks the maximum number of questions before 29th January 2019 is awarded the 1st prize.
+										The participant who cracks the maximum number of questions before 28th January 2019 is awarded the 1st prize.
 										</p>
 
 										<h3>Rules</h3>
