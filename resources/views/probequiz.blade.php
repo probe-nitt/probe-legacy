@@ -59,9 +59,7 @@
                                     <p>Do you pride yourself in your knowledge of Tronix-Trivia? Can you shout out the answer and get it right? There is a strategy behind every game. Come down with a strategy and be prepared to change it, as this event has a lot in store for you. Get prepared to be "shocked" by the intense competition and stay "grounded" enough to win it. Register yourself in teams of 2 and get ready for a thrilling experience at the PROBE quiz. Exciting prizes are up for grabs!</p>
 
                                     <h3>Prizes</h3>
-                                    <ul>
-                                        <li>Prizes worth 7000INR</li>
-                                    </ul>
+                                    <p>Prizes and Goodies worth 7000 INR for Top three teams.</p>
                                     
                                     <h3>Format</h3>
                                     <ul>

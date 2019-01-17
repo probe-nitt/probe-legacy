@@ -59,9 +59,12 @@
                                     <p>Fan of Dan Brown novels? Like to solve puzzles and unravel mysteries? Bring your partner along to put your encoding and decoding skills to the test with CRYPTECH, the puzzle and brain teaser event of Probe to win exciting prizes.</p>
 
                                     <h3>Prizes</h3>
-                                    <ul>
-                                        <li>Prizes worth 5000INR</li>
-                                    </ul>
+                                    <p>
+										Cash prizes worth :
+										<br/>First prize : 2500 INR
+										<br/>Second prize : 1500 INR
+										<br/>Third prize : 1000 INR
+                                    </p>
                                     
                                     <h3>Format</h3>
                                     <ul>

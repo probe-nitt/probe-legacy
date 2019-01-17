@@ -59,17 +59,17 @@
 											<ul>
 												<li>Registration: 
 													<ul style="list-style-type:none">
-														<li><b>From __ January 2019</b></li>
+														<li><b>From 17th January 2019</b></li>
 													</ul>
 												</li>
                                                 <li>Deadline for questionnaire submission:
 													<ul style="list-style-type:none">
-														<li><b>25th January 2019</b></li>
+														<li><b>29th January 2019</b></li>
 													</ul>
 												</li>
 												<li>Shortlist announcement:
 													<ul style="list-style-type:none">
-														<li><b>28th January 2019</b></li>
+														<li><b>30th January 2019</b></li>
 													</ul>
 												</li>
 												<li>Finals:
@@ -95,9 +95,13 @@
                                     <p>Are you one of those for whom array indexing starts at 1? Do you know what to do when there is a "dimension mismatch" or when your "index exceeds matrix dimension"? Come join the tribe to show your command over MATLAB with Matrix, a programming contest for all the MATLAB enthusiasts out there. Matrix tests your ability to skilfully implement algorithms and code your way to glory.</p>
 
                                     <h3>Prizes</h3>
-                                    <ul>
-                                        <li>9000INR</li>
-                                    </ul>
+                                    <p>
+										Cash prizes worth :
+										<br/>First prize : 4000 INR
+										<br/>Second prize : 3000 INR
+										<br/>Third prize : 2000 INR
+										<br/>And Goodies worth 1000 INR.
+                                    </p>
                                     
                                     <h3>Format</h3>
 

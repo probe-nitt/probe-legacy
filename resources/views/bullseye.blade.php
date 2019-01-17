@@ -64,9 +64,8 @@
 										<p>Discover the Sherlock within yourself! Flex your brains and use your intellect, delve deeper and unravel each layer of mystery as quickly as possible. Probe, NIT Trichy presents Bullseye- an online treasure hunt event which will test your skills in uncovering clues and solving riddles to discover the hidden treasure. Survive through a series of levels, along with clues in various forms and containing a plethora of labyrinths and puzzles and win exciting prizes!</p>
 
 										<h3>Prizes</h3>
-										<ul>
-											<li>9000INR</li>
-                                        </ul>
+
+										<p>Prizes and Goodies worth 9000 INR for Top five winners.<p>
                                         
                                         <h3>Format</h3>
 										<p>

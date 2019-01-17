@@ -59,22 +59,22 @@
 											<ul>
 												<li>Registration: 
 													<ul style="list-style-type:none">
-														<li><b>__ January 2019</b></li>
+														<li><b>17th January 2019</b></li>
 													</ul>
 												</li>
 												<li>Deadline for abstract/video submission:
 													<ul style="list-style-type:none">
-														<li><b>25th January 2019</b></li>
+														<li><b>28th January 2019</b></li>
 													</ul>
                                                 </li>
                                                 <li>Deadline for questionnaire completion:
 													<ul style="list-style-type:none">
-														<li><b>25th January 2019</b></li>
+														<li><b>28th January 2019</b></li>
 													</ul>
 												</li>
 												<li>Shortlist announcement:
 													<ul style="list-style-type:none">
-														<li><b>28th January 2019</b></li>
+														<li><b>30th January 2019</b></li>
 													</ul>
 												</li>
 												<li>Finals:
@@ -100,9 +100,13 @@
                                     <p>Are you intrigued about designing circuits? Do you fantasize to change the world with a breadboard? Probe, NIT Trichy presents Embedtronix – a circuit design event, where you can build your own circuits for interesting real-life scenarios using ICs.</p>
 
                                     <h3>Prizes</h3>
-                                    <ul>
-                                        <li>Prizes worth 20000INR</li>
-                                    </ul>
+                                    <p>
+										Cash prizes worth :
+										<br/>First prize : 8500 INR
+										<br/>Second prize : 6300 INR
+										<br/>Third prize : 5200 INR
+
+									</p>
                                     
                                     <h3>Format</h3>
 

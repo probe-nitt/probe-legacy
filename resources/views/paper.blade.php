@@ -85,10 +85,9 @@
 										<p>A spark in any human's mind is priceless, as it has the potential to conquer the entire cosmos. And if that person is an engineer, there's certainly no stopping them. If you have an idea that you think could revolutionise the current electronics and communication research scenario, where better to debut them than at Probe! The Paper Presentation event is here to be a platform to convert your ideas into reality, and you can showcase your practical knowledge and win exciting prizes.</p>
 
 										<h3>Prizes</h3>
-										<ul>
-											<li>Best paper gets a chance to feature on a reputed journal.</li>
-											<li>Cash prizes for Top 3 papers worth 8000INR.</li>
-										</ul>
+										<p>
+										Prizes and Goodies worth 8000 INR for Top three teams.
+										</p>
 
 										<h3>Topics</h3>
 										<ul>

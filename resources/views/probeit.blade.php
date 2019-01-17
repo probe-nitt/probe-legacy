@@ -27,7 +27,6 @@
 							<li><a href="/register" class="button primary">Register</a></li>
 							<li><a href="/login" class="button primary">Log in</a></li>
                         	@endif
-							
 						</ul>
 					</nav>
 				</header>
@@ -57,7 +56,14 @@
                             <!-- Content -->
                                 <section id="content">
                                     <p>To all the ardent quizzers out there, PROBE IT is an online quiz for all the tronix geeks who find order and meaning in tangled wires. All you've got to do is to LIKE and FOLLOW the official PROBE page to receive frequent updates on questions. A whole range of exciting goodies and prizes awaits those who consistently get them right. Get your grey cells working and gear up.</p>
-                                </section>
+									<h3>Prizes</h3>
+                                    <p>
+										Cash prizes worth :
+										<br/>First prize : 1400 INR
+										<br/>Second prize : 1000 INR
+										<br/>Third prize : 600 INR
+                                    </p>
+								</section>
 							</div>
 						</div>
 					</div>
