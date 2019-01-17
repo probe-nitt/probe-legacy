@@ -59,7 +59,7 @@
 											<ul>
 												<li>Registration: 
 													<ul style="list-style-type:none">
-														<li><b>17th January 2019</b></li>
+														<li><b>From 17th January 2019</b></li>
 													</ul>
 												</li>
 												<li>Deadline for abstract/video submission:
