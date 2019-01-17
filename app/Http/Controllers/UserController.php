@@ -18,6 +18,8 @@ use App\Models\WorkshopRegs;
 use App\Models\EventRegs;
 use App\Models\Workshops;
 use App\Models\Events;
+use App\Models\BullseyeUsers;
+use App\Models\BullseyeData;
 
 use GuzzleHttp\Client;
 
@@ -486,6 +488,134 @@ class UserController extends Controller
             Log::error("Hook failed".$e->getMessage()." ".$e->getLine());
             return;
         }   
+    }
+
+    public function beq(Request $request){
+
+        $email = Session::get('email');
+        $id = Users::where('email','=',$email)->first()->pluck('id');
+
+        $user = BullseyeUsers::where('participant','=',$id)->first();
+
+        if(!$user){
+            $bd = new BullseyeUsers;
+            $bd->participant = $id;
+            $bd->cl = 1;
+            $bd->complete = 0;
+            $bd->save();
+        }
+
+        $user = BullseyeUsers::where('participant','=',$id)->first();
+
+        $title = "Bullseye | Probe 2019";
+        $comment = "";
+        $cb = 0;
+        if($user->complete){
+            Session::flash('message', 'You have completed Bullseye. Thank you for playing');  
+            $cb = 1; 
+        }
+
+        $cl = $user->cl;
+
+        $cr = BullseyeData::where('level','=',$cl)->first();
+
+        if($cr->clue1){
+            $title = $cr->clue1;
+        }
+        if($cr->clue2){
+            $comment = $cr->clue2;
+        }
+        $img1 = $cr->img1;
+        $img2 = $cr->img2;
+        $img3 = $cr->img3;
+        $img4 = $cr->img4;
+
+        return view('be',['title' => $title, 'comment' => $comment, 'img1' => $img1, 'img2' => $img2, 'img3' => $img3, 'img4' => $img4, 'cl' => $cl, 'cb' => $cb]);
+
+
+    }
+
+    public function bea(Request $request){
+
+        $ans = $request->input('answer');
+
+        $email = Session::get('email');
+        $id = Users::where('email','=',$email)->first()->pluck('id');
+
+        $user = BullseyeUsers::where('participant','=',$id)->first();
+
+        if($user->complete){
+            return redirect('/bullseye-event');
+        }
+
+        $cl = $user->cl;
+
+        $data = BullseyeData::where('level', '=', $cl)->first();
+
+        if($data->answer==$ans){
+            $user->cl=$cl+1;
+            if($user->cl==23){
+                $user->cl = $cl;
+                $user->complete = 1;
+                Session::flash('message', 'You have completed Bullseye. Thank you for playing');
+            }
+            $user->save();  
+        }
+        else{
+            Session::flash('message', 'Oops! Wrong answer');
+        }
+
+        return redirect('/bullseye-event');
+
+    }
+
+    public function bel(Request $request){
+    
+        $ranklist = BullseyeUsers::orderBy('cl', 'desc')
+                                ->leftJoin('users', 'users.id', '=', 'bullseye_users.participant')
+                                ->select(['users.id','users.name','bullseye_users.cl'])
+                                ->orderBy('bullseye_users.created_at')
+                                ->orderBy('bullseye_users.updated_at')
+                                ->get();
+
+
+        $frl = BullseyeUsers::orderBy('cl', 'desc')
+                                ->leftJoin('users', 'users.id', '=', 'bullseye_users.participant')
+                                ->select(['users.id','users.name','bullseye_users.cl'])
+                                ->orderBy('bullseye_users.created_at')
+                                ->orderBy('bullseye_users.updated_at')
+                                ->limit(10)
+                                ->get();
+
+        $rank = null;
+
+        $email = Session::get('email');
+
+        $userdetail = null;
+
+        $uf=0;
+
+        if($email){
+            $id = Users::where('email','=',$email)->first()->pluck('id');
+            $count = 1;
+            foreach ($ranklist as $user){
+                echo $user->id;
+                if($user->id == $id){
+                    $rank = $count;
+                    $userdetail = $user;
+                    if($count>10){
+                        $uf=1;
+                    }
+                    break;
+                }
+                $count++;
+            }
+        }
+
+        return view('bel',['frl' => $frl, 'rank' => $rank, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf]);
+
+        
+
     }
 
 }

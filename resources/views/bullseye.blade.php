@@ -17,6 +17,8 @@
 						<ul>
                             <li><a href="/events">Events</a></li>
                             <li><a href="/workshops">Workshops</a></li>
+							<li><a href="/sponsors">Sponsors</a></li>
+                            <li><a href="/contact">Contact us</a></li>
 							@if ($name = session('name'))
 							<li>{{ $name }}</li>
 							<li><a href="/logout" class="button primary">Log out</a></li>
@@ -42,12 +44,7 @@
 								<!-- Sidebar -->
 									<section id="sidebar">
 										<section>
-											@if($regbool==0)
-											<a href="/events/register?event=Bullseye" class="button primary fit">Register</a>
-											@endif
-											@if($regbool==1)
-											<span class="button primary fit disabled">Registered</span>
-											@endif
+											<a href="/bullseye-event" class="button primary fit">Play</a>
 											<br/><br/>
 										</section>
 										<section>
