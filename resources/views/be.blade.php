@@ -17,6 +17,7 @@
 						<ul>
 							@if ($name = session('name'))
 							<li>Hi {{ $name }}</li>
+                            <li><a href="/bullseye-event/leaderboard" class="button primary">Leaderboard</a></li>
 							<li><a href="/logout" class="button primary">Log out</a></li>
                         	@endif
 							@if (!session('name'))
