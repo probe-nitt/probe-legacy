@@ -46,20 +46,20 @@
 									<section id="sidebar">
 										<section>
 											@if($regbool1==0)
-											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%201" class="button primary fit">Register for day 1</a>
+											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%201" class="button primary fit">Register for session on 2nd Feb, 2019</a>
                                             @endif
                                             @if($regbool1==1 && $ispaid1==0)
-											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%201" class="button primary fit">Pay and Complete registration for Day 1</a>
+											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%201" class="button primary fit">Pay and Complete registration for session on 2nd Feb, 2019</a>
 											@endif
 											@if($regbool1==1 && $ispaid1==1)
 											<span class="button primary fit disabled">Registered for Day 1</span>
                                             @endif
                                             <br/><br/>
                                             @if($regbool2==0)
-											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%202" class="button primary fit">Register for day 2</a>
+											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%202" class="button primary fit">session on 3rd Feb, 2019</a>
                                             @endif
                                             @if($regbool2==1 && $ispaid2==0)
-											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%202" class="button primary fit">Pay and Complete registration for Day 2</a>
+											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%202" class="button primary fit">Pay and Complete registration for session on 2nd Feb, 2019</a>
 											@endif
 											@if($regbool2==1 && $ispaid2==1)
 											<span class="button primary fit disabled">Registered for Day 2</span>
@@ -70,7 +70,7 @@
                                         <section>
 											<h3>Details</h3>
 											<ul>
-												<li>Number of participants per team: 
+												<li>Maximum of participants per team: 
 													<ul style="list-style-type:none">
 														<li><b>2</b></li>
 													</ul>

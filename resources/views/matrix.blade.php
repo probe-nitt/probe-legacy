@@ -107,7 +107,7 @@
 
                                     <p>
                                         Step 1: Register with a maximum of 2 members per team at probe.org.in/events/matrix Questionnaire will be sent to the registered email ID.
-                                        <br/>Step 2:Submit the codes answers to the questionnaire before the deadline via email
+                                        <br/>Step 2:Submit the codes answers to the questionnaire before the deadline via email to <b><a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a></b>
                                         <br/>Step 3:Shortlisted teams will have finals during Probe 2019 at NIT Trichy. Finals will involve a MATLAB coding round. Problem Statement will be announced on spot.
                                     </p>
 
@@ -115,7 +115,7 @@
                                     <ul>
                                         <li>Maximum of 2 members per team.</li>
                                         <li>For the prelims, submission of codes and answers to the questionnaire is compulsory.</li>
-                                        <li>Mail the codes and answers to the questionnaire to the given email id as word doc/PDF with <code>“Matrix_<'team name'>_<'college name'>”</code> as the subject. Also mention the names and Probe IDs of the team members in the mail. </li>
+                                        <li>Mail the codes and answers to the questionnaire to <b><a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a></b> as word doc/PDF with <code>“Matrix_<'team name'>_<'college name'>”</code> as the subject. Also mention the names and Probe IDs of the team members in the mail. </li>
                                         <li>Only one submission permitted per team.</li>
                                     </ul>
 									<h4>Participation certificate for all the participants</h4>

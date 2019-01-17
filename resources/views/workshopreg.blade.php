@@ -49,16 +49,16 @@
                         <form method="post" action="{{action('UserController@regworkshop')}}">
                             <div class="row gtr-uniform gtr-50">
                                 <div class="col-12 col-12-xsmall">
-                                    <input type="text" name="p1" id="p1" placeholder="Participant 1" value="{{ session('pid') }}" required readonly/>
+                                    <input type="text" name="p1" id="p1" placeholder="Participant 1's PROBE ID" value="{{ session('pid') }}" required readonly/>
                                 </div>
 								@if ($mc >= 2)
                                 <div class="col-12 col-12-xsmall">
-                                    <input type="text" name="p2" id="p2" placeholder="Participant 2" />
+                                    <input type="text" name="p2" id="p2" placeholder="Participant 2's PROBE ID" />
                                 </div>
 								@endif
 								@if ($mc >= 3)
                                 <div class="col-12 col-12-xsmall">
-                                    <input type="text" name="p3" id="p3" placeholder="Participant 3" />
+                                    <input type="text" name="p3" id="p3" placeholder="Participant 3's PROBE ID" />
                                 </div>
 								@endif
 								<div class="col-12 col-12-xsmall">

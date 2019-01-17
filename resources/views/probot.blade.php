@@ -60,7 +60,7 @@
                                         <section>
 											<h3>Details</h3>
 											<ul>
-												<li>Number of participants per team: 
+												<li>Maximum of participants per team: 
 													<ul style="list-style-type:none">
 														<li><b>3</b></li>
 													</ul>

@@ -493,8 +493,8 @@ class UserController extends Controller
     public function beq(Request $request){
 
         $email = Session::get('email');
-        $id = Users::where('email','=',$email)->first()->pluck('id');
-
+        $bu = Users::where('email','=',$email)->first();
+        $id = $bu->id;
         $user = BullseyeUsers::where('participant','=',$id)->first();
 
         if(!$user){
@@ -540,7 +540,8 @@ class UserController extends Controller
         $ans = $request->input('answer');
 
         $email = Session::get('email');
-        $id = Users::where('email','=',$email)->first()->pluck('id');
+        $bu = Users::where('email','=',$email)->first();
+        $id = $bu->id;
 
         $user = BullseyeUsers::where('participant','=',$id)->first();
 
