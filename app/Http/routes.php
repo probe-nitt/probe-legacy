@@ -29,9 +29,9 @@ Route::group(['middleware' => 'checkSession'], function() {
 
     Route::post('/workshops/register', 'UserController@regworkshop');
     Route::post('/events/register', 'UserController@regevent');
-    Route::get('/bullseye-event', 'UserController@beq');
-    Route::post('/bullseye-event', 'UserController@bea');
-    Route::get('/bullseye-event/leaderboard', 'UserController@bel');
+    // Route::get('/bullseye-event', 'UserController@beq');
+    // Route::post('/bullseye-event', 'UserController@bea');
+    // Route::get('/bullseye-event/leaderboard', 'UserController@bel');
 
 });
 

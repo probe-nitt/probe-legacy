@@ -44,7 +44,8 @@
 								<!-- Sidebar -->
 									<section id="sidebar">
 										<section>
-											<a href="/bullseye-event" class="button primary fit">Play</a>
+											<!-- <a href="/bullseye-event" class="button primary fit">Play</a> -->
+											<span class="button primary fit disabled">Coming soon</span>
 											<br/><br/>
 										</section>
 										<section>
@@ -69,7 +70,7 @@
                                         
                                         <h3>Format</h3>
 										<p>
-										The participant who cracks the maximum number of questions before 26th January 2019 is awarded the 1st prize.
+										The participant who cracks the maximum number of questions before 29th January 2019 is awarded the 1st prize.
 										</p>
 
 										<h3>Rules</h3>
