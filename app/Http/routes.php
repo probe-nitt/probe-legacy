@@ -237,6 +237,65 @@ Route::get('/workshops/ocr', function () {
 });
 
 
+Route::get('/workshops/das', function () {
+
+    $workshop1 = "Data Acquisition Systems using LabVIEW Day 1";
+
+    $workshop2 = "Data Acquisition Systems using LabVIEW Day 2";
+
+    $pid = Session::get('pid');
+    $uid = (int)ltrim($pid,"PROBE19");
+
+    $w1 = Workshops::where('name','=',$workshop1)->first();
+    $w2 = Workshops::where('name','=',$workshop2)->first();
+
+    $w1id = $w1->id;
+    $w2id = $w2->id;
+    $mc = $w1->max_count;
+    $ec = $w1->event_code;
+
+    $isregistered1 = WorkshopRegs::where('workshop_id', '=', $w1id)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+    $isregistered2 = WorkshopRegs::where('workshop_id', '=', $w2id)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+    
+    $ispaid1 = 0;
+    $regbool1 = 0;
+
+    $ispaid2 = 0;
+    $regbool2 = 0;
+
+    if($isregistered1){
+        $regbool1 = 1;
+        if($isregistered1->paid){
+            $ispaid1 = 1;
+        }
+    }
+
+    if($isregistered2){
+        $regbool2 = 1;
+        if($isregistered2->paid){
+            $ispaid2 = 1;
+        }
+    }
+
+    return view('das',['regbool1' => $regbool1, 'ispaid1' => $ispaid1, 'regbool2' => $regbool2, 'ispaid2' => $ispaid2]);
+
+});
+
+
 Route::get('/workshops/probot', function () {
 
     $workshop = "Probot";
@@ -271,6 +330,81 @@ Route::get('/workshops/probot', function () {
     }
 
     return view('probot',['regbool' => $regbool, 'ispaid' => $ispaid]);
+
+});
+
+
+Route::get('/workshops/esd', function () {
+
+    $workshop = "Embedded System Design using CC3200 - IoT";
+
+    $pid = Session::get('pid');
+    $uid = (int)ltrim($pid,"PROBE19");
+
+    $w = Workshops::where('name','=',$workshop)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+    $ec = $w->event_code;
+
+    $isregistered = WorkshopRegs::where('workshop_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+
+    
+    $ispaid = 0;
+    $regbool = 0;;
+
+    if($isregistered){
+        $regbool = 1;
+        if($isregistered->paid){
+            $ispaid = 1;
+        }
+    }
+
+    return view('esd',['regbool' => $regbool, 'ispaid' => $ispaid]);
+
+});
+
+Route::get('/workshops/psoc', function () {
+
+    $workshop = "IoT Training using PSoC";
+
+    $pid = Session::get('pid');
+    $uid = (int)ltrim($pid,"PROBE19");
+
+    $w = Workshops::where('name','=',$workshop)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+    $ec = $w->event_code;
+
+    $isregistered = WorkshopRegs::where('workshop_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+
+    
+    $ispaid = 0;
+    $regbool = 0;;
+
+    if($isregistered){
+        $regbool = 1;
+        if($isregistered->paid){
+            $ispaid = 1;
+        }
+    }
+
+    return view('psoc',['regbool' => $regbool, 'ispaid' => $ispaid]);
 
 });
 

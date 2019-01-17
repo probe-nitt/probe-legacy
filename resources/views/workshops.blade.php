@@ -52,6 +52,24 @@
                                     <h3>Probot</h3>
                                     </a>
                                 </section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+                                    <a style="cursor: pointer;" href="/workshops/das">
+                                    <img src="/images/w3.jpeg" style="cursor: pointer;" class="icon alt major">
+                                    <h3>National Instruments : Data Acquisition Systems using LabVIEW</h3>
+                                    </a>
+                                </section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+                                    <a style="cursor: pointer;" href="/workshops/esd">
+                                    <img src="/images/w4.jpg" style="cursor: pointer;" class="icon alt major">
+                                    <h3>Texas Instruments : Embedded System Design using CC3200 - IoT</h3>
+                                    </a>
+                                </section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+                                    <a style="cursor: pointer;" href="/workshops/psoc">
+                                    <img src="/images/w5.jpeg" style="cursor: pointer;" class="icon alt major">
+                                    <h3>Cypress Semiconductors : IoT Training using PSoC</h3>
+                                    </a>
+                                </section>
                                 <section class="col-12 col-12-medium col-12-xsmall">
                                     <h3 style="text-align:center;">More workshops coming soon</h3>
                                 </section>
