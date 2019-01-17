@@ -597,7 +597,8 @@ class UserController extends Controller
         $uf=0;
 
         if($email){
-            $id = Users::where('email','=',$email)->first()->pluck('id');
+            $id = Users::where('email','=',$email)->first();
+            $id = $id->id;
             $count = 1;
             foreach ($ranklist as $user){
                 echo $user->id;
