@@ -85,8 +85,8 @@
 
 										<section>
 											<h3>Contacts</h3>
-											<p>Rajkiran : <b>+91 9441310986</b></p>
 											<p>Srikanth : <b>+91 8309847277</b></p>
+											<p>Rajkiran : <b>+91 9441310986</b></p>
 										</section>
 									</section>
 							</div>
