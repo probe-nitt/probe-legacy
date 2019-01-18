@@ -45,7 +45,7 @@
 									<section id="sidebar">
 										<section>
 											<!-- <a href="/bullseye-event" class="button primary fit">Play</a> -->
-											<span class="button primary fit disabled">Coming soon</span>
+											<a href="/bullseye-event" class="button primary fit">Play</a>
 											<br/><br/>
 										</section>
 										<section>
