@@ -67,7 +67,7 @@
 												</li>
                                                 <li>Workshop fee:
 													<ul style="list-style-type:none">
-														<li><b>Rs 2400 per team</b></li>
+														<li><b>Rs 2700 per team</b></li>
 													</ul>
 												</li>
 												<li>Duration :
