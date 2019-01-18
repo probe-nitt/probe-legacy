@@ -71,7 +71,7 @@
                         <form method="post" action="{{action('UserController@bea')}}">
                             <div class="row gtr-uniform gtr-50">
                                 <div class="col-12 col-12-xsmall">
-                                    <p style="text-align: center;">Enter you answers without spaces in lowercase. No special characters are present in the answer</p>
+                                    <p style="text-align: center;">Enter you answers without spaces in lowercase. Answers contain only alphabets and numbers. No special characters are present in the answer.</p>
                                     <input type="text" name="answer" id="email" placeholder="Answer" required />
                                 </div>
                                 <div class="col-12 col-12-xsmall">
