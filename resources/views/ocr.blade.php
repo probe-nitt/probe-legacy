@@ -116,6 +116,7 @@
                                         <br/>3.Basics of Artificial Neural Networks.
                                         <br/>4.Character Recognition using Artificial Neural Network (ANN)
                                         (Libraries and materials will be provided)
+                                       <b/>Each team should have atleast one laptop.
                                     </p>
 
                                     <h3>FAQ:</h3>
