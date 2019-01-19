@@ -555,7 +555,7 @@ class UserController extends Controller
 
         if($data->answer==$ans){
             $user->cl=$cl+1;
-            if($user->cl==23){
+            if($user->cl==27){
                 $user->cl = $cl;
                 $user->complete = 1;
                 Session::flash('message', 'You have completed Bullseye. Thank you for playing');
