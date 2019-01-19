@@ -42,6 +42,7 @@
 						<header class="major">
 							<h2><b>{{ $workshop }} | Workshop registration</b></h2>
                         </header>
+                        <p style = "text-align: center;">Please enter registration details carefully. Details once entered can't be changed.</p>"
                         @if ($message = session('message'))
                             <p style="text-align: center;">{{ $message }}</p>
                         @endif

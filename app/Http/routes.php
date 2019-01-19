@@ -35,8 +35,6 @@ Route::group(['middleware' => 'checkSession'], function() {
 
 });
 
-
-
 Route::get('/', function () {
     return view('welcome');
 });

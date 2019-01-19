@@ -238,7 +238,7 @@ class UserController extends Controller
             if($isregistered->participant2)
                 $p2 = "PROBE19".str_pad($isregistered->participant2, 4, '0', STR_PAD_LEFT);
             if($isregistered->participant3)
-                $p2 = "PROBE19".str_pad($isregistered->participant3, 4, '0', STR_PAD_LEFT);
+                $p3 = "PROBE19".str_pad($isregistered->participant3, 4, '0', STR_PAD_LEFT);
         }
 
         return view('workshopreg',['regbool' => $regbool, 'ispaid' => $ispaid, 'workshop' => $workshop, 'p1' => $p1, 'p2' => $p2, 'p3' => $p3, 'mc' => $mc, 'ec' => $ec]);
@@ -511,7 +511,7 @@ class UserController extends Controller
         $comment = "";
         $cb = 0;
         if($user->complete){
-            Session::flash('message', 'You have completed Bullseye. Thank you for playing');  
+            Session::flash('message', 'More levels coming soon.');  
             $cb = 1; 
         }
 
