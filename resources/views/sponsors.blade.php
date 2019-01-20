@@ -39,10 +39,10 @@
 							<h2><b>Probe 2019 Sponsors</b></h2>
                         </header>
                         <!--p style="text-align: center;">Coming Soon</p-->
-                        <p style="text-align: center;">Title sponser</p>
+                        <p style="text-align: center; font-weight:bold;">Title sponser</p>
                         <div style="margin:auto; text-align: center; justify-content: center;" class="row gtr-uniform gtr-50">
                             <div class="col-6 col-12-xsmall">
-                                <img style="max-width:250px" src="/images/qualcommlogo.png">
+                                <img style="max-width:350px" src="/images/qualcommlogo.png">
                             </div>
                         </div>
 					</div>
