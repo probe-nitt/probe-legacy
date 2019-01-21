@@ -45,30 +45,37 @@
                             <tbody>
                                 <tr>
                                     <td>Chairman</td>
+                                    <td>Prakash Sabesan</td>
                                     <td>9677047469</td>
                                 </tr>
                                 <tr>
                                     <td>Overall coordinators</td>
+                                    <td>Yashwanth/Kavya</td>
                                     <td>9790485851, 9790488860</td>
                                 </tr>
                                 <tr>
                                     <td>Treasurer</td>
+                                    <td>Venkatesh Gopisetti</td>
                                     <td>7667114994</td>
                                 </tr>
                                 <tr>
                                     <td>General secretaries</td>
+                                    <td>Naveen/Pavithra</td>
                                     <td>9629889445, 7639703926</td>
                                 </tr>
                                 <tr>
                                     <td>Workshops</td>
+                                    <td>Rajkiran/Srikanth</td>
                                     <td>9441310986, 8309847277</td>
                                 </tr>
                                 <tr>
                                     <td>Events</td>
+                                    <td>Srivatsan/Madhan</td>
                                     <td>9444741197, 9790381738</td>
                                 </tr>
                                 <tr>
                                     <td>Public relations and hospitality</td>
+                                    <td>Venu/Priyanka</td>
                                     <td>8985792858, 9047165355</td>
                                 </tr>
                             </tbody>
