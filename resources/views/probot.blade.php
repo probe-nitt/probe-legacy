@@ -82,6 +82,7 @@
                                                 </li>
                                                 <li>Every team must have atleast one laptop to participate in this workshop.</li>
                                                 <li>Take away kit will be provided.</li>
+                                                <li>Limited registrations.</li>
 											</ul>
 										</section>
 
@@ -113,7 +114,7 @@
                                     </p>
 
                                     <p>Certificate from Probe and company will be provided immediately after completion of your workshop.</p>
-                                    
+
                                     <h3>FAQ:</h3>
                                     <p>
                                     1.Does the workshop have any prerequisites?

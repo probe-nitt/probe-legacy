@@ -90,6 +90,7 @@
 														<li><b>2nd and 3rd February 2019</b></li>
 													</ul>
 												</li>
+												<li>Limited registrations.</li>
 											</ul>
 										</section>
 

@@ -80,6 +80,7 @@
 														<li><b>2nd February 2019</b></li>
 													</ul>
 												</li>
+												<li>Limited registrations.</li>
 											</ul>
 										</section>
 

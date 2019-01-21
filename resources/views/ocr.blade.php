@@ -90,6 +90,7 @@
 														<li><b>2nd and 3rd February 2019</b></li>
 													</ul>
 												</li>
+												<li>Limited registrations.</li>
 											</ul>
 										</section>
 
@@ -120,7 +121,7 @@
                                     </p>
 
                                     <p>Certificate from Probe and company will be provided immediately after completion of your workshop.</p>
-                                    
+
                                     <h3>FAQ:</h3>
                                     <p>
                                         1.Does the workshop have any prerequisites?
