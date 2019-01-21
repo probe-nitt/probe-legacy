@@ -114,6 +114,21 @@
                                     </p>
 
                                     <p>Key takeaways : An over whelming hands on experience on PSoc 4 Low power Bluetooth and it's bombarding applications.</p>
+                                    <p>Certificate from Probe and company will be provided immediately after completion of your workshop.</p>
+
+                                    <h3>FAQ:</h3>
+                                    <p>
+                                        1.Does the workshop have any prerequisites?
+                                            <br/>There are no prerequisites for the workshop. Any interested student can register for the workshop.
+                                            <br/><br/>2.How should the payment be made for the workshop?
+                                            <br/>Payment can be made online.
+                                            <br/><br/>3.On what basis are workshop registrations confirmed?
+                                            <br/>Registrations are confirmed after payment on first come first serve basis. Confirmation of your participation is subject to availability.
+                                            <br/><br/>4.Will the fees paid for the workshop be refunded in case I fail to attend the workshop?
+                                            <br/>Fees once paid, is strictly non-refundable. Requests for refund will not be encouraged.
+                                            <br/><br/>5. Will accommodation be provided?
+                                            <br/>Yes. We provide accommodation depending on the availability. You will have to register separately for that.
+                                    </p>
                                 </section>
 							</div>
 						</div>

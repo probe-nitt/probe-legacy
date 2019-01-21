@@ -119,6 +119,8 @@
                                        <b/>Each team should have atleast one laptop.
                                     </p>
 
+                                    <p>Certificate from Probe and company will be provided immediately after completion of your workshop.</p>
+                                    
                                     <h3>FAQ:</h3>
                                     <p>
                                         1.Does the workshop have any prerequisites?
