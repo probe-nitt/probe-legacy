@@ -83,6 +83,12 @@
                                     </a>
 
                                 </section>
+                                <section class="col-4 col-6-medium col-12-xsmall">
+                                    <a style="cursor: pointer;" href="/events/ideathon">
+                                    <span style="cursor: pointer;" class="icon alt major fa-lightbulb-o"></span>
+                                    <h3>Qualcomm Ideathon</h3>
+                                    </a>
+                                </section>
                             </div>
                         </div>
                     </div>

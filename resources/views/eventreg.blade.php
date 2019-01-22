@@ -38,7 +38,7 @@
 						<header class="major">
 							<h2><b>Event registration</b></h2>
                         </header>
-                        <p style="text-align: center;">Enter registration details carefully. Details once entered cant't be changed."
+                        <p style="text-align: center;">Enter registration details carefully. Details once entered cant't be changed.
                         @if ($message = session('message'))
                             <p style="text-align: center;">{{ $message }}</p>
                         @endif

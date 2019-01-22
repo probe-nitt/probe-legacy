@@ -156,6 +156,36 @@ Route::get('/events/matrix', function () {
     return view('matrix',['regbool' => $regbool]);
 });
 
+Route::get('/events/ideathon', function () {
+
+    $event = "Qualcomm Ideathon";
+
+    $pid = Session::get('pid');
+    $uid = (int)ltrim($pid,"PROBE19");
+
+    $w = Events::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = EventRegs::where('event_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+    
+    $regbool = 0;
+
+    if($isregistered){
+        $regbool = 1;
+    }
+
+    return view('ideathon',['regbool' => $regbool]);
+});
+
 Route::get('/events/probequiz', function () {
     return view('probequiz');
 });
