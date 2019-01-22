@@ -48,7 +48,7 @@
 
                         <div style="margin:auto; text-align: center; justify-content: center;" class="row gtr-uniform gtr-50">
                             <div class="col-12 col-24-xsmall">
-                            	<p style="text-align: center; font-weight:bold;">Workshop sponsors</p>
+                            	<p style="text-align: center; font-weight:bold;">Workshop associates</p>
                                 <div class="row gtr-uniform">
 	                                <section class="col-4 col-6-medium col-12-xsmall">
 	                                    <img style="max-width:250px" src="/images/cypresslogo.png">
