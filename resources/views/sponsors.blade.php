@@ -39,12 +39,30 @@
 							<h2><b>Probe 2019 Sponsors</b></h2>
                         </header>
                         <!--p style="text-align: center;">Coming Soon</p-->
-                        <p style="text-align: center; font-weight:bold;">Title sponsor</p>
                         <div style="margin:auto; text-align: center; justify-content: center;" class="row gtr-uniform gtr-50">
                             <div class="col-6 col-12-xsmall">
+                            	<p style="text-align: center; font-weight:bold;">Title sponsor</p>
                                 <img style="max-width:350px" src="/images/qualcommlogo.png">
                             </div>
                         </div>
+
+                        <div style="margin:auto; text-align: center; justify-content: center;" class="row gtr-uniform gtr-50">
+                            <div class="col-6 col-12-xsmall">
+                            	<p style="text-align: center; font-weight:bold;">Workshop sponsors</p>
+                                <div class="row gtr-uniform">
+	                                <section class="col-4 col-6-medium col-12-xsmall">
+	                                    <img style="max-width:250px" src="/images/cypresslogo.png">
+	                                </section>
+	                                <section class="col-4 col-6-medium col-12-xsmall">
+	                                    <img style="max-width:250px" src="/images/nationalinstruments.png">
+	                                </section>
+	                                <section class="col-4 col-6-medium col-12-xsmall">
+	                                    <img style="max-width:250px" src="/images/tilogo.png">
+	                                </section>
+                        		</div>
+                            </div>
+                        </div>
+
 					</div>
 				</div>
 
