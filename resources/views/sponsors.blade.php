@@ -47,17 +47,17 @@
                         </div>
 
                         <div style="margin:auto; text-align: center; justify-content: center;" class="row gtr-uniform gtr-50">
-                            <div class="col-6 col-12-xsmall">
+                            <div class="col-12 col-24-xsmall">
                             	<p style="text-align: center; font-weight:bold;">Workshop sponsors</p>
                                 <div class="row gtr-uniform">
 	                                <section class="col-4 col-6-medium col-12-xsmall">
-	                                    <img style="max-width:50px" src="/images/cypresslogo.png">
+	                                    <img style="max-width:250px" src="/images/cypresslogo.png">
 	                                </section>
 	                                <section class="col-4 col-6-medium col-12-xsmall">
-	                                    <img style="max-width:50px" src="/images/nationalinstruments.png">
+	                                    <img style="max-width:250px" src="/images/nationalinstruments.png">
 	                                </section>
 	                                <section class="col-4 col-6-medium col-12-xsmall">
-	                                    <img style="max-width:50px" src="/images/tilogo.png">
+	                                    <img style="max-width:250px" src="/images/tilogo.png">
 	                                </section>
                         		</div>
                             </div>
