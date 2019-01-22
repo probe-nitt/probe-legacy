@@ -48,12 +48,12 @@
 											<ul>
 												<li>Last date for Paper Submission: 
 													<ul style="list-style-type:none">
-														<li><b>22nd January 2019</b></li>
+														<li><b>27th January 2019</b></li>
 													</ul>
 												</li>
 												<li>Notification of Acceptance:
 													<ul style="list-style-type:none">
-														<li><b>25th January 2019</b></li>
+														<li><b>29th January 2019</b></li>
 													</ul>
 												</li>
 												<li>Final paper submission:
