@@ -51,13 +51,13 @@
                             	<p style="text-align: center; font-weight:bold;">Workshop sponsors</p>
                                 <div class="row gtr-uniform">
 	                                <section class="col-4 col-6-medium col-12-xsmall">
-	                                    <img style="max-width:250px" src="/images/cypresslogo.png">
+	                                    <img style="max-width:50px" src="/images/cypresslogo.png">
 	                                </section>
 	                                <section class="col-4 col-6-medium col-12-xsmall">
-	                                    <img style="max-width:250px" src="/images/nationalinstruments.png">
+	                                    <img style="max-width:50px" src="/images/nationalinstruments.png">
 	                                </section>
 	                                <section class="col-4 col-6-medium col-12-xsmall">
-	                                    <img style="max-width:250px" src="/images/tilogo.png">
+	                                    <img style="max-width:50px" src="/images/tilogo.png">
 	                                </section>
                         		</div>
                             </div>
