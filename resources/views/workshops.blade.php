@@ -41,6 +41,12 @@
                         <div class="box alt">
                             <div class="row gtr-uniform">
                                 <section class="col-4 col-6-medium col-12-xsmall">
+                                    <a style="cursor: pointer;" href="/workshops/socath">
+                                    <img src="/images/w6.jpg" style="cursor: pointer;" class="icon alt major">
+                                    <h3>Qualcomm : System on Chip on Atheros ath10k</h3>
+                                    </a>
+                                </section>
+                                <section class="col-4 col-6-medium col-12-xsmall">
                                     <a style="cursor: pointer;" href="/workshops/ocr">
                                     <img src="/images/w1.jpeg" style="cursor: pointer;" class="icon alt major">
                                     <h3>Optical Character Recognition</h3>
@@ -71,9 +77,9 @@
                                     </a>
                                 </section>
                                 <section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/socath">
-                                    <img src="/images/w6.jpg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Qualcomm : System on Chip on Atheros ath10k</h3>
+                                    <a style="cursor: pointer;" href="/workshops/adt">
+                                    <img src="/images/w7.jpg" style="cursor: pointer;" class="icon alt major">
+                                    <h3>Antenna Design and Testing</h3>
                                     </a>
                                 </section>
                                 <section class="col-12 col-12-medium col-12-xsmall">
