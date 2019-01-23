@@ -119,7 +119,6 @@
                                     <h3>FAQ:</h3>
                                     <p>
                                         1.Does the workshop have any prerequisites?
-                                            <br/><br/>1.Does the workshop have any prerequisites? 
                                             <br>There are no prerequisites for the workshop. Any interested student can register for the workshop.
                                             <br/><br/>2.How should the payment be made for the workshop?
                                             <br/>Payment can be made online.
