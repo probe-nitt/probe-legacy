@@ -436,6 +436,42 @@ Route::get('/workshops/psoc', function () {
 
 });
 
+Route::get('/workshops/socath', function () {
+
+    $workshop = "System on Chip using Atheros ath10k";
+
+    $pid = Session::get('pid');
+    $uid = (int)ltrim($pid,"PROBE19");
+
+    $w = Workshops::where('name','=',$workshop)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+    $ec = $w->event_code;
+
+    $isregistered = WorkshopRegs::where('workshop_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+
+    
+    $ispaid = 0;
+    $regbool = 0;;
+
+    if($isregistered){
+        $regbool = 1;
+        if($isregistered->paid){
+            $ispaid = 1;
+        }
+    }
+
+    return view('socath',['regbool' => $regbool, 'ispaid' => $ispaid]);
+
+});
 
 
 Route::post('/register', 'UserController@register');
