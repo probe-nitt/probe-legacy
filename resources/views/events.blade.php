@@ -41,6 +41,12 @@
                         <div class="box alt">
                             <div class="row gtr-uniform">
                                 <section class="col-4 col-6-medium col-12-xsmall">
+                                    <a style="cursor: pointer;" href="/events/ideathon">
+                                    <span style="cursor: pointer;" class="icon alt major fa-lightbulb-o"></span>
+                                    <h3>Qualcomm Ideathon</h3>
+                                    </a>
+                                </section>
+                                <section class="col-4 col-6-medium col-12-xsmall">
                                     <a style="cursor: pointer;" href="/events/bullseye">
                                     <span style="cursor: pointer;" class="icon alt major fa-bullseye"></span>
                                     <h3>Bullseye</h3>
@@ -82,12 +88,6 @@
                                     <h3>Probe It</h3>
                                     </a>
 
-                                </section>
-                                <section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/events/ideathon">
-                                    <span style="cursor: pointer;" class="icon alt major fa-lightbulb-o"></span>
-                                    <h3>Qualcomm Ideathon</h3>
-                                    </a>
                                 </section>
                             </div>
                         </div>

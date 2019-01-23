@@ -94,7 +94,7 @@
                                 <section id="content">
                                     <p>A single thought can change the world. Are you a visionary technocrat with such revolutionary ideas? Get ready to fire your neurons at the Ideathon challenge at Probe'19. Don't miss this unique opportunity to present your ideas to the expert panel from <strong>Qualcomm</strong>.</p>
                                     <p><strong>Topic and Theme:</strong> Networking and Wireless Communications (Wi-Fi)</p>
-                                    <p><strong>Prizes:</strong> Cash prize worth INR 15k and smart fitness watches for top two teams.</p>
+                                    <p><strong>Prizes:</strong> Cash prize worth INR 15k and smart fitness watches for the winning team.</p>
 
                                     <!-- <h3>Prizes</h3>
                                     <p>
@@ -116,7 +116,7 @@
                                     <h3>Rules</h3>
                                     <ul>
                                         <li>The students are invited to submit papers reporting original unpublished research and recent developments in above topic.</li>
-                                        <li>Maximum of 3 members per team.</li>
+                                        <li>Maximum of 2 members per team.</li>
                                         <li>Recommended areas in the above Topic includes (and is not limited to),
                                             <ol>
                                               <li>Application of machine learning and AI in the wireless LAN networking.</li>
