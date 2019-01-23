@@ -46,7 +46,7 @@
 										<section>
 											<h3>Important dates</h3>
 											<ul>
-												<li>Last date for Paper Submission: 
+												<li>Last date for Paper Submission (extended): 
 													<ul style="list-style-type:none">
 														<li><b>27th January 2019</b></li>
 													</ul>
