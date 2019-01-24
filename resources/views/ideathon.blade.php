@@ -84,7 +84,7 @@
 											<h3>Important dates</h3>
 											<p>Submission Deadline: <strong>25th Jan 2019</strong></p>
 											<p>Shortlist announcement: <strong>28th Jan 2019</strong></p>
-											<p>Event date: <strong>2nd Feb 2019, 7PM-8:30PM</strong></p>
+											<p>Event date: <strong>2nd Feb 2019, 6PM-7:30PM</strong></p>
 											<p>Venue: <strong>A2 Hall</strong></p>
 										</section>
 										<section>
