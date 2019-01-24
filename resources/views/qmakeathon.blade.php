@@ -44,20 +44,10 @@
                                 <!-- Sidebar -->
                 
 									<section id="sidebar">
-										<!--section>
-											@if($regbool==0)
-											<a href="/events/register?event=Qualcomm%20Makeathon" class="button primary fit">Register</a>
-											@endif
-											@if($regbool==1)
-											<span class="button primary fit disabled">Registered</span>
-											@endif
-											<br/><br/>
-										</section-->
-
 										<section>
 											<span class="button primary fit disabled">Registration starting soon</span>
 											<br/><br/>
-                                        </section>
+										</section>
 
                                         <section>
 											<h3>Important dates</h3>
@@ -98,12 +88,12 @@
                                     <p><b>This event is open exclusively for NITT students.</b></p>
 
                                     <h3>Prizes</h3>
-                                    <ul>
-                                        <li>The winning team will be awarded six <b>Qualcomm Snapdragon powered smartphones</b>.</li>
-                                        <li>Third year students will have a unique opportunity to get directly interviewed by Qualcomm in their <b>placement</b> season.</li>
-                                        <li>Second years have exciting <b>internship</b> opportunities up for grabs.</li>
-                                    </ul>
-									
+                                    <p>
+										<br/>The winning team will be awarded six <b>Qualcomm Snapdragon powered smartphones</b>.
+										<br/>Third year students will have a unique opportunity to get directly interviewed by Qualcomm in their <b>placement</b> season.
+										<br/>Second years have exciting <b>internship</b> opportunities up for grabs.
+									</p>
+                                    
                                 </section>
 							</div>
 						</div>
