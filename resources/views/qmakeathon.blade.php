@@ -89,7 +89,7 @@
 
                                     <h3>Prizes</h3>
                                     <p>
-										<br/>The winning team will be awarded six <b>Qualcomm Snapdragon powered smartphones</b>.
+										The winning team will be awarded six <b>Qualcomm Snapdragon powered smartphones</b>.
 										<br/>Third year students will have a unique opportunity to get directly interviewed by Qualcomm in their <b>placement</b> season.
 										<br/>Second years have exciting <b>internship</b> opportunities up for grabs.
 									</p>
