@@ -57,8 +57,9 @@
 										<section>
 											<span class="button primary fit disabled">Registration starting soon</span>
 											<br/><br/>
-                                        <section>
+                                        </section>
 
+                                        <section>
 											<h3>Important dates</h3>
 											<ul>
 												<li>Duration: 
