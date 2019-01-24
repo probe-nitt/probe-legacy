@@ -46,8 +46,7 @@
 										<section>
 											<h3>Date and Time</h3>
 											<p><b>3rd Feb 2019</b></p>
-											<p>Prelims : <b>1pm-3pm</b></p>
-											<p>Finals : <b>3:30pm-5:30pm</b></p>
+											<p>Prelims & Finals : <b>10AM - 3:30PM</b></p>
 											<p>Venue : <b>Orion S2</b></p>
 										</section>
 										<section>

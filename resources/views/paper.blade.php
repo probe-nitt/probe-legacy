@@ -64,7 +64,7 @@
 												<li>Event Date:
 													<ul style="list-style-type:none">
 														<li><b>3rd February 2019, 9AM - 12PM</b></li>
-														<li>Venue<b>Orion S3</b></li>
+														<li>Venue : <b>Orion S3</b></li>
 													</ul>
 												</li>
 											</ul>
@@ -85,6 +85,7 @@
 									<section id="content">
 										<p>A spark in any human's mind is priceless, as it has the potential to conquer the entire cosmos. And if that person is an engineer, there's certainly no stopping them. If you have an idea that you think could revolutionise the current electronics and communication research scenario, where better to debut them than at Probe! The Paper Presentation event is here to be a platform to convert your ideas into reality, and you can showcase your practical knowledge and win exciting prizes.</p>
 
+										<p>Maximum of 3 members per team.</p>
 										<h3>Prizes</h3>
 										<p>
 										Prizes and Goodies worth 8000 INR for Top three teams.
