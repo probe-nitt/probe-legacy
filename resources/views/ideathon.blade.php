@@ -81,6 +81,11 @@
 										</section> -->
 
 										<section>
+											<h3>Important dates</h3>
+											<p>Submission Deadline: <strong>25th Jan 2019</strong></p>
+											<p>Shortlist announcement: <strong>28th Jan 2019</strong></p>
+										</section>
+										<section>
 											<h3>Contacts</h3>
 											<p>Email: <b><a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a></b></p>
 											<p>Srivatsan : <b>9444741197</b></p>

@@ -49,9 +49,6 @@ blockquote, q {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-	display: block;
-	overflow-x: auto;
-    white-space: nowrap;
 }
 
 body {
