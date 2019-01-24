@@ -87,7 +87,12 @@
                                     <span style="cursor: pointer;" class="icon alt major fa-exclamation"></span>
                                     <h3>Probe It</h3>
                                     </a>
-
+                                </section>
+                                <section class="col-4 col-6-medium col-12-xsmall">
+                                    <a style="cursor: pointer;" href="/events/qmakeathon">
+                                    <span style="cursor: pointer;" class="icon alt major fa-lightbulb-o"></span>
+                                    <h3>Qualcomm Makeathon</h3>
+                                    </a>
                                 </section>
                             </div>
                         </div>
