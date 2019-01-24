@@ -82,9 +82,9 @@
                                     <h3>Antenna Design and Testing</h3>
                                     </a>
                                 </section>
-                                <section class="col-12 col-12-medium col-12-xsmall">
+                                <!--section class="col-12 col-12-medium col-12-xsmall">
                                     <h3 style="text-align:center;">More workshops coming soon</h3>
-                                </section>
+                                </section-->
                             </div>
                         </div>
                     </div>
