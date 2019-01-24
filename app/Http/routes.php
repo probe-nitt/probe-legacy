@@ -190,7 +190,7 @@ Route::get('/events/probequiz', function () {
     return view('probequiz');
 });
 
-Route::get('/events/qmakeathon', function () {
+Route::get('/events/makeathon', function () {
     return view('qmakeathon');
 });
 
