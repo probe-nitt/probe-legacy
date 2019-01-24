@@ -89,20 +89,7 @@
                                 <section id="content">
                                     <p>Our flagship event is back, bigger and better than ever before. The 27th edition of Probe in association with Qualcomm presents to you Makeathon 2019, an extraordinary career-defining opportunity just for the students of NIT Trichy!</p>
 
-                                    <p>Form teams of up to <b>6 members</b> and get ready to build solutions for industry grade problems using Qualcomm's Atheros ath10k</p>
                                     
-                                    <p>Problem statements will be released on 3rd February 2019 during Probe. Participants will be given 3 months' time to build their prototype, during which multiple development deadlines and eliminative rounds will take place. Development kits and mentoring will be provided by experts from Qualcomm to help students effectively build their solutions.</p>
-                                    
-                                    <p>The final presentation will be conducted at NIT Trichy in front of a panel of judges from Qualcomm.</p>
-                                    
-                                    <p><b>This event is open exclusively for NITT students.</b></p>
-
-                                    <h3>Prizes</h3>
-                                    <ul>
-                                        <li>The winning team will be awarded six <b>Qualcomm Snapdragon powered smartphones</b>.</li>
-                                        <li>Third year students will have a unique opportunity to get directly interviewed by Qualcomm in their <b>placement</b> season.</li>
-                                        <li>Second years have exciting <b>internship</b> opportunities up for grabs.</li>
-                                    </ul>
 									
                                 </section>
 							</div>
