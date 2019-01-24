@@ -63,7 +63,8 @@
 												</li>
 												<li>Event Date:
 													<ul style="list-style-type:none">
-														<li><b>3rd February 2019</b></li>
+														<li><b>3rd February 2019, 9AM - 12PM</b></li>
+														<li>Venue<b>Orion S3</b></li>
 													</ul>
 												</li>
 											</ul>

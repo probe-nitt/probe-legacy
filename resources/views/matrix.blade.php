@@ -74,7 +74,8 @@
 												</li>
 												<li>Finals:
 													<ul style="list-style-type:none">
-														<li><b>2nd - 3rd February 2019</b></li>
+														<li><b>3rd February : 2:00 P.M - 5:00 P.M</b></li>
+														<li><b>Venue : Silver Jubilee Building - Second Floor</b></li>
 													</ul>
 												</li>
 											</ul>

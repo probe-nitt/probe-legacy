@@ -44,6 +44,13 @@
 								<!-- Sidebar -->
 									<section id="sidebar">
 										<section>
+											<h3>Date and Time</h3>
+											<p><b>2nd Feb 2019</b></p>
+											<p>Prelims : <b>1pm-3pm</b></p>
+											<p>Finals : <b>3:30pm-5:30pm</b></p>
+											<p>Venue : <b>Orion S1</b></p>
+										</section>
+										<section>
 											<h3>Contacts</h3>
 											<p>Email: <b><a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a></b></p>
 											<p>Srivatsan : <b>9444741197</b></p>
