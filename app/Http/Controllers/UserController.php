@@ -637,7 +637,7 @@ class UserController extends Controller
 
             $user = Users::where('email','=',$mail)->first();
 
-            echo $user;
+            echo json_encode($user);
     
             $id = "PROBE19".str_pad($user->id, 4, '0', STR_PAD_LEFT);
     
