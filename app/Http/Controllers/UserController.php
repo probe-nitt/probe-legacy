@@ -657,11 +657,11 @@ class UserController extends Controller
                 'name' => $name, 'pid' => $id, 'url' => $url,
             );
         
-            Mail::send('activate', $data, function ($message) use ($email) {
+            Mail::send('activate', $data, function ($message) use ($mailid) {
         
                 $message->from('noreply@probe.org.in', 'PROBE, NIT Trichy');
         
-                $message->to($email)->subject("PROBE'19 Registration");
+                $message->to($mailid)->subject("PROBE'19 Registration");
         
             });
         }
