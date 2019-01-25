@@ -642,6 +642,8 @@ class UserController extends Controller
             $id = "PROBE19".str_pad($user->id, 4, '0', STR_PAD_LEFT);
     
             $user->probe_id = $id;
+
+            $name = $user->name;
     
             $confirmhash = md5($id."arut");
     
