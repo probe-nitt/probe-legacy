@@ -669,16 +669,16 @@ class UserController extends Controller
         $ranklist = BullseyeUsers::orderBy('cl', 'desc')
                                 ->leftJoin('users', 'users.id', '=', 'bullseye_users.participant')
                                 ->select(['users.id','users.name','bullseye_users.cl'])
-                                ->orderBy('bullseye_users.created_at')
                                 ->orderBy('bullseye_users.updated_at')
+                                ->orderBy('bullseye_users.created_at')
                                 ->get();
 
 
         $frl = BullseyeUsers::orderBy('cl', 'desc')
                                 ->leftJoin('users', 'users.id', '=', 'bullseye_users.participant')
                                 ->select(['users.id','users.name','bullseye_users.cl'])
-                                ->orderBy('bullseye_users.created_at')
                                 ->orderBy('bullseye_users.updated_at')
+                                ->orderBy('bullseye_users.created_at')
                                 ->limit(10)
                                 ->get();
 
