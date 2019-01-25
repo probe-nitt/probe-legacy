@@ -35,9 +35,14 @@
 			<!-- Main -->
                 <section id="four" class="wrapper style1 special fade-up">
                     <div class="container">
+                        <div style="text-align: center;" class="col-6 col-12-xsmall">
+                            <img style="max-width:250px" src="/images/qualcommlogo.png">
+                        </div>
+                        <p></br></p>
                         <header class="major">
                             <h2>EVENTS | PROBE 2019</h2>
                         </header>
+
                         <div class="box alt">
                             <div class="row gtr-uniform">
                                 <section class="col-4 col-6-medium col-12-xsmall">

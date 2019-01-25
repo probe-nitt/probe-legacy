@@ -42,7 +42,7 @@
                             <div class="row gtr-uniform">
                                 <section class="col-4 col-6-medium col-12-xsmall">
                                     <a style="cursor: pointer;" href="/workshops/socath">
-                                    <img src="/images/w6.jpg" style="cursor: pointer;" class="icon alt major">
+                                    <img src="/images/qualcommlogo.png" style="cursor: pointer;" class="icon alt major">
                                     <h3>Qualcomm : System on Chip on Atheros ath10k</h3>
                                     </a>
                                 </section>
