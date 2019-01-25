@@ -636,6 +636,8 @@ class UserController extends Controller
             echo $mailid;
 
             $user = Users::where('email','=',$mail)->first();
+
+            echo $user;
     
             $id = "PROBE19".str_pad($user->id, 4, '0', STR_PAD_LEFT);
     
