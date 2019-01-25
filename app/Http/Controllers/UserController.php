@@ -182,7 +182,10 @@ class UserController extends Controller
                                     {
                                         $query->where('participant1',$uid)
                                             ->orwhere('participant2',$uid)
-                                            ->orwhere('participant3',$uid);
+                                            ->orwhere('participant3',$uid)
+                                            ->orwhere('participant4',$uid)
+                                            ->orwhere('participant5',$uid)
+                                            ->orwhere('participant6',$uid);
                                     })->first();
 
         
@@ -190,6 +193,9 @@ class UserController extends Controller
         $p1=NULL;
         $p2=NULL;
         $p3=NULL;
+        $p4=NULL;
+        $p5=NULL;
+        $p6=NULL;
 
         if($isregistered){
             $regbool = 1;
@@ -253,6 +259,9 @@ class UserController extends Controller
         $p1 = $request->input('p1');
         $p2 = $request->input('p2');
         $p3 = $request->input('p3');
+        $p4 = $request->input('p4');
+        $p5 = $request->input('p5');
+        $p6 = $request->input('p6');
 
         $lid = Users::orderBy('created_at', 'desc')->first()->id;
 
@@ -275,6 +284,27 @@ class UserController extends Controller
                 return redirect('/events/register/'.'?event='.$event);
             }
         }
+        if($p4!=''){
+            $p4 = (int)ltrim($p4,"PROBE19");
+            if($p4>$lid){
+                Session::flash('message', 'One or more of the provided Probe IDs are not valid');
+                return redirect('/events/register/'.'?event='.$event);
+            }
+        }
+        if($p5!=''){
+            $p5 = (int)ltrim($p5,"PROBE19");
+            if($p5>$lid){
+                Session::flash('message', 'One or more of the provided Probe IDs are not valid');
+                return redirect('/events/register/'.'?event='.$event);
+            }
+        }
+        if($p6!=''){
+            $p6 = (int)ltrim($p6,"PROBE19");
+            if($p6>$lid){
+                Session::flash('message', 'One or more of the provided Probe IDs are not valid');
+                return redirect('/events/register/'.'?event='.$event);
+            }
+        }
 
         $wid = Events::where('name',$event)->first()->id;
 
@@ -283,7 +313,10 @@ class UserController extends Controller
                                     {
                                         $query->where('participant1',$p1)
                                             ->orwhere('participant2',$p1)
-                                            ->orwhere('participant3',$p1);
+                                            ->orwhere('participant3',$p1)
+                                            ->orwhere('participant4',$p1)
+                                            ->orwhere('participant5',$p1)
+                                            ->orwhere('participant6',$p1);
                                     });
         
         $isregistered_2 = EventRegs::where('event_id', '=', $wid)
@@ -291,7 +324,10 @@ class UserController extends Controller
                                     {
                                         $query->where('participant1',$p2)
                                             ->orwhere('participant2',$p2)
-                                            ->orwhere('participant3',$p2);
+                                            ->orwhere('participant3',$p2)
+                                            ->orwhere('participant4',$p2)
+                                            ->orwhere('participant5',$p2)
+                                            ->orwhere('participant6',$p2);
                                     })->first();
 
         $isregistered_3 = EventRegs::where('event_id', '=', $wid)
@@ -299,8 +335,44 @@ class UserController extends Controller
                                     {
                                         $query->where('participant1',$p3)
                                             ->orwhere('participant2',$p3)
-                                            ->orwhere('participant3',$p3);
+                                            ->orwhere('participant3',$p3)
+                                            ->orwhere('participant4',$p3)
+                                            ->orwhere('participant5',$p3)
+                                            ->orwhere('participant6',$p3);
                                     })->first();
+
+        $isregistered_4 = EventRegs::where('event_id', '=', $wid)
+                                    ->where(function($query) use($p4)
+                                    {
+                                        $query->where('participant1',$p4)
+                                            ->orwhere('participant2',$p4)
+                                            ->orwhere('participant3',$p4)
+                                            ->orwhere('participant4',$p4)
+                                            ->orwhere('participant5',$p4)
+                                            ->orwhere('participant6',$p4);
+                                    })->first();                            
+
+        $isregistered_5 = EventRegs::where('event_id', '=', $wid)
+                                    ->where(function($query) use($p5)
+                                    {
+                                        $query->where('participant1',$p5)
+                                            ->orwhere('participant2',$p5)
+                                            ->orwhere('participant3',$p5)
+                                            ->orwhere('participant4',$p5)
+                                            ->orwhere('participant5',$p5)
+                                            ->orwhere('participant6',$p5);
+                                    })->first();                            
+                            
+        $isregistered_6 = EventRegs::where('event_id', '=', $wid)
+                                    ->where(function($query) use($p6)
+                                    {
+                                        $query->where('participant1',$p6)
+                                            ->orwhere('participant2',$p6)
+                                            ->orwhere('participant3',$p6)
+                                            ->orwhere('participant4',$p6)
+                                            ->orwhere('participant5',$p6)
+                                            ->orwhere('participant6',$p6);
+                                    })->first();                      
         
         
         if($p2=="" || $p2==null){
@@ -314,10 +386,23 @@ class UserController extends Controller
         if($p1=="" || $p1==null){
             $isregistered_1 = null;
         }
+
+        if($p4=="" || $p4==null){
+            $isregistered_4 = null;
+        }
+
+        if($p5=="" || $p5==null){
+            $isregistered_5 = null;
+        }
+
+        if($p6=="" || $p6==null){
+            $isregistered_6 = null;
+        }
         
 
 
-        if((json_encode($isregistered_1)!="{}" && !is_null($isregistered_1)) || (json_encode($isregistered_2)!="{}" && !is_null($isregistered_2)) || (json_encode($isregistered_3)!="{}" && !is_null($isregistered_3))){
+        if((json_encode($isregistered_1)!="{}" && !is_null($isregistered_1)) || (json_encode($isregistered_2)!="{}" && !is_null($isregistered_2)) || (json_encode($isregistered_3)!="{}" && !is_null($isregistered_3)) || json_encode($isregistered_4)!="{}" && !is_null($isregistered_4)) 
+            || json_encode($isregistered_5)!="{}" && !is_null($isregistered_5)) || json_encode($isregistered_6)!="{}" && !is_null($isregistered_6)) ){
 
             Session::flash('message', 'One or more of the provided Probe IDs already registered for this event');
             return redirect('/events/register/'.'?event='.$event);
@@ -329,13 +414,18 @@ class UserController extends Controller
             $reg->participant2 = $p2;
         if($p3!='')
             $reg->participant3 = $p3;
+        if($p4!='')
+            $reg->participant4 = $p4;
+        if($p5!='')
+            $reg->participant5 = $p5;
+        if($p6!='')
+            $reg->participant6 = $p6;
         $reg->event_id = $wid;
         $reg->save();
 
         return redirect('/events');
 
     }
-
 
     public function regworkshop(Request $request)
     {

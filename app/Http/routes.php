@@ -191,7 +191,34 @@ Route::get('/events/probequiz', function () {
 });
 
 Route::get('/events/makeathon', function () {
-    return view('qmakeathon');
+    $event = "Qualcomm Makeathon";
+
+    $pid = Session::get('pid');
+    $uid = (int)ltrim($pid,"PROBE19");
+
+    $w = Events::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = EventRegs::where('event_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid)
+                                        ->orwhere('participant4',$uid)
+                                        ->orwhere('participant5',$uid)
+                                        ->orwhere('participant6',$uid);
+                                })->first();
+
+    $regbool = 0;
+
+    if($isregistered){
+        $regbool = 1;
+    }
+
+    return view('qmakeathon',['regbool' => $regbool]);
 });
 
 // Route::get('/events/makeathon', function () {

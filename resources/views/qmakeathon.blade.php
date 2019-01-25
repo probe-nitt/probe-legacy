@@ -45,7 +45,12 @@
                 
 									<section id="sidebar">
 										<section>
-											<span class="button primary fit disabled">Registration starting soon</span>
+											@if($regbool==0)
+											<a href="/events/register?event=Qualcomm%20Makeathon" class="button primary fit">Register</a>
+											@endif
+											@if($regbool==1)
+											<span class="button primary fit disabled">Registered</span>
+											@endif
 											<br/><br/>
 										</section>
 

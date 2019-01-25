@@ -58,6 +58,17 @@
                                     <input type="text" name="p3" id="p3" placeholder="Participant 3's PROBE ID" />
                                 </div>
 								@endif
+								@if ($mc >= 6)
+                                <div class="col-12 col-12-xsmall">
+                                    <input type="text" name="p4" id="p4" placeholder="Participant 4's PROBE ID" />
+                                </div>
+                                <div class="col-12 col-12-xsmall">
+                                    <input type="text" name="p5" id="p5" placeholder="Participant 5's PROBE ID" />
+                                </div>
+                                <div class="col-12 col-12-xsmall">
+                                    <input type="text" name="p6" id="p6" placeholder="Participant 6's PROBE ID" />
+                                </div>
+								@endif
 								<div class="col-12 col-12-xsmall">
                                     <input type="text" name="event" id="event" value="{{ $event }}" placeholder="Event" required readonly/>
                                 </div>
