@@ -628,10 +628,13 @@ class UserController extends Controller
     public function se(Request $request){
 
         $emails = Users::where('mail_verified','=',0)->get();
-
-        echo json_encode($emails);
     
         foreach ($emails as $mail){
+
+            $mailid = $mail->email;
+
+            echo $mailid;
+
             $user = Users::where('email','=',$mail)->first();
     
             $id = "PROBE19".str_pad($user->id, 4, '0', STR_PAD_LEFT);
