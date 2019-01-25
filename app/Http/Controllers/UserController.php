@@ -401,8 +401,8 @@ class UserController extends Controller
         
 
 
-        if((json_encode($isregistered_1)!="{}" && !is_null($isregistered_1)) || (json_encode($isregistered_2)!="{}" && !is_null($isregistered_2)) || (json_encode($isregistered_3)!="{}" && !is_null($isregistered_3)) || json_encode($isregistered_4)!="{}" && !is_null($isregistered_4)) 
-            || json_encode($isregistered_5)!="{}" && !is_null($isregistered_5)) || json_encode($isregistered_6)!="{}" && !is_null($isregistered_6)) ){
+        if((json_encode($isregistered_1)!="{}" && !is_null($isregistered_1)) || (json_encode($isregistered_2)!="{}" && !is_null($isregistered_2)) || (json_encode($isregistered_3)!="{}" && !is_null($isregistered_3)) || (json_encode($isregistered_4)!="{}" && !is_null($isregistered_4)) 
+            || (json_encode($isregistered_5)!="{}" && !is_null($isregistered_5)) || (json_encode($isregistered_6)!="{}" && !is_null($isregistered_6)) ){
 
             Session::flash('message', 'One or more of the provided Probe IDs already registered for this event');
             return redirect('/events/register/'.'?event='.$event);
