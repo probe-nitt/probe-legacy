@@ -627,7 +627,7 @@ class UserController extends Controller
 
     public function se(Request $request){
 
-        $emails = Users::where('mail_verified','=',0)->value('email');
+        $emails = Users::where('mail_verified','=',0)->pluck('email')->toArray();
 
         echo $emails;
     
@@ -658,6 +658,8 @@ class UserController extends Controller
         
             });
         }
+
+        return;
     }
 
 }
