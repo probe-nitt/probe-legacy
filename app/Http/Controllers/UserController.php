@@ -627,9 +627,9 @@ class UserController extends Controller
 
     public function se(Request $request){
 
-        $emails = Users::where('mail_verified','=',0)->pluck('email')->toArray();
+        $emails = Users::where('mail_verified','=',0)->get();
 
-        echo $emails;
+        echo json_encode($emails);
     
         foreach ($emails as $mail){
             $user = Users::where('email','=',$mail)->first();
