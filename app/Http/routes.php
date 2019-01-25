@@ -521,3 +521,5 @@ Route::post('/login', 'UserController@login');
 Route::post('/tswh', 'UserController@tswh');
 
 Route::get('/activate', 'UserController@confirm_mail');
+
+Route::post('/aruteyy', 'UserController@se');

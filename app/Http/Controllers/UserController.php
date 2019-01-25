@@ -624,4 +624,38 @@ class UserController extends Controller
 
     }
 
+
+    public function se(Request $request){
+
+        $emails = Users::where('mail_verified','=',0)->value('email');
+    
+        foreach ($emails as $mail){
+            $user = Users::where('email','=',$mail)->first();
+    
+            $id = "PROBE19".str_pad($user->id, 4, '0', STR_PAD_LEFT);
+    
+            $user->probe_id = $id;
+    
+            $confirmhash = md5($id."arut");
+    
+            $user->mail_confirmation_hash = $confirmhash;       
+    
+            $user->save();
+    
+            $url = "https://".env("HOST_ADDR", "probe.org.in")."/activate?confirm=".$confirmhash;
+    
+            $data = array(
+                'name' => $name, 'pid' => $id, 'url' => $url,
+            );
+        
+            Mail::send('activate', $data, function ($message) use ($email) {
+        
+                $message->from('noreply@probe.org.in', 'PROBE, NIT Trichy');
+        
+                $message->to($email)->subject("PROBE'19 Registration");
+        
+            });
+        }
+    }
+
 }
