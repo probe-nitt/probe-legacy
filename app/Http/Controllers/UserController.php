@@ -635,7 +635,7 @@ class UserController extends Controller
 
             echo $mailid;
 
-            $user = Users::where('email','=',$mail)->first();
+            $user = Users::where('email','=',$mailid)->first();
 
             echo json_encode($user);
     
