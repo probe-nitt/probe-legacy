@@ -72,7 +72,7 @@
 												</li>
 												<li>Duration :
 													<ul style="list-style-type:none">
-														<li><b>Two days – 12 hours</b></li>
+														<li><b>Two days</b></li>
 													</ul>
 												</li>
 												<li>Date : 
@@ -113,7 +113,7 @@
 
                                     </p>
 
-                                    <p>Certificate from Probe and company will be provided immediately after completion of your workshop.</p>
+                                    <p>Certificate from Probe will be provided immediately after completion of your workshop.</p>
 
                                     <h3>FAQ:</h3>
                                     <p>

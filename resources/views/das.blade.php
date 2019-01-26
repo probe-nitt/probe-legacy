@@ -82,7 +82,7 @@
 												</li>
 												<li>Duration :
 													<ul style="list-style-type:none">
-														<li><b>One day – 6 hours</b></li>
+														<li><b>One day</b></li>
 													</ul>
 												</li>
 												<li>Date : 

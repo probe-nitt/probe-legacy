@@ -82,7 +82,7 @@
 												</li>
 												<li>Duration :
 													<ul style="list-style-type:none">
-														<li><b>One day – 6 hours</b></li>
+														<li><b>One day</b></li>
 													</ul>
 												</li>
 												<li>Date : 
@@ -120,7 +120,7 @@
                                        <b/>Each team should have atleast one laptop.
                                     </p>
 
-                                    <p>Certificate from Probe and company will be provided immediately after completion of your workshop.</p>
+                                    <p>Certificate from Probe will be provided immediately after completion of your workshop.</p>
 
                                     <h3>FAQ:</h3>
                                     <p>

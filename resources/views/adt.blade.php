@@ -117,9 +117,9 @@
 
                                     <p>
                                         Day 2 :
-                                        <br/>1.Live demonstration of fabricating an antenna.
-					<br/>2. Learn the techniques behind measurements of an antenna.
-					<br/>3. Hands on experience of testing of the fabricated antenna.
+                                        <br/>1. Live demonstration of fabricating an antenna.
+										<br/>2. Learn the techniques behind measurements of an antenna.
+										<br/>3. Hands on experience of testing of the fabricated antenna.
                                     </p>
 
                                     <p>No laptops are required.</p>
