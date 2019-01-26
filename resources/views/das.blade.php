@@ -112,7 +112,7 @@
                                     <br/>Learn the Graphical System Design and it's benefits based on hardware interfacing techniques on a Virtual Interface Platform.
                                     </p>
 
-                                    <p>Each team should have at least one laptop.</p>
+                                    <p>No laptop is required.</p>
                                     
                                     <h3>Course content :</h3>
 
