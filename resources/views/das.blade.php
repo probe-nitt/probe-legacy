@@ -117,13 +117,13 @@
                                     <h3>Course content :</h3>
 
                                     <p>
-                                        1.Introduction to Graphical System Design(GSD)
-                                        <br/>2.What is GSD?
+                                        1. Introduction to Graphical System Design(GSD)
+                                        <br/>2. What is GSD?
                                         <br/>3. Why work on GSD and it's benefits.
-                                        <br/>4.Introduction to LabVIEW 
-                                        <br/>5.Hardware Interfacing techniques.
-                                        <br/>6.Overview of transducers, Signals and Signal Conditioning
-                                        <br/>7.Overview of DAQ system.
+                                        <br/>4. Introduction to LabVIEW 
+                                        <br/>5. Hardware Interfacing techniques.
+                                        <br/>6. Overview of transducers, Signals and Signal Conditioning
+                                        <br/>7. Overview of DAQ system.
                                         <br/>8. Hands on exercises on LabVIEW interfaced kits with hardware sensors.
                                     </p>
 
