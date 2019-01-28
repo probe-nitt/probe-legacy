@@ -482,6 +482,8 @@ class UserController extends Controller
             return redirect('/workshops/register/'.'?workshop='.$workshop);
         }
 
+        $lid = Users::orderBy('created_at', 'desc')->first()->id;
+        
         //$p1 = (int)ltrim($p1,"PROBE19");
         $p1 = (int)explode('PROBE19',$p1)[1];
         if($p1>$lid){
