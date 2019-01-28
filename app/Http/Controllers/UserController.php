@@ -271,12 +271,12 @@ class UserController extends Controller
         $p5 = $request->input('p5');
         $p6 = $request->input('p6');
 
-        $p1 = preg_replace('/\s+/', '_', $p1);
-        $p2 = preg_replace('/\s+/', '_', $p2);
-        $p3 = preg_replace('/\s+/', '_', $p3);
-        $p4 = preg_replace('/\s+/', '_', $p4);
-        $p5 = preg_replace('/\s+/', '_', $p5);
-        $p6 = preg_replace('/\s+/', '_', $p6);
+        $p1 = preg_replace('/\s+/', '', $p1);
+        $p2 = preg_replace('/\s+/', '', $p2);
+        $p3 = preg_replace('/\s+/', '', $p3);
+        $p4 = preg_replace('/\s+/', '', $p4);
+        $p5 = preg_replace('/\s+/', '', $p5);
+        $p6 = preg_replace('/\s+/', '', $p6);
 
         if($event == "Qualcomm Makeathon") {
             if($p2 == '' || $p3 == '' || $p4 == '' || $p5 == '' || $p6 == ''){
@@ -464,8 +464,10 @@ class UserController extends Controller
         $p2 = $request->input('p2');
         $p3 = $request->input('p3');
 
-        $lid = Users::orderBy('created_at', 'desc')->first()->id;
-
+        $p1 = preg_replace('/\s+/', '', $p1);
+        $p2 = preg_replace('/\s+/', '', $p2);
+        $p3 = preg_replace('/\s+/', '', $p3);
+        
         //$p1 = (int)ltrim($p1,"PROBE19");
         $p1 = (int)explode('PROBE19',$p1)[1];
         if($p1>$lid){
