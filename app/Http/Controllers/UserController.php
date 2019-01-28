@@ -287,8 +287,8 @@ class UserController extends Controller
             if($p2 == '' || $p3 == '' || $p4 == '' || $p5 == '' || $p6 == ''){
                 Session::flash('message', 'One or more of the provided Probe IDs are missing');
                 return redirect('/events/register/'.'?event='.$event); 
-            }else if(explode('PROBE19',$p2)[1] || explode('PROBE19',$p3)[1] || explode('PROBE19',$p4)[1] || explode('PROBE19',$p5)[1] 
-                || explode('PROBE19',$p6)[1]) {
+            }else if( !isset(explode('PROBE19',$p2)[1]) || !isset(explode('PROBE19',$p3)[1]) || !isset(explode('PROBE19',$p4)[1]) || 
+                !isset(explode('PROBE19',$p5)[1]) || !isset(explode('PROBE19',$p6)[1])) {
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/events/register/'.'?event='.$event); 
             }
@@ -477,7 +477,7 @@ class UserController extends Controller
         $p2 = preg_replace('/\s+/', '', $p2);
         $p3 = preg_replace('/\s+/', '', $p3);
         
-        if(explode('PROBE19',$p2)[1] || explode('PROBE19',$p3)[1]) {
+        if( !isset(explode('PROBE19',$p2)[1]) || !isset(explode('PROBE19',$p3)[1])) {
             Session::flash('message', 'One or more of the provided Probe IDs are not valid');
             return redirect('/events/register/'.'?event='.$event); 
         }
