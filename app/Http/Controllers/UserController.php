@@ -272,7 +272,7 @@ class UserController extends Controller
         $p6 = $request->input('p6');
 
         if($event == "Qualcomm Makeathon") {
-            if($p2 == '' && $p3 == '' && $p4 == '' && $p5 == '' && $p6 == ''){
+            if($p2 == '' || $p3 == '' || $p4 == '' || $p5 == '' || $p6 == ''){
                 Session::flash('message', 'One or more of the provided Probe IDs is missing');
                 return redirect('/events/register/'.'?event='.$event); 
             }
