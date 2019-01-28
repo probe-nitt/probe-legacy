@@ -66,7 +66,7 @@ Route::get('/events/bullseye', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    if($uid)
+    if($pid)
         $uid = (int)explode('PROBE19',$pid)[1];
     else
         $uid = -1;
@@ -104,7 +104,7 @@ Route::get('/events/embedtronix', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    if($uid)
+    if($pid)
         $uid = (int)explode('PROBE19',$pid)[1];
     else
         $uid = -1;
@@ -140,7 +140,7 @@ Route::get('/events/matrix', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    if($uid)
+    if($pid)
         $uid = (int)explode('PROBE19',$pid)[1];
     else
         $uid = -1;
@@ -174,7 +174,7 @@ Route::get('/events/ideathon', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    if($uid)
+    if($pid)
         $uid = (int)explode('PROBE19',$pid)[1];
     else
         $uid = -1;
@@ -211,7 +211,7 @@ Route::get('/events/makeathon', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,'PROBE19');
-    if($uid)
+    if($pid)
         $uid = (int)explode('PROBE19',$pid)[1];
     else
         $uid = -1;
@@ -265,7 +265,7 @@ Route::get('/workshops/ocr', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    if($uid)
+    if($pid)
         $uid = (int)explode('PROBE19',$pid)[1];
     else
         $uid = -1;
@@ -328,7 +328,7 @@ Route::get('/workshops/das', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    if($uid)
+    if($pid)
         $uid = (int)explode('PROBE19',$pid)[1];
     else
         $uid = -1;
@@ -389,7 +389,7 @@ Route::get('/workshops/probot', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    if($uid)
+    if($pid)
         $uid = (int)explode('PROBE19',$pid)[1];
     else
         $uid = -1;
@@ -431,7 +431,7 @@ Route::get('/workshops/esd', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    if($uid)
+    if($pid)
         $uid = (int)explode('PROBE19',$pid)[1];
     else
         $uid = -1;
@@ -472,7 +472,7 @@ Route::get('/workshops/psoc', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    if($uid)
+    if($pid)
         $uid = (int)explode('PROBE19',$pid)[1];
     else
         $uid = -1;
@@ -513,7 +513,7 @@ Route::get('/workshops/socath', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    if($uid)
+    if($pid)
         $uid = (int)explode('PROBE19',$pid)[1];
     else
         $uid = -1;
@@ -554,7 +554,7 @@ Route::get('/workshops/adt', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    if($uid)
+    if($pid)
         $uid = (int)explode('PROBE19',$pid)[1];
     else
         $uid = -1;
