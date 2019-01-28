@@ -66,7 +66,10 @@ Route::get('/events/bullseye', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    $uid = (int)explode('PROBE19',$pid)[1];
+    if($uid)
+        $uid = (int)explode('PROBE19',$pid)[1];
+    else
+        $uid = -1;
 
     $w = Events::where('name','=',$event)->first();
 
@@ -101,7 +104,10 @@ Route::get('/events/embedtronix', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    $uid = (int)explode('PROBE19',$pid)[1];
+    if($uid)
+        $uid = (int)explode('PROBE19',$pid)[1];
+    else
+        $uid = -1;
 
     $w = Events::where('name','=',$event)->first();
 
@@ -134,7 +140,10 @@ Route::get('/events/matrix', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    $uid = (int)explode('PROBE19',$pid)[1];
+    if($uid)
+        $uid = (int)explode('PROBE19',$pid)[1];
+    else
+        $uid = -1;
 
     $w = Events::where('name','=',$event)->first();
 
@@ -165,7 +174,10 @@ Route::get('/events/ideathon', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    $uid = (int)explode('PROBE19',$pid)[1];
+    if($uid)
+        $uid = (int)explode('PROBE19',$pid)[1];
+    else
+        $uid = -1;
 
     $w = Events::where('name','=',$event)->first();
 
@@ -199,7 +211,10 @@ Route::get('/events/makeathon', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,'PROBE19');
-    $uid = (int)explode('PROBE19',$pid)[1];
+    if($uid)
+        $uid = (int)explode('PROBE19',$pid)[1];
+    else
+        $uid = -1;
 
     $w = Events::where('name','=',$event)->first();
 
@@ -250,7 +265,10 @@ Route::get('/workshops/ocr', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    $uid = (int)explode('PROBE19',$pid)[1];
+    if($uid)
+        $uid = (int)explode('PROBE19',$pid)[1];
+    else
+        $uid = -1;
 
     $w1 = Workshops::where('name','=',$workshop1)->first();
     $w2 = Workshops::where('name','=',$workshop2)->first();
@@ -310,7 +328,10 @@ Route::get('/workshops/das', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    $uid = (int)explode('PROBE19',$pid)[1];
+    if($uid)
+        $uid = (int)explode('PROBE19',$pid)[1];
+    else
+        $uid = -1;
 
     $w1 = Workshops::where('name','=',$workshop1)->first();
     $w2 = Workshops::where('name','=',$workshop2)->first();
@@ -368,7 +389,10 @@ Route::get('/workshops/probot', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    $uid = (int)explode('PROBE19',$pid)[1];
+    if($uid)
+        $uid = (int)explode('PROBE19',$pid)[1];
+    else
+        $uid = -1;
 
     $w = Workshops::where('name','=',$workshop)->first();
 
@@ -407,7 +431,10 @@ Route::get('/workshops/esd', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    $uid = (int)explode('PROBE19',$pid)[1];
+    if($uid)
+        $uid = (int)explode('PROBE19',$pid)[1];
+    else
+        $uid = -1;
 
     $w = Workshops::where('name','=',$workshop)->first();
 
@@ -445,7 +472,10 @@ Route::get('/workshops/psoc', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    $uid = (int)explode('PROBE19',$pid)[1];
+    if($uid)
+        $uid = (int)explode('PROBE19',$pid)[1];
+    else
+        $uid = -1;
 
     $w = Workshops::where('name','=',$workshop)->first();
 
@@ -483,7 +513,10 @@ Route::get('/workshops/socath', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    $uid = (int)explode('PROBE19',$pid)[1];
+    if($uid)
+        $uid = (int)explode('PROBE19',$pid)[1];
+    else
+        $uid = -1;
 
     $w = Workshops::where('name','=',$workshop)->first();
 
@@ -521,7 +554,10 @@ Route::get('/workshops/adt', function () {
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE19");
-    $uid = (int)explode('PROBE19',$pid)[1];
+    if($uid)
+        $uid = (int)explode('PROBE19',$pid)[1];
+    else
+        $uid = -1;
 
     $w = Workshops::where('name','=',$workshop)->first();
 
