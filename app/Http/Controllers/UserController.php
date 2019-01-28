@@ -271,6 +271,13 @@ class UserController extends Controller
         $p5 = $request->input('p5');
         $p6 = $request->input('p6');
 
+        $p1 = preg_replace('/\s+/', '_', $p1);
+        $p2 = preg_replace('/\s+/', '_', $p2);
+        $p3 = preg_replace('/\s+/', '_', $p3);
+        $p4 = preg_replace('/\s+/', '_', $p4);
+        $p5 = preg_replace('/\s+/', '_', $p5);
+        $p6 = preg_replace('/\s+/', '_', $p6);
+
         if($event == "Qualcomm Makeathon") {
             if($p2 == '' || $p3 == '' || $p4 == '' || $p5 == '' || $p6 == ''){
                 Session::flash('message', 'One or more of the provided Probe IDs is missing');
