@@ -45,6 +45,7 @@
                 					<!--TODO: chage logic-->
 									<section id="sidebar">
 										<section>
+											<!--
 											@if($regbool==0)
 											<a href="/workshops/register?workshop=System%20on%20Chip%20using%20Atheros%20ath10k" class="button primary fit">Register</a>
                                             @endif
@@ -54,7 +55,9 @@
 											@if($regbool==1 && $ispaid==1)
 											<span class="button primary fit disabled">Registered</span>
                                             @endif
-											<br/><br/>
+											<br/><br/>-->
+											<span class="button primary fit disabled">Registration starting soon</span>
+											<a href='/events/makeathon' class="button primary fit">Register for Makeathon here</a>
 										</section>
 
                                         <section>
