@@ -194,7 +194,8 @@ Route::get('/events/makeathon', function () {
     $event = "Qualcomm Makeathon";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,'PROBE19');
+    //$uid = (int)ltrim($pid,'PROBE19');
+    $uid = (int)explode('PROBE19',$pid)[1];
 
     $w = Events::where('name','=',$event)->first();
 
@@ -244,7 +245,8 @@ Route::get('/workshops/ocr', function () {
     $workshop2 = "Optical Character Recognition using Deep Learning Day 2";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE19");
+    $uid = (int)explode('PROBE19',$pid)[1];
 
     $w1 = Workshops::where('name','=',$workshop1)->first();
     $w2 = Workshops::where('name','=',$workshop2)->first();
@@ -303,7 +305,8 @@ Route::get('/workshops/das', function () {
     $workshop2 = "Data Acquisition Systems using LabVIEW Day 2";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE19");
+    $uid = (int)explode('PROBE19',$pid)[1];
 
     $w1 = Workshops::where('name','=',$workshop1)->first();
     $w2 = Workshops::where('name','=',$workshop2)->first();
@@ -360,7 +363,8 @@ Route::get('/workshops/probot', function () {
     $workshop = "Probot";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE19");
+    $uid = (int)explode('PROBE19',$pid)[1];
 
     $w = Workshops::where('name','=',$workshop)->first();
 
