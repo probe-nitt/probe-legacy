@@ -57,7 +57,9 @@
                                             @endif
 											<br/><br/>-->
 											<span class="button primary fit disabled">Registration starting soon</span>
+											<br/>
 											<a href='/events/makeathon' class="button primary fit">Register for Makeathon here</a>
+											<br/><br/>
 										</section>
 
                                         <section>
