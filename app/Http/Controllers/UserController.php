@@ -278,7 +278,7 @@ class UserController extends Controller
         $p5 = preg_replace('/\s+/', '', $p5);
         $p6 = preg_replace('/\s+/', '', $p6);
 
-        if(explode('PROBE19',$p2)[1] || explode('PROBE19',$p3)[1]) {
+        if( !isset(explode('PROBE19',$p2)[1]) || !isset(explode('PROBE19',$p3)[1])) {
             Session::flash('message', 'One or more of the provided Probe IDs are not valid');
             return redirect('/events/register/'.'?event='.$event); 
         }
@@ -481,7 +481,7 @@ class UserController extends Controller
             Session::flash('message', 'One or more of the provided Probe IDs are not valid');
             return redirect('/events/register/'.'?event='.$event); 
         }
-        
+
         //$p1 = (int)ltrim($p1,"PROBE19");
         $p1 = (int)explode('PROBE19',$p1)[1];
         if($p1>$lid){
