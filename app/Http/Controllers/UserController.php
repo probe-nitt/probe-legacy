@@ -170,7 +170,8 @@ class UserController extends Controller
         $event = $request->input('event');
 
         $pid = Session::get('pid');
-        $uid = (int)ltrim($pid,"PROBE19");
+        //$uid = (int)ltrim($pid,"PROBE19");
+        $uid = (int)explode('PROBE19',$pid)[1];
 
         $w = Events::where('name','=',$event)->first();
 
@@ -211,7 +212,8 @@ class UserController extends Controller
         $workshop = $request->input('workshop');
 
         $pid = Session::get('pid');
-        $uid = (int)ltrim($pid,"PROBE19");
+        //$uid = (int)ltrim($pid,"PROBE19");
+        $uid = (int)explode('PROBE19',$pid)[1];
 
         $w = Workshops::where('name','=',$workshop)->first();
 
@@ -265,41 +267,48 @@ class UserController extends Controller
 
         $lid = Users::orderBy('created_at', 'desc')->first()->id;
 
-        $p1 = (int)ltrim($p1,"PROBE19");
+        //$p1 = (int)ltrim($p1,"PROBE19");
+        $p1 = (int)explode('PROBE19',$p1)[1];
+
         if($p1>$lid){
             Session::flash('message', 'One or more of the provided Probe IDs are not valid');
             return redirect('/events/register/'.'?event='.$event);
         }
         if($p2!=''){
-            $p2 = (int)ltrim($p2,"PROBE19");
+            //$p2 = (int)ltrim($p2,"PROBE19");
+            $p2 = (int)explode('PROBE19',$p2)[1];
             if($p2>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/events/register/'.'?event='.$event);
             }
         }
         if($p3!=''){
-            $p3 = (int)ltrim($p3,"PROBE19");
+            //$p3 = (int)ltrim($p3,"PROBE19");
+            $p3 = (int)explode('PROBE19',$p3)[1];
             if($p3>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/events/register/'.'?event='.$event);
             }
         }
         if($p4!=''){
-            $p4 = (int)ltrim($p4,"PROBE19");
+            //$p4 = (int)ltrim($p4,"PROBE19");
+            $p4 = (int)explode('PROBE19',$p4)[1];
             if($p4>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/events/register/'.'?event='.$event);
             }
         }
         if($p5!=''){
-            $p5 = (int)ltrim($p5,"PROBE19");
+            //$p5 = (int)ltrim($p5,"PROBE19");
+            $p5 = (int)explode('PROBE19',$p5)[1];
             if($p5>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/events/register/'.'?event='.$event);
             }
         }
         if($p6!=''){
-            $p6 = (int)ltrim($p6,"PROBE19");
+            //$p6 = (int)ltrim($p6,"PROBE19");
+            $p6 = (int)explode('PROBE19',$p6)[1];
             if($p6>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/events/register/'.'?event='.$event);
@@ -437,20 +446,23 @@ class UserController extends Controller
 
         $lid = Users::orderBy('created_at', 'desc')->first()->id;
 
-        $p1 = (int)ltrim($p1,"PROBE19");
+        //$p1 = (int)ltrim($p1,"PROBE19");
+        $p1 = (int)explode('PROBE19',$p1)[1];
         if($p1>$lid){
             Session::flash('message', 'One or more of the provided Probe IDs are not valid');
             return redirect('/workshops/register/'.'?workshop='.$workshop);
         }
         if($p2!=''){
-            $p2 = (int)ltrim($p2,"PROBE19");
+            //$p2 = (int)ltrim($p2,"PROBE19");
+            $p2 = (int)explode('PROBE19',$p2)[1];
             if($p2>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/workshops/register/'.'?workshop='.$workshop);
             }
         }
         if($p3!=''){
-            $p3 = (int)ltrim($p3,"PROBE19");
+            //$p3 = (int)ltrim($p3,"PROBE19");
+            $p3 = (int)explode('PROBE19',$p3)[1];
             if($p3>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/workshops/register/'.'?workshop='.$workshop);

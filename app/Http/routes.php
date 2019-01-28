@@ -65,7 +65,8 @@ Route::get('/events/bullseye', function () {
     $event = "Bullseye";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE19");
+    $uid = (int)explode('PROBE19',$pid)[1];
 
     $w = Events::where('name','=',$event)->first();
 
@@ -99,7 +100,8 @@ Route::get('/events/embedtronix', function () {
     $event = "Embedtronix";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE19");
+    $uid = (int)explode('PROBE19',$pid)[1];
 
     $w = Events::where('name','=',$event)->first();
 
@@ -131,7 +133,8 @@ Route::get('/events/matrix', function () {
     $event = "Matrix";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE19");
+    $uid = (int)explode('PROBE19',$pid)[1];
 
     $w = Events::where('name','=',$event)->first();
 
@@ -161,7 +164,8 @@ Route::get('/events/ideathon', function () {
     $event = "Qualcomm Ideathon";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE19");
+    $uid = (int)explode('PROBE19',$pid)[1];
 
     $w = Events::where('name','=',$event)->first();
 
@@ -402,7 +406,8 @@ Route::get('/workshops/esd', function () {
     $workshop = "Embedded System Design using CC3200 - IoT";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE19");
+    $uid = (int)explode('PROBE19',$pid)[1];
 
     $w = Workshops::where('name','=',$workshop)->first();
 
@@ -439,7 +444,8 @@ Route::get('/workshops/psoc', function () {
     $workshop = "IoT Training using PSoC";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE19");
+    $uid = (int)explode('PROBE19',$pid)[1];
 
     $w = Workshops::where('name','=',$workshop)->first();
 
@@ -476,7 +482,8 @@ Route::get('/workshops/socath', function () {
     $workshop = "System on Chip using Atheros ath10k";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE19");
+    $uid = (int)explode('PROBE19',$pid)[1];
 
     $w = Workshops::where('name','=',$workshop)->first();
 
@@ -513,7 +520,8 @@ Route::get('/workshops/adt', function () {
     $workshop = "Antenna Design and Testing";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE19");
+    $uid = (int)explode('PROBE19',$pid)[1];
 
     $w = Workshops::where('name','=',$workshop)->first();
 
