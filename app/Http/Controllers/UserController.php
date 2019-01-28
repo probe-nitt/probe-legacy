@@ -265,6 +265,13 @@ class UserController extends Controller
         $p5 = $request->input('p5');
         $p6 = $request->input('p6');
 
+        if($event == "Qualcomm Makeathon") {
+            if($p2 == '' && $p3 == '' && $p4 == '' && $p5 == '' && $p6 == ''){
+                Session::flash('message', 'One or more of the provided Probe IDs is missing');
+                return redirect('/events/register/'.'?event='.$event); 
+            }
+        }
+
         $lid = Users::orderBy('created_at', 'desc')->first()->id;
 
         //$p1 = (int)ltrim($p1,"PROBE19");
