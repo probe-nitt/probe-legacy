@@ -194,7 +194,7 @@ Route::get('/events/makeathon', function () {
     $event = "Qualcomm Makeathon";
 
     $pid = Session::get('pid');
-    $uid = (int)ltrim($pid,"PROBE19");
+    $uid = (int)ltrim($pid,'PROBE19');
 
     $w = Events::where('name','=',$event)->first();
 
