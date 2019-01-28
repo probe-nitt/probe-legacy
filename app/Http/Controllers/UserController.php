@@ -171,7 +171,10 @@ class UserController extends Controller
 
         $pid = Session::get('pid');
         //$uid = (int)ltrim($pid,"PROBE19");
-        $uid = (int)explode('PROBE19',$pid)[1];
+        if($pid)
+            $uid = (int)explode('PROBE19',$pid)[1];
+        else
+            $uid = -1;
 
         $w = Events::where('name','=',$event)->first();
 
@@ -213,7 +216,10 @@ class UserController extends Controller
 
         $pid = Session::get('pid');
         //$uid = (int)ltrim($pid,"PROBE19");
-        $uid = (int)explode('PROBE19',$pid)[1];
+        if($pid)
+            $uid = (int)explode('PROBE19',$pid)[1];
+        else
+            $uid = -1;
 
         $w = Workshops::where('name','=',$workshop)->first();
 
