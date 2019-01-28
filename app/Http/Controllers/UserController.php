@@ -279,7 +279,7 @@ class UserController extends Controller
         $p6 = preg_replace('/\s+/', '', $p6);
 
         if( !isset(explode('PROBE19',$p2)[1]) || !isset(explode('PROBE19',$p3)[1])) {
-            Session::flash('message', 'One or more of the provided Probe IDs are not valid');
+            Session::flash('message', 'One or more of the provided Probe IDs are invalid');
             return redirect('/events/register/'.'?event='.$event); 
         }
 
@@ -289,7 +289,7 @@ class UserController extends Controller
                 return redirect('/events/register/'.'?event='.$event); 
             }else if( !isset(explode('PROBE19',$p2)[1]) || !isset(explode('PROBE19',$p3)[1]) || !isset(explode('PROBE19',$p4)[1]) || 
                 !isset(explode('PROBE19',$p5)[1]) || !isset(explode('PROBE19',$p6)[1])) {
-                Session::flash('message', 'One or more of the provided Probe IDs are not valid');
+                Session::flash('message', 'One or more of the provided Probe IDs are invalid');
                 return redirect('/events/register/'.'?event='.$event); 
             }
         }
@@ -478,7 +478,7 @@ class UserController extends Controller
         $p3 = preg_replace('/\s+/', '', $p3);
         
         if( !isset(explode('PROBE19',$p2)[1]) || !isset(explode('PROBE19',$p3)[1])) {
-            Session::flash('message', 'One or more of the provided Probe IDs are not valid');
+            Session::flash('message', 'One or more of the provided Probe IDs are invalid');
             return redirect('/events/register/'.'?event='.$event); 
         }
 
