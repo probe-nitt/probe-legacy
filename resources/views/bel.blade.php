@@ -47,7 +47,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                $ind = 0;
+                                
                                 @foreach ($leaderboard as $key => $leaderboard_row)
                                 <tr>
                                     <td>{{$ind=$ind+1}}</td>
