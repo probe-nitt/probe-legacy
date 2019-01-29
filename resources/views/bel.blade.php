@@ -48,11 +48,11 @@
                             </thead>
                             <tbody>
 
-                                @foreach ($leaderboard as $index => $leaderboard_row)
+                                @foreach ($leaderboard as $key => $leaderboard_row)
                                 <tr>
-                                    <td>{{$index+1}}</td>
-                                    <td>{{$leaderboard_row}}</td>
-                                    <!--td>{{$userdetail->cl}}</td-->
+                                    <td>1</td>
+                                    <td>{{$leaderboard_row[$key]}}</td>
+                                    <td>{{$key}}</td>
                                 </tr>
                                 @endforeach
 

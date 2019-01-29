@@ -760,18 +760,13 @@ class UserController extends Controller
 
         $leaderboard_row = '';
         $cl = 0;
+        $ind = -1;
         $level = 1;
 
         $leaderboard = [];
 
-        if($cl < $userdetail->cl) {
-            if($leaderboard_row != '') {
-                array_push($leaderboard_row);
-            }
-            $leaderboard_row = '';
-            $cl = $userdetail->cl;
-        }else if($cl == $userdetail->cl) {
-            $leaderboard_row += $userdetail->name + ", ";
+        foreach ($frl as $index => $userdetail) {
+            $leaderboard[$userdetail->cl] = (isset($leaderboard[$userdetail->cl])==true?$leaderboard[$userdetail->cl]:'') + $userdetail->name + ','; 
         }
 
         return view('bel',['frl' => $frl, 'rank' => $rank, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf, 'leaderboard_row' => $leaderboard_row, 'cl' => $cl, 'level' => $level, 'leaderboard' => $leaderboard]);
