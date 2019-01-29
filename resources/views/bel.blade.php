@@ -47,11 +47,12 @@
                                 </tr>
                             </thead>
                             <tbody>
+
                                 @foreach ($frl as $index => $userdetail)
+                                <!--
                                 @if($cl < $userdetail->cl)
                                 @if($leaderboard_row != '')
                                 <tr @if($userdetail->id==$user->id) style="color:yellow;" @endif>
-                                    
                                     <td>{{$userdetail->name}}</td>
                                     <td>{{$userdetail->cl}}</td>
                                 </tr>
@@ -59,13 +60,13 @@
                                 $leaderboard_row = '';
                                 $cl = $userdetail->cl;
                                 @else if($cl == $userdetail->cl)
-                                $leaderboard_row += $userdetail->cl+'/';
-                                @endif
-                                <!--tr @if($userdetail->id==$user->id) style="color:yellow;" @endif>
+                                $leaderboard_row += $userdetail->name+'/';
+                                @endif-->
+                                <tr @if($userdetail->id==$user->id) style="color:yellow;" @endif>
                                     <td>{{$index+1}}</td>
                                     <td>{{$userdetail->name}}</td>
                                     <td>{{$userdetail->cl}}</td>
-                                </tr-->
+                                </tr>
                                 @endforeach
                                 @if($uf)
                                 <tr style="color:yellow;">
