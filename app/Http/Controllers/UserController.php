@@ -56,6 +56,11 @@ class UserController extends Controller
 
         $checkmail = Users::where('email','=',$email)->first();
 
+        if($gender == 'female' && $acco == 1){
+            Session::flash('message', 'Sorry, no more accomodation available.');
+            return redirect('/register');
+        }
+
         if($checkmail){
             Session::flash('message', 'Email already registered');
             return redirect('/register');
