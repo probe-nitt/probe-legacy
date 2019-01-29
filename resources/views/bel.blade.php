@@ -47,23 +47,23 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <!--
+                                
                                 @foreach ($leaderboard as $key => $leaderboard_row)
                                 <tr>
                                     <td>1</td>
-                                    <td>{{$leaderboard_row[$key]}}</td>
+                                    <td>{{rtrim($leaderboard_row[$key], ", ")}}</td>
                                     <td>{{$key}}</td>
                                 </tr>
-                                @endforeach-->
+                                @endforeach
 
-                                
+                                <!--
                                 @foreach ($frl as $index => $userdetail)
                                 <tr @if($userdetail->id==$user->id) style="color:yellow;" @endif>
                                     <td>{{$index+1}}</td>
                                     <td>{{$userdetail->name}}</td>
                                     <td>{{$userdetail->cl}}</td>
                                 </tr>
-                                @endforeach
+                                @endforeach-->
                                 @if($uf)
                                 <tr style="color:yellow;">
                                     <td>{{$rank}}</td>
