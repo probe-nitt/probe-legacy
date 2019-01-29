@@ -729,7 +729,7 @@ class UserController extends Controller
                                 ->select(['users.id','users.name','bullseye_users.cl'])
                                 ->orderBy('bullseye_users.updated_at')
                                 ->orderBy('bullseye_users.created_at')
-                                ->limit(12)
+                                ->limit(10)
                                 ->get();
 
         $rank = null;
@@ -749,7 +749,7 @@ class UserController extends Controller
                 if($user->id == $id){
                     $rank = $count;
                     $userdetail = $user;
-                    if($count>12){
+                    if($count>10){
                         $uf=1;
                     }
                     break;
