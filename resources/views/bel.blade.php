@@ -54,7 +54,7 @@
                                     <td>{{$leaderboard_row}}</td>
                                     <!--td>{{$userdetail->cl}}</td-->
                                 </tr>
-                                @endif
+                                @endforeach
 
                                 <!--
                                 @foreach ($frl as $index => $userdetail)
