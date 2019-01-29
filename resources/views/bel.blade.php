@@ -51,7 +51,7 @@
                                 @foreach ($leaderboard as $key => $leaderboard_row)
                                 <tr>
                                     <td>{{$ind=$ind+1}}</td>
-                                    <td>{{$leaderboard_row}}</td>
+                                    <td>{{!! $leaderboard_row !!}}</td>
                                     <td>{{$key}}</td>
                                 </tr>
                                 @endforeach
