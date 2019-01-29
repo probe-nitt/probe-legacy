@@ -47,10 +47,6 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                $leaderboard_row = '';
-                                $cl = 0;
-                                $level = 1;
-
                                 @foreach ($frl as $index => $userdetail)
                                 @if($cl < $userdetail->cl)
                                 @if($leaderboard_row != '')

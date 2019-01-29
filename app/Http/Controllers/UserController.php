@@ -758,7 +758,11 @@ class UserController extends Controller
             }
         }
 
-        return view('bel',['frl' => $frl, 'rank' => $rank, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf]);
+        $leaderboard_row = '';
+        $cl = 0;
+        $level = 1;
+
+        return view('bel',['frl' => $frl, 'rank' => $rank, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf, 'leaderboard_row' => $leaderboard_row, 'cl' => $cl, 'level' => $level]);
 
         
 
