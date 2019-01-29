@@ -774,7 +774,7 @@ class UserController extends Controller
             $leaderboard_row += $userdetail->name + ", ";
         }
 
-        return view('bel',['frl' => $frl, 'rank' => $rank, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf, 'leaderboard_row' => $leaderboard_row, 'cl' => $cl, 'level' => $level], 'leaderboard' => $leaderboard);
+        return view('bel',['frl' => $frl, 'rank' => $rank, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf, 'leaderboard_row' => $leaderboard_row, 'cl' => $cl, 'level' => $level, 'leaderboard' => $leaderboard)];
 
         
 
