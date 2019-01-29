@@ -48,26 +48,22 @@
                             </thead>
                             <tbody>
 
-                                @foreach ($frl as $index => $userdetail)
-                                <!--
-                                @if($cl < $userdetail->cl)
-                                @if($leaderboard_row != '')
-                                <tr @if($userdetail->id==$user->id) style="color:yellow;" @endif>
-                                    <td>{{$userdetail->name}}</td>
-                                    <td>{{$userdetail->cl}}</td>
+                                @foreach ($leaderboard as $index => $leaderboard_row)
+                                <tr>
+                                    <td>{{$index+1}}</td>
+                                    <td>{{$leaderboard_row}}</td>
+                                    <!--td>{{$userdetail->cl}}</td-->
                                 </tr>
                                 @endif
-                                $leaderboard_row = '';
-                                $cl = $userdetail->cl;
-                                @else if($cl == $userdetail->cl)
-                                $leaderboard_row += $userdetail->name+'/';
-                                @endif-->
+
+                                <!--
+                                @foreach ($frl as $index => $userdetail)
                                 <tr @if($userdetail->id==$user->id) style="color:yellow;" @endif>
                                     <td>{{$index+1}}</td>
                                     <td>{{$userdetail->name}}</td>
                                     <td>{{$userdetail->cl}}</td>
                                 </tr>
-                                @endforeach
+                                @endforeach -->
                                 @if($uf)
                                 <tr style="color:yellow;">
                                     <td>{{$rank}}</td>
