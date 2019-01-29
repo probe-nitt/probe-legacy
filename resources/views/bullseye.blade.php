@@ -45,7 +45,8 @@
 									<section id="sidebar">
 										<section>
 											<!-- <a href="/bullseye-event" class="button primary fit">Play</a> -->
-											<a href="/bullseye-event" class="button primary fit">Play</a>
+											<!--a href="/bullseye-event" class="button primary fit">Play</a-->
+											<a href="/bullseye-event/leaderboard" class="button primary fit">Click to view results</a>
 											<br/><br/>
 										</section>
 										<section>
