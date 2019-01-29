@@ -63,7 +63,7 @@
 										<br/>Second prize : 1000 INR
 										<br/>Third prize : 600 INR
                                     </p>
-									<p>Results will be announced on 29th January, 2019</p>
+									<p>Results are announced.</p>
 								</section>
 							</div>
 						</div>

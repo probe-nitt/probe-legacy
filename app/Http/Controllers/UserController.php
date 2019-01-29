@@ -283,6 +283,20 @@ class UserController extends Controller
         $p5 = preg_replace('/\s+/', '', $p5);
         $p6 = preg_replace('/\s+/', '', $p6);
 
+        $array = [];
+
+        $array[$p1] = 1;
+        $array[$p2] = 1;
+        $array[$p3] = 1;
+        $array[$p4] = 1;
+        $array[$p5] = 1;
+        $array[$p6] = 1;
+        
+        if(sizeof($array)<6) {
+            Session::flash('message', 'One or more of the provided Probe IDs are duplicate');
+            return redirect('/events/register/'.'?event='.$event); 
+        }
+
         if( ($p2!='' && !isset(explode('PROBE19',$p2)[1])) || ($p3!='' && !isset(explode('PROBE19',$p3)[1]))) {
             Session::flash('message', 'One or more of the provided Probe IDs are invalid');
             return redirect('/events/register/'.'?event='.$event); 

@@ -46,7 +46,8 @@
 									<section id="sidebar">
 										<section>
 											@if($regbool==0)
-											<a href="/events/register?event=Matrix" class="button primary fit">Register</a>
+											<span class="button primary fit disabled">Registration closed</span>
+											<!--a href="/events/register?event=Matrix" class="button primary fit">Register</a-->
 											@endif
 											@if($regbool==1)
 											<span class="button primary fit disabled">Registered</span>
