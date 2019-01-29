@@ -758,13 +758,15 @@ class UserController extends Controller
             }
         }
 
+        $ind = 0;
+
         $leaderboard = array();
 
         foreach ($frl as $usr) {
             $leaderboard[$usr->cl] = (isset($leaderboard[$usr->cl])==true?$leaderboard[$usr->cl]:"").$usr->name."\n"; 
         }
 
-        return view('bel',['frl' => $frl, 'rank' => $rank, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf, 'leaderboard' => $leaderboard]);
+        return view('bel',['frl' => $frl, 'rank' => $rank, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf, 'ind' => $ind,'leaderboard' => $leaderboard]);
 
         
 

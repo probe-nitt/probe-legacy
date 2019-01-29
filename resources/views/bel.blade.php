@@ -47,10 +47,10 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                
+                                $ind = 0;
                                 @foreach ($leaderboard as $key => $leaderboard_row)
                                 <tr>
-                                    <td>1</td>
+                                    <td>{{$ind=$ind+1}}</td>
                                     <td>{{nl2br($leaderboard_row)}}</td>
                                     <td>{{$key}}</td>
                                 </tr>
