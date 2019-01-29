@@ -729,7 +729,7 @@ class UserController extends Controller
                                 ->select(['users.id','users.name','bullseye_users.cl'])
                                 ->orderBy('bullseye_users.updated_at')
                                 ->orderBy('bullseye_users.created_at')
-                                ->limit(11)
+                                ->limit(10)
                                 ->get();
 
         $rank = null;
@@ -749,7 +749,7 @@ class UserController extends Controller
                 if($user->id == $id){
                     $rank = $count;
                     $userdetail = $user;
-                    if($count>11){
+                    if($count>10){
                         $uf=1;
                     }
                     break;
@@ -763,10 +763,10 @@ class UserController extends Controller
         $ind = -1;
         $level = 1;
 
-        $leaderboard = [];
+        $leaderboard = array();
 
         foreach ($frl as $index => $userdetail) {
-            //$leaderboard[$userdetail->cl] = (isset($leaderboard[$userdetail->cl])==true?$leaderboard[$userdetail->cl]:'') + $userdetail->name + ','; 
+            $leaderboard[$userdetail->cl] = (isset($leaderboard[$userdetail->cl])==true?$leaderboard[$userdetail->cl]:'') + $userdetail->name + ','; 
         }
 
         return view('bel',['frl' => $frl, 'rank' => $rank, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf, 'leaderboard_row' => $leaderboard_row, 'cl' => $cl, 'level' => $level, 'leaderboard' => $leaderboard]);
