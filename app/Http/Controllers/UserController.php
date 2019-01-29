@@ -483,7 +483,7 @@ class UserController extends Controller
         }
 
         $lid = Users::orderBy('created_at', 'desc')->first()->id;
-        
+
         //$p1 = (int)ltrim($p1,"PROBE19");
         $p1 = (int)explode('PROBE19',$p1)[1];
         if($p1>$lid){
@@ -729,7 +729,7 @@ class UserController extends Controller
                                 ->select(['users.id','users.name','bullseye_users.cl'])
                                 ->orderBy('bullseye_users.updated_at')
                                 ->orderBy('bullseye_users.created_at')
-                                ->limit(10)
+                                ->limit(11)
                                 ->get();
 
         $rank = null;
@@ -749,7 +749,7 @@ class UserController extends Controller
                 if($user->id == $id){
                     $rank = $count;
                     $userdetail = $user;
-                    if($count>10){
+                    if($count>11){
                         $uf=1;
                     }
                     break;

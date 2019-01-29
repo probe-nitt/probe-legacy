@@ -47,12 +47,29 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                $leaderboard_row = '';
+                                $cl = 0;
+                                $level = 1;
+
                                 @foreach ($frl as $index => $userdetail)
+                                @if($cl < $userdetail->cl)
+                                @if($leaderboard_row != '')
                                 <tr @if($userdetail->id==$user->id) style="color:yellow;" @endif>
-                                    <td>{{$index+1}}</td>
+                                    
                                     <td>{{$userdetail->name}}</td>
                                     <td>{{$userdetail->cl}}</td>
                                 </tr>
+                                @endif
+                                $leaderboard_row = '';
+                                $cl = $userdetail->cl;
+                                @else if($cl == $userdetail->cl)
+                                $leaderboard_row += $userdetail->cl+'/';
+                                @endif
+                                <!--tr @if($userdetail->id==$user->id) style="color:yellow;" @endif>
+                                    <td>{{$index+1}}</td>
+                                    <td>{{$userdetail->name}}</td>
+                                    <td>{{$userdetail->cl}}</td>
+                                </tr-->
                                 @endforeach
                                 @if($uf)
                                 <tr style="color:yellow;">
@@ -88,6 +105,8 @@
                                 </tr> -->
                             </tbody>
                         </table>
+
+                        <p>Further updates regarding cash prizes will be notified via registered email.</p>
 
 					</div>
 				</div>
