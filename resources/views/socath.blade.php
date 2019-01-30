@@ -56,7 +56,7 @@
 											<span class="button primary fit disabled">Registered</span>
                                             @endif
 											<br/><br/>-->
-											<span class="button primary fit disabled">Registration closed</span>
+											<span style="font-size: 85%" class="button primary fit disabled">Registration closed. No onspot registration</span>
 											<br/><br/>
 											<a href='/events/makeathon' class="button primary fit">Register for Makeathon here</a>
 											<br/><br/>

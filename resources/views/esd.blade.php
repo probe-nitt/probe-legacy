@@ -46,7 +46,8 @@
 									<section id="sidebar">
                                         <section>
 											@if($regbool==0)
-											<a href="/workshops/register?workshop=Embedded%20System%20Design%20using%20CC3200%20-%20IoT" class="button primary fit">Register</a>
+											<!--a href="/workshops/register?workshop=Embedded%20System%20Design%20using%20CC3200%20-%20IoT" class="button primary fit">Register</a-->
+											<span style="font-size: 85%" class="button primary fit disabled">Registration closed. No onspot registration</span>
                                             @endif
                                             @if($regbool==1 && $ispaid==0)
 											<a href="/workshops/register?workshop=Embedded%20System%20Design%20using%20CC3200%20-%20IoT" class="button primary fit">Pay and Complete registration</a>
