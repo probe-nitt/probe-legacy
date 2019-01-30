@@ -112,7 +112,7 @@
                                     <br/>Learn the Graphical System Design and it's benefits based on hardware interfacing techniques on a Virtual Interface Platform.
                                     </p>
 
-                                    <p>No laptop is required.</p>
+                                    <p>Participants should bring their own laptop.</p>
                                     
                                     <h3>Course content :</h3>
 
@@ -127,7 +127,7 @@
                                         <br/>8. Hands on exercises on LabVIEW interfaced kits with hardware sensors.
                                     </p>
 
-                                    <p>Key takeaways are in the form of software, materials(soft copy)</p>
+                                    <!--p>Key takeaways are in the form of software, materials(soft copy)</p-->
                                     <p>Certificate from Probe and company will be provided immediately after completion of your workshop.</p>
 
                                     <h3>FAQ:</h3>
