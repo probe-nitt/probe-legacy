@@ -18,7 +18,7 @@
                             <li><a href="/workshops">Workshops</a></li>
 							<li><a href="/sponsors">Sponsors</a></li>
                             <li><a href="/contact">Contact us</a></li>
-                            <li><a href="#four">Tech Talks</a></li>
+                            <li><a href="/techtalk">Tech Talks</a></li>
 							@if ($name = session('name'))
 							<li>{{ $name }}</li>
 							<li><a href="/logout" class="button primary">Log out</a></li>

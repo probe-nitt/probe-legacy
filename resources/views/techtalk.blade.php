@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Events | PROBE 2019</title>
+		<title>TECH TALKS | PROBE 2019</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
@@ -37,50 +37,20 @@
                 <section id="four" class="wrapper style1 special fade-up">
                     <div class="container">
                         <header class="major">
-                            <h2>Workshops | PROBE 2019</h2>
+                            <h2>Tech Talks | PROBE 2019</h2>
                         </header>
                         <div class="box alt">
                             <div class="row gtr-uniform">
-                                <section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/socath">
+                                <section class="col-6 col-12-medium col-12-xsmall">
+                                    <!--a style="cursor: pointer;" href="/techtalk/qualcomm"-->
                                     <img src="/images/qualcommworkshoplogo.png" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Qualcomm : System on Chip on Atheros ath10k</h3>
+                                    <h3>Qualcomm : Wifi Technology</h3>
                                     </a>
                                 </section>
-                                <section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/ocr">
-                                    <img src="/images/w1.jpeg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Optical Character Recognition</h3>
-                                    </a>
-                                </section>
-                                <section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/probot">
-                                    <img src="/images/w2.jpg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Probot</h3>
-                                    </a>
-                                </section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/das">
-                                    <img src="/images/w3.jpeg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>National Instruments : Data Acquisition Systems using LabVIEW</h3>
-                                    </a>
-                                </section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/esd">
-                                    <img src="/images/w4.jpg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Texas Instruments : Embedded System Design using CC3200 - IoT</h3>
-                                    </a>
-                                </section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/psoc">
-                                    <img src="/images/w5.jpeg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Cypress Semiconductors : IoT Training using PSoC</h3>
-                                    </a>
-                                </section>
-                                <section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/adt">
-                                    <img src="/images/w7.jpg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Antenna Design and Testing</h3>
+                                <section class="col-6 col-12-medium col-12-xsmall">
+                                    <!--a style="cursor: pointer;" href="/techtalk/ssir"-->
+                                    <img src="/images/samsunglogo.png" style="cursor: pointer;" class="icon alt major">
+                                    <h3>Samsung : Tech talk</h3>
                                     </a>
                                 </section>
                                 <!--section class="col-12 col-12-medium col-12-xsmall">

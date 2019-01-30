@@ -43,6 +43,10 @@ Route::get('/contact', function () {
     return view('contacts');
 });
 
+Route::get('/techtalk', function () {
+    return view('techtalk');
+});
+
 Route::get('/sponsors', function () {
     return view('sponsors');
 });
