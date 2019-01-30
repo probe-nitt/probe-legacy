@@ -46,7 +46,8 @@
 									<section id="sidebar">
                                         <section>
 											@if($regbool==0)
-											<a href="/workshops/register?workshop=IoT%20Training%20using%20PSoC" class="button primary fit">Register</a>
+											<span class="button primary fit disabled">Registration closed</span>
+											<!--a href="/workshops/register?workshop=IoT%20Training%20using%20PSoC" class="button primary fit">Register</a-->
                                             @endif
                                             @if($regbool==1 && $ispaid==0)
 											<a href="/workshops/register?workshop=IoT%20Training%20using%20PSoC" class="button primary fit">Pay and Complete registration</a>

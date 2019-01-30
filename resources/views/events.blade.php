@@ -17,6 +17,7 @@
 						<ul>
                             <li><a href="/events">Events</a></li>
                             <li><a href="/workshops">Workshops</a></li>
+                            <li><a href="/techtalk">Tech Talks</a></li>
                             <li><a href="/sponsors">Sponsors</a></li>
                             <li><a href="/contact">Contact us</a></li>
 							@if ($name = session('name'))
