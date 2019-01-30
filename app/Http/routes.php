@@ -59,6 +59,14 @@ Route::get('/workshops', function () {
     return view('workshops');
 });
 
+Route::get('/techtalk/ssir', function () {
+    return view('samsungtt');
+});
+
+Route::get('/techtalk/qualcomm', function () {
+    return view('qualcommtt');
+});
+
 Route::get('/events/paper', function () {
     return view('paper');
 });

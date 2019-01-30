@@ -100,7 +100,7 @@
 						</header>
 						<p>The first step towards success is by learning from  the lives of stalwarts. Probe's series of tech talks features accomplished academic and industry personnel whose scintillating words are sure to inspire and uplift you!</p>
 						<ul class="actions">
-							<li><a href="#" class="button">Coming soon</a></li>
+							<li><a href="/techtalk" class="button">Learn more</a></li>
 						</ul>
 					</div>
 				</section>

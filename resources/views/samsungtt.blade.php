@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>TECH TALKS | PROBE 2019</title>
+		<title>Probot | PROBE 2019</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
@@ -34,32 +34,50 @@
 				</header>
 
 			<!-- Main -->
-                <section id="four" class="wrapper style1 special fade-up">
-                    <div class="container">
-                        <header class="major">
-                            <h2>Tech Talks | PROBE 2019</h2>
-                        </header>
-                        <div class="box alt">
-                            <div class="row gtr-uniform">
-                                <section class="col-6 col-12-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/techtalk/qualcomm">
-                                    <img src="/images/qualcommworkshoplogo.png" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Qualcomm : Wifi Technology</h3>
-                                    </a>
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2><b>Probot</b></h2>
+						</header>
+						<div class="row gtr-150">
+							<div class="col-4 col-12-medium">
+
+                                <!-- Sidebar -->
+                
+									<section id="sidebar">
+
+                                        <section>
+											<h3>Details</h3>
+											<ul>
+												<li>Date : 
+													<ul style="list-style-type:none">
+														<li><b>3rd February 2019, 5:30PM</b></li>
+													</ul>
+                                                </li>
+                                                <li>Venue : 
+													<ul style="list-style-type:none">
+														<li><b>A2 Hall</b></li>
+													</ul>
+                                                </li>
+                                                
+											</ul>
+										</section>
+
+									</section>
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+
+                            <!-- Content -->
+                                <section id="content">
+                                    <p>From huge computers with bulky 128 MB RAMs, to ubiquitous and sleek mobile phones that have memory sizes enough to hold several full-length movies at once, the last thirty years have seen exponential growth in this domain.</p>
+
+                                    <p>Probe in association with Samsung presents a Tech-Talk on the Evolution of Memory that examines the details behind this exceptional journey that has changed mankind's existence forever.</p>
+                                    
                                 </section>
-                                <section class="col-6 col-12-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/techtalk/ssir">
-                                    <img src="/images/samsunglogo.png" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Samsung : Evolution of memory</h3>
-                                    </a>
-                                </section>
-                                <!--section class="col-12 col-12-medium col-12-xsmall">
-                                    <h3 style="text-align:center;">More workshops coming soon</h3>
-                                </section-->
-                            </div>
-                        </div>
-                    </div>
-                </section>
+							</div>
+						</div>
+					</div>
+				</div>
 
 			<!-- Footer -->
 				<footer id="footer">
