@@ -51,7 +51,7 @@
 											<ul>
 												<li>Date : 
 													<ul style="list-style-type:none">
-														<li><b>3rd February 2019, 5:30PM</b></li>
+														<li><b>2nd February 2019, 5:30PM</b></li>
 													</ul>
                                                 </li>
                                                 <li>Venue : 
