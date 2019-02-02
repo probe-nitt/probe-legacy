@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Probot | PROBE 2019</title>
+		<title>Qualcomm Tech talk | PROBE 2019</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
@@ -51,12 +51,12 @@
 											<ul>
 												<li>Date : 
 													<ul style="list-style-type:none">
-														<li><2nd February 2019, 5:30PM</b></li>
+														<li>2nd February 2019, 5:30PM</b></li>
 													</ul>
                                                 </li>
                                                 <li>Venue : 
 													<ul style="list-style-type:none">
-														<li><b>A2 Hall</b></li>
+														<li><b>LH 109</b></li>
 													</ul>
                                                 </li>
                                                 
