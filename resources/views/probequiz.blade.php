@@ -84,7 +84,7 @@
                                     </ul>
                                     <h3>Registration</h3>
                                     <p>On spot registration</p>
-									<h4>Participation certificate for all the participants</h4>
+									<h4>Participation certificate for all the participants making to the finals.</h4>
                                 </section>
 							</div>
 						</div>

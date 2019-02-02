@@ -88,7 +88,7 @@
                                         <li>Use of electronic gadgets for help is strictly prohibited</li>
                                         <li>Quiz Master’s decision will be final</li>
                                     </ul>
-									<h4>Participation certificate for all the participants</h4>
+									<h4>Participation certificate for all the participants making to the finals.</h4>
                                 </section>
 							</div>
 						</div>
