@@ -300,21 +300,22 @@ class UserController extends Controller
         }
         */
 
+        /*
         if( ($p2!='' && !isset(explode('PROBE19',$p2)[1])) || ($p3!='' && !isset(explode('PROBE19',$p3)[1]))) {
             Session::flash('message', 'One or more of the provided Probe IDs are invalid');
             return redirect('/events/register/'.'?event='.$event); 
-        }
+        }*/
 
-        
+        /*
         if($event == "Qualcomm Makeathon") {
             /*if($p2 == '' || $p3 == '' || $p4 == '' || $p5 == '' || $p6 == ''){
                 Session::flash('message', 'One or more of the provided Probe IDs are missing');
                 return redirect('/events/register/'.'?event='.$event); 
-            }*//*else*/ if( !isset(explode('PROBE19',$p2)[1]) || !isset(explode('PROBE19',$p3)[1]) || !isset(explode('PROBE19',$p4)[1]) || !isset(explode('PROBE19',$p5)[1]) || !isset(explode('PROBE19',$p6)[1])) {
+            }*//*else if( !isset(explode('PROBE19',$p2)[1]) || !isset(explode('PROBE19',$p3)[1]) || !isset(explode('PROBE19',$p4)[1]) || !isset(explode('PROBE19',$p5)[1]) || !isset(explode('PROBE19',$p6)[1])) {
                 Session::flash('message', 'One or more of the provided Probe IDs are invalid');
                 return redirect('/events/register/'.'?event='.$event); 
             }
-        }
+        }*/
 		
 
         $lid = Users::orderBy('created_at', 'desc')->first()->id;
