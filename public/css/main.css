@@ -2244,6 +2244,73 @@ input, select, textarea {
 		bottom: 22px;
 		left:50%;
 	}
+	.login-page-container{
+	 /* margin: auto !important; */
+	 /* float:right; */
+	 margin-left: 30% !important;
+	}
+	@media  (max-width: 600px) {
+		.login-page-container{
+		 /* margin: auto !important; */
+		 /* float:right; */
+		 margin-left: 22% !important;
+		}
+
+}
+
+.registration-form-label{
+	color:#f44336;
+	font-size: 1.3rem;
+	/* font-weight: bold; */
+	font-family: 'Montserrat', sans-serif;
+	margin:0 0 0.5em 0;
+}
+.registration-form-label input{
+	border-radius: 50px;
+}
+.gender{
+	font-size: 2rem !important;
+}
+.registration-input{
+border-radius: 0 !important;
+border: 0 !important;
+border-bottom: 1px solid white !important;
+}
+
+select.minimal {
+	width: 30% !important;
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select.minimal:focus {
+  background-image:
+    linear-gradient(45deg, white 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, white 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: white;
+  outline: 0;
+}
 
 
 	input[type="text"],
@@ -2819,6 +2886,7 @@ input, select, textarea {
 			table.alt tfoot {
 				border-top: 0;
 			}
+
 
 /* Button */
 
