@@ -7,10 +7,12 @@
 <html>
 	<head>
 		<title>Registration | PROBE 2019</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -31,7 +33,7 @@
 							@if (!session('name'))
 							<li><a href="/login" class="button primary">Log in</a></li>
                         	@endif
-							
+
 						</ul>
 					</nav>
 				</header>
@@ -48,30 +50,40 @@
                         <form method="post" action="{{action('UserController@register')}} ">
                             <div class="row gtr-uniform gtr-50">
                                 <div class="col-12 col-12-xsmall">
-                                    <input type="text" name="name" id="name" value="" placeholder="Name" required />
+                                    <label class="registration-form-label">Name</label>
+                                    <input type="text" name="name" id="name" value=""  class="registration-input" required />
                                 </div>
                                 <div class="col-12 col-12-xsmall">
-                                    <input type="email" name="email" id="email" placeholder="Email" required />
+                                    <label class="registration-form-label">Email</label>
+                                    <input type="email" name="email" id="email"  class="registration-input" required />
                                 </div>
                                 <div class="col-12 col-12-xsmall">
-                                    <input type="password" name="password" id="password" value="" placeholder="Password" required/>
+                                  <label class="registration-form-label">Password</label>
+                                    <input type="password" name="password" id="password" value="" class="registration-input"  required/>
                                 </div>
-                                <span>Gender:</span>
-                                <div class="col-3 col-12-medium">
-                                    <input type="radio" id="male" name="gender" value="male" required>
-                                    <label for="male">Male</label>
-                                </div>
-                                <div class="col-3 col-12-medium">
-                                    <input type="radio" id="female" name="gender" value="female">
-                                    <label for="female">Female</label>
-                                </div>
-                                <div class="col-3 col-12-medium">
-                                    <input type="radio" id="other" name="gender" value="other">
-                                    <label for="other">Other</label>
-                                </div>
+
+                                  <div class="row">
+
+                                    <label class="registration-form-label col-12 ">Gender</label>
+                                    <div class="col-6 ">
+
+                                        <input type="radio" id="male" name="gender" value="male" required>
+                                        <label for="male" ><i class="fa fa-male gender"></i></label>
+
+                                    </div>
+                                    <div class="col-6" >
+
+                                        <input type="radio" id="female" name="gender" value="female">
+                                        <label for="female"><i class="fa fa-female gender"></i></label>
+
+                                    </div>
+                                  </div>
+
+
                                 <div class="col-12">
-                                    <select name="yos" id="yos" required>
-                                        <option value="" selected disabled hidden>- Year of Study -</option>
+                                  <label class="registration-form-label">Year of study</label>
+                                    <select name="yos" id="yos" class="registration-input minimal" required>
+
                                         <option value="1">1st year</option>
                                         <option value="2">2nd year</option>
                                         <option value="3">3rd year</option>
@@ -80,12 +92,15 @@
                                     </select>
                                 </div>
                                 <div class="col-12 col-12-xsmall">
-                                    <input type="text" name="dept" id="dept" value="" placeholder="Department" required/>
+                                  <label class="registration-form-label">Department</label>
+                                    <input type="text" name="dept" id="dept" value=""  class="registration-input" required/>
                                 </div>
                                 <div class="col-12 col-12-xsmall">
-                                    <input type="text" name="cn" id="cn" value="" placeholder="College Name" required/>
+                                  <label class="registration-form-label">College Name</label>
+                                    <input type="text" name="cn" id="cn" value=""  class="registration-input" required/>
                                 </div>
-                                <span>Is Accomodation needed?:</span>
+
+                                <label class="registration-form-label">Is Accomodation needed?:</label>
                                 <div class="col-3 col-12-medium">
                                     <input type="radio" id="yes" name="acco" value="1" required>
                                     <label for="yes">Yes</label>
@@ -95,9 +110,10 @@
                                     <label for="no">No</label>
                                 </div>
                                 <div class="col-12 col-12-xsmall">
-                                    <input type="tel" pattern='^\+?\d{0,13}' name="phoneno" id="phoneno" value="" placeholder="Phone number" required/>
+                                  <label class="registration-form-label">Phone number</label>
+                                    <input type="tel" pattern='^\+?\d{0,13}' class="registration-input" name="phoneno" id="phoneno" value="" required/>
                                 </div>
-            
+
                                 <div style="margin:auto" class="g-recaptcha" data-sitekey="6Lcc64gUAAAAAJz1vzmGRfscTPKk48wWvEpOlJYH" data-callback="callback"></div>
                                 <div class="col-12">
                                     <ul class="actions">
@@ -106,7 +122,7 @@
                                 </div>
                             </div>
                         </form>
-						
+
 					</div>
 				</div>
 
@@ -135,7 +151,7 @@
                         $("#submit").prop('disabled', false);
                     }
                 }
-            
+
 
             </script>
 	</body>

@@ -45,7 +45,7 @@
                             <p style="text-align: center;">{{ $message }}</p>
                         @endif
                         <form method="post" action="{{action('UserController@login')}}">
-                            <div class="row gtr-uniform gtr-50">
+                            <div class="row gtr-uniform gtr-50 login-page-container">
                                 <div class="col-12 col-12-xsmall">
 																	<!-- <label class="loginPage-label"  for="">Probe-ID</label> -->
                                     <input type="email" class="loginPage" name="email" id="email" placeholder="Probe ID" required />
@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="col-12">
                                     <ul class="actions">
-                                        <li style="margin:auto"><input id="submit" type="submit" value="Sign in" class="primary"/></li>
+                                        <li style="margin:auto;margin-left:20%; width:27%"><input id="submit" type="submit" value="Sign in" class="primary"/></li>
                                     </ul>
                                 </div>
                             </div>
