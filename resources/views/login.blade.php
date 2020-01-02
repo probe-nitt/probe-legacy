@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
+		<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
 
 
@@ -48,10 +49,12 @@
                             <div class="row gtr-uniform gtr-50 login-page-container">
                                 <div class="col-12 col-12-xsmall">
 																	<!-- <label class="loginPage-label"  for="">Probe-ID</label> -->
-                                    <input type="email" class="loginPage" name="email" id="email" placeholder="Probe ID" required />
+																	<label class="registration-form-label">Probe ID</label>
+                                    <input type="email" class="loginPage" name="email" id="email" required />
                                 </div>
                                 <div class="col-12 col-12-xsmall">
-                                    <input type="password" class="loginPage loginPage-password"  name="password" id="password" value="" placeholder="Password" required/>
+																	<label class="registration-form-label">Password</label>
+                                    <input type="password" class="loginPage loginPage-password"  name="password" id="password" value="" required/>
 																		  <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                                 </div>
                                 <div class="col-12">

@@ -2220,7 +2220,7 @@ input, select, textarea {
 		/* font-size: 1.3em; */
 		border-radius: 0 !important;
     border: solid 0px rgba(255, 255, 255, 0.3) !important;
-    border-bottom: solid 2px #f44336 !important;
+    border-bottom: solid 1px white !important;
 		width: 55% !important ;
 	}
 	.loginPage::placeholder{
@@ -2262,7 +2262,7 @@ input, select, textarea {
 	color:#f44336;
 	font-size: 1.3rem;
 	/* font-weight: bold; */
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Acme', sans-serif;
 	margin:0 0 0.5em 0;
 }
 .registration-form-label input{

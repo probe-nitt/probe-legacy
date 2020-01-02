@@ -9,6 +9,7 @@
 		<title>Registration | PROBE 2019</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
 		<meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
@@ -62,22 +63,22 @@
                                     <input type="password" name="password" id="password" value="" class="registration-input"  required/>
                                 </div>
 
-                                  <div class="row">
 
-                                    <label class="registration-form-label col-12 ">Gender</label>
-                                    <div class="col-6 ">
+
+                                    <label class="registration-form-label " style="position:relative;right:8px;"  >Gender</label>
+                                    <div class="col-4 ">
 
                                         <input type="radio" id="male" name="gender" value="male" required>
-                                        <label for="male" ><i class="fa fa-male gender"></i></label>
+                                        <label for="male" >Male</label>
 
                                     </div>
-                                    <div class="col-6" >
+                                    <div class="col-4" >
 
                                         <input type="radio" id="female" name="gender" value="female">
-                                        <label for="female"><i class="fa fa-female gender"></i></label>
+                                        <label for="female">Female</label>
 
                                     </div>
-                                  </div>
+
 
 
                                 <div class="col-12">
@@ -100,14 +101,14 @@
                                     <input type="text" name="cn" id="cn" value=""  class="registration-input" required/>
                                 </div>
 
-                                <label class="registration-form-label">Is Accomodation needed?:</label>
-                                <div class="col-3 col-12-medium">
-                                    <input type="radio" id="yes" name="acco" value="1" required>
-                                    <label for="yes">Yes</label>
-                                </div>
-                                <div class="col-3 col-12-medium">
-                                    <input type="radio" id="no" name="acco" value="0">
-                                    <label for="no">No</label>
+                                <div class="col-12">
+                                  <label class="registration-form-label">Is accomodation needed?</label>
+                                    <select name="acco" id="yos" class="registration-input minimal" required>
+
+                                        <option value="1">Yes</option>
+                                        <option value="0">No</option>
+
+                                    </select>
                                 </div>
                                 <div class="col-12 col-12-xsmall">
                                   <label class="registration-form-label">Phone number</label>
