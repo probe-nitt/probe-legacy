@@ -52,7 +52,7 @@ Route::get('/sponsors', function () {
 });
 
 Route::get('/events', function () {
-    return view('events');
+    return view('event');
 });
 
 Route::get('/workshops', function () {
