@@ -39,81 +39,66 @@
             <header class="major">
 							<h2><b>Event registration</b></h2>
             </header>
-						<ul id="hexGrid">
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="#">
-										<img src="" alt="Event1" />
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="#">
-										<img src="" alt="Event1" />
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="#">
-										<img src="" alt="Event1" />
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="#">
-										<img src="" alt="Event1" />
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="#">
-										<img src="" alt="Event1" />
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="#">
-										<img src="" alt="Event1" />
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="#">
-										<img src="" alt="Event1" />
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="#">
-										<img src="" alt="Event1" />
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
-									</a>
-								</div>
-							</li>
-						</ul>
-          </div>
+						<div id="lab">
+
+
+						<article>
+
+        <div class="lab_item">
+        <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color: red;">
+									<h1>HELLO</h1>
+                </div>
+             </div>
+         </div>
+         </div>
+          <div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color: red;">
+                </div>
+             </div>
+         </div>
+         </div>
+ <div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color: red;">
+                </div>
+             </div>
+         </div>
+         </div>
+ <div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color: red;">
+                </div>
+             </div>
+         </div>
+         </div>
+              <div class="lab_item">
+        <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color: red;">
+                </div>
+             </div>
+         </div>
+         </div>
+          <div class="lab_item">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+                <div class="hexagon-in2" style="background-color: red;">
+                </div>
+             </div>
+         </div>
+         </div>
+
+
+
+
+	</article>
+</div>
         </div>
 
       <!-- Footer -->
