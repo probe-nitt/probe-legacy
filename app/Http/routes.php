@@ -17,7 +17,7 @@ use App\Models\Workshops;
 use App\Models\Events;
 
 Route::group(['middleware' => 'checkSession'], function() {
-    
+
     Route::get('/payments/processing', function () {
         return view('payments');
     });
@@ -52,7 +52,7 @@ Route::get('/sponsors', function () {
 });
 
 Route::get('/events', function () {
-    return view('events');
+    return view('event');
 });
 
 Route::get('/workshops', function () {
@@ -96,7 +96,7 @@ Route::get('/events/bullseye', function () {
                                         ->orwhere('participant3',$uid);
                                 })->first();
 
-    
+
     $regbool = 0;
 
     if($isregistered){
@@ -134,7 +134,7 @@ Route::get('/events/embedtronix', function () {
                                         ->orwhere('participant3',$uid);
                                 })->first();
 
-    
+
     $regbool = 0;
 
     if($isregistered){
@@ -170,7 +170,7 @@ Route::get('/events/matrix', function () {
                                         ->orwhere('participant3',$uid);
                                 })->first();
 
-    
+
     $regbool = 0;
 
     if($isregistered){
@@ -204,7 +204,7 @@ Route::get('/events/ideathon', function () {
                                         ->orwhere('participant3',$uid);
                                 })->first();
 
-    
+
     $regbool = 0;
 
     if($isregistered){
@@ -306,7 +306,7 @@ Route::get('/workshops/ocr', function () {
                                         ->orwhere('participant3',$uid);
                                 })->first();
 
-    
+
     $ispaid1 = 0;
     $regbool1 = 0;
 
@@ -369,7 +369,7 @@ Route::get('/workshops/das', function () {
                                         ->orwhere('participant3',$uid);
                                 })->first();
 
-    
+
     $ispaid1 = 0;
     $regbool1 = 0;
 
@@ -421,7 +421,7 @@ Route::get('/workshops/probot', function () {
                                 })->first();
 
 
-    
+
     $ispaid = 0;
     $regbool = 0;;
 
@@ -463,7 +463,7 @@ Route::get('/workshops/esd', function () {
                                 })->first();
 
 
-    
+
     $ispaid = 0;
     $regbool = 0;;
 
@@ -504,7 +504,7 @@ Route::get('/workshops/psoc', function () {
                                 })->first();
 
 
-    
+
     $ispaid = 0;
     $regbool = 0;;
 
@@ -545,7 +545,7 @@ Route::get('/workshops/socath', function () {
                                 })->first();
 
 
-    
+
     $ispaid = 0;
     $regbool = 0;;
 
@@ -586,7 +586,7 @@ Route::get('/workshops/adt', function () {
                                 })->first();
 
 
-    
+
     $ispaid = 0;
     $regbool = 0;;
 

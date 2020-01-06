@@ -234,6 +234,9 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+	.major-h2{
+		margin:0 0 -1px 0;
+	}
 
 /* Loader */
 
@@ -2186,7 +2189,7 @@ input, select, textarea {
 			content: '';
 			display: inline-block;
 			height: 0.2em;
-			max-width: 20em;
+			max-width: 200em;
 			width: 75%;
 		}
 
@@ -2213,6 +2216,102 @@ input, select, textarea {
 		font-weight: 300;
 		margin: 0 0 1em 0;
 	}
+	.loginPage{
+		/* font-size: 1.3em; */
+		border-radius: 0 !important;
+    border: solid 0px rgba(255, 255, 255, 0.3) !important;
+    border-bottom: solid 1px white !important;
+		width: 55% !important ;
+	}
+	.loginPage::placeholder{
+		color: rgba(255, 255, 255, 1);
+		font-size: 1.3em;
+		  font-weight: bold;
+	}
+	/* .loginPage-label{
+		position: absolute;
+		font-size: 1rem;
+		margin-left: 20px;
+
+	} */
+	.field-icon {
+	  float: left;
+	  /* margin-left: -25px; */
+	  margin-top: -25px;
+	  position: relative;
+	  z-index: 2;
+		font-size: 1.7rem;
+		bottom: 22px;
+		left:50%;
+	}
+	.login-page-container{
+	 /* margin: auto !important; */
+	 /* float:right; */
+	 margin-left: 30% !important;
+	}
+	@media  (max-width: 600px) {
+		.login-page-container{
+		 /* margin: auto !important; */
+		 /* float:right; */
+		 margin-left: 22% !important;
+		}
+
+}
+
+.registration-form-label{
+	color:#f44336;
+	font-size: 1.3rem;
+	/* font-weight: bold; */
+	font-family: 'Acme', sans-serif;
+	margin:0 0 0.5em 0;
+}
+.registration-form-label input{
+	border-radius: 50px;
+}
+.gender{
+	font-size: 2rem !important;
+}
+.registration-input{
+border-radius: 0 !important;
+border: 0 !important;
+border-bottom: 1px solid white !important;
+}
+
+select.minimal {
+	width: 30% !important;
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select.minimal:focus {
+  background-image:
+    linear-gradient(45deg, white 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, white 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: white;
+  outline: 0;
+}
+
 
 	input[type="text"],
 	input[type="tel"],
@@ -2238,6 +2337,7 @@ input, select, textarea {
 		text-decoration: none;
 		width: 100%;
 	}
+
 
 		input[type="text"]:invalid,
 		input[type="tel"]:invalid,
@@ -2499,7 +2599,7 @@ input, select, textarea {
 		}
 
 		.image img {
-			
+
 			display: block;
 		}
 
@@ -2786,6 +2886,7 @@ input, select, textarea {
 			table.alt tfoot {
 				border-top: 0;
 			}
+
 
 /* Button */
 
@@ -3495,7 +3596,7 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: fixed;
-		
+
 		background-image: url("/images/bg1_q.png");
 		background-position: center center;
 		background-size: cover;
@@ -3526,7 +3627,7 @@ input, select, textarea {
 			width: 1%;
 		}
 
-		
+
 
 		#banner .content {
 			display: inline-block;

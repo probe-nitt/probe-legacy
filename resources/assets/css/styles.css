@@ -1,0 +1,8 @@
+header.major:after {
+  background: #f44336;
+  content: '';
+  display: inline-block;
+  height: 0.2em;
+  max-width: 200em;
+  width: 75%;
+}

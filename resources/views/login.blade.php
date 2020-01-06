@@ -5,7 +5,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
+		<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
+
+
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -26,7 +29,7 @@
 							@if (!session('name'))
 							<li><a href="/register" class="button primary">Register</a></li>
                         	@endif
-							
+
 						</ul>
 					</nav>
 				</header>
@@ -35,27 +38,33 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2><b>LOGIN</b></h2>
+							<h2 class="major-h2"><b>SIGN IN</b></h2>
+
                         </header>
+
                         @if ($message = session('message'))
                             <p style="text-align: center;">{{ $message }}</p>
                         @endif
                         <form method="post" action="{{action('UserController@login')}}">
-                            <div class="row gtr-uniform gtr-50">
+                            <div class="row gtr-uniform gtr-50 login-page-container">
                                 <div class="col-12 col-12-xsmall">
-                                    <input type="email" name="email" id="email" placeholder="Email" required />
+																	<!-- <label class="loginPage-label"  for="">Probe-ID</label> -->
+																	<label class="registration-form-label">Probe ID</label>
+                                    <input type="email" class="loginPage" name="email" id="email" required />
                                 </div>
                                 <div class="col-12 col-12-xsmall">
-                                    <input type="password" name="password" id="password" value="" placeholder="Password" required/>
+																	<label class="registration-form-label">Password</label>
+                                    <input type="password" class="loginPage loginPage-password"  name="password" id="password" value="" required/>
+																		  <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                                 </div>
                                 <div class="col-12">
                                     <ul class="actions">
-                                        <li style="margin:auto"><input id="submit" type="submit" value="LOGIN" class="primary"/></li>
+                                        <li style="margin:auto;margin-left:20%; width:27%"><input id="submit" type="submit" value="Sign in" class="primary"/></li>
                                     </ul>
                                 </div>
                             </div>
                         </form>
-						
+
 					</div>
 				</div>
 
