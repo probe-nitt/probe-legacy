@@ -95,11 +95,12 @@
           transform:translate3d(0,100%,0);
 }
 .hexagon-content{
-  font-size: 1.5em;
+  font-size: 1.6em;
+  font-weight: bold;
   margin: auto;
   position:absolute;
   left:30px;
-  top:33%;
+  top:45%;
   width:72%;
 
 }
