@@ -631,33 +631,33 @@
 	// Nav.
 
 		// Title Bar.
-			$(
-				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title title2020">' + $('#logo2020').html() + '</span>' +
-				'</div>'
-			)
-				.appendTo($body);
+			// $(
+			// 	'<div id="titleBar">' +
+			// 		'<a href="#navPanel" class="toggle"></a>' +
+			// 		'<span class="title title2020">' + $('#logo2020').html() + '</span>' +
+			// 	'</div>'
+			// )
+			// 	.appendTo($body);
 
 		// Panel.
-			$(
-				'<div id="navPanel">' +
-					'<nav>' +
-						$('.nav2020').navList() +
-					'</nav>' +
-				'</div>'
-			)
-				.appendTo($body)
-				.panel({
-					delay: 500,
-					hideOnClick: true,
-					hideOnSwipe: true,
-					resetScroll: true,
-					resetForms: true,
-					side: 'left',
-					target: $body,
-					visibleClass: 'navPanel-visible'
-				});
+			// $(
+			// 	'<div id="navPanel">' +
+			// 		'<nav>' +
+			// 			$('.nav2020').navList() +
+			// 		'</nav>' +
+			// 	'</div>'
+			// )
+			// 	.appendTo($body)
+			// 	.panel({
+			// 		delay: 500,
+			// 		hideOnClick: true,
+			// 		hideOnSwipe: true,
+			// 		resetScroll: true,
+			// 		resetForms: true,
+			// 		side: 'left',
+			// 		target: $body,
+			// 		visibleClass: 'navPanel-visible'
+			// 	});
 
 	// Parallax.
 	// Disabled on IE (choppy scrolling) and mobile platforms (poor performance).
@@ -837,7 +837,7 @@
 
 })(jQuery);
 
-let navLinks = $('.header2020 nav ul li a');
+let navLinks = $('.header2020-landing nav ul li a');
 for (let i=0; i<navLinks.length; i++) {
     $(navLinks[i]).css('animation-delay', `${2 + i*0.2}s`)
 }
