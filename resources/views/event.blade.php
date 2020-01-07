@@ -44,6 +44,11 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
+										<div class="hexagon-content">
+              
+												Hello World
+
+										</div>
 										<h1>Event</h1>
 										<p>Event desc and other stuff</p>
 									</a>
@@ -53,6 +58,11 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
+										<div class="hexagon-content">
+											   <!-- <h1>Hello</h1> -->
+
+
+										</div>
 										<h1>Event</h1>
 										<p>Event desc and other stuff</p>
 									</a>
