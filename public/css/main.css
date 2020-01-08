@@ -3441,6 +3441,7 @@ select.minimal:focus {
 
 	#page-wrapper {
 		padding-top: 3.5em;
+		background-image: radial-gradient(#1c0b27, #100e34);
 	}
 
 	#header {
@@ -3480,7 +3481,7 @@ select.minimal:focus {
 			opacity: 1;
 			top: 0;
 		}
-	} 
+	}
 
 	.header2020-landing::after {
 		content: "";
@@ -3552,7 +3553,7 @@ select.minimal:focus {
 						line-height: inherit;
 						outline: 0;
 					}
-					
+
 					.header2020-landing nav ul li a, .header2020-landing nav ul li span {
 						font-size: 18px;
 						text-transform: uppercase;
@@ -3590,15 +3591,15 @@ select.minimal:focus {
 
 					#header nav ul li > ul {
 						display: none;
-					} 
+					}
 
-				
+
 					.header2020 {
 						display: flex;
 						justify-content: space-evenly;
 						margin-top: 15px;
 					}
-				
+
 					@keyframes grow {
 						from {
 							width: 0%;
@@ -3607,7 +3608,7 @@ select.minimal:focus {
 							width: 80%;
 						}
 					}
-				
+
 					@keyframes descend {
 						from {
 							opacity: 0;
@@ -3617,7 +3618,7 @@ select.minimal:focus {
 							opacity: 1;
 							top: 0;
 						}
-					} 
+					}
 
 					.header2020::after {
 						content: "";
@@ -3627,20 +3628,20 @@ select.minimal:focus {
 						position: absolute;
 						top: 100px;
 					}
-				
-				
+
+
 						.header2020 h1 {
 							position: static!important;
 						}
-				
-				
+
+
 						.header2020 nav {
 							position: static!important;
 						}
-				
-				
-				
-				
+
+
+
+
 								.header2020 #logo2020 a img {
 									width: 70px;
 									/* animation: descend 2s ease-in-out;
@@ -3650,7 +3651,7 @@ select.minimal:focus {
 									/* opacity: 0; */
 								}
 
-									
+
 									.header2020 nav ul li a, .header2020 nav ul li span {
 										font-size: 18px;
 										text-transform: uppercase;
@@ -3659,18 +3660,18 @@ select.minimal:focus {
 										position: relative;
 										/* opacity: 0; */
 									}
-				
-				
+
+
 										.header2020 nav ul li a img {
 											width: 32px;
 											vertical-align: middle;
 											transition: 0.3s;
 										}
-				
+
 										.header2020 nav ul li a img:hover {
 											transform: scale(1.1);
 										}
-				
+
 
 	body.landing #page-wrapper {
 		padding-top: 0;
@@ -3698,7 +3699,7 @@ select.minimal:focus {
 	}
 
 	#banner2020 {
-		background-color: #180D2C;
+		/* background-color: #180D2C; */
 		background-image: url('../images/PROBE.png');
 		height: 100vh;
 		position: relative;
@@ -3846,7 +3847,7 @@ select.minimal:focus {
 		.header2020 nav ul li {
 			margin-left: 5px!important;
 		}
-		
+
 			.header2020 nav ul li a {
 				font-size: 16px;
 			}
@@ -3910,7 +3911,7 @@ select.minimal:focus {
 			.header2020 nav ul li a {
 				font-size: 14px;
 			}
-			
+
 			.header2020 nav ul li a img {
 				width: 28px;
 			}
