@@ -630,7 +630,7 @@
 
 	// Nav.
 
-		// Title Bar.
+		//Title Bar.
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
@@ -639,7 +639,7 @@
 			)
 				.appendTo($body);
 
-		// Panel.
+		//Panel.
 			$(
 				'<div id="navPanel">' +
 					'<nav>' +
@@ -837,7 +837,7 @@
 
 })(jQuery);
 
-let navLinks = $('.header2020 nav ul li a');
+let navLinks = $('.header2020-landing nav ul li a');
 for (let i=0; i<navLinks.length; i++) {
     $(navLinks[i]).css('animation-delay', `${2 + i*0.2}s`)
 }

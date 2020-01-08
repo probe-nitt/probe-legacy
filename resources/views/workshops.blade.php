@@ -1,113 +1,147 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Events | PROBE 2019</title>
+		<title>Workshops Registration | PROBE 2020</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
+		<link rel="stylesheet" href="{{ asset('css/hexagon.css') }}"  />
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-                    <h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
-					<nav id="nav">
+            <header id="header" class="header2020">
+					<nav class="nav2020">
 						<ul>
+							<li><a href="/">Home</a></li>
+							<li><a href="/workshops">Workshops</a></li>
                             <li><a href="/events">Events</a></li>
-                            <li><a href="/workshops">Workshops</a></li>
-                            <li><a href="/techtalk">Tech Talks</a></li>
+							<li><a href="/about" class="scrolly">About us</a></li>
+                            <li><a href="/contact">Contact us</a></li>							
+						</ul>
+					</nav>
+					<h1 id="logo2020"><a href="/"><img src="/images/probe_p.png"></a></h1>
+					<nav class="nav2020">
+						<ul>
+							<li><a href="/register"><img src="/images/facebook.svg" alt="facebook"></a></li>
+							<li><a href="/register"><img src="/images/instagram.png" alt="instagram"></a></li>
+							<li><a href="/register"><img src="/images/linkedin.svg" alt="linkedin"></a></li>
 							<li><a href="/sponsors">Sponsors</a></li>
-                            <li><a href="/contact">Contact us</a></li>
 							@if ($name = session('name'))
 							<li>{{ $name }}</li>
 							<li><a href="/logout" class="button primary">Log out</a></li>
                         	@endif
 							@if (!session('name'))
-							<li><a href="/register" class="button primary">Register</a></li>
-							<li><a href="/login" class="button primary">Log in</a></li>
+							<li><a href="/register">Sign up</a></li>
+							<li><a href="/login">Log in</a></li>
                         	@endif
-							
 						</ul>
 					</nav>
 				</header>
 
 			<!-- Main -->
-                <section id="four" class="wrapper style1 special fade-up">
-                    <div class="container">
-                        <header class="major">
-                            <h2>Workshops | PROBE 2019</h2>
-                        </header>
-                        <div class="box alt">
-                            <div class="row gtr-uniform">
-                                <section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/socath">
-                                    <img src="/images/qualcommworkshoplogo.png" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Qualcomm : System on Chip on Atheros ath10k</h3>
-                                    </a>
-                                </section>
-                                <section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/ocr">
-                                    <img src="/images/w1.jpeg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Optical Character Recognition</h3>
-                                    </a>
-                                </section>
-                                <section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/probot">
-                                    <img src="/images/w2.jpg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Probot</h3>
-                                    </a>
-                                </section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/das">
-                                    <img src="/images/w3.jpeg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>National Instruments : Data Acquisition Systems using LabVIEW</h3>
-                                    </a>
-                                </section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/esd">
-                                    <img src="/images/w4.jpg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Texas Instruments : Embedded System Design using CC3200 - IoT</h3>
-                                    </a>
-                                </section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/psoc">
-                                    <img src="/images/w5.jpeg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Cypress Semiconductors : IoT Training using PSoC</h3>
-                                    </a>
-                                </section>
-                                <section class="col-4 col-6-medium col-12-xsmall">
-                                    <a style="cursor: pointer;" href="/workshops/adt">
-                                    <img src="/images/w7.jpg" style="cursor: pointer;" class="icon alt major">
-                                    <h3>Antenna Design and Testing</h3>
-                                    </a>
-                                </section>
-                                <!--section class="col-12 col-12-medium col-12-xsmall">
-                                    <h3 style="text-align:center;">More workshops coming soon</h3>
-                                </section-->
-                            </div>
-                        </div>
-                    </div>
-                </section>
+				<div id="main" class="wrapper style1">
+					<div class="container">
+            <header class="major">
+							<h2><b>Workshop registration</b></h2>
+            </header>
+						<ul id="hexGrid">
+                        <li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="#" style="background-color:blue;">
+										<!-- <img src="" alt="Event1" /> -->
+										<div class="hexagon-content">
+											   <!-- <h1>Hello</h1> -->
 
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
-					</ul>
-				</footer>
 
-		</div>
+										</div>
+										<h1>Event</h1>
+										<p>Event desc and other stuff</p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="#" style="background-color:blue;">
+										<!-- <img src="" alt="Event1" /> -->
+										<div class="hexagon-content">
+											   <!-- <h1>Hello</h1> -->
 
-		<!-- Scripts -->
-			<script src="{{ asset('js/jquery.min.js') }}"></script>
-			<script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
-			<script src="{{ asset('js/jquery.dropotron.min.js') }}"></script>
-			<script src="{{ asset('js/jquery.scrollex.min.js') }}"></script>
-			<script src="{{ asset('js/browser.min.js') }}"></script>
-			<script src="{{ asset('js/breakpoints.min.js') }}"></script>
-			<script src="{{ asset('js/util.js') }}"></script>
-			<script src="{{ asset('js/main.js') }}"></script>
-	</body>
+
+										</div>
+										<h1>Event</h1>
+										<p>Event desc and other stuff</p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="#" style="background-color:blue;">
+										<!-- <img src="" alt="Event1" /> -->
+										<h1>Event</h1>
+										<p>Event desc and other stuff</p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="#" style="background-color:blue;">
+										<!-- <img src="" alt="Event1" /> -->
+										<h1>Event</h1>
+										<p>Event desc and other stuff</p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="#" style="background-color:blue;">
+										<!-- <img src="" alt="Event1" /> -->
+										<h1>Event</h1>
+										<p>Event desc and other stuff</p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="#" style="background-color:blue;">
+										<!-- <img src="" alt="Event1" /> -->
+										<h1>Event</h1>
+										<p>Event desc and other stuff</p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="#" style="background-color:blue;">
+										<!-- <img src="" alt="Event1" /> -->
+										<h1>Event</h1>
+										<p>Event desc and other stuff</p>
+									</a>
+								</div>
+							</li>
+						
+						</ul>
+        </div>
+
+      <!-- Footer
+        <footer style="margin-bottom:0" id="footer">
+          <ul class="copyright">
+            <li>&copy; PROBE 2019. All rights reserved.</li>
+          </ul>
+        </footer> -->
+
+    </div>
+
+        <!-- Scripts -->
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.dropotron.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.scrollex.min.js') }}"></script>
+    <script src="{{ asset('js/browser.min.js') }}"></script>
+    <script src="{{ asset('js/breakpoints.min.js') }}"></script>
+    <script src="{{ asset('js/util.js') }}"></script>
+    <script src="{{ asset('js/main2020.js') }}"></script>
+  </body>
 </html>

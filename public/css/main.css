@@ -133,7 +133,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5, h6, p {
 		color: #ffffff;
 		font-weight: 300;
 		line-height: 1em;
@@ -3444,8 +3444,8 @@ select.minimal:focus {
 	}
 
 	#header {
-		background: rgba(39, 40, 51, 0.965);
-		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+		/* background: rgba(39, 40, 51, 0.965);
+		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25); */
 		cursor: default;
 		height: 3.5em;
 		left: 0;
@@ -3456,7 +3456,7 @@ select.minimal:focus {
 		z-index: 100;
 	}
 
-	.header2020 {
+	.header2020-landing {
 		display: flex;
 		justify-content: space-evenly;
 		margin-top: 15px;
@@ -3482,7 +3482,7 @@ select.minimal:focus {
 		}
 	} 
 
-	.header2020::after {
+	.header2020-landing::after {
 		content: "";
 		width: 0%;
 		height: 3px;
@@ -3502,7 +3502,7 @@ select.minimal:focus {
 			top: 0;
 		}
 
-		.header2020 h1 {
+		.header2020-landing h1 {
 			position: static!important;
 		}
 
@@ -3512,7 +3512,7 @@ select.minimal:focus {
 			top: 0;
 		}
 
-		.header2020 nav {
+		.header2020-landing nav {
 			position: static!important;
 		}
 
@@ -3520,12 +3520,22 @@ select.minimal:focus {
 				margin: 0;
 			}
 
+			#header.header2020 nav:first-child ul {
+				margin: 0;
+				padding-left: 0;
+			}
+
+			#header.header2020 nav:last-of-type ul {
+				padding-left: 0;
+				padding-right: 2em;
+			}
+
 				#header nav ul li {
 					display: inline-block;
 					margin-left: 1em;
 				}
 
-				.header2020 #logo2020 a img {
+				.header2020-landing #logo2020 a img {
 					width: 70px;
 					animation: descend 2s ease-in-out;
 					animation-delay: 2s;
@@ -3543,7 +3553,7 @@ select.minimal:focus {
 						outline: 0;
 					}
 					
-					.header2020 nav ul li a, .header2020 nav ul li span {
+					.header2020-landing nav ul li a, .header2020-landing nav ul li span {
 						font-size: 18px;
 						text-transform: uppercase;
 						font-weight: bold;
@@ -3564,13 +3574,13 @@ select.minimal:focus {
 							margin-right: 0.5em;
 						}
 
-						.header2020 nav ul li a img {
+						.header2020-landing nav ul li a img {
 							width: 32px;
 							vertical-align: middle;
 							transition: 0.3s;
 						}
 
-						.header2020 nav ul li a img:hover {
+						.header2020-landing nav ul li a img:hover {
 							transform: scale(1.1);
 						}
 
@@ -3580,7 +3590,87 @@ select.minimal:focus {
 
 					#header nav ul li > ul {
 						display: none;
+					} 
+
+				
+					.header2020 {
+						display: flex;
+						justify-content: space-evenly;
+						margin-top: 15px;
 					}
+				
+					@keyframes grow {
+						from {
+							width: 0%;
+						}
+						to {
+							width: 80%;
+						}
+					}
+				
+					@keyframes descend {
+						from {
+							opacity: 0;
+							top: -100px;
+						}
+						to {
+							opacity: 1;
+							top: 0;
+						}
+					} 
+
+					.header2020::after {
+						content: "";
+						width: 80%;
+						height: 3px;
+						background-color: red;
+						position: absolute;
+						top: 100px;
+					}
+				
+				
+						.header2020 h1 {
+							position: static!important;
+						}
+				
+				
+						.header2020 nav {
+							position: static!important;
+						}
+				
+				
+				
+				
+								.header2020 #logo2020 a img {
+									width: 70px;
+									/* animation: descend 2s ease-in-out;
+									animation-delay: 2s;
+									animation-fill-mode: forwards; */
+									position: relative;
+									/* opacity: 0; */
+								}
+
+									
+									.header2020 nav ul li a, .header2020 nav ul li span {
+										font-size: 18px;
+										text-transform: uppercase;
+										font-weight: bold;
+										padding: 15px 0;
+										position: relative;
+										/* opacity: 0; */
+									}
+				
+				
+										.header2020 nav ul li a img {
+											width: 32px;
+											vertical-align: middle;
+											transition: 0.3s;
+										}
+				
+										.header2020 nav ul li a img:hover {
+											transform: scale(1.1);
+										}
+				
 
 	body.landing #page-wrapper {
 		padding-top: 0;
