@@ -45,7 +45,7 @@ background-image:url(../images/backract.png);overflow: hidden;">
     <!-- Main -->
     <div id="main" class="wrapper style1">
         <div class="container">
-            <header class="major" style="margin-top:30px">
+            <header class="major" style="margin-top: 65px;">
                 <h2><b>CONTACTS</b></h2>
             </header>
             @if ($message = session('message'))
