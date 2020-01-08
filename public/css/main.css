@@ -4379,3 +4379,64 @@ select.minimal:focus {
 					}
 
 	}
+
+ .about-us-text {
+	 text-align: center;
+	 font-size: 1.2rem;
+	 font-weight: bold;
+	 margin-bottom: 40px;
+ }
+
+
+ .about-us-container {
+   position: relative;
+   width: 100%;
+   padding-bottom: 100%;
+ }
+
+ .about-us-circle {
+   position: absolute;
+   width: 80%;
+   height: 80%;
+   /* background-color: #000000; */
+   border-radius: 50%;
+	  /* border-bottom-right-radius: 50%;*/
+		border: 3px solid white;
+		border-bottom-color: transparent;
+ border-left-color: transparent;
+ border-top-color: transparent;
+ transform: rotate(50deg);
+		/* float: right;
+    border-top: 0;
+		border-left: 0;  */
+
+	 /* border-top: 0;
+	 border-left: 0;
+	 border-radius: 0 0 50% 0;
+	 -moz-border-radius: 0 0 50% 0;
+	 -webkit-border-radius: 0 0 50% 0; */
+ }
+
+ .about-us-small-circle{
+   margin-top: 5%;
+   margin-left: 5%;
+   position: absolute;
+   width: 90%;
+   height: 90%;
+   /* background-color: #e5e5e5; */
+   border-radius: 50%;
+	 border: 3px solid red;
+ }
+ /* .bottom-right {
+  border-bottom-right-radius: 50%;
+  background: #de232c;
+  float: right
+} */
+.name-designation{
+	position: relative;
+	bottom: 12%;
+	right:10%;
+	font-size:1.2rem;
+	text-align: center;
+
+}
