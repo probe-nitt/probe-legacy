@@ -13,7 +13,7 @@
 
 			<!-- Header -->
             <header id="header" class="header2020">
-					<nav>
+					<nav class="nav2020">
 						<ul>
 							<li><a href="/">Home</a></li>
 							<li><a href="/workshops">Workshops</a></li>
@@ -23,7 +23,7 @@
 						</ul>
 					</nav>
 					<h1 id="logo2020"><a href="/"><img src="/images/probe_p.png"></a></h1>
-					<nav>
+					<nav class="nav2020">
 						<ul>
 							<li><a href="/register"><img src="/images/facebook.svg" alt="facebook"></a></li>
 							<li><a href="/register"><img src="/images/instagram.png" alt="instagram"></a></li>
@@ -142,6 +142,6 @@
     <script src="{{ asset('js/browser.min.js') }}"></script>
     <script src="{{ asset('js/breakpoints.min.js') }}"></script>
     <script src="{{ asset('js/util.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('js/main2020.js') }}"></script>
   </body>
 </html>

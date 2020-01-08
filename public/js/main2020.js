@@ -630,34 +630,34 @@
 
 	// Nav.
 
-		// Title Bar.
-			// $(
-			// 	'<div id="titleBar">' +
-			// 		'<a href="#navPanel" class="toggle"></a>' +
-			// 		'<span class="title title2020">' + $('#logo2020').html() + '</span>' +
-			// 	'</div>'
-			// )
-			// 	.appendTo($body);
+		//Title Bar.
+			$(
+				'<div id="titleBar">' +
+					'<a href="#navPanel" class="toggle"></a>' +
+					'<span class="title title2020">' + $('#logo2020').html() + '</span>' +
+				'</div>'
+			)
+				.appendTo($body);
 
-		// Panel.
-			// $(
-			// 	'<div id="navPanel">' +
-			// 		'<nav>' +
-			// 			$('.nav2020').navList() +
-			// 		'</nav>' +
-			// 	'</div>'
-			// )
-			// 	.appendTo($body)
-			// 	.panel({
-			// 		delay: 500,
-			// 		hideOnClick: true,
-			// 		hideOnSwipe: true,
-			// 		resetScroll: true,
-			// 		resetForms: true,
-			// 		side: 'left',
-			// 		target: $body,
-			// 		visibleClass: 'navPanel-visible'
-			// 	});
+		//Panel.
+			$(
+				'<div id="navPanel">' +
+					'<nav>' +
+						$('.nav2020').navList() +
+					'</nav>' +
+				'</div>'
+			)
+				.appendTo($body)
+				.panel({
+					delay: 500,
+					hideOnClick: true,
+					hideOnSwipe: true,
+					resetScroll: true,
+					resetForms: true,
+					side: 'left',
+					target: $body,
+					visibleClass: 'navPanel-visible'
+				});
 
 	// Parallax.
 	// Disabled on IE (choppy scrolling) and mobile platforms (poor performance).
