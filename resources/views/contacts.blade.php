@@ -12,7 +12,7 @@ background-image:url(../images/backract.png);overflow: hidden;">
 <div id="page-wrapper">
     
     <!-- Header -->
-    <header id="header" class="header2020">
+    <header id="header" class="header2020 header2020-landing">
         <nav class="nav2020">
             <ul>
                 <li><a href="/">Home</a></li>
@@ -180,5 +180,6 @@ background-image:url(../images/backract.png);overflow: hidden;">
     <script src="{{ asset('js/breakpoints.min.js') }}"></script>
     <script src="{{ asset('js/util.js') }}"></script>
 <script src="{{ asset('js/main2020.js') }}"></script>
+
 </body>
 </html>
