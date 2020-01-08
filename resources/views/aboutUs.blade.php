@@ -45,7 +45,8 @@
 
             </div>
             <div class="row">
-                 <div class="col-4">
+
+                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
                     <div class="about-us-circle">
@@ -60,7 +61,7 @@
                        <h1>Designation</h1>
                      </div>
                  </div>
-                 <div class="col-4">
+                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
                     <div class="about-us-circle">
@@ -75,7 +76,7 @@
                        <h1>Designation</h1>
                      </div>
                  </div>
-                 <div class="col-4">
+                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
                     <div class="about-us-circle">
@@ -90,7 +91,7 @@
                        <h1>Designation</h1>
                      </div>
                  </div>
-                 <div class="col-4">
+                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
                     <div class="about-us-circle">
@@ -105,7 +106,7 @@
                        <h1>Designation</h1>
                      </div>
                  </div>
-                 <div class="col-4">
+                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
                     <div class="about-us-circle">
@@ -120,6 +121,38 @@
                        <h1>Designation</h1>
                      </div>
                  </div>
+                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+                   <div class="about-us-container">
+                    <div class="about-us-circle">
+                     <div class="about-us-small-circle">
+                       <!-- <div class="quarter bottom-right"></div> -->
+                      </div>
+                     </div>
+
+                    </div>
+                     <div class="name-designation">
+                       <h1 style="margin-bottom:8px;">Name</h1>
+                       <h1>Designation</h1>
+                     </div>
+                 </div>
+                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+                   <div class="about-us-container">
+                    <div class="about-us-circle">
+                     <div class="about-us-small-circle">
+                       <!-- <div class="quarter bottom-right"></div> -->
+                      </div>
+                     </div>
+
+                    </div>
+                     <div class="name-designation">
+                       <h1 style="margin-bottom:8px;">Name</h1>
+                       <h1>Designation</h1>
+                     </div>
+                 </div>
+
+
             </div>
         </div>
 
