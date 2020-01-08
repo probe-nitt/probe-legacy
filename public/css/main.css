@@ -3594,10 +3594,12 @@ select.minimal:focus {
 					}
 
 
-					.header2020 {
+				
+					#header.header2020 {
 						display: flex;
 						justify-content: space-evenly;
-						margin-top: 15px;
+						background-color: #110f3f;
+						height: auto;
 					}
 
 					@keyframes grow {
