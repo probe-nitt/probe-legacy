@@ -17,6 +17,7 @@
 					<nav id="nav">
 						<ul>
                             <li><a href="/events">Events</a></li>
+														<li><a href="/about">About Us</a></li>
                             <li><a href="/workshops">Workshops</a></li>
 							<li><a href="/sponsors">Sponsors</a></li>
                             <li><a href="/contact">Contact us</a></li>
@@ -45,7 +46,7 @@
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
 										<div class="hexagon-content">
-              
+
 												Hello World
 
 										</div>
@@ -109,19 +110,11 @@
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
 										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<p style="color:white;">Event desc and other stuff</p>
 									</a>
 								</div>
 							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:red;">
-										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
-									</a>
-								</div>
-							</li>
+
 						</ul>
         </div>
 

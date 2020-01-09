@@ -19,6 +19,7 @@
 					<nav id="nav">
 						<ul>
                             <li><a href="/events">Events</a></li>
+														  <li><a href="/about">About Us</a></li>
                             <li><a href="/workshops">Workshops</a></li>
 							<li><a href="/sponsors">Sponsors</a></li>
                             <li><a href="/contact">Contact us</a></li>

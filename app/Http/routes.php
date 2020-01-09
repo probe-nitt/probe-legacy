@@ -42,6 +42,9 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('contacts');
 });
+Route::get('/about', function () {
+    return view('aboutUs');
+});
 
 Route::get('/techtalk', function () {
     return view('techtalk');
