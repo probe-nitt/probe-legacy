@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
 		<link rel="stylesheet" href="{{ asset('css/hexagon.css') }}"  />
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
