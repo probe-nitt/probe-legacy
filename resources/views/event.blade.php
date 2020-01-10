@@ -13,24 +13,31 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
-					<nav id="nav">
+			<header id="header" class="header2020">
+					<nav class="nav2020">
 						<ul>
+							<li><a href="/">Home</a></li>
+							<li><a href="/workshops">Workshops</a></li>
                             <li><a href="/events">Events</a></li>
-														<li><a href="/about">About Us</a></li>
-                            <li><a href="/workshops">Workshops</a></li>
+							<li><a href="/about" class="scrolly">About us</a></li>
+                            <li><a href="/contact">Contact us</a></li>							
+						</ul>
+					</nav>
+					<h1 id="logo2020"><a href="/"><img src="/images/probe_p.png"></a></h1>
+					<nav class="nav2020">
+						<ul>
+							<li><a href="/register"><img src="/images/facebook.svg" alt="facebook"></a></li>
+							<li><a href="/register"><img src="/images/instagram.png" alt="instagram"></a></li>
+							<li><a href="/register"><img src="/images/linkedin.svg" alt="linkedin"></a></li>
 							<li><a href="/sponsors">Sponsors</a></li>
-                            <li><a href="/contact">Contact us</a></li>
 							@if ($name = session('name'))
 							<li>{{ $name }}</li>
 							<li><a href="/logout" class="button primary">Log out</a></li>
                         	@endif
 							@if (!session('name'))
-							<li><a href="/register" class="button primary">Register</a></li>
-							<li><a href="/login" class="button primary">Log in</a></li>
+							<li><a href="/register">Sign up</a></li>
+							<li><a href="/login">Log in</a></li>
                         	@endif
-
 						</ul>
 					</nav>
 				</header>

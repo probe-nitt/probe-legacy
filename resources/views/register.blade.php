@@ -7,9 +7,8 @@
 <html>
 	<head>
 		<title>Registration | PROBE 2019</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
 		<meta charset="utf-8" />
-    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
