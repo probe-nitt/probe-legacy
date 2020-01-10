@@ -23,6 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	font-family: 'Montserrat';
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -3594,10 +3595,12 @@ select.minimal:focus {
 					}
 
 
-					.header2020 {
+				
+					#header.header2020 {
 						display: flex;
 						justify-content: space-evenly;
-						margin-top: 15px;
+						background-color: #110f3f;
+						height: auto;
 					}
 
 					@keyframes grow {
