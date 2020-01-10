@@ -16,7 +16,7 @@ background-image:url(../images/backract.png);overflow: hidden;">
 <div id="page-wrapper">
     
     <!-- Header -->
-    <header id="header" class="header2020 header2020-landing">
+    <header id="header" class="header2020">
         <nav class="nav2020">
             <ul>
                 <li><a href="/">Home</a></li>

@@ -3458,12 +3458,6 @@ select.minimal:focus {
 		z-index: 100;
 	}
 
-	.header2020-landing {
-		display: flex;
-		justify-content: space-evenly;
-		margin-top: 15px;
-	}
-
 	@keyframes grow {
 		from {
 			width: 0%;
@@ -3600,7 +3594,8 @@ select.minimal:focus {
 						display: flex;
 						justify-content: space-evenly;
 						background-color: #110f3f;
-						height: auto;
+						height: 100px;
+						margin-top: 0;
 					}
 
 					@keyframes grow {
@@ -4092,7 +4087,7 @@ select.minimal:focus {
 
 		/* Header */
 
-			#header {
+			#header.header2020 {
 				display: none;
 			}
 
