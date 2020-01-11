@@ -66,10 +66,10 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;font-family: 'Lato', sans-serif; ">Designation</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
                      </div>
                  </div>
-                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
                     <div class="about-us-circle">
@@ -81,10 +81,10 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;font-family: 'Lato', sans-serif; ">Designation</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
                      </div>
                  </div>
-                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
                     <div class="about-us-circle">
@@ -96,10 +96,10 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;font-family: 'Lato', sans-serif; ">Designation</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
                      </div>
                  </div>
-                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
                     <div class="about-us-circle">
@@ -111,10 +111,10 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;font-family: 'Lato', sans-serif; ">Designation</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
                      </div>
                  </div>
-                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
                     <div class="about-us-circle">
@@ -126,10 +126,10 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;font-family: 'Lato', sans-serif; ">Designation</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
                      </div>
                  </div>
-                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
                     <div class="about-us-circle">
@@ -141,10 +141,10 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;font-family: 'Lato', sans-serif; ">Designation</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
                      </div>
                  </div>
-                 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
                     <div class="about-us-circle">
@@ -156,7 +156,7 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;font-family: 'Lato', sans-serif; ">Designation</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
                      </div>
                  </div>
 
