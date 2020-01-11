@@ -14,7 +14,7 @@
 <body class="is-preload" style="
 background-image:url(../images/backract.png);overflow: hidden;">
 <div id="page-wrapper">
-    
+
     <!-- Header -->
     <header id="header" class="header2020">
         <nav class="nav2020">
@@ -44,8 +44,8 @@ background-image:url(../images/backract.png);overflow: hidden;">
             </ul>
         </nav>
     </header>
-    
-    
+
+
     <!-- Main -->
     <div id="main" class="wrapper style1">
         <div class="container">
@@ -56,7 +56,7 @@ background-image:url(../images/backract.png);overflow: hidden;">
             <p style="text-align: center;">{{ $message }}</p>
             @endif
             <div>
-                
+
                 <div class="row">
                     <div class="column">
                         Pavan Kumar
@@ -76,7 +76,7 @@ background-image:url(../images/backract.png);overflow: hidden;">
                             +91 90925 81162
                         </div>
                     </div>
-                    
+
                     <div class="row">
                         <div class="column">
                             Naveen
@@ -103,7 +103,7 @@ background-image:url(../images/backract.png);overflow: hidden;">
                             +91 95858 94011
                         </div>
                     </div>
-                    
+
                     <div class="row">
                         <div class="column">
                         </div>
@@ -122,8 +122,8 @@ background-image:url(../images/backract.png);overflow: hidden;">
                         <div class="column">
                         </div>
                     </div>
-                    
-                    
+
+
                     {{-- <tbody>
                         <tr>
                             <td>Chairman</td>
@@ -162,19 +162,19 @@ background-image:url(../images/backract.png);overflow: hidden;">
                         </tr>
                     </tbody> --}}
                 </div>
-                
+
             </div>
         </div>
-        
+
         <!-- Footer -->
         <footer id="footer">
             <ul class="copyright">
                 <li>&copy; PROBE 2019. All rights reserved.</li>
             </ul>
         </footer>
-        
+
     </div>
-    
+
     <!-- Scripts -->
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
