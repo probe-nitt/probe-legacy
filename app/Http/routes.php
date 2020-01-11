@@ -264,6 +264,14 @@ Route::get('/events/probeit', function () {
     return view('probeit');
 });
 
+Route::get('/events/luckydraw', function () {
+    return view('luckydraw');
+});
+
+Route::get('/events/quizzardo', function () {
+    return view('quizzardo');
+});
+
 Route::get('/register', function () {
     return view('register');
 });
