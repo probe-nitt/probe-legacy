@@ -9,7 +9,7 @@
 	<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
 </head>
 <body class="is-preload" style="
-background-image:url(../images/backract.png);overflow: hidden;">
+background-image:url(../images/backract.png);">
 <div id="page-wrapper">
 	
 	<!-- Header -->
@@ -46,62 +46,34 @@ background-image:url(../images/backract.png);overflow: hidden;">
 	<div id="main" class="wrapper style1">
 		<div class="container">
 			<header class="major">
-			<h2><b>EVENTS</b></h2>
-		</header>
-		<div class="row gtr-150">
-			<div class="col-4 col-12-medium">
-				
-				<!-- Sidebar -->
-				<section id="sidebar">
-					<div class="workshopcontainer">
-						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="386" height="334"
-						viewBox="0 0 386 334">
-						<defs>
-							<style>
-								.cls-1 {
-									fill: url(#linear-gradient);
-								}
-								
-								.cls-2 {
-									fill: #fff;
-									font-size: 35px;
-									font-family: Montserrat-Medium, Montserrat;
-									font-weight: 500;
-								}
-							</style>
-							<linearGradient id="linear-gradient" x1="0.722" y1="0.951" x2="0.193" y2="0.188"
-							gradientUnits="objectBoundingBox">
-							<stop offset="0" stop-color="#2b499b" />
-							<stop offset="1" stop-color="#2388fc" />
-						</linearGradient>
-					</defs>
-					<g id="Group_47" data-name="Group 47" transform="translate(-178 -485)">
-						<path id="Polygon_9" data-name="Polygon 9" class="cls-1" d="M289.5,0,386,167,289.5,334H96.5L0,167,96.5,0Z"
-						transform="translate(178 485)" />
-						{{-- <text id="Event_n" data-name="Event #n" class="cls-2" transform="translate(297 665)">
-							<tspan x="0" y="0">Event #n</tspan>
-						</text> --}}
-					</g>
-				</svg>
-				<div class="workshopcentered" style="
-				font-size: xx-large;
-				">CRYPTECH</div>
-			</div>
-		</section>
-		
-	</div>
-	<div class="col-8 col-12-medium imp-medium">
-		
-		<!-- Content -->
-		<section id="content-workshops" style="
-    /* Position: absolute; */
-    height: 500px;
-	overflow-y: scroll;">
-	<header class="minor">
-		<h3 class="subheader"><b>Description</b></h3>
-	</header>
+				<h2><b>CRYPTECH</b></h2>
+			</header>
+			<div class="row gtr-150">
+				<div class="col-4 col-12-medium">
+					
+					<!-- Sidebar -->
+					<section id="sidebar">
+						<div class="workshopcontainer">
+							<img src="https://delta.nitt.edu/images/deltaLogoGreen.png" alt="Snow" style="width:100%;">
+					<div class="workshopcentered" style="
+					font-size: xx-large;
+					">INSERT IMAGE HERE</div>
+				</div>
+			</section>
+			
+		</div>
+		<div class="col-8 col-12-medium imp-medium">
+			
+			<!-- Content -->
+			<section id="content-workshops" style="
+			/* Position: absolute; */
+			height: 500px;
+			overflow-y: scroll;">
+			<header class="minor">
+				<h3 class="subheader"><b>Description</b></h3>
+			</header>
 			<p>Fan of Dan Brown novels? Like to solve puzzles and unravel mysteries? Bring your partner along to put your encoding and decoding skills to the test with CRYPTECH, the puzzle and brain teaser event of Probe to win exciting prizes.</p>
-
+			
 			<header class="minor">
 				<h3 class="subheader"><b>Prizes</b></h3>
 			</header>
@@ -131,6 +103,7 @@ background-image:url(../images/backract.png);overflow: hidden;">
 			</ul>
 			<h4>Participation certificate for all the participants making to the finals.</h4>
 		</section>
+		<a href="#" class="myButton">Register</a>
 	</div>
 </div>
 </div>

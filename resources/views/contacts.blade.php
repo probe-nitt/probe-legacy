@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Contact Us | PROBE 2019</title>
+		<title>Contact Us | PROBE 2020</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
@@ -12,7 +12,7 @@
 	</head>
 
 <body class="is-preload" style="
-background-image:url(../images/backract.png);overflow: hidden;">
+background-image:url(../images/backract.png);">
 <div id="page-wrapper">
 
     <!-- Header -->
@@ -121,47 +121,8 @@ background-image:url(../images/backract.png);overflow: hidden;">
                         </div>
                         <div class="column">
                         </div>
+                    </div>                    
                     </div>
-
-
-                    {{-- <tbody>
-                        <tr>
-                            <td>Chairman</td>
-                            <td>Prakash Sabesan</td>
-                            <td>9677047469</td>
-                        </tr>
-                        <tr>
-                            <td>Overall coordinators</td>
-                            <td>Yashwanth/Kavya</td>
-                            <td>9790485851, 9790488860</td>
-                        </tr>
-                        <tr>
-                            <td>Treasurer</td>
-                            <td>Venkatesh Gopisetti</td>
-                            <td>7667114994</td>
-                        </tr>
-                        <tr>
-                            <td>General secretaries</td>
-                            <td>Naveen/Pavithra</td>
-                            <td>9629889445, 7639703926</td>
-                        </tr>
-                        <tr>
-                            <td>Workshops</td>
-                            <td>Rajkiran/Srikanth</td>
-                            <td>9441310986, 8309847277</td>
-                        </tr>
-                        <tr>
-                            <td>Events</td>
-                            <td>Srivatsan/Madhan</td>
-                            <td>9444741197, 9790381738</td>
-                        </tr>
-                        <tr>
-                            <td>Public relations and hospitality</td>
-                            <td>Venu/Priyanka</td>
-                            <td>8985792858, 9047165355</td>
-                        </tr>
-                    </tbody> --}}
-                </div>
 
             </div>
         </div>
@@ -169,7 +130,7 @@ background-image:url(../images/backract.png);overflow: hidden;">
         <!-- Footer -->
         <footer id="footer">
             <ul class="copyright">
-                <li>&copy; PROBE 2019. All rights reserved.</li>
+                <li>&copy; PROBE 2020. All rights reserved.</li>
             </ul>
         </footer>
 
@@ -183,7 +144,7 @@ background-image:url(../images/backract.png);overflow: hidden;">
     <script src="{{ asset('js/browser.min.js') }}"></script>
     <script src="{{ asset('js/breakpoints.min.js') }}"></script>
     <script src="{{ asset('js/util.js') }}"></script>
-<script src="{{ asset('js/main2020.js') }}"></script>
+    <script src="{{ asset('js/main2020.js') }}"></script>
 
 </body>
 </html>
