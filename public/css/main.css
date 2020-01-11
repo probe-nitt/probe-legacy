@@ -2262,7 +2262,7 @@ input, select, textarea {
 .registration-form-label{
 	color:#f44336;
 	font-size: 1.3rem;
-	/* font-weight: bold; */
+	font-weight: bold;
 	/* font-family: 'Acme', sans-serif; */
 	margin:0 0 0.5em 0;
 }
