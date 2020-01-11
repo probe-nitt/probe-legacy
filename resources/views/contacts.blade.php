@@ -14,7 +14,7 @@
 <body class="is-preload" style="
 background-image:url(../images/backract.png);overflow: hidden;">
 <div id="page-wrapper">
-    
+
     <!-- Header -->
     <header id="header" class="header2020">
         <nav class="nav2020">
@@ -44,137 +44,103 @@ background-image:url(../images/backract.png);overflow: hidden;">
             </ul>
         </nav>
     </header>
-    
-    
+
+
     <!-- Main -->
-    <div id="main" class="wrapper style1">
-        <div class="container">
+    <div id="main" class="wrapper style1" >
+        <div class="container" >
             <header class="major" style="margin-top: 65px;">
                 <h2><b>CONTACTS</b></h2>
             </header>
             @if ($message = session('message'))
             <p style="text-align: center;">{{ $message }}</p>
             @endif
-            <div>
-                
-                <div class="row">
-                    <div class="column">
+            <div  >
+
+                <div class="row" style="overflow:scroll;">
+                    <div class="col-4" style="text-align: center;">
                         Pavan Kumar
                         <br />
                         <div class = "red">Chairman</div>
-                        +91 85005 14232                                    </div>
-                        <div class="column">
+                        +91 85005 14232
+											</div>
+                        <div class="col-4" style="text-align: center;">
                             N Arvind Balaji
                             <br />
                             <div class="red">Overall Coordinator</div>
                             +91 87544 16697
                         </div>
-                        <div class="column">
+                        <div class="col-4" style="text-align: center;">
                             Harika J
                             <br />
                             <div class="red">Overall Coordinator</div>
                             +91 90925 81162
                         </div>
                     </div>
-                    
+
                     <div class="row">
-                        <div class="column">
+                        <div class="col-3" style="text-align: center;">
                             Naveen
                             <br />
                             <div class="red">Treasurer</div>
                             +91 96298 89445
                         </div>
-                        <div class="column">
+                        <div class="col-3" style="text-align: center;">
                             Soumith Reddy
                             <br />
                             <div class="red">Head, Organizing</div>
                             +91 95151 89525
                         </div>
-                        <div class="column">
+                        <div class="col-3" style="text-align: center;">
                             Vasanth
                             <br />
                             <div class="red">Head, Events</div>
                             +91 96294 57300
                         </div>
-                        <div class="column">
+                        <div class="col-3" style="text-align: center;">
                             Bhuvana
                             <br />
                             <div class="red">Head, Events</div>
                             +91 95858 94011
                         </div>
+
                     </div>
-                    
-                    <div class="row">
-                        <div class="column">
-                        </div>
-                        <div class="column">
-                            Pavan
-                            <br />
-                            <div class="red">Head, Workshops</div>
-                            +91 94920 34685
-                        </div>
-                        <div class="column">
+
+                    <div class="row" style="clear:both;">
+                        <!-- <div class="col-3">
+                        </div> -->
+												<div class="col-3">
+														Pavan
+														<br />
+														<div class="red">Head, Workshops</div>
+														+91 94920 34685
+												</div>
+                        <div class="col-3">
                             N Hariharan
                             <br />
                             <div class="red">Head, Workshops</div>
                             +91 99405 77673
                         </div>
-                        <div class="column">
-                        </div>
+                        <!-- <div class="col-3">
+                        </div> -->
                     </div>
-                    
-                    
-                    {{-- <tbody>
-                        <tr>
-                            <td>Chairman</td>
-                            <td>Prakash Sabesan</td>
-                            <td>9677047469</td>
-                        </tr>
-                        <tr>
-                            <td>Overall coordinators</td>
-                            <td>Yashwanth/Kavya</td>
-                            <td>9790485851, 9790488860</td>
-                        </tr>
-                        <tr>
-                            <td>Treasurer</td>
-                            <td>Venkatesh Gopisetti</td>
-                            <td>7667114994</td>
-                        </tr>
-                        <tr>
-                            <td>General secretaries</td>
-                            <td>Naveen/Pavithra</td>
-                            <td>9629889445, 7639703926</td>
-                        </tr>
-                        <tr>
-                            <td>Workshops</td>
-                            <td>Rajkiran/Srikanth</td>
-                            <td>9441310986, 8309847277</td>
-                        </tr>
-                        <tr>
-                            <td>Events</td>
-                            <td>Srivatsan/Madhan</td>
-                            <td>9444741197, 9790381738</td>
-                        </tr>
-                        <tr>
-                            <td>Public relations and hospitality</td>
-                            <td>Venu/Priyanka</td>
-                            <td>8985792858, 9047165355</td>
-                        </tr>
-                    </tbody> --}}
+
+
+
                 </div>
-                
+
             </div>
         </div>
-        
+
         <!-- Footer -->
         <footer id="footer">
             <ul class="copyright">
                 <li>&copy; PROBE 2019. All rights reserved.</li>
             </ul>
         </footer>
-        
+
     </div>
-    
+
     <!-- Scripts -->
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>

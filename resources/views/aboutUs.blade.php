@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" /> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
 
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
 	</head>
@@ -20,7 +20,7 @@
 							<li><a href="/workshops">Workshops</a></li>
                             <li><a href="/events">Events</a></li>
 							<li><a href="/about" class="scrolly">About us</a></li>
-                            <li><a href="/contact">Contact us</a></li>							
+                            <li><a href="/contact">Contact us</a></li>
 						</ul>
 					</nav>
 					<h1 id="logo2020"><a href="/"><img src="/images/probe_p.png"></a></h1>
@@ -49,7 +49,7 @@
 							<h2 style="margin-bottom:0px;">About Us</h2>
             </header>
 						<div class="about-us-text">
-              <h1>Probe is the Annual International Technical Symposium og the Department of ECE,NIT Trichy.PROBE is the biggest ECE symposium in India,where it creates a learning platform in the latest fields and trends related to electronics and communication.</h1>
+              <h1 style="font-family:'lato',sans-serif">Probe is the Annual International Technical Symposium of the Department of ECE,NIT Trichy.PROBE is the biggest ECE symposium in India,where it creates a learning platform in the latest fields and trends related to electronics and communication.</h1>
 
             </div>
             <div class="row">
