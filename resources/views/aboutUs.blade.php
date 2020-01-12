@@ -140,7 +140,7 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Soumith Reddy</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Organising</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Organising</h1>
                      </div>
                  </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -158,7 +158,7 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Sanjay</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Marketing</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Marketing</h1>
                      </div>
                  </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -176,7 +176,7 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Vasanth</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Events</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Events</h1>
                      </div>
                  </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -194,7 +194,7 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Bhuvana</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Events</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Events</h1>
                      </div>
                  </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -212,7 +212,7 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Pavan</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Workshops</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Workshops</h1>
                      </div>
                  </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -230,7 +230,7 @@
                     </div>
                      <div class="name-designation">
                        <h1 class="about-us-h1">Hariharan</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Workshops</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Workshops</h1>
                      </div>
                  </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -248,7 +248,7 @@
 										</div>
 										 <div class="name-designation">
 											 <h1 class="about-us-h1">Nivetha</h1>
-											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Content</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Content</h1>
 										 </div>
 								 </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -266,7 +266,7 @@
 										</div>
 										 <div class="name-designation">
 											 <h1 class="about-us-h1">Tejas</h1>
-											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Content</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Content</h1>
 										 </div>
 								 </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -284,7 +284,7 @@
 										</div>
 										 <div class="name-designation">
 											 <h1 class="about-us-h1">Shivaranjani</h1>
-											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Content</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Content</h1>
 										 </div>
 								 </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -302,7 +302,7 @@
 										</div>
 										 <div class="name-designation">
 											 <h1 class="about-us-h1">Ashish Bhargav</h1>
-											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Publicity</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Publicity</h1>
 										 </div>
 								 </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -320,7 +320,7 @@
 										</div>
 										 <div class="name-designation">
 											 <h1 class="about-us-h1">Himaja</h1>
-											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Publicity</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Publicity</h1>
 										 </div>
 								 </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -338,7 +338,7 @@
 										</div>
 										 <div class="name-designation">
 											 <h1 class="about-us-h1">R Chaandini</h1>
-											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Ambience</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Ambience</h1>
 										 </div>
 								 </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -356,7 +356,7 @@
 										</div>
 										 <div class="name-designation">
 											 <h1 class="about-us-h1">Leela Prasad</h1>
-											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,PR and Hospitality</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, PR and Hospitality</h1>
 										 </div>
 								 </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -374,7 +374,7 @@
 										</div>
 										 <div class="name-designation">
 											 <h1 class="about-us-h1">Sowmya</h1>
-											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,PR and Hospitality</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, PR and Hospitality</h1>
 										 </div>
 								 </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -392,7 +392,7 @@
 										</div>
 										 <div class="name-designation">
 											 <h1 class="about-us-h1">Prakash</h1>
-											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,PR and Hospitality</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, PR and Hospitality</h1>
 										 </div>
 								 </div>
        <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -409,7 +409,7 @@
 								 										</div>
 								 										 <div class="name-designation">
 								 											 <h1 class="about-us-h1">Bhavana</h1>
-								 											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Social Responsibility</h1>
+								 											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Social Responsibility</h1>
 								 										 </div>
 								 								 </div>
 
@@ -427,7 +427,7 @@
 																																											 </div>
 																																												<div class="name-designation">
 																																													<h1 class="about-us-h1">Mukhesh</h1>
-																																													<h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Design</h1>
+																																													<h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Design</h1>
 																																												</div>
 																																										</div>
 																																										<div class="col-3 col-4-medium col-6-small  col-12-xsmall">
@@ -444,7 +444,7 @@
 																								 																																		</div>
 																								 																																		 <div class="name-designation">
 																								 																																			 <h1 class="about-us-h1">Naven S R</h1>
-																								 																																			 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Webops</h1>
+																								 																																			 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head, Webops</h1>
 																								 																																		 </div>
 																								 																																 </div>
 
@@ -462,7 +462,7 @@
         </footer> -->
 
     </div>
-
+  </div>
         <!-- Scripts -->
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
