@@ -52,14 +52,14 @@
 							<li class="hex">
 								<div class="hexIn">
 									<a class="hexLink" href="/events/luckydraw" style="background-color:red;">
-										<!-- <img src="" alt="Event1" /> -->
+										<img src="/images/luckydraw.png" alt="Event1" />
 										<div class="hexagon-content">
 											   <!-- <h1>Hello</h1> -->
 
 
 										</div>
 										<h1>Lucky Draw</h1>
-										<p>Event desc and other stuff</p>
+										<p>A special 100 DTG event</p>
 									</a>
 								</div>
 							</li>
@@ -68,12 +68,11 @@
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
 										<div class="hexagon-content">
-											   <!-- <h1>Hello</h1> -->
-
+											Event #3
 
 										</div>
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<h1>Event #3</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -81,8 +80,12 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Event #4
+
+										</div>
+										<h1>Event #4</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -90,22 +93,26 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Event #5
+
+										</div>
+										<h1>Event #5</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
 							<li class="hex">
 								<div class="hexIn">
 									<a class="hexLink" href="/events/quizzardo" style="background-color:red;">
-										<!-- <img src="" alt="Event1" /> -->
+										<img src="/images/quizzardo.png" alt="Event1" />
 										<div class="hexagon-content">
 											   <!-- <h1>Hello</h1> -->
 
 
 										</div>
 										<h1>Quizzardo</h1>
-										<p>Event desc and other stuff</p>
+										<p>Quizzing event for 1st years</p>
 									</a>
 								</div>
 							</li>
@@ -113,8 +120,12 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Event #6
+
+										</div>
+										<h1>Event #6</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -122,8 +133,12 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p style="color:white;">Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Event #7
+
+										</div>
+										<h1>Event #7</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
