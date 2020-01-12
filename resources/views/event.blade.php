@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Event Registration | PROBE 2019</title>
+		<title>Event Registration | PROBE 2020</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
@@ -26,9 +26,10 @@
 					<h1 id="logo2020"><a href="/"><img src="/images/probe_p.png"></a></h1>
 					<nav class="nav2020">
 						<ul>
-							<li><a href="/register"><img src="/images/facebook.svg" alt="facebook"></a></li>
-							<li><a href="/register"><img src="/images/instagram.png" alt="instagram"></a></li>
-							<li><a href="/register"><img src="/images/linkedin.svg" alt="linkedin"></a></li>
+							
+							<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank"><img src="/images/facebook.svg" alt="facebook"></a></li>
+							<li><a href="https://www.instagram.com/probe.nitt/"" target="_blank"><img src="/images/instagram.png" alt="instagram"></a></li>
+							<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" " target="_blank"><img src="/images/linkedin.svg" alt="linkedin"></a></li>							
 							<li><a href="/sponsors">Sponsors</a></li>
 							@if ($name = session('name'))
 							<li>{{ $name }}</li>
@@ -52,14 +53,14 @@
 							<li class="hex">
 								<div class="hexIn">
 									<a class="hexLink" href="/events/luckydraw" style="background-color:red;">
-										<!-- <img src="" alt="Event1" /> -->
+										<img src="/images/luckydraw.png" alt="Event1" />
 										<div class="hexagon-content">
 											   <!-- <h1>Hello</h1> -->
 
 
 										</div>
 										<h1>Lucky Draw</h1>
-										<p>Event desc and other stuff</p>
+										<p>A special 100 DTG event</p>
 									</a>
 								</div>
 							</li>
@@ -68,12 +69,11 @@
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
 										<div class="hexagon-content">
-											   <!-- <h1>Hello</h1> -->
-
+											Event #3
 
 										</div>
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<h1>Event #3</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -81,8 +81,12 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Event #4
+
+										</div>
+										<h1>Event #4</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -90,22 +94,26 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Event #5
+
+										</div>
+										<h1>Event #5</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
 							<li class="hex">
 								<div class="hexIn">
 									<a class="hexLink" href="/events/quizzardo" style="background-color:red;">
-										<!-- <img src="" alt="Event1" /> -->
+										<img src="/images/quizzardo.png" alt="Event1" />
 										<div class="hexagon-content">
 											   <!-- <h1>Hello</h1> -->
 
 
 										</div>
 										<h1>Quizzardo</h1>
-										<p>Event desc and other stuff</p>
+										<p>Quizzing event for 1st years</p>
 									</a>
 								</div>
 							</li>
@@ -113,8 +121,12 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Event #6
+
+										</div>
+										<h1>Event #6</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -122,8 +134,12 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p style="color:white;">Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Event #7
+
+										</div>
+										<h1>Event #7</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -132,11 +148,11 @@
         </div>
 
       <!-- Footer -->
-        <footer style="margin-bottom:0" id="footer">
+        <!-- <footer style="margin-bottom:0" id="footer">
           <ul class="copyright">
             <li>&copy; PROBE 2019. All rights reserved.</li>
           </ul>
-        </footer>
+        </footer> -->
 
     </div>
 
@@ -148,6 +164,6 @@
     <script src="{{ asset('js/browser.min.js') }}"></script>
     <script src="{{ asset('js/breakpoints.min.js') }}"></script>
     <script src="{{ asset('js/util.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('js/main2020.js') }}"></script>
   </body>
 </html>

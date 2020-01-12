@@ -27,10 +27,10 @@
 					<h1 id="logo2020"><a href="/"><img src="/images/probe_p.png"></a></h1>
 					<nav class="nav2020">
 						<ul>
-							<li><a href="/register"><img src="/images/facebook.svg" alt="facebook"></a></li>
-							<li><a href="/register"><img src="/images/instagram.png" alt="instagram"></a></li>
-							<li><a href="/register"><img src="/images/linkedin.svg" alt="linkedin"></a></li>
-							<li><a href="/sponsors">Sponsors</a></li>
+							
+			<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank"><img src="/images/facebook.svg" alt="facebook"></a></li>
+							<li><a href="https://www.instagram.com/probe.nitt/"" target="_blank"><img src="/images/instagram.png" alt="instagram"></a></li>
+							<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" " target="_blank"><img src="/images/linkedin.svg" alt="linkedin"></a></li>							<li><a href="/sponsors">Sponsors</a></li>
 							@if ($name = session('name'))
 							<li>{{ $name }}</li>
 							<li><a href="/logout" class="button primary">Log out</a></li>
@@ -52,15 +52,17 @@
 						<ul id="hexGrid">
                         <li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="/workshops/probot" style="background-color:blue;">
-										<img src="/images/w2.jpg"/>
+									<a class="hexLink" href="#" style="background-color:blue;">
+										<!-- <img src="/images/w2.jpg"/> -->
 										<div class="hexagon-content">
-											   
+											Workshop #1
 
 
 										</div>
-										<h1>Probot</h1>
-										<p>Gesture Controlled IoT Based Smart Lock System</p>
+										<!-- <h1>Probot</h1>
+										<p>Gesture Controlled IoT Based Smart Lock System</p> -->
+										<h1>Workshop #1</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -69,12 +71,10 @@
 									<a class="hexLink" href="#" style="background-color:blue;">
 										<!-- <img src="" alt="Event1" /> -->
 										<div class="hexagon-content">
-											   <!-- <h1>Hello</h1> -->
-
-
+											Workshop #2
 										</div>
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<h1>Workshop #2</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -82,8 +82,11 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:blue;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Workshop #3
+										</div>
+										<h1>Workshop #3</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -91,8 +94,11 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:blue;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Workshop #4
+										</div>
+										<h1>Workshop #4</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -100,8 +106,11 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:blue;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Workshop #5
+										</div>
+										<h1>Workshop #5</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -109,8 +118,11 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:blue;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Workshop #6
+										</div>
+										<h1>Workshop #6</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -118,8 +130,11 @@
 								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:blue;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
-										<p>Event desc and other stuff</p>
+										<div class="hexagon-content">
+											Workshop #7
+										</div>
+										<h1>Workshop #7</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
