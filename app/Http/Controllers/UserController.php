@@ -12,6 +12,7 @@ use Mail;
 use Session;
 use Log;
 use Exception;
+use View;
 
 use App\Models\Users;
 use App\Models\WorkshopRegs;
@@ -104,16 +105,16 @@ class UserController extends Controller
         $data = array(
             'name' => $name, 'pid' => $id, 'url' => $url,
         );
-    
-        Mail::send('activate', $data, function ($message) use ($email) {
-    
-            $message->from('noreply@probe.org.in', 'PROBE, NIT Trichy');
-    
-            $message->to($email)->subject("PROBE'19 Registration");
-    
-        });
 
-        Session::flash('message', 'You have successfully registered for Probe 2019. Please check your mail for instructions on account activation and activate your account before logging in');
+        $content = View::make('activate', [
+            'name' => $name, 
+            'pid' => $id, 
+            'url' => $url
+        ])->render();
+
+        $this->sendMailSG($email, "PROBE'20 Registration", $content);
+
+        Session::flash('message', 'You have successfully registered for Probe 2020. Please check your mail for instructions on account activation and activate your account before logging in');
         return redirect('/login');
     }
 
@@ -839,6 +840,26 @@ class UserController extends Controller
         }
 
         return;
+    }
+
+    private function sendMailSG( $tomail, $subject, $content) {
+        
+        $email = new \SendGrid\Mail\Mail(); 
+        $email->setFrom("no-reply@probe.org.in", "Probe 2020, NIT Trichy");
+        $email->setSubject($subject);
+        $email->addTo($tomail, null);
+        $email->addContent(
+            "text/html", $content
+            );
+        $sendgrid = new \SendGrid(env('SENDGRID_API_KEY'));
+        try {
+          $response = $sendgrid->send($email);
+          print $response->statusCode() . "\n";
+          print_r($response->headers());
+          print $response->body() . "\n";
+        } catch (Exception $e) {
+            echo 'Caught exception: '. $e->getMessage() ."\n";
+        }
     }
 
 }
