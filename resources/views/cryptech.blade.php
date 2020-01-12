@@ -171,9 +171,9 @@ background-image:url(../images/backract.png);">
 			</ul>
 			<h4>Participation certificate for all the participants making to the finals.</h4>
 		</section>
-		<a href="#" class="myButton">Register</a>
 	</div>
 </div>
+<div class=reg-button-wrapper><a href="#" class="myButton">Register</a></div>
 </div>
 </div>
 
