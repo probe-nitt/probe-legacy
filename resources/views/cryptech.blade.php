@@ -4,14 +4,82 @@
 	<title>Cryptech | PROBE 2019</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
 	<link rel="stylesheet" href="{{ asset('css/workshops.css') }}"  />
+	<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
 	<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
+	<style media="screen">
+	.hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  margin: 86.60px 0;
+  background-image: url(https://csshexagon.com/img/meow.jpg);
+  background-size: auto 346.4102px;
+  background-position: center;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 43.93px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 300.0000px;
+  height: 173.20508075688775px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -106.0660px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -106.0660px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 300.0000px;
+  height: 173.2051px;
+  z-index: 2;
+  background: inherit;
+}
+	</style>
 </head>
 <body class="is-preload" style="
 background-image:url(../images/backract.png);">
 <div id="page-wrapper">
-	
+
 	<!-- Header -->
 	<header id="header" class="header2020 header2020-landing">
 		<nav class="nav2020">
@@ -41,7 +109,7 @@ background-image:url(../images/backract.png);">
 			</ul>
 		</nav>
 	</header>
-	
+
 	<!-- Main -->
 	<div id="main" class="wrapper style1">
 		<div class="container">
@@ -50,20 +118,21 @@ background-image:url(../images/backract.png);">
 			</header>
 			<div class="row gtr-150">
 				<div class="col-4 col-12-medium">
-					
+
 					<!-- Sidebar -->
-					<section id="sidebar">
-						<div class="workshopcontainer">
-							<img src="https://delta.nitt.edu/images/deltaLogoGreen.png" alt="Snow" style="width:100%;">
-					<div class="workshopcentered" style="
-					font-size: xx-large;
-					">INSERT IMAGE HERE</div>
-				</div>
+					<section id="sidebar" >
+						<a href="/events/cryptech">
+							<div class="hexagon">
+	              <div class="hexTop"></div>
+	              <div class="hexBottom"></div>
+	            </div>
+						</a>
+
 			</section>
-			
+
 		</div>
 		<div class="col-8 col-12-medium imp-medium">
-			
+
 			<!-- Content -->
 			<section id="content-workshops" style="
 			/* Position: absolute; */
@@ -73,7 +142,7 @@ background-image:url(../images/backract.png);">
 				<h3 class="subheader"><b>Description</b></h3>
 			</header>
 			<p>Fan of Dan Brown novels? Like to solve puzzles and unravel mysteries? Bring your partner along to put your encoding and decoding skills to the test with CRYPTECH, the puzzle and brain teaser event of Probe to win exciting prizes.</p>
-			
+
 			<header class="minor">
 				<h3 class="subheader"><b>Prizes</b></h3>
 			</header>

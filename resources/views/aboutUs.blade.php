@@ -57,108 +57,398 @@
                  <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
-                    <div class="about-us-circle">
-                     <div class="about-us-small-circle">
+                    <div class="about-us-circle" style="overflow:none;">
+                     <div class="about-us-small-circle" style="overflow: hidden;">
+
+
                        <!-- <div class="quarter bottom-right"></div> -->
+											 <img src="/images/core20/PAVAN KUMAR.jpeg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
                       </div>
                      </div>
 
                     </div>
                      <div class="name-designation">
-                       <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
+                       <h1 class="about-us-h1">Pavan Kumar</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Chairman</h1>
                      </div>
                  </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
-                    <div class="about-us-circle">
-                     <div class="about-us-small-circle">
+                    <div class="about-us-circle" style="overflow:none;">
+                     <div class="about-us-small-circle" style="overflow: hidden;">
+
+
                        <!-- <div class="quarter bottom-right"></div> -->
+											 <img src="/images/core20/ARVIND BALAJI.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
                       </div>
                      </div>
 
                     </div>
                      <div class="name-designation">
-                       <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
+                       <h1 class="about-us-h1">Arvind Balaji</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Overall Coordinator</h1>
                      </div>
                  </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
-                    <div class="about-us-circle">
-                     <div class="about-us-small-circle">
+                    <div class="about-us-circle" style="overflow:none;">
+                     <div class="about-us-small-circle" style="overflow: hidden;">
+
+
                        <!-- <div class="quarter bottom-right"></div> -->
+											 <img src="/images/core20/HARIKA.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
                       </div>
                      </div>
 
                     </div>
                      <div class="name-designation">
-                       <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
+                       <h1 class="about-us-h1">Harika</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Overall Coordinator</h1>
                      </div>
                  </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
-                    <div class="about-us-circle">
-                     <div class="about-us-small-circle">
+                    <div class="about-us-circle" style="overflow:none;">
+                     <div class="about-us-small-circle" style="overflow: hidden;">
+
+
                        <!-- <div class="quarter bottom-right"></div> -->
+											 <img src="/images/core20/NAVEEN.JPG" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
                       </div>
                      </div>
 
                     </div>
                      <div class="name-designation">
-                       <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
+                       <h1 class="about-us-h1">Naveen</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Treasurer</h1>
                      </div>
                  </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
-                    <div class="about-us-circle">
-                     <div class="about-us-small-circle">
+                    <div class="about-us-circle" style="overflow:none;">
+                     <div class="about-us-small-circle" style="overflow: hidden;">
+
+
                        <!-- <div class="quarter bottom-right"></div> -->
+											 <img src="/images/core20/SOUMITH REDDY.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
                       </div>
                      </div>
 
                     </div>
                      <div class="name-designation">
-                       <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
+                       <h1 class="about-us-h1">Soumith Reddy</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Organising</h1>
                      </div>
                  </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
-                    <div class="about-us-circle">
-                     <div class="about-us-small-circle">
+                    <div class="about-us-circle" style="overflow:none;">
+                     <div class="about-us-small-circle" style="overflow: hidden;">
+
+
                        <!-- <div class="quarter bottom-right"></div> -->
+											 <img src="/images/core20/SANJAY.JPG" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
                       </div>
                      </div>
 
                     </div>
                      <div class="name-designation">
-                       <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
+                       <h1 class="about-us-h1">Sanjay</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Marketing</h1>
                      </div>
                  </div>
 								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
 
                    <div class="about-us-container">
-                    <div class="about-us-circle">
-                     <div class="about-us-small-circle">
+                    <div class="about-us-circle" style="overflow:none;">
+                     <div class="about-us-small-circle" style="overflow: hidden;">
+
+
                        <!-- <div class="quarter bottom-right"></div> -->
+											 <img src="/images/core20/VASANTH.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
                       </div>
                      </div>
 
                     </div>
                      <div class="name-designation">
-                       <h1 class="about-us-h1">Name</h1>
-                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Designation</h1>
+                       <h1 class="about-us-h1">Vasanth</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Events</h1>
                      </div>
                  </div>
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+                   <div class="about-us-container">
+                    <div class="about-us-circle" style="overflow:none;">
+                     <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+                       <!-- <div class="quarter bottom-right"></div> -->
+											 <img src="/images/core20/BHUVANA.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+                      </div>
+                     </div>
+
+                    </div>
+                     <div class="name-designation">
+                       <h1 class="about-us-h1">Bhuvana</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Events</h1>
+                     </div>
+                 </div>
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+                   <div class="about-us-container">
+                    <div class="about-us-circle" style="overflow:none;">
+                     <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+                       <!-- <div class="quarter bottom-right"></div> -->
+											 <img src="/images/core20/PAVAN. jpg.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+                      </div>
+                     </div>
+
+                    </div>
+                     <div class="name-designation">
+                       <h1 class="about-us-h1">Pavan</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Workshops</h1>
+                     </div>
+                 </div>
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+                   <div class="about-us-container">
+                    <div class="about-us-circle" style="overflow:none;">
+                     <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+                       <!-- <div class="quarter bottom-right"></div> -->
+											 <img src="/images/core20/HARIHARAN.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+                      </div>
+                     </div>
+
+                    </div>
+                     <div class="name-designation">
+                       <h1 class="about-us-h1">Hariharan</h1>
+                       <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Workshops</h1>
+                     </div>
+                 </div>
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+									 <div class="about-us-container">
+										<div class="about-us-circle" style="overflow:none;">
+										 <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+											 <!-- <div class="quarter bottom-right"></div> -->
+											<img src="/images/core20/NIVETHA.JPG" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+											</div>
+										 </div>
+
+										</div>
+										 <div class="name-designation">
+											 <h1 class="about-us-h1">Nivetha</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Content</h1>
+										 </div>
+								 </div>
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+									 <div class="about-us-container">
+										<div class="about-us-circle" style="overflow:none;">
+										 <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+											 <!-- <div class="quarter bottom-right"></div> -->
+											<img src="/images/core20/TEJAS.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+											</div>
+										 </div>
+
+										</div>
+										 <div class="name-designation">
+											 <h1 class="about-us-h1">Tejas</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Content</h1>
+										 </div>
+								 </div>
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+									 <div class="about-us-container">
+										<div class="about-us-circle" style="overflow:none;">
+										 <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+											 <!-- <div class="quarter bottom-right"></div> -->
+											<img src="/images/core20/SHIVARANJANI.jpEg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+											</div>
+										 </div>
+
+										</div>
+										 <div class="name-designation">
+											 <h1 class="about-us-h1">Shivaranjani</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Content</h1>
+										 </div>
+								 </div>
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+									 <div class="about-us-container">
+										<div class="about-us-circle" style="overflow:none;">
+										 <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+											 <!-- <div class="quarter bottom-right"></div> -->
+											<img src="/images/core20/ASHISH BHARGAV.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+											</div>
+										 </div>
+
+										</div>
+										 <div class="name-designation">
+											 <h1 class="about-us-h1">Ashish Bhargav</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Publicity</h1>
+										 </div>
+								 </div>
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+									 <div class="about-us-container">
+										<div class="about-us-circle" style="overflow:none;">
+										 <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+											 <!-- <div class="quarter bottom-right"></div> -->
+											<img src="/images/core20/HIMAJA KRISHNA.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+											</div>
+										 </div>
+
+										</div>
+										 <div class="name-designation">
+											 <h1 class="about-us-h1">Himaja</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Publicity</h1>
+										 </div>
+								 </div>
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+									 <div class="about-us-container">
+										<div class="about-us-circle" style="overflow:none;">
+										 <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+											 <!-- <div class="quarter bottom-right"></div> -->
+											<img src="/images/core20/CHAANDINI.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+											</div>
+										 </div>
+
+										</div>
+										 <div class="name-designation">
+											 <h1 class="about-us-h1">R Chaandini</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Ambience</h1>
+										 </div>
+								 </div>
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+									 <div class="about-us-container">
+										<div class="about-us-circle" style="overflow:none;">
+										 <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+											 <!-- <div class="quarter bottom-right"></div> -->
+											<img src="/images/core20/LEELA PRASAD.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+											</div>
+										 </div>
+
+										</div>
+										 <div class="name-designation">
+											 <h1 class="about-us-h1">Leela Prasad</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,PR and Hospitality</h1>
+										 </div>
+								 </div>
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+									 <div class="about-us-container">
+										<div class="about-us-circle" style="overflow:none;">
+										 <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+											 <!-- <div class="quarter bottom-right"></div> -->
+											<img src="/images/core20/SOWMYA.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+											</div>
+										 </div>
+
+										</div>
+										 <div class="name-designation">
+											 <h1 class="about-us-h1">Sowmya</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,PR and Hospitality</h1>
+										 </div>
+								 </div>
+								 <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+
+									 <div class="about-us-container">
+										<div class="about-us-circle" style="overflow:none;">
+										 <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+											 <!-- <div class="quarter bottom-right"></div> -->
+											<img src="/images/core20/PRAKASH.jpeg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+											</div>
+										 </div>
+
+										</div>
+										 <div class="name-designation">
+											 <h1 class="about-us-h1">Prakash</h1>
+											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,PR and Hospitality</h1>
+										 </div>
+								 </div>
+       <div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+								 									 <div class="about-us-container">
+								 										<div class="about-us-circle" style="overflow:none;">
+								 										 <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+								 											 <!-- <div class="quarter bottom-right"></div> -->
+								 											<img src="/images/core20/BHAVANA.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+								 											</div>
+								 										 </div>
+
+								 										</div>
+								 										 <div class="name-designation">
+								 											 <h1 class="about-us-h1">Bhavana</h1>
+								 											 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Social Responsibility</h1>
+								 										 </div>
+								 								 </div>
+
+																											<div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+																																											<div class="about-us-container">
+																																											 <div class="about-us-circle" style="overflow:none;">
+																																												<div class="about-us-small-circle" style="overflow: hidden;">
+
+
+																																													<!-- <div class="quarter bottom-right"></div> -->
+																																												 <img src="/images/core20/MUKHESH.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+																																												 </div>
+																																												</div>
+
+																																											 </div>
+																																												<div class="name-designation">
+																																													<h1 class="about-us-h1">Mukhesh</h1>
+																																													<h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Design</h1>
+																																												</div>
+																																										</div>
+																																										<div class="col-3 col-4-medium col-6-small  col-12-xsmall">
+																								 																																	 <div class="about-us-container">
+																								 																																		<div class="about-us-circle" style="overflow:none;">
+																								 																																		 <div class="about-us-small-circle" style="overflow: hidden;">
+
+
+																								 																																			 <!-- <div class="quarter bottom-right"></div> -->
+																								 																																			<img src="/images/core20/NAVEN S R.jpg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+																								 																																			</div>
+																								 																																		 </div>
+
+																								 																																		</div>
+																								 																																		 <div class="name-designation">
+																								 																																			 <h1 class="about-us-h1">Naven S R</h1>
+																								 																																			 <h1 class="about-us-h1" style="font-size:1.55rem;color:#f44336;">Head,Webops</h1>
+																								 																																		 </div>
+																								 																																 </div>
+
 
 
 
