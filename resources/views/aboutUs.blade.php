@@ -278,7 +278,7 @@
 
 
 											 <!-- <div class="quarter bottom-right"></div> -->
-											<img src="/images/core20/SHIVARANJANI.jpEg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
+											<img src="/images/core20/SHIVARANJANI.jpeg" style="width:100%;height:100%;transform:rotate(-50deg);"  alt="">
 											</div>
 										 </div>
 
@@ -472,6 +472,6 @@
     <script src="{{ asset('js/browser.min.js') }}"></script>
     <script src="{{ asset('js/breakpoints.min.js') }}"></script>
     <script src="{{ asset('js/util.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('js/main2020.js') }}"></script>
   </body>
 </html>
