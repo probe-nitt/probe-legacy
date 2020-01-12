@@ -67,7 +67,7 @@
 	                                    <img style="max-width:250px" src="/images/nationalinstruments.png">
 	                                </section>
 	                                <section class="col-4 col-6-medium col-12-xsmall">
-	                                    <img style="max-width:250px" src="/images/tilogo.png">
+	                                    <img style="max-width:250px" src="/images/entuplelogo.png">
 	                                </section>
                         		</div>
                             </div>

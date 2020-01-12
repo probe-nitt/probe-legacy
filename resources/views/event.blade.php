@@ -51,14 +51,14 @@
 						<ul id="hexGrid">
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:red;">
+									<a class="hexLink" href="/events/luckydraw" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
 										<div class="hexagon-content">
+											   <!-- <h1>Hello</h1> -->
 
-												Hello World
 
 										</div>
-										<h1>Event</h1>
+										<h1>Lucky Draw</h1>
 										<p>Event desc and other stuff</p>
 									</a>
 								</div>
@@ -97,9 +97,14 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:red;">
+									<a class="hexLink" href="/events/quizzardo" style="background-color:red;">
 										<!-- <img src="" alt="Event1" /> -->
-										<h1>Event</h1>
+										<div class="hexagon-content">
+											   <!-- <h1>Hello</h1> -->
+
+
+										</div>
+										<h1>Quizzardo</h1>
 										<p>Event desc and other stuff</p>
 									</a>
 								</div>
