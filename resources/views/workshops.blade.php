@@ -52,7 +52,7 @@
 						<ul id="hexGrid">
                         <li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="/workshops/probot" style="background-color:blue;">
+									<a class="hexLink" href="#" style="background-color:blue;">
 										<!-- <img src="/images/w2.jpg"/> -->
 										<div class="hexagon-content">
 											Workshop #1

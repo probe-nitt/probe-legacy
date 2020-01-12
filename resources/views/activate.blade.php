@@ -8,7 +8,7 @@
             <p>Greetings from Team Probe!</p>
         </div>
         <div>
-            <p>You have successfully registered for Probe 2019.</p>
+            <p>You have successfully registered for Probe 2020.</p>
             <p>You will be able to login once you verify your email.</p>
             <p>Please click <a href="{{ $url }}">here</a> to verify your email.</p>
         </div>

@@ -90,7 +90,7 @@ class UserController extends Controller
 
         $user = Users::where('email','=',$email)->first();
 
-        $id = "PROBE19".str_pad($user->id, 4, '0', STR_PAD_LEFT);
+        $id = "PROBE20".str_pad($user->id, 4, '0', STR_PAD_LEFT);
 
         $user->probe_id = $id;
 

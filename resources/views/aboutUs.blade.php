@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Event Registration | PROBE 2019</title>
+		<title>About Us | PROBE 2020</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
@@ -456,11 +456,11 @@
         </div>
 
       <!-- Footer -->
-        <footer style="margin-bottom:0" id="footer">
+        <!-- <footer style="margin-bottom:0" id="footer">
           <ul class="copyright">
             <li>&copy; PROBE 2019. All rights reserved.</li>
           </ul>
-        </footer>
+        </footer> -->
 
     </div>
 

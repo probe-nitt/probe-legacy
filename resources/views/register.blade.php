@@ -6,7 +6,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Registration | PROBE 2019</title>
+		<title>Registration | PROBE 2020</title>
 		<meta charset="utf-8" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -136,11 +136,11 @@
 				</div>
 
 			<!-- Footer -->
-				<footer id="footer">
+				<!-- <footer id="footer">
 					<ul class="copyright">
 						<li>&copy; PROBE 2019. All rights reserved.</li>
 					</ul>
-				</footer>
+				</footer> -->
 
 		</div>
 
