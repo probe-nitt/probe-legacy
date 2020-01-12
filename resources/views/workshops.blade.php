@@ -27,10 +27,10 @@
 					<h1 id="logo2020"><a href="/"><img src="/images/probe_p.png"></a></h1>
 					<nav class="nav2020">
 						<ul>
-							<li><a href="/register"><img src="/images/facebook.svg" alt="facebook"></a></li>
-							<li><a href="/register"><img src="/images/instagram.png" alt="instagram"></a></li>
-							<li><a href="/register"><img src="/images/linkedin.svg" alt="linkedin"></a></li>
-							<li><a href="/sponsors">Sponsors</a></li>
+							
+			<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank"><img src="/images/facebook.svg" alt="facebook"></a></li>
+							<li><a href="https://www.instagram.com/probe.nitt/"" target="_blank"><img src="/images/instagram.png" alt="instagram"></a></li>
+							<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" " target="_blank"><img src="/images/linkedin.svg" alt="linkedin"></a></li>							<li><a href="/sponsors">Sponsors</a></li>
 							@if ($name = session('name'))
 							<li>{{ $name }}</li>
 							<li><a href="/logout" class="button primary">Log out</a></li>
