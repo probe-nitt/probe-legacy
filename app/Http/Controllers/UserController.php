@@ -609,14 +609,14 @@ class UserController extends Controller
             $data = json_decode($request->input('data'));
             Log::info($request->input('data'));
             
-            if(is_array($data)){
+            if(is_array($data->ticketItems)){
 
-                foreach($data as $registrant){
+                foreach($data->ticketItems as $ticket){
 
-                
-                    $email = $registrant->userEmailId;
+                    $registrant = $ticket->attendee;
+                    $email = $registrant->email;
                     
-                    $workshop = $registrant->ticketName;
+                    $workshop = $ticket->programName;
                     $wid = Workshops::where('name',$workshop)->first();
                     $wid = $wid->id;
                     $user = Users::where('email','=',$email)->first();
@@ -635,9 +635,9 @@ class UserController extends Controller
             }
             else{
                 
-                $registrant = $data;
-                $email = $registrant->userEmailId;
-                $workshop = $registrant->ticketName;
+                $registrant = $data->attendee;
+                $email = $registrant->email;
+                $workshop = $data->programName;
                 $wid = Workshops::where('name',$workshop)->first();
                 $wid = $wid->id;
                 $user = Users::where('email','=',$email)->first();

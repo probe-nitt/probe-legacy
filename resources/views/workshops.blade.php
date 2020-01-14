@@ -52,17 +52,16 @@
 						<ul id="hexGrid">
                         <li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:blue;">
-										<!-- <img src="/images/w2.jpg"/> -->
+									<a class="hexLink" href="/workshops/probot" style="background-color:blue;">
+										<img src="/images/w2.jpg"/>
 										<div class="hexagon-content">
-											Workshop #1
 
 
 										</div>
-										<!-- <h1>Probot</h1>
-										<p>Gesture Controlled IoT Based Smart Lock System</p> -->
-										<h1>Workshop #1</h1>
-										<p>Coming soon!</p>
+										<h1>Probot</h1>
+										<p>Gesture Controlled IoT Based Smart Lock System</p>
+										<!-- <h1>Workshop #1</h1>
+										<p>Coming soon!</p> -->
 									</a>
 								</div>
 							</li>

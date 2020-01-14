@@ -46,7 +46,7 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2><b>Probe 2019 Sponsors</b></h2>
+							<h2><b>Probe 2020 Sponsors</b></h2>
                         </header>
                         <!--p style="text-align: center;">Coming Soon</p-->
                         <div style="margin:auto; text-align: center; justify-content: center;" class="row gtr-uniform gtr-50">
@@ -79,7 +79,7 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
+						<li>&copy; PROBE 2020. All rights reserved.</li>
 					</ul>
 				</footer>
 

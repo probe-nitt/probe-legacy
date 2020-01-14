@@ -168,6 +168,7 @@ background-image:url(../images/backract.png);overflow: hidden;">
 		</section>
 	</div>
 </div>
+<div class=reg-button-wrapper><a href="/workshops/register?workshop=Probot" class="myButton">Register</a></div>
 </div>
 </div>
 

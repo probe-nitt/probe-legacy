@@ -10,31 +10,41 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
+		<link rel="stylesheet" href="{{ asset('css/workshops.css') }}"  />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" /> 
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
-					<nav id="nav">
-						<ul>
-                            <li><a href="/events">Events</a></li>
-                            <li><a href="/workshops">Workshops</a></li>
-							<li><a href="/sponsors">Sponsors</a></li>
-                            <li><a href="/contact">Contact us</a></li>
-							@if ($name = session('name'))
-							<li>{{ $name }}</li>
-							<li><a href="/logout" class="button primary">Log out</a></li>
-                        	@endif
-							@if (!session('name'))
-							<li><a href="/register" class="button primary">Register</a></li>
-							<li><a href="/login" class="button primary">Log in</a></li>
-                        	@endif
-						</ul>
-					</nav>
-				</header>
+			<header id="header" class="header2020">
+		<nav class="nav2020">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/workshops">Workshops</a></li>
+				<li><a href="/events">Events</a></li>
+				<li><a href="/about" class="scrolly">About us</a></li>
+				<li><a href="/contact">Contact us</a></li>
+			</ul>
+		</nav>
+		<h1 id="logo2020"><a href="/"><img src="/images/probe_p.png"></a></h1>
+		<nav class="nav2020">
+			<ul>
+				1waq<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank"><img src="/images/facebook.svg" alt="facebook"></a></li>
+							<li><a href="https://www.instagram.com/probe.nitt/"" target="_blank"><img src="/images/instagram.png" alt="instagram"></a></li>
+							<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" " target="_blank"><img src="/images/linkedin.svg" alt="linkedin"></a></li>				<li><a href="/sponsors">Sponsors</a></li>
+				@if ($name = session('name'))
+				<li>{{ $name }}</li>
+				<li><a href="/logout" class="button primary">Log out</a></li>
+				@endif
+				@if (!session('name'))
+				<li><a href="/register">Sign up</a></li>
+				<li><a href="/login">Log in</a></li>
+				@endif
+			</ul>
+		</nav>
+	</header>
 
 			<!-- Main -->
 				<div id="main" class="wrapper style1">
@@ -84,8 +94,8 @@
 							@if ($mc >= 3)
 							<p>Participant 3: {{$p3}}</p>
 							@endif
-							<strong>For successful payment please do not edit the pre-filled details</strong><br/><br/>
-							<button onclick="popupWithAutoFill(getPreFilledDataTS({{ $mc }}));" class="button primary fit">Pay and complete registration</button>
+							<strong>For successful payment, please use the email that is registered in this website.</strong><br/><br/>
+							<a href="https://www.thecollegefever.com/events/probe-2020" target="_blank"><button class="button primary fit">Pay and complete registration</button></a>
 							
 						</div>
 						@endif
@@ -95,7 +105,7 @@
 			<!-- Footer -->
 				<footer style="margin-bottom:0" id="footer">
 					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
+						<li>&copy; PROBE 2020. All rights reserved.</li>
 					</ul>
 				</footer>
 
