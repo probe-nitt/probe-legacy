@@ -177,9 +177,9 @@ class UserController extends Controller
         $event = $request->input('event');
 
         $pid = Session::get('pid');
-        //$uid = (int)ltrim($pid,"PROBE19");
+        //$uid = (int)ltrim($pid,"PROBE20");
         if($pid)
-            $uid = (int)explode('PROBE19',$pid)[1];
+            $uid = (int)explode('PROBE20',$pid)[1];
         else
             $uid = -1;
 
@@ -222,9 +222,9 @@ class UserController extends Controller
         $workshop = $request->input('workshop');
 
         $pid = Session::get('pid');
-        //$uid = (int)ltrim($pid,"PROBE19");
+        //$uid = (int)ltrim($pid,"PROBE20");
         if($pid)
-            $uid = (int)explode('PROBE19',$pid)[1];
+            $uid = (int)explode('PROBE20',$pid)[1];
         else
             $uid = -1;
 
@@ -255,11 +255,11 @@ class UserController extends Controller
                 $ispaid = 1;
             }
             if($isregistered->participant1)
-                $p1 = "PROBE19".str_pad($isregistered->participant1, 4, '0', STR_PAD_LEFT);
+                $p1 = "PROBE20".str_pad($isregistered->participant1, 4, '0', STR_PAD_LEFT);
             if($isregistered->participant2)
-                $p2 = "PROBE19".str_pad($isregistered->participant2, 4, '0', STR_PAD_LEFT);
+                $p2 = "PROBE20".str_pad($isregistered->participant2, 4, '0', STR_PAD_LEFT);
             if($isregistered->participant3)
-                $p3 = "PROBE19".str_pad($isregistered->participant3, 4, '0', STR_PAD_LEFT);
+                $p3 = "PROBE20".str_pad($isregistered->participant3, 4, '0', STR_PAD_LEFT);
         }
 
         return view('workshopreg',['regbool' => $regbool, 'ispaid' => $ispaid, 'workshop' => $workshop, 'p1' => $p1, 'p2' => $p2, 'p3' => $p3, 'mc' => $mc, 'ec' => $ec]);
@@ -302,7 +302,7 @@ class UserController extends Controller
         */
 
         /*
-        if( ($p2!='' && !isset(explode('PROBE19',$p2)[1])) || ($p3!='' && !isset(explode('PROBE19',$p3)[1]))) {
+        if( ($p2!='' && !isset(explode('PROBE20',$p2)[1])) || ($p3!='' && !isset(explode('PROBE20',$p3)[1]))) {
             Session::flash('message', 'One or more of the provided Probe IDs are invalid');
             return redirect('/events/register/'.'?event='.$event); 
         }*/
@@ -312,7 +312,7 @@ class UserController extends Controller
             /*if($p2 == '' || $p3 == '' || $p4 == '' || $p5 == '' || $p6 == ''){
                 Session::flash('message', 'One or more of the provided Probe IDs are missing');
                 return redirect('/events/register/'.'?event='.$event); 
-            }*//*else if( !isset(explode('PROBE19',$p2)[1]) || !isset(explode('PROBE19',$p3)[1]) || !isset(explode('PROBE19',$p4)[1]) || !isset(explode('PROBE19',$p5)[1]) || !isset(explode('PROBE19',$p6)[1])) {
+            }*//*else if( !isset(explode('PROBE20',$p2)[1]) || !isset(explode('PROBE20',$p3)[1]) || !isset(explode('PROBE20',$p4)[1]) || !isset(explode('PROBE20',$p5)[1]) || !isset(explode('PROBE20',$p6)[1])) {
                 Session::flash('message', 'One or more of the provided Probe IDs are invalid');
                 return redirect('/events/register/'.'?event='.$event); 
             }
@@ -321,48 +321,48 @@ class UserController extends Controller
 
         $lid = Users::orderBy('created_at', 'desc')->first()->id;
 
-        //$p1 = (int)ltrim($p1,"PROBE19");
-        $p1 = (int)explode('PROBE19',$p1)[1];
+        //$p1 = (int)ltrim($p1,"PROBE20");
+        $p1 = (int)explode('PROBE20',$p1)[1];
 
         if($p1>$lid){
             Session::flash('message', 'One or more of the provided Probe IDs are not valid');
             return redirect('/events/register/'.'?event='.$event);
         }
         if($p2!=''){
-            //$p2 = (int)ltrim($p2,"PROBE19");
-            $p2 = (int)explode('PROBE19',$p2)[1];
+            //$p2 = (int)ltrim($p2,"PROBE20");
+            $p2 = (int)explode('PROBE20',$p2)[1];
             if($p2>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/events/register/'.'?event='.$event);
             }
         }
         if($p3!=''){
-            //$p3 = (int)ltrim($p3,"PROBE19");
-            $p3 = (int)explode('PROBE19',$p3)[1];
+            //$p3 = (int)ltrim($p3,"PROBE20");
+            $p3 = (int)explode('PROBE20',$p3)[1];
             if($p3>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/events/register/'.'?event='.$event);
             }
         }
         if($p4!=''){
-            //$p4 = (int)ltrim($p4,"PROBE19");
-            $p4 = (int)explode('PROBE19',$p4)[1];
+            //$p4 = (int)ltrim($p4,"PROBE20");
+            $p4 = (int)explode('PROBE20',$p4)[1];
             if($p4>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/events/register/'.'?event='.$event);
             }
         }
         if($p5!=''){
-            //$p5 = (int)ltrim($p5,"PROBE19");
-            $p5 = (int)explode('PROBE19',$p5)[1];
+            //$p5 = (int)ltrim($p5,"PROBE20");
+            $p5 = (int)explode('PROBE20',$p5)[1];
             if($p5>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/events/register/'.'?event='.$event);
             }
         }
         if($p6!=''){
-            //$p6 = (int)ltrim($p6,"PROBE19");
-            $p6 = (int)explode('PROBE19',$p6)[1];
+            //$p6 = (int)ltrim($p6,"PROBE20");
+            $p6 = (int)explode('PROBE20',$p6)[1];
             if($p6>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/events/register/'.'?event='.$event);
@@ -502,30 +502,30 @@ class UserController extends Controller
         $p2 = preg_replace('/\s+/', '', $p2);
         $p3 = preg_replace('/\s+/', '', $p3);
         
-        if( ($p2!='' && !isset(explode('PROBE19',$p2)[1])) || ($p3!='' && !isset(explode('PROBE19',$p3)[1]))) {
+        if( ($p2!='' && !isset(explode('PROBE20',$p2)[1])) || ($p3!='' && !isset(explode('PROBE20',$p3)[1]))) {
             Session::flash('message', 'One or more of the provided Probe IDs are invalid');
             return redirect('/workshops/register/'.'?workshop='.$workshop);
         }
 
         $lid = Users::orderBy('created_at', 'desc')->first()->id;
 
-        //$p1 = (int)ltrim($p1,"PROBE19");
-        $p1 = (int)explode('PROBE19',$p1)[1];
+        //$p1 = (int)ltrim($p1,"PROBE20");
+        $p1 = (int)explode('PROBE20',$p1)[1];
         if($p1>$lid){
             Session::flash('message', 'One or more of the provided Probe IDs are not valid');
             return redirect('/workshops/register/'.'?workshop='.$workshop);
         }
         if($p2!=''){
-            //$p2 = (int)ltrim($p2,"PROBE19");
-            $p2 = (int)explode('PROBE19',$p2)[1];
+            //$p2 = (int)ltrim($p2,"PROBE20");
+            $p2 = (int)explode('PROBE20',$p2)[1];
             if($p2>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/workshops/register/'.'?workshop='.$workshop);
             }
         }
         if($p3!=''){
-            //$p3 = (int)ltrim($p3,"PROBE19");
-            $p3 = (int)explode('PROBE19',$p3)[1];
+            //$p3 = (int)ltrim($p3,"PROBE20");
+            $p3 = (int)explode('PROBE20',$p3)[1];
             if($p3>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
                 return redirect('/workshops/register/'.'?workshop='.$workshop);
@@ -812,7 +812,7 @@ class UserController extends Controller
 
             echo json_encode($user);
     
-            $id = "PROBE19".str_pad($user->id, 4, '0', STR_PAD_LEFT);
+            $id = "PROBE20".str_pad($user->id, 4, '0', STR_PAD_LEFT);
     
             $user->probe_id = $id;
 

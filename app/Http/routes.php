@@ -80,9 +80,9 @@ Route::get('/events/bullseye', function () {
     $event = "Bullseye";
 
     $pid = Session::get('pid');
-    //$uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE20");
     if($pid)
-        $uid = (int)explode('PROBE19',$pid)[1];
+        $uid = (int)explode('PROBE20',$pid)[1];
     else
         $uid = -1;
 
@@ -118,9 +118,9 @@ Route::get('/events/embedtronix', function () {
     $event = "Embedtronix";
 
     $pid = Session::get('pid');
-    //$uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE20");
     if($pid)
-        $uid = (int)explode('PROBE19',$pid)[1];
+        $uid = (int)explode('PROBE20',$pid)[1];
     else
         $uid = -1;
 
@@ -154,9 +154,9 @@ Route::get('/events/matrix', function () {
     $event = "Matrix";
 
     $pid = Session::get('pid');
-    //$uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE20");
     if($pid)
-        $uid = (int)explode('PROBE19',$pid)[1];
+        $uid = (int)explode('PROBE20',$pid)[1];
     else
         $uid = -1;
 
@@ -188,9 +188,9 @@ Route::get('/events/ideathon', function () {
     $event = "Qualcomm Ideathon";
 
     $pid = Session::get('pid');
-    //$uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE20");
     if($pid)
-        $uid = (int)explode('PROBE19',$pid)[1];
+        $uid = (int)explode('PROBE20',$pid)[1];
     else
         $uid = -1;
 
@@ -225,9 +225,9 @@ Route::get('/events/makeathon', function () {
     $event = "Qualcomm Makeathon";
 
     $pid = Session::get('pid');
-    //$uid = (int)ltrim($pid,'PROBE19');
+    //$uid = (int)ltrim($pid,'PROBE20');
     if($pid)
-        $uid = (int)explode('PROBE19',$pid)[1];
+        $uid = (int)explode('PROBE20',$pid)[1];
     else
         $uid = -1;
 
@@ -287,9 +287,9 @@ Route::get('/workshops/ocr', function () {
     $workshop2 = "Optical Character Recognition using Deep Learning Day 2";
 
     $pid = Session::get('pid');
-    //$uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE20");
     if($pid)
-        $uid = (int)explode('PROBE19',$pid)[1];
+        $uid = (int)explode('PROBE20',$pid)[1];
     else
         $uid = -1;
 
@@ -350,9 +350,9 @@ Route::get('/workshops/das', function () {
     $workshop2 = "Data Acquisition Systems using LabVIEW Day 2";
 
     $pid = Session::get('pid');
-    //$uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE20");
     if($pid)
-        $uid = (int)explode('PROBE19',$pid)[1];
+        $uid = (int)explode('PROBE20',$pid)[1];
     else
         $uid = -1;
 
@@ -411,9 +411,9 @@ Route::get('/workshops/probot', function () {
     $workshop = "Probot";
 
     $pid = Session::get('pid');
-    //$uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE20");
     if($pid)
-        $uid = (int)explode('PROBE19',$pid)[1];
+        $uid = (int)explode('PROBE20',$pid)[1];
     else
         $uid = -1;
 
@@ -453,9 +453,9 @@ Route::get('/workshops/esd', function () {
     $workshop = "Embedded System Design using CC3200 - IoT";
 
     $pid = Session::get('pid');
-    //$uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE20");
     if($pid)
-        $uid = (int)explode('PROBE19',$pid)[1];
+        $uid = (int)explode('PROBE20',$pid)[1];
     else
         $uid = -1;
 
@@ -494,9 +494,9 @@ Route::get('/workshops/psoc', function () {
     $workshop = "IoT Training using PSoC";
 
     $pid = Session::get('pid');
-    //$uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE20");
     if($pid)
-        $uid = (int)explode('PROBE19',$pid)[1];
+        $uid = (int)explode('PROBE20',$pid)[1];
     else
         $uid = -1;
 
@@ -535,9 +535,9 @@ Route::get('/workshops/socath', function () {
     $workshop = "System on Chip using Atheros ath10k";
 
     $pid = Session::get('pid');
-    //$uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE20");
     if($pid)
-        $uid = (int)explode('PROBE19',$pid)[1];
+        $uid = (int)explode('PROBE20',$pid)[1];
     else
         $uid = -1;
 
@@ -576,9 +576,9 @@ Route::get('/workshops/adt', function () {
     $workshop = "Antenna Design and Testing";
 
     $pid = Session::get('pid');
-    //$uid = (int)ltrim($pid,"PROBE19");
+    //$uid = (int)ltrim($pid,"PROBE20");
     if($pid)
-        $uid = (int)explode('PROBE19',$pid)[1];
+        $uid = (int)explode('PROBE20',$pid)[1];
     else
         $uid = -1;
 
