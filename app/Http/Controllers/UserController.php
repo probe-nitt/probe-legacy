@@ -605,9 +605,10 @@ class UserController extends Controller
     public function tswh(Request $request)
     {
         try{
-
-            $data = json_decode($request->input('data'));
-            Log::info($request->input('data'));
+            Log::info($request);
+            Log::info($request->getContent());
+            $data = json_decode($request->getContent());
+            //Log::info($data);
             
             if(is_array($data->ticketItems)){
 
@@ -617,6 +618,7 @@ class UserController extends Controller
                     $email = $registrant->email;
                     
                     $workshop = $ticket->programName;
+                    Log::info($workshop);
                     $wid = Workshops::where('name',$workshop)->first();
                     $wid = $wid->id;
                     $user = Users::where('email','=',$email)->first();
