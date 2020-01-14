@@ -66,14 +66,15 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:red;">
-										<!-- <img src="" alt="Event1" /> -->
+									<a class="hexLink" href="/events/probeit" style="background-color:red;">
+										<img src="/images/probeit.png" alt="Event1" />
 										<div class="hexagon-content">
-											Event #3
+											   <!-- <h1>Hello</h1> -->
+
 
 										</div>
-										<h1>Event #3</h1>
-										<p>Coming soon!</p>
+										<h1>Probe It!</h1>
+										<p>Online quizzing event of Probe 2020</p>
 									</a>
 								</div>
 							</li>

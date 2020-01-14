@@ -1,92 +1,135 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Probe It | PROBE 2019</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
-		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="page-wrapper">
+<head>
+	<title>Probe It! | PROBE 2020</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
+	<link rel="stylesheet" href="{{ asset('css/workshops.css') }}"  />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" /> 
+	<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
+</head>
+<body class="is-preload" style="
+background-image:url(../images/backract.png);overflow: hidden;">
+<div id="page-wrapper">
+	
+	<!-- Header -->
+	<header id="header" class="header2020">
+		<nav class="nav2020">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/workshops">Workshops</a></li>
+				<li><a href="/events">Events</a></li>
+				<li><a href="/about" class="scrolly">About us</a></li>
+				<li><a href="/contact">Contact us</a></li>
+			</ul>
+		</nav>
+		<h1 id="logo2020"><a href="/"><img src="/images/probe_p.png"></a></h1>
+		<nav class="nav2020">
+			<ul>
+<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank"><img src="/images/facebook.svg" alt="facebook"></a></li>
+							<li><a href="https://www.instagram.com/probe.nitt/"" target="_blank"><img src="/images/instagram.png" alt="instagram"></a></li>
+							<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" " target="_blank"><img src="/images/linkedin.svg" alt="linkedin"></a></li>				<li><a href="/sponsors">Sponsors</a></li>
+				@if ($name = session('name'))
+				<li>{{ $name }}</li>
+				<li><a href="/logout" class="button primary">Log out</a></li>
+				@endif
+				@if (!session('name'))
+				<li><a href="/register">Sign up</a></li>
+				<li><a href="/login">Log in</a></li>
+				@endif
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- Main -->
+	<div id="main" class="wrapper style1">
+		<div class="container">
+			<header class="major">
+			<h2><b>Events</b></h2>
+		</header>
+		<div class="row gtr-150">
+			<div class="col-4 col-12-medium">
+				
+				<!-- Sidebar -->
+				<section id="sidebar">
+					<div class="workshopcontainer">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="386" height="334"
+						viewBox="0 0 386 334">
+						<defs>
+							<style>
+								.cls-1 {
+									fill: url(#linear-gradient);
+								}
+								
+								.cls-2 {
+									fill: #fff;
+									font-size: 35px;
+									font-family: Montserrat-Medium, Montserrat;
+									font-weight: 500;
+								}
+							</style>
+							<linearGradient id="linear-gradient" x1="0.722" y1="0.951" x2="0.193" y2="0.188"
+							gradientUnits="objectBoundingBox">
+							<stop offset="0" stop-color="#2b499b" />
+							<stop offset="1" stop-color="#2388fc" />
+						</linearGradient>
+					</defs>
+					<g id="Group_47" data-name="Group 47" transform="translate(-178 -485)">
+						<path id="Polygon_9" data-name="Polygon 9" class="cls-1" d="M289.5,0,386,167,289.5,334H96.5L0,167,96.5,0Z"
+						transform="translate(178 485)" />
+						{{-- <text id="Event_n" data-name="Event #n" class="cls-2" transform="translate(297 665)">
+							<tspan x="0" y="0">Event #n</tspan>
+						</text> --}}
+					</g>
+				</svg>
+				<div class="workshopcentered" style="
+				font-size: xx-large;
+				">Probe It!</div>
+			</div>
+		</section>
+		
+	</div>
+	<div class="col-8 col-12-medium imp-medium">
+		
+		<!-- Content -->
+		<section id="content-workshops" style="
+    /* Position: absolute; */
+    height: 500px;
+	overflow-y: scroll;">
+	<header class="minor">
+		<h3 class="subheader"><b>Description</b></h3>
+	</header>
+            <p>Probe It, one of the online quizzing events of Probe 2020, was a grand success, both in terms of the overwhelming amount of responses, and the enthusiasm for the questions. </p>
+			<p>The questions not only brought out the inquisitiveness in participants, but also assisted them to delve deep and know about the latest tech used in blockbuster films like Spiderman, Robot etc. </p>
+			<p>Be it domains like wireless communication, VLSI or the real life electronic gadgets, the quiz had got them all!</p>
+            <header class="minor">
+				<h3 class="subheader"><b>Prizes</b></h3>
+			</header>
+                The winners of the contest are:
+                <ul>
+                <li><b>First Prize:</b> Suhail, M.A.M College of Engineering </li>
+                <li><b>Second Prize:</b> Venkat Subramanian P, NIT Trichy </li>
+                <li><b>Third Prize:</b> Amirtha Varshini K, NIT Trichy </li>
+                </ul>
 
-			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
-					<nav id="nav">
-						<ul>
-                            <li><a href="/events">Events</a></li>
-                            <li><a href="/workshops">Workshops</a></li>
-							<li><a href="/sponsors">Sponsors</a></li>
-                            <li><a href="/contact">Contact us</a></li>
-							@if ($name = session('name'))
-							<li>{{ $name }}</li>
-							<li><a href="/logout" class="button primary">Log out</a></li>
-                        	@endif
-							@if (!session('name'))
-							<li><a href="/register" class="button primary">Register</a></li>
-							<li><a href="/login" class="button primary">Log in</a></li>
-                        	@endif
-						</ul>
-					</nav>
-				</header>
+			<!-- <h4>Participation certificate for all the participants making to the finals.</h4> -->
+		</section>
+	</div>
+</div>
+</div>
+</div>
 
-			<!-- Main -->
-				<div id="main" class="wrapper style1">
-					<div class="container">
-						<header class="major">
-							<h2><b>PROBE IT</b></h2>
-						</header>
-						<div class="row gtr-150">
-							<div class="col-4 col-12-medium">
 
-								<!-- Sidebar -->
-									<section id="sidebar">
-										<section>
-											<h3>Contacts</h3>
-											<p>Email: <b><a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a></b></p>
-											<p>Srivatsan : <b>9444741197</b></p>
-											<p>Madhan : <b>9790381738</b></p>
-										</section>
-									</section>
+</div>
 
-							</div>
-							<div class="col-8 col-12-medium imp-medium">
-
-                            <!-- Content -->
-                                <section id="content">
-                                    <p>To all the ardent quizzers out there, PROBE IT is an online quiz for all the tronix geeks who find order and meaning in tangled wires. All you've got to do is to LIKE and FOLLOW the official PROBE page to receive frequent updates on questions. A whole range of exciting goodies and prizes awaits those who consistently get them right. Get your grey cells working and gear up.</p>
-									<h3>Prizes</h3>
-                                    <p>
-										Cash prizes worth :
-										<br/>First prize : 1400 INR
-										<br/>Second prize : 1000 INR
-										<br/>Third prize : 600 INR
-                                    </p>
-									<p>Results are announced.</p>
-								</section>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
-					</ul>
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="{{ asset('js/jquery.min.js') }}"></script>
-			<script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
-			<script src="{{ asset('js/jquery.dropotron.min.js') }}"></script>
-			<script src="{{ asset('js/jquery.scrollex.min.js') }}"></script>
-			<script src="{{ asset('js/browser.min.js') }}"></script>
-			<script src="{{ asset('js/breakpoints.min.js') }}"></script>
-			<script src="{{ asset('js/util.js') }}"></script>
-			<script src="{{ asset('js/main.js') }}"></script>
-	</body>
+<!-- Scripts -->
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
+<script src="{{ asset('js/jquery.dropotron.min.js') }}"></script>
+<script src="{{ asset('js/jquery.scrollex.min.js') }}"></script>
+<script src="{{ asset('js/browser.min.js') }}"></script>
+<script src="{{ asset('js/breakpoints.min.js') }}"></script>
+<script src="{{ asset('js/main2020.js') }}"></script>
+</body>
 </html>
