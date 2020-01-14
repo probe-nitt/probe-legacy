@@ -115,7 +115,7 @@ background-image:url(../images/backract.png);overflow: hidden;">
 												</li>
                                                 <li>Workshop fee:
 													<ul style="list-style-type:none">
-														<li><b>Rs 3000 per team</b></li>
+														<li><b>Rs 2100 per team (10% discount till 17th Jan)</b></li>
 													</ul>
 												</li>
 												<li>Duration :

@@ -53,7 +53,7 @@
                         <li class="hex">
 								<div class="hexIn">
 									<a class="hexLink" href="/workshops/probot" style="background-color:blue;">
-										<img src="/images/w2.jpg"/>
+										<img src="/images/w2.jpeg"/>
 										<div class="hexagon-content">
 
 
