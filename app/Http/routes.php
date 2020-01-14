@@ -616,7 +616,7 @@ Route::post('/register', 'UserController@register');
 
 Route::post('/login', 'UserController@login');
 
-Route::post('/tcfwebhook', 'UserController@tswh');
+Route::post('/tcfwebhook', array('middleware' => 'cors', 'uses' => 'UserController@tswh'));
 
 Route::get('/activate', 'UserController@confirm_mail');
 
