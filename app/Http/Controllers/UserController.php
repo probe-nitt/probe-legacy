@@ -632,6 +632,8 @@ class UserController extends Controller
                                                 })->first();
                     $reg->paid = 1;
                     $reg->save();
+                    return response('Success', 200)
+                        ->header('Content-Type', 'text/plain');
                     
                 }
             }
@@ -653,11 +655,14 @@ class UserController extends Controller
                                             })->first();
                 $reg->paid = 1;
                 $reg->save();
+                return response('Success', 200)
+                        ->header('Content-Type', 'text/plain');
             }
             return;
         } catch(\Throwable $e) {    
             Log::error("Hook failed".$e->getMessage()." ".$e->getLine());
-            return;
+            return response('Failure', 400)
+                ->header('Content-Type', 'text/plain');
         }   
     }
 
