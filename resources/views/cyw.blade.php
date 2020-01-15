@@ -175,6 +175,11 @@ background-image:url(../images/backract.png);overflow: hidden;">
 				<h3 class="subheader"><b>DETAILS</b></h3>
 			</header>
 											<ul>
+												<li>Organizer: 
+													<ul style="list-style-type:none">
+														<li><b>Cypress Semiconductor</b></li>
+													</ul>
+												</li>
 												<li>Maximum of participants per team: 
 													<ul style="list-style-type:none">
 														<li><b>3</b></li>
@@ -197,6 +202,9 @@ background-image:url(../images/backract.png);overflow: hidden;">
 						</li>
 						<li>
 							Limited Registrations.
+						</li>
+						<li>
+							Students have to bring their own laptops.
 						</li>
 						</ul>
 			<header class="minor">

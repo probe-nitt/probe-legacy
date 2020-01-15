@@ -129,6 +129,9 @@ background-image:url(../images/backract.png);overflow: hidden;">
 						<li>
 							Limited Registrations.
 						</li>
+						<li>
+							Students have to bring their own laptops.
+						</li>
 						</ul>
 			<header class="minor">
 				<h3 class="subheader"><b>FAQ</b></h3>
