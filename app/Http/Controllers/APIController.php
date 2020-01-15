@@ -171,4 +171,24 @@ class APIController extends Controller
 
         return JSONResponse::response(500);
     }
+
+    private function sendMailSG( $tomail, $subject, $content) {
+        
+        $email = new \SendGrid\Mail\Mail(); 
+        $email->setFrom("no-reply@probe.org.in", "Probe 2020, NIT Trichy");
+        $email->setSubject($subject);
+        $email->addTo($tomail, null);
+        $email->addContent(
+            "text/html", $content
+            );
+        $sendgrid = new \SendGrid(env('SENDGRID_API_KEY'));
+        try {
+          $response = $sendgrid->send($email);
+          print $response->statusCode() . "\n";
+          print_r($response->headers());
+          print $response->body() . "\n";
+        } catch (Exception $e) {
+            echo 'Caught exception: '. $e->getMessage() ."\n";
+        }
+    }
 }
