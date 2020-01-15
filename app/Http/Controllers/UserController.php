@@ -617,7 +617,7 @@ class UserController extends Controller
                     $registrant = $ticket->attendee;
                     $email = $registrant->email;
                     
-                    $workshop = $ticket->programName;
+                    $workshop = $ticket->subProgramName;
                     Log::info($workshop);
                     $wid = Workshops::where('name',$workshop)->first();
                     $wid = $wid->id;
