@@ -184,9 +184,6 @@ class APIController extends Controller
         $sendgrid = new \SendGrid(env('SENDGRID_API_KEY'));
         try {
           $response = $sendgrid->send($email);
-          print $response->statusCode() . "\n";
-          print_r($response->headers());
-          print $response->body() . "\n";
         } catch (Exception $e) {
             echo 'Caught exception: '. $e->getMessage() ."\n";
         }
