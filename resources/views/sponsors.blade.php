@@ -75,8 +75,10 @@
 						
 						<div style="margin:auto; text-align: center; justify-content: center;" class="row gtr-uniform gtr-50">
                             <div class="col-6 col-12-xsmall">
-                            	<p style="text-align: center; font-weight:bold;">Ticketing Partner</p>
-                                <img style="max-width:350px" src="/images/tcflogo.png">
+								<p style="text-align: center; font-weight:bold;">Ticketing Partner</p>
+								<section class="col-4 col-6-medium col-12-xsmall">
+	                                    <img style="max-width:250px" src="/images/tcflogo.png">
+	                            </section>
                             </div>
                         </div>
 

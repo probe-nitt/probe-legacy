@@ -489,9 +489,9 @@ Route::get('/workshops/esd', function () {
 
 });
 
-Route::get('/workshops/psoc', function () {
+Route::get('/workshops/cyw', function () {
 
-    $workshop = "IoT Training using PSoC";
+    $workshop = "Hands on Bluetooth with CYW20719";
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE20");
@@ -526,7 +526,7 @@ Route::get('/workshops/psoc', function () {
         }
     }
 
-    return view('psoc',['regbool' => $regbool, 'ispaid' => $ispaid]);
+    return view('cyw',['regbool' => $regbool, 'ispaid' => $ispaid]);
 
 });
 
