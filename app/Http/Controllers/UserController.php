@@ -676,7 +676,7 @@ class UserController extends Controller
         if(!$user){
             $bd = new BullseyeUsers;
             $bd->participant = $id;
-            $bd->cl = 1;
+            $bd->cl = 0;
             $bd->complete = 0;
             $bd->save();
         }
@@ -731,10 +731,10 @@ class UserController extends Controller
 
         if($data->answer==$ans){
             $user->cl=$cl+1;
-            if($user->cl==32){
+            if($user->cl==12){
                 $user->cl = $cl;
                 $user->complete = 1;
-                Session::flash('message', 'You have completed Bullseye. Thank you for playing');
+                Session::flash('message', 'More levels coming soon.');
             }
             $user->save();  
         }
