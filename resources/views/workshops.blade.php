@@ -78,13 +78,12 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:blue;">
-										<!-- <img src="" alt="Event1" /> -->
+									<a class="hexLink" href="/workshops/adt" style="background-color:blue;">
+										<img src="/images/w3.png"/>
 										<div class="hexagon-content">
-											Workshop #3
 										</div>
-										<h1>Workshop #3</h1>
-										<p>Coming soon!</p>
+										<h1>Antenna Design and Testing</h1>
+										<p>Master the concepts of antenna design and testing</p>
 									</a>
 								</div>
 							</li>

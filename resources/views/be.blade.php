@@ -99,7 +99,7 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
+						<li>&copy; PROBE 2020. All rights reserved.</li>
 					</ul>
 				</footer>
 
