@@ -67,6 +67,17 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
+									<a class="hexLink" href="/workshops/cyw" style="background-color:blue;">
+										<img src="/images/w1.png"/>
+										<div class="hexagon-content">
+										</div>
+										<h1>Hands On Bluetooth with CYW20719</h1>
+										<p>Write a Bluetooth application on your own. </p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
 									<a class="hexLink" href="#" style="background-color:blue;">
 										<!-- <img src="" alt="Event1" /> -->
 										<div class="hexagon-content">
@@ -98,17 +109,6 @@
 										</div>
 										<h1>Workshop #5</h1>
 										<p>Coming soon!</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="/workshops/cyw" style="background-color:blue;">
-										<img src="/images/w1.png"/>
-										<div class="hexagon-content">
-										</div>
-										<h1>Hands On Bluetooth with CYW20719</h1>
-										<p>Write a Bluetooth application on your own. </p>
 									</a>
 								</div>
 							</li>
