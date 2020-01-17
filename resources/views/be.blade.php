@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" /> 
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -44,13 +45,13 @@
                             <p style="text-align: center;">{{ $message }}</p>
                         @endif
                         @if ($cb==0)
-                        <div style="margin:auto; text-align: center;" class="row gtr-uniform gtr-50">
+                        <div style="margin:auto; text-align: center;" >
                             @if($img1)
                             <div class="col-6 col-12-xsmall">
                                 <img style="max-width:250px" src="/bullseye/Level%20{{ $cl }}/{{ $img1 }}">
                             </div>
                             @endif
-                            @if($img2)
+                            <!-- @if($img2)
                             <div class="col-6 col-12-xsmall">
                                 <img style="max-width:250px" src="/bullseye/Level%20{{ $cl }}/{{ $img2 }}">
                             </div>
@@ -64,7 +65,7 @@
                             <div class="col-6 col-12-xsmall">
                                 <img style="max-width:250px" src="/bullseye/Level%20{{ $cl }}/{{ $img4 }}">
                             </div>
-                            @endif 
+                            @endif  -->
                         </div>
                         <br/>
                         <br/>
@@ -74,7 +75,12 @@
                                     @if($cl==24)
                                     <p style="text-align: center;">Additional clues are added.</p>
                                     @endif
+                                    @if($cl==9)
+                                    <p style="text-align: center;">Enter your answers without spaces. Answer might contain special characters and Upper case letters for this level.</p>
+                                    @endif
+                                    @if($cl!=9)
                                     <p style="text-align: center;">Enter your answers without spaces in lowercase. Answers contain only alphabets and numbers. No special characters are present in the answer.</p>
+                                    @endif
                                     <input type="text" name="answer" id="email" placeholder="Answer" required />
                                 </div>
                                 <div class="col-12 col-12-xsmall">

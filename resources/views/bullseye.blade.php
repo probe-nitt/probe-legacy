@@ -133,8 +133,8 @@ background-image:url(../images/backract.png);overflow: hidden;">
 		</section>
 	</div>
 </div>
-<div class=reg-button-wrapper><a href="" class="myButton">Event is not open yet</a></div>
-											<!-- <div class=reg-button-wrapper><a href="/bullseye-event" class="myButton">Play</a></div> -->
+<!-- <div class=reg-button-wrapper><a href="" class="myButton">Event is not open yet</a></div> -->
+	<div class=reg-button-wrapper><a href="/bullseye-event" class="myButton">Play</a></div>
 </div>
 </div>
 
