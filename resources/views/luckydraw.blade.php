@@ -10,7 +10,7 @@
 	<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
 </head>
 <body class="is-preload" style="
-background-image:url(../images/backract.png);overflow: hidden;">
+background-image:url(../images/backract.png);">
 <div id="page-wrapper">
 	
 	<!-- Header -->
@@ -119,6 +119,13 @@ background-image:url(../images/backract.png);overflow: hidden;">
 </div>
 </div>
 </div>
+
+<!-- Footer -->
+<footer id="footer">
+	<ul class="copyright">
+		<li>&copy; PROBE 2020. All rights reserved.</li>
+	</ul>
+</footer>
 
 
 </div>
