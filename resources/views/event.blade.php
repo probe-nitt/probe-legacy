@@ -80,14 +80,15 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:red;">
-										<!-- <img src="" alt="Event1" /> -->
+									<a class="hexLink" href="/events/bullseye" style="background-color:red;">
+										<img src="/images/bullseye.png" alt="Event1" />
 										<div class="hexagon-content">
-											Event #4
+											   <!-- <h1>Hello</h1> -->
+
 
 										</div>
-										<h1>Event #4</h1>
-										<p>Coming soon!</p>
+										<h1>Bullseye</h1>
+										<p>An online treasure hunt event</p>
 									</a>
 								</div>
 							</li>
