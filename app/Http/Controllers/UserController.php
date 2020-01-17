@@ -683,7 +683,7 @@ class UserController extends Controller
 
         $user = BullseyeUsers::where('participant','=',$id)->first();
 
-        $title = "Bullseye | Probe 2019";
+        $title = "Bullseye | Probe 2020";
         $comment = "";
         $cb = 0;
         if($user->complete){

@@ -51,7 +51,7 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2><b>PROBE 2019 REGISTRATION</b></h2>
+							<h2><b>PROBE 2020 REGISTRATION</b></h2>
                         </header>
                         @if ($message = session('message'))
                             <p style="text-align: center;">{{ $message }}</p>
