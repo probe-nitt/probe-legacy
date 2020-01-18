@@ -147,6 +147,49 @@
 									</a>
 								</div>
 							</li>
+							<li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="" style="background-color:red;">
+										<!-- <img src="/images/quizzardo.png" alt="Event1" /> -->
+										<div class="hexagon-content">
+											  Event #8
+
+
+										</div>
+										<h1>Event #8</h1>
+										<p>Coming soon!</p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="" style="background-color:red;">
+										<!-- <img src="/images/quizzardo.png" alt="Event1" /> -->
+										<div class="hexagon-content">
+											Event #9
+
+
+										</div>
+										<h1>Event #9</h1>
+										<p>Coming soon!</p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="" style="background-color:red;">
+										<!-- <img src="/images/quizzardo.png" alt="Event1" /> -->
+										<div class="hexagon-content">
+											  Event #10
+
+
+										</div>
+										<h1>Event #10</h1>
+										<p>Coming soon!</p>
+									</a>
+								</div>
+							</li>
+
 
 						</ul>
         </div>
