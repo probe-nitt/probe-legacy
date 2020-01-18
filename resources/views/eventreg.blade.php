@@ -73,6 +73,9 @@
                                 </div>
 								@endif
 								<div class="col-12 col-12-xsmall">
+                                    <input type="text" name="teamname" id="teamname" placeholder="Team Name" required/>
+                                </div>
+								<div class="col-12 col-12-xsmall">
                                     <input type="text" name="event" id="event" value="{{ $event }}" placeholder="event" required readonly/>
                                 </div>
                                 <div class="col-12">
