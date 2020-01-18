@@ -94,14 +94,13 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:red;">
-										<!-- <img src="" alt="Event1" /> -->
+									<a class="hexLink" href="/events/matrix" style="background-color:red;">
+										<img src="/images/matrix.png" alt="Matrix" />
 										<div class="hexagon-content">
-											Event #5
 
 										</div>
-										<h1>Event #5</h1>
-										<p>Coming soon!</p>
+										<h1>Matrix</h1>
+										<p>The MATLAB coding contest</p>
 									</a>
 								</div>
 							</li>
@@ -121,27 +120,25 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:red;">
-										<!-- <img src="" alt="Event1" /> -->
+									<a class="hexLink" href="/events/tronics" style="background-color:red;">
+										<img src="/images/tronix.png" alt="tronICs" />
 										<div class="hexagon-content">
-											Event #6
 
 										</div>
-										<h1>Event #6</h1>
-										<p>Coming soon!</p>
+										<h1>tronICs</h1>
+										<p>Develop a prototype for a problem statement given on the spot!</p>
 									</a>
 								</div>
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:red;">
-										<!-- <img src="" alt="Event1" /> -->
+									<a class="hexLink" href="/events/probequiz" style="background-color:red;">
+										<img src="/images/probequiz.png" alt="Probe Quiz" />
 										<div class="hexagon-content">
-											Event #7
 
 										</div>
-										<h1>Event #7</h1>
-										<p>Coming soon!</p>
+										<h1>Probe Quiz</h1>
+										<p>Quizzing event during Probe'20</p>
 									</a>
 								</div>
 							</li>
