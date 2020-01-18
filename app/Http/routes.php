@@ -113,9 +113,9 @@ Route::get('/events/cryptech', function () {
     return view('cryptech');
 });
 
-Route::get('/events/embedtronix', function () {
+Route::get('/events/tronics', function () {
 
-    $event = "Embedtronix";
+    $event = "tronICs";
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE20");
@@ -146,7 +146,7 @@ Route::get('/events/embedtronix', function () {
 
 
 
-    return view('embedtronix',['regbool' => $regbool]);
+    return view('tronics',['regbool' => $regbool]);
 });
 
 Route::get('/events/matrix', function () {

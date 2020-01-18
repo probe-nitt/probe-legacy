@@ -389,7 +389,14 @@ class UserController extends Controller
             $content = View::make('prelimsEmails.matrix')->render();
 
             $attachmentPath = public_path('prelimsDocs/Matrix Prelims.docx');
-            $this->sendAttachmentMailSG($email, "PROBE'20 Matrix Event Prelims", $content, $attachmentPath);
+            $this->sendAttachmentMailSG($email, "PROBE'20 Matrix Event Prelims", $content, $attachmentPath, "Matrix Prelims.docx");
+        }
+
+        if($event=="tronICs") {
+            $content = View::make('prelimsEmails.tronics')->render();
+
+            $attachmentPath = public_path('prelimsDocs/tronICs Prelims.docx');
+            $this->sendAttachmentMailSG($email, "PROBE'20 tronICs Event Prelims", $content, $attachmentPath, "tronICs Prelims.docx");
         }
 
         $reg = new EventRegs;
@@ -787,14 +794,14 @@ class UserController extends Controller
         }
     }
 
-    private function sendAttachmentMailSG($tomail, $subject, $content, $attachmentPath) {
+    private function sendAttachmentMailSG($tomail, $subject, $content, $attachmentPath, $filename) {
         $sendgrid = new SendGrid(env('SENDGRID_API_KEY'));
         $email    = new SendGrid\Mail\Mail();
 
         try {
         $email->addTo($tomail, null);
         $email->setFrom("no-reply@probe.org.in", "Probe 2020, NIT Trichy");
-        $email->setSubject("Subject Text");
+        $email->setSubject($subject);
         $email->addContent("text/html", $content);
 
         $attachmentContent    = file_get_contents($attachmentPath);
@@ -803,7 +810,7 @@ class UserController extends Controller
         $attachment = new SendGrid\Mail\Attachment;
         $attachment->setContent($attachmentContent);
         $attachment->setType("application/vnd.ms-word");
-        $attachment->setFilename("Matrix Prelims.docx");
+        $attachment->setFilename($filename);
         $attachment->setDisposition("attachment");
         $email->addAttachment($attachment);
 

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Matrix | PROBE 2020</title>
+	<title>tronICs | PROBE 2020</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
@@ -85,7 +85,7 @@ background-image:url(../images/backract.png);">
 				</svg>
 				<div class="workshopcentered" style="
 				font-size: xx-large;
-				">Matrix</div>
+				">tronICs</div>
 			</div>
 		</section>
 		
@@ -100,7 +100,8 @@ background-image:url(../images/backract.png);">
 	<header class="minor">
 		<h3 class="subheader"><b>Description</b></h3>
 	</header>
-            <p>MATLAB’s usage is increasing in a variety of domains- validation of algorithms, modelling of digital and analog circuits, simulations in microwave and RF antenna design, digital signal processing, filter designs, and so on. Probe 2020 presents the MATLAB coding contest - Matrix. Test your MATLAB coding skills and code away to glory. </p>
+            <p>A huge shoutout to all the garage scientists out there, who would like to solve everyday problems with electronics. </p>
+			<p>Probe 2020 brings to you tronICs, where we give you a canvas of Breadboards and ICs to develop a prototype for a problem statement given on the spot! </p>
             <header class="minor">
 				<h3 class="subheader"><b>Important Dates</b></h3>
 			</header>
@@ -115,7 +116,7 @@ background-image:url(../images/backract.png);">
 				<h3 class="subheader"><b>Prizes</b></h3>
 			</header>
 				<ul>
-				<li>Prizes and Goodies worth 10,000 INR for Top 3 teams.</li>
+				<li>Prizes and Goodies worth 15,000 INR for Top 3 teams.</li>
 				<li>Participation Certificates for all finalists.</li>
 				</ul>
 			
@@ -123,9 +124,9 @@ background-image:url(../images/backract.png);">
 				<h3 class="subheader"><b>Format</b></h3>
 			</header>
 				<ol>
-				<li>Register with a maximum of 3 members per team at probe.org.in/events/matrix. Questionnaire will be sent to the registered email ID.</li>
+				<li>Register with a maximum of 3 members per team at probe.org.in/events/tronics. Questionnaire will be sent to the registered email ID.</li>
 				<li>Submit the answers to the questionnaire before the deadline via email to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></li>
-				<li>Shortlisted teams will have finals during Probe 2020 at NIT-Trichy. Finals will involve tasks, for which problem statements will be announced on spot. </li>
+				<li>Shortlisted teams will have finals during Probe 2020 at NIT-Trichy. Finals will involve a task, for which problem statement will be announced on spot. Components will be given to build the circuit. </li>
 				</ol>
 
 			<header class="minor">
@@ -133,22 +134,22 @@ background-image:url(../images/backract.png);">
 			</header>
                 <ul>
                 <li>Maximum of 3 members per team. Teams can consist of individuals from different colleges/departments.</li>
-                <li>For the prelims, mail the answers to the questionnaire to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b> with “Matrix_&lt;your team name>" as the subject. Also mention the names and Probe IDs of the team members in the mail. </li>
-                <li>For finals, problem statements will be given on the spot. Rules for finals will be announced on the spot. </li>
+                <li>For the prelims, mail the answers to the questionnaire to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b> with “tronICs_&lt;your team name>" as the subject. Also mention the names and Probe IDs of the team members in the mail. </li>
+                <li>For finals, a problem statement will be given on the spot. Components will be given to build the circuit. Rules for finals will be announced on the spot. </li>
 				</ul>
 
 			<header class="minor">
 				<h3 class="subheader"><b>Contacts</b></h3>
 			</header>
 			<p>Email: <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></p>
-			<p>Purushothaman: 8825573900</p>
-			<p>Priyanka: 9629922179</p>
+			<p>Vasanth: 9629457300</p>
+			<p>Bhuvana: 9585894011</p>
 		</section>
 
 	</div>
 </div>
 @if($regbool==0)
-<div class=reg-button-wrapper><a href="/events/register?event=Matrix" class="myButton">Register</a></div>
+<div class=reg-button-wrapper><a href="/events/register?event=tronICs" class="myButton">Register</a></div>
                                             @endif
                                             @if($regbool==1)
 											<div class=reg-button-wrapper><a href="" class="myButton">Registered</a></div>
