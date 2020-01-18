@@ -13,6 +13,7 @@ use Session;
 use Log;
 use Exception;
 use View;
+use SendGrid;
 
 use App\Models\Users;
 use App\Models\WorkshopRegs;
@@ -193,10 +194,7 @@ class UserController extends Controller
                                     {
                                         $query->where('participant1',$uid)
                                             ->orwhere('participant2',$uid)
-                                            ->orwhere('participant3',$uid)
-                                            ->orwhere('participant4',$uid)
-                                            ->orwhere('participant5',$uid)
-                                            ->orwhere('participant6',$uid);
+                                            ->orwhere('participant3',$uid);
                                     })->first();
 
         
@@ -274,18 +272,12 @@ class UserController extends Controller
         $p1 = $request->input('p1');
         $p2 = $request->input('p2');
         $p3 = $request->input('p3');
-        $p4 = $request->input('p4');
-        $p5 = $request->input('p5');
-        $p6 = $request->input('p6');
 
         $p1 = preg_replace('/\s+/', '', $p1);
         $p2 = preg_replace('/\s+/', '', $p2);
         $p3 = preg_replace('/\s+/', '', $p3);
-        $p4 = preg_replace('/\s+/', '', $p4);
-        $p5 = preg_replace('/\s+/', '', $p5);
-        $p6 = preg_replace('/\s+/', '', $p6);
 
-        $array = [];
+        $email = "";
 
         /*
         $array[$p1] = 1;
@@ -327,6 +319,8 @@ class UserController extends Controller
         if($p1>$lid){
             Session::flash('message', 'One or more of the provided Probe IDs are not valid');
             return redirect('/events/register/'.'?event='.$event);
+        } else {
+            $email = Users::where('id', '=', $p1)->first()->email;
         }
         if($p2!=''){
             //$p2 = (int)ltrim($p2,"PROBE20");
@@ -344,30 +338,6 @@ class UserController extends Controller
                 return redirect('/events/register/'.'?event='.$event);
             }
         }
-        if($p4!=''){
-            //$p4 = (int)ltrim($p4,"PROBE20");
-            $p4 = (int)explode('PROBE20',$p4)[1];
-            if($p4>$lid){
-                Session::flash('message', 'One or more of the provided Probe IDs are not valid');
-                return redirect('/events/register/'.'?event='.$event);
-            }
-        }
-        if($p5!=''){
-            //$p5 = (int)ltrim($p5,"PROBE20");
-            $p5 = (int)explode('PROBE20',$p5)[1];
-            if($p5>$lid){
-                Session::flash('message', 'One or more of the provided Probe IDs are not valid');
-                return redirect('/events/register/'.'?event='.$event);
-            }
-        }
-        if($p6!=''){
-            //$p6 = (int)ltrim($p6,"PROBE20");
-            $p6 = (int)explode('PROBE20',$p6)[1];
-            if($p6>$lid){
-                Session::flash('message', 'One or more of the provided Probe IDs are not valid');
-                return redirect('/events/register/'.'?event='.$event);
-            }
-        }
 
         $wid = Events::where('name',$event)->first()->id;
 
@@ -376,10 +346,7 @@ class UserController extends Controller
                                     {
                                         $query->where('participant1',$p1)
                                             ->orwhere('participant2',$p1)
-                                            ->orwhere('participant3',$p1)
-                                            ->orwhere('participant4',$p1)
-                                            ->orwhere('participant5',$p1)
-                                            ->orwhere('participant6',$p1);
+                                            ->orwhere('participant3',$p1);
                                     });
         
         $isregistered_2 = EventRegs::where('event_id', '=', $wid)
@@ -387,10 +354,7 @@ class UserController extends Controller
                                     {
                                         $query->where('participant1',$p2)
                                             ->orwhere('participant2',$p2)
-                                            ->orwhere('participant3',$p2)
-                                            ->orwhere('participant4',$p2)
-                                            ->orwhere('participant5',$p2)
-                                            ->orwhere('participant6',$p2);
+                                            ->orwhere('participant3',$p2);
                                     })->first();
 
         $isregistered_3 = EventRegs::where('event_id', '=', $wid)
@@ -398,45 +362,9 @@ class UserController extends Controller
                                     {
                                         $query->where('participant1',$p3)
                                             ->orwhere('participant2',$p3)
-                                            ->orwhere('participant3',$p3)
-                                            ->orwhere('participant4',$p3)
-                                            ->orwhere('participant5',$p3)
-                                            ->orwhere('participant6',$p3);
+                                            ->orwhere('participant3',$p3);
                                     })->first();
 
-        $isregistered_4 = EventRegs::where('event_id', '=', $wid)
-                                    ->where(function($query) use($p4)
-                                    {
-                                        $query->where('participant1',$p4)
-                                            ->orwhere('participant2',$p4)
-                                            ->orwhere('participant3',$p4)
-                                            ->orwhere('participant4',$p4)
-                                            ->orwhere('participant5',$p4)
-                                            ->orwhere('participant6',$p4);
-                                    })->first();                            
-
-        $isregistered_5 = EventRegs::where('event_id', '=', $wid)
-                                    ->where(function($query) use($p5)
-                                    {
-                                        $query->where('participant1',$p5)
-                                            ->orwhere('participant2',$p5)
-                                            ->orwhere('participant3',$p5)
-                                            ->orwhere('participant4',$p5)
-                                            ->orwhere('participant5',$p5)
-                                            ->orwhere('participant6',$p5);
-                                    })->first();                            
-                            
-        $isregistered_6 = EventRegs::where('event_id', '=', $wid)
-                                    ->where(function($query) use($p6)
-                                    {
-                                        $query->where('participant1',$p6)
-                                            ->orwhere('participant2',$p6)
-                                            ->orwhere('participant3',$p6)
-                                            ->orwhere('participant4',$p6)
-                                            ->orwhere('participant5',$p6)
-                                            ->orwhere('participant6',$p6);
-                                    })->first();                      
-        
         
         if($p2=="" || $p2==null){
             $isregistered_2 = null;
@@ -449,26 +377,18 @@ class UserController extends Controller
         if($p1=="" || $p1==null){
             $isregistered_1 = null;
         }
-
-        if($p4=="" || $p4==null){
-            $isregistered_4 = null;
-        }
-
-        if($p5=="" || $p5==null){
-            $isregistered_5 = null;
-        }
-
-        if($p6=="" || $p6==null){
-            $isregistered_6 = null;
-        }
         
-
-
-        if((json_encode($isregistered_1)!="{}" && !is_null($isregistered_1)) || (json_encode($isregistered_2)!="{}" && !is_null($isregistered_2)) || (json_encode($isregistered_3)!="{}" && !is_null($isregistered_3)) || (json_encode($isregistered_4)!="{}" && !is_null($isregistered_4)) 
-            || (json_encode($isregistered_5)!="{}" && !is_null($isregistered_5)) || (json_encode($isregistered_6)!="{}" && !is_null($isregistered_6)) ){
+        if((json_encode($isregistered_1)!="{}" && !is_null($isregistered_1)) || (json_encode($isregistered_2)!="{}" && !is_null($isregistered_2)) || (json_encode($isregistered_3)!="{}" && !is_null($isregistered_3)) ){
 
             Session::flash('message', 'One or more of the provided Probe IDs already registered for this event');
             return redirect('/events/register/'.'?event='.$event);
+        }
+
+        if($event=="Matrix") {
+            $content = View::make('prelimsEmails.matrix')->render();
+
+            $attachmentPath = public_path('prelimsDocs/Matrix Prelims.docx');
+            $this->sendAttachmentMailSG($email, "PROBE'20 Matrix Event Prelims", $content, $attachmentPath);
         }
 
         $reg = new EventRegs;
@@ -477,15 +397,10 @@ class UserController extends Controller
             $reg->participant2 = $p2;
         if($p3!='')
             $reg->participant3 = $p3;
-        if($p4!='')
-            $reg->participant4 = $p4;
-        if($p5!='')
-            $reg->participant5 = $p5;
-        if($p6!='')
-            $reg->participant6 = $p6;
         $reg->event_id = $wid;
         $reg->save();
 
+        Session::flash('message', 'Successfully Registered!');
         return redirect('/events');
 
     }
@@ -865,12 +780,37 @@ class UserController extends Controller
         $sendgrid = new \SendGrid(env('SENDGRID_API_KEY'));
         try {
           $response = $sendgrid->send($email);
-          print $response->statusCode() . "\n";
-          print_r($response->headers());
-          print $response->body() . "\n";
         } catch (Exception $e) {
             echo 'Caught exception: '. $e->getMessage() ."\n";
         }
+    }
+
+    private function sendAttachmentMailSG($tomail, $subject, $content, $attachmentPath) {
+        $sendgrid = new SendGrid(env('SENDGRID_API_KEY'));
+        $email    = new SendGrid\Mail\Mail();
+
+        try {
+        $email->addTo($tomail, null);
+        $email->setFrom("no-reply@probe.org.in", "Probe 2020, NIT Trichy");
+        $email->setSubject("Subject Text");
+        $email->addContent("text/html", $content);
+
+        $attachmentContent    = file_get_contents($attachmentPath);
+        $attachmentContent    = base64_encode($attachmentContent);
+
+        $attachment = new SendGrid\Mail\Attachment;
+        $attachment->setContent($attachmentContent);
+        $attachment->setType("application/vnd.ms-word");
+        $attachment->setFilename("Matrix Prelims.docx");
+        $attachment->setDisposition("attachment");
+        $email->addAttachment($attachment);
+
+            $response = $sendgrid->send($email);
+          } catch (Exception $e) {
+              Log::error('Caught exception while sending '. $subject . "email: ". $e->getMessage() ."\n");
+          }
+
+
     }
 
 }

@@ -1,44 +1,58 @@
+@if ($regbool==1)
+<script type="text/javascript">
+    window.location = "{{ url('/events') }}"+"/"+"{{ strtolower($event) }}";//here double curly bracket
+</script>
+@endif
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Event Registration | PROBE 2019</title>
+		<title>{{ $event }} Registration | PROBE 2019</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
+		<link rel="stylesheet" href="{{ asset('css/workshops.css') }}"  />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" /> 
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
-					<nav id="nav">
-						<ul>
-                            <li><a href="/events">Events</a></li>
-                            <li><a href="/workshops">Workshops</a></li>
-							<li><a href="/sponsors">Sponsors</a></li>
-                            <li><a href="/contact">Contact us</a></li>
-							@if ($name = session('name'))
-							<li>{{ $name }}</li>
-							<li><a href="/logout" class="button primary">Log out</a></li>
-                        	@endif
-							@if (!session('name'))
-							<li><a href="/register" class="button primary">Register</a></li>
-							<li><a href="/login" class="button primary">Log in</a></li>
-                        	@endif
-							
-						</ul>
-					</nav>
-				</header>
+			<header id="header" class="header2020">
+		<nav class="nav2020">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/workshops">Workshops</a></li>
+				<li><a href="/events">Events</a></li>
+				<li><a href="/about" class="scrolly">About us</a></li>
+				<li><a href="/contact">Contact us</a></li>
+			</ul>
+		</nav>
+		<h1 id="logo2020"><a href="/"><img src="/images/probe_p.png"></a></h1>
+		<nav class="nav2020">
+			<ul>
+				<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank"><img src="/images/facebook.svg" alt="facebook"></a></li>
+							<li><a href="https://www.instagram.com/probe.nitt/"" target="_blank"><img src="/images/instagram.png" alt="instagram"></a></li>
+							<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" " target="_blank"><img src="/images/linkedin.svg" alt="linkedin"></a></li>				<li><a href="/sponsors">Sponsors</a></li>
+				@if ($name = session('name'))
+				<li>{{ $name }}</li>
+				<li><a href="/logout" class="button primary">Log out</a></li>
+				@endif
+				@if (!session('name'))
+				<li><a href="/register">Sign up</a></li>
+				<li><a href="/login">Log in</a></li>
+				@endif
+			</ul>
+		</nav>
+	</header>
 
 			<!-- Main -->
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2><b>Event registration</b></h2>
+							<h2><b>{{ $event }} | Event registration</b></h2>
                         </header>
-                        <p style="text-align: center;">Enter registration details carefully. Details once entered cant't be changed.
+                        <p style = "text-align: center;">Please enter registration details carefully. Details once entered can't be changed.</p>
                         @if ($message = session('message'))
                             <p style="text-align: center;">{{ $message }}</p>
                         @endif
@@ -58,19 +72,8 @@
                                     <input type="text" name="p3" id="p3" placeholder="Participant 3's PROBE ID" />
                                 </div>
 								@endif
-								@if ($mc >= 6)
-                                <div class="col-12 col-12-xsmall">
-                                    <input type="text" name="p4" id="p4" placeholder="Participant 4's PROBE ID" />
-                                </div>
-                                <div class="col-12 col-12-xsmall">
-                                    <input type="text" name="p5" id="p5" placeholder="Participant 5's PROBE ID" />
-                                </div>
-                                <div class="col-12 col-12-xsmall">
-                                    <input type="text" name="p6" id="p6" placeholder="Participant 6's PROBE ID" />
-                                </div>
-								@endif
 								<div class="col-12 col-12-xsmall">
-                                    <input type="text" name="event" id="event" value="{{ $event }}" placeholder="Event" required readonly/>
+                                    <input type="text" name="event" id="event" value="{{ $event }}" placeholder="event" required readonly/>
                                 </div>
                                 <div class="col-12">
                                     <ul class="actions">
@@ -79,23 +82,22 @@
                                 </div>
                             </div>
                         </form>
-                        @endif
-                        @if ($regbool==1)
-                        <p style="text-align: center;">You have already registered for the event</p>
-                        @endif
+						@endif
 					</div>
 				</div>
 
 			<!-- Footer -->
 				<footer style="margin-bottom:0" id="footer">
 					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
+						<li>&copy; PROBE 2020. All rights reserved.</li>
 					</ul>
 				</footer>
 
 		</div>
 
         <!-- Scripts -->
+	
+		
 		<script src="{{ asset('js/jquery.min.js') }}"></script>
 		<script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
 		<script src="{{ asset('js/jquery.dropotron.min.js') }}"></script>
