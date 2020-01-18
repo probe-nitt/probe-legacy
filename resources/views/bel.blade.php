@@ -63,7 +63,7 @@
                                 @endforeach-->
                                 @foreach ($frl as $index => $userdetail)
                                 <tr @if($userdetail->id==$user->id) style="color:yellow;" @endif>
-                                    <td>{{($page-1) * 5 + $index+1}}</td>
+                                    <td>{{($page-1) * $limit + $index+1}}</td>
                                     <td>{{$userdetail->name}}</td>
                                     <td>{{$userdetail->cl}}</td>
                                 </tr>
@@ -103,12 +103,16 @@
                             </tbody>
                         </table>
                         <div>
-                        @if ($page < $users/5)<a href="?page={{$page+1}}" class="button primary" style="float: right;">></a>@endif
-                        @if ($page != 1)<a href="?page={{$page-1}}" class="button primary" style="float: right; margin: 0 10px;"><</a> @endif
+                        @if ($page < ceil($users/$limit))
+                        <a href="?page={{ceil($users/$limit)}}" class="button primary" style="float: right;">>></a>
+                        <a href="?page={{$page+1}}" class="button primary" style="float: right;margin: 0 10px;">></a>
+                        @endif
+                        @if ($page != 1)
+                        <a href="?page={{$page-1}}" class="button primary" style="float: right; margin: 0 10px;"><</a>
+                        <a href="?page=1" class="button primary" style="float: right;"><<</a>
+                        @endif
                         </div>
                         <br>
-                        <p>Further updates regarding cash prizes will be notified via registered email.</p>
-
 					</div>
 				</div>
 

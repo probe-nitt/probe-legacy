@@ -675,6 +675,7 @@ class UserController extends Controller
     }
 
     public function bel(Request $request){
+        $limit = 10;
         if (empty($_GET["page"]))
             $page = 1;
         else
@@ -692,8 +693,8 @@ class UserController extends Controller
                                 ->select(['users.id','users.name','bullseye_users.cl'])
                                 ->orderBy('bullseye_users.updated_at')
                                 ->orderBy('bullseye_users.created_at')
-                                ->offset(5*($page-1))
-                                ->limit(5)
+                                ->offset($limit*($page-1))
+                                ->limit($limit)
                                 ->get();
 
         $users = BullseyeUsers::orderBy('cl', 'desc')->count();
@@ -732,7 +733,7 @@ class UserController extends Controller
             $leaderboard[$usr->cl] = (isset($leaderboard[$usr->cl])==true?$leaderboard[$usr->cl]:"")."<div>".$usr->name."</div>"; 
         }
 
-        return view('bel',['frl' => $frl, 'rank' => $rank, 'page' => $page, 'users' => $users, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf, 'ind' => $ind,'leaderboard' => $leaderboard]);
+        return view('bel',['frl' => $frl, 'rank' => $rank, 'page' => $page, 'users' => $users, 'limit' => $limit, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf, 'ind' => $ind,'leaderboard' => $leaderboard]);
         
 
     }
