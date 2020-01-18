@@ -685,6 +685,7 @@ class UserController extends Controller
 
         $title = "Bullseye | Probe 2020";
         $comment = "";
+        $extraComment = "";
         $cb = 0;
         if($user->complete){
             Session::flash('message', 'More levels coming soon.');  
@@ -701,12 +702,15 @@ class UserController extends Controller
         if($cr->clue2){
             $comment = $cr->clue2;
         }
+        if($cr->clue3){
+            $extraComment = $cr->clue3;
+        }
         $img1 = $cr->img1;
         $img2 = $cr->img2;
         $img3 = $cr->img3;
         $img4 = $cr->img4;
 
-        return view('be',['title' => $title, 'comment' => $comment, 'img1' => $img1, 'img2' => $img2, 'img3' => $img3, 'img4' => $img4, 'cl' => $cl, 'cb' => $cb]);
+        return view('be',['title' => $title, 'comment' => $comment, 'extraComment' => $extraComment, 'img1' => $img1, 'img2' => $img2, 'img3' => $img3, 'img4' => $img4, 'cl' => $cl, 'cb' => $cb]);
 
 
     }

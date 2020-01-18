@@ -31,6 +31,7 @@
 
 
             <!-- {{ $comment }} -->
+            <!-- {{ $extraComment }} -->
 
 
 			<!-- Main -->
@@ -72,7 +73,7 @@
                         <form method="post" action="{{action('UserController@bea')}}">
                             <div class="row gtr-uniform gtr-50">
                                 <div class="col-12 col-12-xsmall">
-                                    @if($cl==24)
+                                    @if($extraComment!="")
                                     <p style="text-align: center;">Additional clues are added.</p>
                                     @endif
                                     @if($cl==9)
