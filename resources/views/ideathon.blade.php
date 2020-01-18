@@ -4,7 +4,12 @@
 		<title>Qualcomm Ideathon | PROBE 2019</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		@if ($name = session('name'))
+		<link rel="stylesheet" href="{{ asset('css/main-loggedin.css') }}"  />
+		@endif
+		@if (!session('name'))
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
+		@endif
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
 	</head>
 	<body class="is-preload">
