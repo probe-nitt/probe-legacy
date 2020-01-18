@@ -10,7 +10,12 @@
 		<meta charset="utf-8" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		@if ($name = session('name'))
+		<link rel="stylesheet" href="{{ asset('css/main-loggedin.css') }}"  />
+		@endif
+		@if (!session('name'))
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
+		@endif
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	</head>

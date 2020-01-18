@@ -675,7 +675,10 @@ class UserController extends Controller
     }
 
     public function bel(Request $request){
-    
+        if (empty($_GET["page"]))
+            $page = 1;
+        else
+            $page = $_GET['page'];
         $ranklist = BullseyeUsers::orderBy('cl', 'desc')
                                 ->leftJoin('users', 'users.id', '=', 'bullseye_users.participant')
                                 ->select(['users.id','users.name','bullseye_users.cl'])
@@ -689,8 +692,11 @@ class UserController extends Controller
                                 ->select(['users.id','users.name','bullseye_users.cl'])
                                 ->orderBy('bullseye_users.updated_at')
                                 ->orderBy('bullseye_users.created_at')
+                                ->offset(5*($page-1))
                                 ->limit(5)
                                 ->get();
+
+        $users = BullseyeUsers::orderBy('cl', 'desc')->count();
 
         $rank = null;
 
@@ -705,7 +711,7 @@ class UserController extends Controller
             $id = $id->id;
             $count = 1;
             foreach ($ranklist as $user){
-                echo $user->id;
+                // echo $user->id;
                 if($user->id == $id){
                     $rank = $count;
                     $userdetail = $user;
@@ -726,8 +732,7 @@ class UserController extends Controller
             $leaderboard[$usr->cl] = (isset($leaderboard[$usr->cl])==true?$leaderboard[$usr->cl]:"")."<div>".$usr->name."</div>"; 
         }
 
-        return view('bel',['frl' => $frl, 'rank' => $rank, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf, 'ind' => $ind,'leaderboard' => $leaderboard]);
-
+        return view('bel',['frl' => $frl, 'rank' => $rank, 'page' => $page, 'users' => $users, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf, 'ind' => $ind,'leaderboard' => $leaderboard]);
         
 
     }

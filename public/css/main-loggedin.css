@@ -3519,11 +3519,13 @@ select.minimal:focus {
 			#header.header2020 nav:first-child ul {
 				margin: 0;
 				padding-left: 0;
+				padding-right: 2em;
 			}
 
 			#header.header2020 nav:last-of-type ul {
 				padding-left: 0;
-				padding-right: 3em;
+				/* padding-right: 2em; */
+				font-size: 14px;
 			}
 
 				#header nav ul li {
@@ -3661,7 +3663,7 @@ select.minimal:focus {
 
 
 										.header2020 nav ul li a img {
-											width: 32px;
+											width: 24px;
 											vertical-align: middle;
 											transition: 0.3s;
 										}
@@ -3829,6 +3831,12 @@ select.minimal:focus {
 				background-size: 60% 40%;
 			}
 
+		/* Header */
+			.header2020 nav ul li a {
+				font-size: 14px;
+			}
+
+
 	}
 
 /* Large */
@@ -3845,10 +3853,6 @@ select.minimal:focus {
 		.header2020 nav ul li {
 			margin-left: 5px!important;
 		}
-
-			.header2020 nav ul li a {
-				font-size: 16px;
-			}
 
 		/* Spotlight */
 

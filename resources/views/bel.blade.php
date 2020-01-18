@@ -4,7 +4,13 @@
 		<title>Leaderboard | Bullseye</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+		@if ($name = session('name'))
+		<link rel="stylesheet" href="{{ asset('css/main-loggedin.css') }}"  />
+		@endif
+		@if (!session('name'))
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
+		@endif
 		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -57,7 +63,7 @@
                                 @endforeach-->
                                 @foreach ($frl as $index => $userdetail)
                                 <tr @if($userdetail->id==$user->id) style="color:yellow;" @endif>
-                                    <td>{{$index+1}}</td>
+                                    <td>{{($page-1) * 5 + $index+1}}</td>
                                     <td>{{$userdetail->name}}</td>
                                     <td>{{$userdetail->cl}}</td>
                                 </tr>
@@ -96,7 +102,11 @@
                                 </tr> -->
                             </tbody>
                         </table>
-
+                        <div>
+                        @if ($page < $users/5)<a href="?page={{$page+1}}" class="button primary" style="float: right;">></a>@endif
+                        @if ($page != 1)<a href="?page={{$page-1}}" class="button primary" style="float: right; margin: 0 10px;"><</a> @endif
+                        </div>
+                        <br>
                         <p>Further updates regarding cash prizes will be notified via registered email.</p>
 
 					</div>
