@@ -655,4 +655,5 @@ Route::post('/aruteyy', 'UserController@se');
 Route::group(['prefix'=>'20/api'], function () {
     Route::post('login', 'APIController@login');
     Route::post('register', 'APIController@register');
+    Route::get('events', 'APIController@eventDetails');
 });

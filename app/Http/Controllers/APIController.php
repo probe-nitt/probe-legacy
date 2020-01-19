@@ -172,6 +172,15 @@ class APIController extends Controller
         return JSONResponse::response(500);
     }
 
+    public function eventDetails() {
+        $events = Events::get();
+
+        if (! $events) {
+            return JSONResponse::response(400, 'Unable to get events');
+        }
+        return JSONResponse::response(200, $events);
+    }
+
     private function sendMailSG( $tomail, $subject, $content) {
         
         $email = new \SendGrid\Mail\Mail(); 
