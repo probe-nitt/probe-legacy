@@ -62,8 +62,13 @@
                                 </tr>
                                 @endforeach-->
                                 @foreach ($frl as $index => $userdetail)
-                                <tr @if($userdetail->id==$user->id) style="color:yellow;" @endif>
-                                    <td>{{($page-1) * $limit + $index+1}}</td>
+                                <tr @if($userdetail->id==$user->id) style="color:yellow;" @endif @if($userdetail->ifAdmin) style="color:red;" @endif>
+                                    @if($userdetail->ifAdmin)
+                                    <td></td>
+                                    @endif
+                                    @if(!$userdetail->ifAdmin)
+                                    <td>{{($page-1) * $limit + $index}}</td>
+                                    @endif
                                     <td>{{$userdetail->name}}</td>
                                     <td>{{$userdetail->cl}}</td>
                                 </tr>

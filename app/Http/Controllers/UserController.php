@@ -689,7 +689,7 @@ class UserController extends Controller
 
         $frl = BullseyeUsers::orderBy('cl', 'desc')
                                 ->leftJoin('users', 'users.id', '=', 'bullseye_users.participant')
-                                ->select(['users.id','users.name','bullseye_users.cl'])
+                                ->select(['users.id','users.name','users.email','bullseye_users.cl'])
                                 ->orderBy('bullseye_users.updated_at')
                                 ->orderBy('bullseye_users.created_at')
                                 ->offset($limit*($page-1))
@@ -721,6 +721,14 @@ class UserController extends Controller
                     break;
                 }
                 $count++;
+            }
+            foreach ($frl as $user){
+                // echo $user->id;
+                if($user->email == "naven1999@gmail.com"){
+                    $user->ifAdmin = true;
+                } else {
+                    $user->ifAdmin = false;
+                }
             }
         }
 
