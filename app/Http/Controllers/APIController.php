@@ -165,6 +165,7 @@ class APIController extends Controller
             $response              = new StdClass;
             $response->status_code = 200;
             $response->user_name   = $user->name;
+            $response->user_probe_id = $user->probe_id;
             return json_encode($response);
             //code for dashboard
         } 
