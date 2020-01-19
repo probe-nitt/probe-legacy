@@ -709,13 +709,13 @@ class UserController extends Controller
         if($email){
             $id = Users::where('email','=',$email)->first();
             $id = $id->id;
-            $count = 1;
+            $count = 0;
             foreach ($ranklist as $user){
                 // echo $user->id;
                 if($user->id == $id){
                     $rank = $count;
                     $userdetail = $user;
-                    if($count>5){
+                    if($count>9){
                         $uf=1;
                     }
                     break;
