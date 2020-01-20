@@ -53,7 +53,7 @@
 							<h2 style="margin-bottom:0px;">About Us</h2>
             </header>
 						<div class="about-us-text">
-              <h1>Probe is the Annual International Technical Symposium of the Department of ECE,NIT Trichy.PROBE is the biggest ECE symposium in India,where it creates a learning platform in the latest fields and trends related to electronics and communication.</h1>
+              <h1>Probe is the annual international technical symposium of the Department of ECE, NIT Trichy. It is one of the biggest ECE symposiums in India, where it creates a learning platform in the latest fields and trends related to electronics and communication.</h1>
 
             </div>
             <div class="row">
