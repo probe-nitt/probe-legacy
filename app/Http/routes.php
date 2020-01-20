@@ -642,6 +642,68 @@ Route::get('/workshops/adt', function () {
 
 });
 
+Route::get('/workshops/jarvis', function () {
+
+    $workshop1 = "Build your own J.A.R.V.I.S. Day 1";
+
+    $workshop2 = "Build your own J.A.R.V.I.S. Day 2";
+
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,"PROBE20");
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
+
+    $w1 = Workshops::where('name','=',$workshop1)->first();
+    $w2 = Workshops::where('name','=',$workshop2)->first();
+
+    $w1id = $w1->id;
+    $w2id = $w2->id;
+    $mc = $w1->max_count;
+    $ec = $w1->event_code;
+
+    $isregistered1 = WorkshopRegs::where('workshop_id', '=', $w1id)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+    $isregistered2 = WorkshopRegs::where('workshop_id', '=', $w2id)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+
+    $ispaid1 = 0;
+    $regbool1 = 0;
+
+    $ispaid2 = 0;
+    $regbool2 = 0;
+
+    if($isregistered1){
+        $regbool1 = 1;
+        if($isregistered1->paid){
+            $ispaid1 = 1;
+        }
+    }
+
+    if($isregistered2){
+        $regbool2 = 1;
+        if($isregistered2->paid){
+            $ispaid2 = 1;
+        }
+    }
+
+    return view('jarvis',['regbool1' => $regbool1, 'ispaid1' => $ispaid1, 'regbool2' => $regbool2, 'ispaid2' => $ispaid2]);
+
+});
+
 Route::post('/register', 'UserController@register');
 
 Route::post('/login', 'UserController@login');

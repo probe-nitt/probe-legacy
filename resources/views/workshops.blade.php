@@ -94,13 +94,12 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:blue;">
-										<!-- <img src="" alt="Event1" /> -->
+									<a class="hexLink" href="/workshops/jarvis" style="background-color:blue;">
+										<img src="/images/w4.png"/>
 										<div class="hexagon-content">
-											Workshop #4
 										</div>
-										<h1>Workshop #4</h1>
-										<p>Coming soon!</p>
+										<h1>Build your own J.A.R.V.I.S.</h1>
+										<p>Build your own assistant using flask and Dialogflow</p>
 									</a>
 								</div>
 							</li>
