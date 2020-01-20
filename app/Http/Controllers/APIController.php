@@ -162,11 +162,8 @@ class APIController extends Controller
                 $response = 'Account not activated. Check your mail to activate your account';
                 return JSONResponse::response(400, $response);
             }
-            $response              = new StdClass;
-            $response->status_code = 200;
-            $response->user_name   = $user->name;
-            $response->user_probe_id = $user->probe_id;
-            return json_encode($response);
+            $response = $user->name . ':' . $user->probe_id;
+            return JSONResponse::response(200, $response);
             //code for dashboard
         } 
 
