@@ -1,183 +1,193 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Qualcomm Ideathon | PROBE 2019</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		@if ($name = session('name'))
+<head>
+	<title>Qualcomm Ideathon | PROBE 2020</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	@if ($name = session('name'))
 		<link rel="stylesheet" href="{{ asset('css/main-loggedin.css') }}"  />
 		@endif
 		@if (!session('name'))
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
 		@endif
-		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="page-wrapper">
+	<link rel="stylesheet" href="{{ asset('css/workshops.css') }}"  />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" /> 
+	<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
+</head>
+<body class="is-preload" style="
+background-image:url(../images/backract.png);">
+<div id="page-wrapper">
+	
+	<!-- Header -->
+	<header id="header" class="header2020">
+		<nav class="nav2020">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/workshops">Workshops</a></li>
+				<li><a href="/events">Events</a></li>
+				<li><a href="/about" class="scrolly">About us</a></li>
+				<li><a href="/contact">Contact us</a></li>
+			</ul>
+		</nav>
+		<h1 id="logo2020"><a href="/"><img src="/images/probe_p.png"></a></h1>
+		<nav class="nav2020">
+			<ul>
+<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank"><img src="/images/facebook.svg" alt="facebook"></a></li>
+							<li><a href="https://www.instagram.com/probe.nitt/"" target="_blank"><img src="/images/instagram.png" alt="instagram"></a></li>
+							<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" " target="_blank"><img src="/images/linkedin.svg" alt="linkedin"></a></li>				<li><a href="/sponsors">Sponsors</a></li>
+				@if ($name = session('name'))
+				<li>{{ $name }}</li>
+				<li><a href="/logout" class="button primary">Log out</a></li>
+				@endif
+				@if (!session('name'))
+				<li><a href="/register">Sign up</a></li>
+				<li><a href="/login">Log in</a></li>
+				@endif
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- Main -->
+	<div id="main" class="wrapper style1">
+		<div class="container">
+			<header class="major">
+			<h2><b>Events</b></h2>
+		</header>
+		<div class="row gtr-150">
+			<div class="col-4 col-12-medium">
+				
+				<!-- Sidebar -->
+				<section id="sidebar">
+					<div class="workshopcontainer">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="386" height="334"
+						viewBox="0 0 386 334">
+						<defs>
+							<style>
+								.cls-1 {
+									fill: url(#linear-gradient);
+								}
+								
+								.cls-2 {
+									fill: #fff;
+									font-size: 35px;
+									font-family: Montserrat-Medium, Montserrat;
+									font-weight: 500;
+								}
+							</style>
+							<linearGradient id="linear-gradient" x1="0.722" y1="0.951" x2="0.193" y2="0.188"
+							gradientUnits="objectBoundingBox">
+							<stop offset="0" stop-color="#2b499b" />
+							<stop offset="1" stop-color="#2388fc" />
+						</linearGradient>
+					</defs>
+					<g id="Group_47" data-name="Group 47" transform="translate(-178 -485)">
+						<path id="Polygon_9" data-name="Polygon 9" class="cls-1" d="M289.5,0,386,167,289.5,334H96.5L0,167,96.5,0Z"
+						transform="translate(178 485)" />
+						{{-- <text id="Event_n" data-name="Event #n" class="cls-2" transform="translate(297 665)">
+							<tspan x="0" y="0">Event #n</tspan>
+						</text> --}}
+					</g>
+				</svg>
+				<div class="workshopcentered" style="
+				font-size: xx-large;
+				">Qualcomm Ideathon</div>
+			</div>
+		</section>
+		
+	</div>
+	<div class="col-8 col-12-medium imp-medium">
+		
+		<!-- Content -->
+		<section id="content-workshops" style="
+    /* Position: absolute; */
+    height: 500px;
+	overflow-y: scroll;">
+	<header class="minor">
+		<h3 class="subheader"><b>Description</b></h3>
+	</header>
+            <p>The spark of an idea can burn more brilliantly than any star. Qualcomm in association with Probe presents Ideathon, a platform for students to showcase their technical skill and prowess. The topic for this year's competition is Networking and Wireless Communication, and if you believe you have the next big breakthrough brewing in your mind, submit your ideas and win exciting prizes from Qualcomm!</p>
+		 	<p>Participants are encouraged to present ideas spanning across hardware and software on the topic of Networking and Wireless (WLAN) communications.</p>
+			<p>Some of the areas that can be used for this topic include, but not restricted to
+    		<ul>
+				<li>AI & Machine Learning in Wi-Fi Networks</li>
+    			<li>Bandwidth and Latency Improvements in Wi-Fi Networks</li>
+    			<li>Cost Optimizations for hardware and Wi-Fi Access Point Products</li>
+    			<li>Wi-Fi Coverage improvements</li>
+				<li>User Experience improvements in dense Wi-Fi networks</li>
+    			<li>Any other topic of interest for the students</li>
+			</ul>
+			</p>
+			<header class="minor">
+				<h3 class="subheader"><b>Important Dates</b></h3>
+			</header>
+				<ul>
+				<li><b>Registration:</b> From 21st January 2020</li>
+				<li><b>Deadline for submission of abstracts:</b> 25th January 2020, 6 PM</li>
+				<li><b>Shortlist announcement:</b> 28th January 2020</li>
+				<li><b>Finals:</b> 1st February 2020, at NIT Trichy</li>
+				</ul>
 
-			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
-					<nav id="nav">
-						<ul>
-                            <li><a href="/events">Events</a></li>
-                            <li><a href="/workshops">Workshops</a></li>
-							<li><a href="/sponsors">Sponsors</a></li>
-                            <li><a href="/contact">Contact us</a></li>
-							@if ($name = session('name'))
-							<li>{{ $name }}</li>
-							<li><a href="/logout" class="button primary">Log out</a></li>
-                        	@endif
-							@if (!session('name'))
-							<li><a href="/register" class="button primary">Register</a></li>
-							<li><a href="/login" class="button primary">Log in</a></li>
-                        	@endif
-							
-						</ul>
-					</nav>
-				</header>
+			<!-- <header class="minor">
+				<h3 class="subheader"><b>Prizes</b></h3>
+			</header>
+				<ul>
+				<li>Prizes and Goodies worth 10,000 INR for Top 3 teams.</li>
+				<li>Participation Certificates for all finalists.</li>
+				</ul> -->
+			
+			<header class="minor">
+				<h3 class="subheader"><b>Format</b></h3>
+			</header>
+				<ol>
+				<li>Register with a maximum of 2 members per team at probe.org.in/events/ideathon.</li>
+				<li>Submit the abstract of the idea before the deadline via email to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></li>
+				<li>Shortlisted teams will have finals during Probe 2020 at NIT-Trichy. During the finals the ideas will be judged by an eminent panel from Qualcomm.</li>
+				</ol>
 
-			<!-- Main -->
-				<div id="main" class="wrapper style1">
-					<div class="container">
-						<header class="major">
-							<h2><b>Qualcomm Ideathon</b></h2>
-						</header>
-						<div class="row gtr-150">
-							<div class="col-4 col-12-medium">
+			<header class="minor">
+				<h3 class="subheader"><b>Rules</b></h3>
+			</header>
+                <ul>
+                <li>Maximum of 2 members per team. Teams can consist of individuals from different colleges/departments.</li>
+                <li>For the prelims, mail the abstract of yout idea to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b> with “Ideathon_&lt;your team name>" as the subject. Also mention the names and Probe IDs of the team members in the mail. </li>
+                <li>Prior to finals, the shortlisted teams have to submit the writeup of their idea as a printed document and mail the softcopy of the same to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b> with “Ideathon_&lt;your team name>” as the subject. Also mention the names and Probe IDs of the team members in the mail.</li>
+				<li>During finals, the ideas have to presented in front of a panel of judges from Qualcomm. </li>
+				</ul>
 
-                                <!-- Sidebar -->
-                
-									<section id="sidebar">
-										<section>
-											@if($regbool==0)
-											<a href="/events/register?event=Qualcomm Ideathon" class="button primary fit">Register</a>
+			<header class="minor">
+				<h3 class="subheader"><b>Contacts</b></h3>
+			</header>
+			<p>Email: <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></p>
+			<p>Vasanth: 9629457300</p>
+			<p>Pavan Kumar: 8500514232</p>
+		</section>
+
+	</div>
+</div>
+@if($regbool==0)
+<div class=reg-button-wrapper><a href="/events/register?event=Qualcomm%20Ideathon" class="myButton">Register</a></div>
+                                            @endif
+                                            @if($regbool==1)
+											<div class=reg-button-wrapper><a href="" class="myButton">Registered</a></div>
 											@endif
-											@if($regbool==1)
-											<span class="button primary fit disabled">Registered</span>
-											@endif
-											<br/><br/>
-										</section>
+</div>
+</div>
 
-                                        <!-- <section>
-											<h3>Important dates</h3>
-											<ul>
-												<li>Registration: 
-													<ul style="list-style-type:none">
-														<li><b>From 17th January 2019</b></li>
-													</ul>
-												</li>
-                                                <li>Deadline for questionnaire submission:
-													<ul style="list-style-type:none">
-														<li><b>29th January 2019</b></li>
-													</ul>
-												</li>
-												<li>Shortlist announcement:
-													<ul style="list-style-type:none">
-														<li><b>30th January 2019</b></li>
-													</ul>
-												</li>
-												<li>Finals:
-													<ul style="list-style-type:none">
-														<li><b>2nd - 3rd February 2019</b></li>
-													</ul>
-												</li>
-											</ul>
-										</section> -->
+<footer id="footer">
+	<ul class="copyright">
+		<li>&copy; PROBE 2020. All rights reserved.</li>
+	</ul>
+</footer>
 
-										<section>
-											<h3>Important dates</h3>
-											<p>Submission Deadline: <strong>25th Jan 2019</strong></p>
-											<p>Shortlist announcement: <strong>28th Jan 2019</strong></p>
-											<p>Event date: <strong>2nd Feb 2019, 6PM-7:30PM</strong></p>
-											<p>Venue: <strong>A2 Hall</strong></p>
-										</section>
-										<section>
-											<h3>Contacts</h3>
-											<p>Email: <b><a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a></b></p>
-											<p>Srivatsan : <b>9444741197</b></p>
-											<p>Madhan : <b>9790381738</b></p>
-										</section>
-									</section>
-							</div>
-							<div class="col-8 col-12-medium imp-medium">
+</div>
 
-                            <!-- Content -->
-                                <section id="content">
-                                    <p>A single thought can change the world. Are you a visionary technocrat with such revolutionary ideas? Get ready to fire your neurons at the Ideathon challenge at Probe'19. Don't miss this unique opportunity to present your ideas to the expert panel from <strong>Qualcomm</strong>.</p>
-                                    <p><strong>Topic and Theme:</strong> Networking and Wireless Communications (Wi-Fi)</p>
-                                    <p><strong>Prizes:</strong> Cash prize worth INR 15k and smart fitness watches for the winning team.</p>
-
-                                    <!-- <h3>Prizes</h3>
-                                    <p>
-										Cash prizes worth :
-										<br/>First prize : 4000 INR
-										<br/>Second prize : 3000 INR
-										<br/>Third prize : 2000 INR
-										<br/>And Goodies worth 1000 INR.
-                                    </p>
-                                    
-                                    <h3>Format</h3>
-
-                                    <p>
-                                        Step 1: Register with a maximum of 2 members per team at probe.org.in/events/matrix Questionnaire will be sent to the registered email ID.
-                                        <br/>Step 2:Submit the codes answers to the questionnaire before the deadline via email to <b><a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a></b>
-                                        <br/>Step 3:Shortlisted teams will have finals during Probe 2019 at NIT Trichy. Finals will involve a MATLAB coding round. Problem Statement will be announced on spot.
-                                    </p> -->
-
-                                    <h3>Rules</h3>
-                                    <ul>
-                                        <li>The students are invited to submit papers reporting original unpublished research and recent developments in above topic.</li>
-                                        <li>Maximum of 2 members per team.</li>
-                                        <li>Recommended areas in the above Topic includes (and is not limited to),
-                                            <ol>
-                                              <li>Application of machine learning and AI in the wireless LAN networking.</li>
-                                              <li>Expanding wireless LAN applications beyond just connectivity.</li>
-                                              <li>Security in Wireless LAN networking.</li>
-                                            </ol>
-                                        </li>
-                                        <li>The following parameters are important and are expected in the paper presented:
-                                          <ol>
-                                            <li>Title.</li>
-                                            <li>Objective and Abstract of the topic of presentation.</li>
-                                            <li>Detailed description and explanation of the topic chosen.</li>
-                                            <li>Benefits of the solution/topic presented.</li>
-                                            <li>Details of  Prototypes/Implementations that have been done on this topic (if any).</li>
-                                            <li>Identify if this is an enhancement of an existing technology or an innovative new idea.</li>
-                                            <li>References to public domain information used in the presentation.</li>
-                                          </ol>
-                                        </li>
-                                        <li>Send the soft copy of camera ready paper in PDF or WORD format to <b><a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a></b> with <code>“Ideathon_<'author_name'>_<'college_ name'>”</code> as the subject.
-                                        <li>All papers should strictly comply with the standard IEEE camera-ready format (IEEE standard format, double column, and 10-point font).</li>
-                                        <li>Mention the team name and names of team members (along with their Probe IDs) in the word/PDF file.</li>
-                                        <li>Top five shortlisted submissions will have finals during Probe2019 at NIT-Trichy, where they can present their papers in the form of Power point presentation.</li>
-                                        <li>Duration of presentation for each team is 10 minutes and will be adjudged by a panel from <b>Qualcomm.</b></li>
-                                        <li>Only one submission permitted per team.</li>
-                                    </ul>
-									<!-- <h4>Participation certificate for all the participants</h4> -->
-                                </section>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
-					</ul>
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="{{ asset('js/jquery.min.js') }}"></script>
-			<script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
-			<script src="{{ asset('js/jquery.dropotron.min.js') }}"></script>
-			<script src="{{ asset('js/jquery.scrollex.min.js') }}"></script>
-			<script src="{{ asset('js/browser.min.js') }}"></script>
-			<script src="{{ asset('js/breakpoints.min.js') }}"></script>
-			<script src="{{ asset('js/util.js') }}"></script>
-			<script src="{{ asset('js/main.js') }}"></script>
-	</body>
+<!-- Scripts -->
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
+<script src="{{ asset('js/jquery.dropotron.min.js') }}"></script>
+<script src="{{ asset('js/jquery.scrollex.min.js') }}"></script>
+<script src="{{ asset('js/browser.min.js') }}"></script>
+<script src="{{ asset('js/breakpoints.min.js') }}"></script>
+<script src="{{ asset('js/main2020.js') }}"></script>
+</body>
 </html>

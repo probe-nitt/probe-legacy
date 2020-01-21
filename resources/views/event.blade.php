@@ -57,43 +57,12 @@
 						<ul id="hexGrid">
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="/events/luckydraw" style="background-color:red;">
-										<img src="/images/luckydraw.png" alt="Event1" />
+									<a class="hexLink" href="/events/ideathon" style="background-color:red;">
+										<img src="/images/ideathon.png" alt="Event1" />
 										<div class="hexagon-content">
-											   <!-- <h1>Hello</h1> -->
-
-
 										</div>
-										<h1>Lucky Draw</h1>
-										<p>A special 100 DTG event</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="/events/probeit" style="background-color:red;">
-										<img src="/images/probeit.png" alt="Event1" />
-										<div class="hexagon-content">
-											   <!-- <h1>Hello</h1> -->
-
-
-										</div>
-										<h1>Probe It!</h1>
-										<p>Online quizzing event of Probe 2020</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="/events/bullseye" style="background-color:red;">
-										<img src="/images/bullseye.png" alt="Event1" />
-										<div class="hexagon-content">
-											   <!-- <h1>Hello</h1> -->
-
-
-										</div>
-										<h1>Bullseye</h1>
-										<p>An online treasure hunt event</p>
+										<h1>Qualcomm Ideathon</h1>
+										<p>Submit your ideas and win exciting prizes from Qualcomm!</p>
 									</a>
 								</div>
 							</li>
@@ -149,15 +118,43 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="" style="background-color:red;">
-										<!-- <img src="/images/quizzardo.png" alt="Event1" /> -->
+									<a class="hexLink" href="/events/bullseye" style="background-color:red;">
+										<img src="/images/bullseye.png" alt="Event1" />
 										<div class="hexagon-content">
-											  Event #8
+											   <!-- <h1>Hello</h1> -->
 
 
 										</div>
-										<h1>Event #8</h1>
-										<p>Coming soon!</p>
+										<h1>Bullseye</h1>
+										<p>An online treasure hunt event</p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="/events/luckydraw" style="background-color:red;">
+										<img src="/images/luckydraw.png" alt="Event1" />
+										<div class="hexagon-content">
+											   <!-- <h1>Hello</h1> -->
+
+
+										</div>
+										<h1>Lucky Draw</h1>
+										<p>A special 100 DTG event</p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="/events/probeit" style="background-color:red;">
+										<img src="/images/probeit.png" alt="Event1" />
+										<div class="hexagon-content">
+											   <!-- <h1>Hello</h1> -->
+
+
+										</div>
+										<h1>Probe It!</h1>
+										<p>Online quizzing event of Probe 2020</p>
 									</a>
 								</div>
 							</li>
