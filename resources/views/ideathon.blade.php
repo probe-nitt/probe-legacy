@@ -114,7 +114,7 @@ background-image:url(../images/backract.png);">
     			<li>Cost Optimizations for hardware and Wi-Fi Access Point Products</li>
     			<li>Wi-Fi Coverage improvements</li>
 				<li>User Experience improvements in dense Wi-Fi networks</li>
-    			<li>Any other topic of interest for the students</li>
+    			<li>Any other topic of interest for the participants</li>
 			</ul>
 			</p>
 			<header class="minor">

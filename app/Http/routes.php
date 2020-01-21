@@ -373,11 +373,11 @@ Route::get('/workshops/ocr', function () {
 });
 
 
-Route::get('/workshops/das', function () {
+Route::get('/workshops/dap', function () {
 
-    $workshop1 = "Data Acquisition Systems using LabVIEW Day 1";
+    $workshop1 = "Data Acquisition and Processing using LabView Day 1";
 
-    $workshop2 = "Data Acquisition Systems using LabVIEW Day 2";
+    $workshop2 = "Data Acquisition and Processing using LabView Day 1";
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,"PROBE20");

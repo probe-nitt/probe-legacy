@@ -105,13 +105,12 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:blue;">
-										<!-- <img src="" alt="Event1" /> -->
+								<a class="hexLink" href="/workshops/dap" style="background-color:blue;">
+										<img src="/images/w5.jpg"/>
 										<div class="hexagon-content">
-											Workshop #5
 										</div>
-										<h1>Workshop #5</h1>
-										<p>Coming soon!</p>
+										<h1>Data Acquisition and Processing</h1>
+										<p>Get yourself immersed in the LabVIEW simulation software</p>
 									</a>
 								</div>
 							</li>
