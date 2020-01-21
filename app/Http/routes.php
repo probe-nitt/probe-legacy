@@ -712,10 +712,14 @@ Route::post('/tcfwebhook', 'UserController@tswh');
 
 Route::get('/activate', 'UserController@confirm_mail');
 
+Route::get('/changePassword', 'UserController@changePasswordRedirect');
+Route::post('/changePassword', 'UserController@changePassword');
+
 Route::post('/aruteyy', 'UserController@se');
 
 Route::group(['prefix'=>'20/api'], function () {
     Route::post('login', 'APIController@login');
     Route::post('register', 'APIController@register');
+    Route::post('forgotPassword', 'APIController@forgotPassword');
     Route::get('events', 'APIController@eventDetails');
 });

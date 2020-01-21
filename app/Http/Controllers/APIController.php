@@ -179,6 +179,42 @@ class APIController extends Controller
         return JSONResponse::response(200, $events);
     }
 
+    public function forgotPassword(Request $request) {
+        $validator = Validator::make($request->all(), [
+            'email'     => 'required'
+        ]);
+
+        if ($validator->fails()) {
+            $response = "Invalid Parameters"; // $validators->errors()->all();
+            return JSONResponse::response(400, $response);
+        }
+
+        $email    = $request->input('email');
+
+        $user = Users::where('email','=', $email)->first();
+        if(!$user){
+            $response = 'Email not registered';
+            return JSONResponse::response(400, $response);
+        }
+
+        $confirmhash = md5(rand());
+        $user->forgot_password_hash = $confirmhash; 
+        $user->save();
+
+        $url = "https://".env("HOST_ADDR", "probe.org.in")."/changePassword?confirm=".$confirmhash;
+
+        $content = View::make('emails.forgotPassword', [
+            'name' => $user->name, 
+           'url' => $url
+        ])->render();
+
+        $this->sendMailSG($email, "PROBE'20 Website Password Change", $content);
+        
+        return JSONResponse::response(200, 'Email has been sent');
+
+
+    }
+
     private function sendMailSG( $tomail, $subject, $content) {
         
         $email = new \SendGrid\Mail\Mail(); 

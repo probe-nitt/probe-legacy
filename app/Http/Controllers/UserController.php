@@ -386,14 +386,14 @@ class UserController extends Controller
         }
 
         if($event=="Matrix") {
-            $content = View::make('prelimsEmails.matrix')->render();
+            $content = View::make('emails.matrix')->render();
 
             $attachmentPath = public_path('prelimsDocs/Matrix Prelims.docx');
             $this->sendAttachmentMailSG($email, "PROBE'20 Matrix Event Prelims", $content, $attachmentPath, "Matrix Prelims.docx");
         }
 
         if($event=="tronICs") {
-            $content = View::make('prelimsEmails.tronics')->render();
+            $content = View::make('emails.tronics')->render();
 
             $attachmentPath = public_path('prelimsDocs/tronICs Prelims.docx');
             $this->sendAttachmentMailSG($email, "PROBE'20 tronICs Event Prelims", $content, $attachmentPath, "tronICs Prelims.docx");
@@ -834,5 +834,41 @@ class UserController extends Controller
 
 
     }
+
+    public function changePasswordRedirect(Request $request)
+    {
+        $confirmhash = $request->input('confirm');
+
+        return view('changePassword',['hash' => $confirmhash]);
+
+    }
+
+    public function changePassword(Request $request)
+    {
+        $probe_id = $request->input('probe_id');
+        $password = $request->input('password');
+        $confirmhash = $request->input('forgot_password_hash');
+
+        $user = Users::where('probe_id','=', $probe_id)->first();
+        if(!$user) {
+            Session::flash('message', 'Invalid Probe Id');
+            return redirect('/changePassword?confirm='.$confirmhash);
+        }
+
+        if($user->forgot_password_hash!=''&&$confirmhash==$user->forgot_password_hash) {
+            $user->password = md5($password);
+            $user->forgot_password_hash = md5(rand()); 
+            $user->save();
+            Session::flash('message', 'You have successfully changed your password!');
+            return redirect('/login');
+        } else {
+            Session::flash('message', 'Probe ID does not match!');
+            return redirect('/changePassword?confirm='.$confirmhash);
+        }
+
+    }
+
+
+
 
 }
