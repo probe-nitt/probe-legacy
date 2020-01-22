@@ -162,7 +162,7 @@ class APIController extends Controller
                 $response = 'Account not activated. Check your mail to activate your account';
                 return JSONResponse::response(400, $response);
             }
-            $response = $user->name . ':' . $user->probe_id;
+            $response = $user->name . ':' . $user->probe_id . ':' . $user->college_name . ':' . $user->department;
             return JSONResponse::response(200, $response);
             //code for dashboard
         } 
