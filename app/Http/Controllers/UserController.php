@@ -845,13 +845,13 @@ class UserController extends Controller
 
     public function changePassword(Request $request)
     {
-        $probe_id = $request->input('probe_id');
+        $email = $request->input('email');
         $password = $request->input('password');
         $confirmhash = $request->input('forgot_password_hash');
 
-        $user = Users::where('probe_id','=', $probe_id)->first();
+        $user = Users::where('email','=', $email)->first();
         if(!$user) {
-            Session::flash('message', 'Invalid Probe Id');
+            Session::flash('message', 'Invalid Email Id');
             return redirect('/changePassword?confirm='.$confirmhash);
         }
 
@@ -862,7 +862,7 @@ class UserController extends Controller
             Session::flash('message', 'You have successfully changed your password!');
             return redirect('/login');
         } else {
-            Session::flash('message', 'Probe ID does not match!');
+            Session::flash('message', 'Email ID does not match!');
             return redirect('/changePassword?confirm='.$confirmhash);
         }
 

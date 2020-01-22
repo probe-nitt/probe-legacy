@@ -63,8 +63,8 @@
                             <div class="row gtr-uniform gtr-50 login-page-container">
                                 <div class="col-12 col-12-xsmall">
 																	<!-- <label class="loginPage-label"  for="">Probe-ID</label> -->
-																	<label class="registration-form-label">Probe-ID</label>
-                                    <input type="text" class="loginPage" name="probe_id" id="probe_id" required />
+																	<label class="registration-form-label">Email ID</label>
+                                    <input type="text" class="loginPage" name="email" id="email" required />
                                 </div>
                                 <div class="col-12 col-12-xsmall">
 																	<!-- <label class="loginPage-label"  for="">Probe-ID</label> -->
