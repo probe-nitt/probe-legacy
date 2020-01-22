@@ -197,8 +197,14 @@ class APIController extends Controller
             return JSONResponse::response(400, $response);
         }
 
+        if($user->forgot_password_sent) {
+            $response = 'Mail has already been sent!';
+            return JSONResponse::response(400, $response);
+        }
+
         $confirmhash = md5(rand());
         $user->forgot_password_hash = $confirmhash; 
+        $user->forgot_password_sent = 1;
         $user->save();
 
         $url = "https://".env("HOST_ADDR", "probe.org.in")."/changePassword?confirm=".$confirmhash;

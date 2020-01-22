@@ -858,6 +858,7 @@ class UserController extends Controller
         if($user->forgot_password_hash!=''&&$confirmhash==$user->forgot_password_hash) {
             $user->password = md5($password);
             $user->forgot_password_hash = md5(rand()); 
+            $user->forgot_password_sent = 0;
             $user->save();
             Session::flash('message', 'You have successfully changed your password!');
             return redirect('/login');
