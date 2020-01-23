@@ -118,6 +118,33 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
+									<a class="hexLink" href="/events/cryptech" style="background-color:red;">
+										<img src="/images/cryptech.png" alt="Event1" />
+										<div class="hexagon-content">
+
+
+										</div>
+										<h1>Cryptech</h1>
+										<p>A cryptic puzzle event</p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
+									<a class="hexLink" href="" style="background-color:red;">
+										<!-- <img src="/images/quizzardo.png" alt="Event1" /> -->
+										<div class="hexagon-content">
+											  Event #10
+
+
+										</div>
+										<h1>Event #10</h1>
+										<p>Coming soon!</p>
+									</a>
+								</div>
+							</li>
+							<li class="hex">
+								<div class="hexIn">
 									<a class="hexLink" href="/events/bullseye" style="background-color:red;">
 										<img src="/images/bullseye.png" alt="Event1" />
 										<div class="hexagon-content">
@@ -155,34 +182,6 @@
 										</div>
 										<h1>Probe It!</h1>
 										<p>Online quizzing event of Probe 2020</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="" style="background-color:red;">
-										<!-- <img src="/images/quizzardo.png" alt="Event1" /> -->
-										<div class="hexagon-content">
-											Event #9
-
-
-										</div>
-										<h1>Event #9</h1>
-										<p>Coming soon!</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="" style="background-color:red;">
-										<!-- <img src="/images/quizzardo.png" alt="Event1" /> -->
-										<div class="hexagon-content">
-											  Event #10
-
-
-										</div>
-										<h1>Event #10</h1>
-										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
