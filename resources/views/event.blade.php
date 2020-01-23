@@ -131,15 +131,13 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="" style="background-color:red;">
-										<!-- <img src="/images/quizzardo.png" alt="Event1" /> -->
+									<a class="hexLink" href="/events/quizzical" style="background-color:red;">
+										<img src="/images/quizzical.png" alt="Event1" />
 										<div class="hexagon-content">
-											  Event #10
-
 
 										</div>
-										<h1>Event #10</h1>
-										<p>Coming soon!</p>
+										<h1>Quizzical</h1>
+										<p>A non-technical quiz event</p>
 									</a>
 								</div>
 							</li>
