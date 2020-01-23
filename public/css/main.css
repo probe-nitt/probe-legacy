@@ -3703,7 +3703,7 @@ select.minimal:focus {
 		position: relative;
 		text-align: center;
 		z-index: 21;
-		background-size: 60% 40%;
+		background-size: 850px 40%;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
@@ -3826,7 +3826,7 @@ select.minimal:focus {
 		/* Banner */
 
 			#banner2020 {
-				background-size: 60% 40%;
+				background-size: 840px 40%;
 			}
 
 	}
@@ -3884,7 +3884,7 @@ select.minimal:focus {
 			}
 
 			#banner2020 {
-				background-size: 60% 25%;
+				background-size: 640px 40%;
 			}
 
 		/* Footer */
@@ -3972,7 +3972,7 @@ select.minimal:focus {
 			}
 
 			#banner2020 {
-				background-size: 75% 25%
+				background-size: 50% 25%
 			}
 
 				#banner .goto-next {
@@ -4103,7 +4103,7 @@ select.minimal:focus {
 			}
 
 			#banner2020 {
-				background-size: 75% 20%;
+				background-size: 300px 25%;
 				height: calc(100vh - 45px);
 			}
 
@@ -4356,7 +4356,7 @@ select.minimal:focus {
 			}
 
 			#banner2020 {
-				background-size: 75% 15%;
+				background-size: 40% 15%;
 			}
 
 		/* Footer */
