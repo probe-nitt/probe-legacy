@@ -127,13 +127,12 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:blue;">
-										<!-- <img src="" alt="Event1" /> -->
+									<a class="hexLink" href="/workshops/makeathon" style="background-color:blue;">
+										<img src="/images/w7.jpg" alt="Event1" />
 										<div class="hexagon-content">
-											Workshop #7
 										</div>
-										<h1>Workshop #7</h1>
-										<p>Coming soon!</p>
+										<h1>Makeathon - Embedded Electronics</h1>
+										<p>Learn the basics of Microcontrollers and Electronics</p>
 									</a>
 								</div>
 							</li>

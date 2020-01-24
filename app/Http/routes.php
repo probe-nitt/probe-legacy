@@ -315,8 +315,8 @@ Route::get('/events/probequiz', function () {
     return view('probequiz', ['regbool' => $regbool]);
 });
 
-Route::get('/events/makeathon', function () {
-    $event = "Qualcomm Makeathon";
+Route::get('/workshops/makeathon', function () {
+    $event = "Makeathon - Embedded Electronics";
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,'PROBE20');
@@ -325,20 +325,17 @@ Route::get('/events/makeathon', function () {
     else
         $uid = -1;
 
-    $w = Events::where('name','=',$event)->first();
+    $w = Workshops::where('name','=',$event)->first();
 
     $wid = $w->id;
     $mc = $w->max_count;
 
-    $isregistered = EventRegs::where('event_id', '=', $wid)
+    $isregistered = WorkshopRegs::where('workshop_id', '=', $wid)
                                 ->where(function($query) use($uid)
                                 {
                                     $query->where('participant1',$uid)
                                         ->orwhere('participant2',$uid)
-                                        ->orwhere('participant3',$uid)
-                                        ->orwhere('participant4',$uid)
-                                        ->orwhere('participant5',$uid)
-                                        ->orwhere('participant6',$uid);
+                                        ->orwhere('participant3',$uid);
                                 })->first();
 
     $regbool = 0;
@@ -347,7 +344,7 @@ Route::get('/events/makeathon', function () {
         $regbool = 1;
     }
 
-    return view('qmakeathon',['regbool' => $regbool]);
+    return view('makeathon',['regbool' => $regbool]);
 });
 
 // Route::get('/events/makeathon', function () {
