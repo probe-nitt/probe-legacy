@@ -116,13 +116,12 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="#" style="background-color:blue;">
-										<!-- <img src="" alt="Event1" /> -->
+									<a class="hexLink" href="/workshops/soc" style="background-color:blue;">
+										<img src="/images/w6.png" alt="Event1" />
 										<div class="hexagon-content">
-											Workshop #6
 										</div>
-										<h1>Workshop #6</h1>
-										<p>Coming soon!</p>
+										<h1>Life of SoC</h1>
+										<p>A sneak peak into the world of SoC design</p>
 									</a>
 								</div>
 							</li>

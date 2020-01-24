@@ -768,6 +768,10 @@ Route::get('/workshops/jarvis', function () {
 
 });
 
+Route::get('/workshops/soc', function() {
+    return view('soc');
+});
+
 Route::post('/register', 'UserController@register');
 
 Route::post('/login', 'UserController@login');
