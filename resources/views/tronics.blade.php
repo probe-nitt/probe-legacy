@@ -107,8 +107,8 @@ background-image:url(../images/backract.png);">
 			</header>
 				<ul>
 				<li><b>Registration:</b> From 18th January 2020</li>
-				<li><b>Deadline for submission of filled questionnaire:</b> 24th January 2020</li>
-				<li><b>Shortlist announcement:</b> 26th January 2020</li>
+				<li><b>Deadline for submission of filled questionnaire:</b> 28th January 2020</li>
+				<li><b>Shortlist announcement:</b> 29th January 2020</li>
 				<li><b>Finals:</b> 1st February 2020, at NIT Trichy</li>
 				</ul>
 

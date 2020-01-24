@@ -154,7 +154,7 @@ background-image:url(../images/backract.png);">
 				<li> <b>On what basis are workshop registrations confirmed? </b><br/>
                     Registrations are confined after payment on first come first serve basis. Confirmation of your participation is subject to availability.
 				</li>
-				<li> <b> Will the fees paid for the workshop be refunded in case I fail to attend the workshop?</b> <br/>
+				<li> <b> Will the participants be given certificates? </b> <br/>
 				    Yes. The participants will be given certificates from Probe on completion of the workshop.
 				</li>
 				<li> <b> Will the money be refunded if we miss the workshop in any case?</b> <br/>

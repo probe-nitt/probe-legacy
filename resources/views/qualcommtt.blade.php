@@ -51,7 +51,7 @@ background-image:url(../images/backract.png);">
 	<div id="main" class="wrapper style1">
 		<div class="container">
 			<header class="major">
-			<h2><b>Events</b></h2>
+			<h2><b>Guest Lectures</b></h2>
 		</header>
 		<div class="row gtr-150">
 			<div class="col-4 col-12-medium">
