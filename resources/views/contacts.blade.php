@@ -27,7 +27,7 @@ background-image:url(../images/backract.png);">
                 <li><a href="/">Home</a></li>
                 <li><a href="/workshops">Workshops</a></li>
                 <li><a href="/events">Events</a></li>
-                <li><a href="/about" class="scrolly">About us</a></li>
+                <li><a href="/lectures">Lectures</a></li>
                 <li><a href="/contact">Contact us</a></li>
             </ul>
         </nav>
@@ -60,6 +60,7 @@ background-image:url(../images/backract.png);">
             @if ($message = session('message'))
             <p style="text-align: center;">{{ $message }}</p>
             @endif
+            <p style="text-align: center;"> Want to know more about us? <a href="/about"> Click here! </a> </p>
             <div>
 
                 <div class="row">

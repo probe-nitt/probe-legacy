@@ -52,19 +52,19 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
             <header class="major">
-							<h2><b>Workshop registration</b></h2>
+							<h2><b>Guest Lectures</b></h2>
             </header>
 						<ul id="hexGrid">
                         <li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="/workshops/probot" style="background-color:blue;">
-										<img src="/images/w2.jpeg"/>
+									<a class="hexLink" href="/lectures/qualcomm" style="background-color:pink;">
+										<img src="/images/w6.png"/>
 										<div class="hexagon-content">
 
 
 										</div>
-										<h1>Probot</h1>
-										<p>Gesture Controlled IoT Based Smart Lock System</p>
+										<h1>Making 5G NR a reality</h1>
+										<p>Introduction to 5G NR (New Radio)</p>
 										<!-- <h1>Workshop #1</h1>
 										<p>Coming soon!</p> -->
 									</a>
@@ -72,67 +72,25 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="/workshops/cyw" style="background-color:blue;">
-										<img src="/images/w1.png"/>
+									<a class="hexLink" href="" style="background-color:pink;">
+										<!-- <img src="/images/w1.png"/> -->
 										<div class="hexagon-content">
+                                            Lecture #2
 										</div>
-										<h1>Hands On Bluetooth with CYW20719</h1>
-										<p>Write a Bluetooth application on your own. </p>
+										<h1>Lecture #2</h1>
+										<p>Coming soon! </p>
 									</a>
 								</div>
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="/workshops/adt" style="background-color:blue;">
-										<img src="/images/w3.png"/>
+									<a class="hexLink" href="" style="background-color:pink;">
+										<!-- <img src="/images/w3.png"/> -->
 										<div class="hexagon-content">
+                                        Lecture #3
 										</div>
-										<h1>Antenna Design and Testing</h1>
-										<p>Master the concepts of antenna design and testing</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="/workshops/jarvis" style="background-color:blue;">
-										<img src="/images/w4.png"/>
-										<div class="hexagon-content">
-										</div>
-										<h1>Build your own J.A.R.V.I.S.</h1>
-										<p>Build your own assistant using flask and Dialogflow</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-								<a class="hexLink" href="/workshops/dap" style="background-color:blue;">
-										<img src="/images/w5.jpg"/>
-										<div class="hexagon-content">
-										</div>
-										<h1>Data Acquisition and Processing</h1>
-										<p>Get yourself immersed in the LabVIEW simulation software</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="/workshops/soc" style="background-color:blue;">
-										<img src="/images/w6.png" alt="Event1" />
-										<div class="hexagon-content">
-										</div>
-										<h1>Life of SoC</h1>
-										<p>A sneak peak into the world of SoC design</p>
-									</a>
-								</div>
-							</li>
-							<li class="hex">
-								<div class="hexIn">
-									<a class="hexLink" href="/workshops/makeathon" style="background-color:blue;">
-										<img src="/images/w7.jpg" alt="Event1" />
-										<div class="hexagon-content">
-										</div>
-										<h1>Makeathon - Embedded Electronics</h1>
-										<p>Learn the basics of Microcontrollers and Electronics</p>
+										<h1>Lecutre #3</h1>
+										<p>Coming soon!</p>
 									</a>
 								</div>
 							</li>
@@ -140,12 +98,12 @@
 						</ul>
         </div>
 
-      <!-- Footer
+      <!-- Footer -->
         <footer style="margin-bottom:0" id="footer">
           <ul class="copyright">
-            <li>&copy; PROBE 2019. All rights reserved.</li>
+            <li>&copy; PROBE 2020. All rights reserved.</li>
           </ul>
-        </footer> -->
+        </footer>
 
     </div>
 

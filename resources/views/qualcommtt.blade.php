@@ -1,107 +1,148 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Qualcomm Tech talk | PROBE 2019</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		@if ($name = session('name'))
+<head>
+	<title>Making 5G NR a reality | PROBE 2020</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	@if ($name = session('name'))
 		<link rel="stylesheet" href="{{ asset('css/main-loggedin.css') }}"  />
 		@endif
 		@if (!session('name'))
 		<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
 		@endif
-		<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="page-wrapper">
+	<link rel="stylesheet" href="{{ asset('css/workshops.css') }}"  />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" /> 
+	<noscript><link rel="stylesheet" href="{{ asset('css/noscript.css') }}" /></noscript>
+</head>
+<body class="is-preload" style="
+background-image:url(../images/backract.png);">
+<div id="page-wrapper">
+	
+	<!-- Header -->
+	<header id="header" class="header2020">
+		<nav class="nav2020">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/workshops">Workshops</a></li>
+				<li><a href="/events">Events</a></li>
+				<li><a href="/lectures">Lectures</a></li>
+				<li><a href="/contact">Contact us</a></li>
+			</ul>
+		</nav>
+		<h1 id="logo2020"><a href="/"><img src="/images/probe_p.png"></a></h1>
+		<nav class="nav2020">
+			<ul>
+<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank"><img src="/images/facebook.svg" alt="facebook"></a></li>
+							<li><a href="https://www.instagram.com/probe.nitt/"" target="_blank"><img src="/images/instagram.png" alt="instagram"></a></li>
+							<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" " target="_blank"><img src="/images/linkedin.svg" alt="linkedin"></a></li>				<li><a href="/sponsors">Sponsors</a></li>
+				@if ($name = session('name'))
+				<li>{{ $name }}</li>
+				<li><a href="/logout" class="button primary">Log out</a></li>
+				@endif
+				@if (!session('name'))
+				<li><a href="/register">Sign up</a></li>
+				<li><a href="/login">Log in</a></li>
+				@endif
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- Main -->
+	<div id="main" class="wrapper style1">
+		<div class="container">
+			<header class="major">
+			<h2><b>Events</b></h2>
+		</header>
+		<div class="row gtr-150">
+			<div class="col-4 col-12-medium">
+				
+				<!-- Sidebar -->
+				<section id="sidebar">
+					<div class="workshopcontainer">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="386" height="334"
+						viewBox="0 0 386 334">
+						<defs>
+							<style>
+								.cls-1 {
+									fill: url(#linear-gradient);
+								}
+								
+								.cls-2 {
+									fill: #fff;
+									font-size: 35px;
+									font-family: Montserrat-Medium, Montserrat;
+									font-weight: 500;
+								}
+							</style>
+							<linearGradient id="linear-gradient" x1="0.722" y1="0.951" x2="0.193" y2="0.188"
+							gradientUnits="objectBoundingBox">
+							<stop offset="0" stop-color="#2b499b" />
+							<stop offset="1" stop-color="#2388fc" />
+						</linearGradient>
+					</defs>
+					<g id="Group_47" data-name="Group 47" transform="translate(-178 -485)">
+						<path id="Polygon_9" data-name="Polygon 9" class="cls-1" d="M289.5,0,386,167,289.5,334H96.5L0,167,96.5,0Z"
+						transform="translate(178 485)" />
+						{{-- <text id="Event_n" data-name="Event #n" class="cls-2" transform="translate(297 665)">
+							<tspan x="0" y="0">Event #n</tspan>
+						</text> --}}
+					</g>
+				</svg>
+				<div class="workshopcentered" style="
+				font-size: xx-large;
+				">Making 5G NR a reality</div>
+			</div>
+		</section>
+		
+	</div>
+	<div class="col-8 col-12-medium imp-medium">
+		
+		<!-- Content -->
+		<section id="content-workshops" style="
+    /* Position: absolute; */
+    height: 500px;
+	overflow-y: scroll;">
+	<header class="minor">
+		<h3 class="subheader"><b>Description</b></h3>
+	</header>
+            <p>This presentation will give an introduction to 5G NR (New Radio) – the unified air interface for the next decade and beyond. </p>
+			<p>It will first cover the 5G NR foundational technologies (e.g. waveforms, framework, self-contained integrated subframe), and then get into the details of the different wireless technologies (e.g. mmWave, massive MIMO, and advanced coding design) that allows 5G NR to deliver more capabilities and higher efficiencies than today’s networks. 
+			<p>We will also show the role Qualcomm is playing in making 5G NR a reality.</p>
+            <header class="minor">
+				<h3 class="subheader"><b>Date</b></h3>
+			</header>
+			<p>1st Feb at 9:30 A.M</p>
+                <!-- The winners of the contest are:
+                <ul>
+                <li><b>First Prize:</b> Suhail, M.A.M College of Engineering </li>
+                <li><b>Second Prize:</b> Venkat Subramanian P, NIT Trichy </li>
+                <li><b>Third Prize:</b> Amirtha Varshini K, NIT Trichy </li>
+                </ul> --> 
 
-			<!-- Header -->
-				<header id="header">
-                    <h1 id="logo"><a href="/"><img width="100px" style="margin-top: 10px;" src="/images/whitelogo.png"></a></h1>
-					<nav id="nav">
-						<ul>
-                            <li><a href="/events">Events</a></li>
-                            <li><a href="/workshops">Workshops</a></li>
-                            <li><a href="/techtalk">Tech Talks</a></li>
-							<li><a href="/sponsors">Sponsors</a></li>
-                            <li><a href="/contact">Contact us</a></li>
-							@if ($name = session('name'))
-							<li>{{ $name }}</li>
-							<li><a href="/logout" class="button primary">Log out</a></li>
-                        	@endif
-							@if (!session('name'))
-							<li><a href="/register" class="button primary">Register</a></li>
-							<li><a href="/login" class="button primary">Log in</a></li>
-                        	@endif
-							
-						</ul>
-					</nav>
-				</header>
+			<!-- <h4>Participation certificate for all the participants making to the finals.</h4> -->
+		</section>
+	</div>
+</div>
+</div>
+</div>
 
-			<!-- Main -->
-				<div id="main" class="wrapper style1">
-					<div class="container">
-						<header class="major">
-							<h2><b>High Efficiency Wi-Fi Technology: IEEE 802.11ax</b></h2>
-						</header>
-						<div class="row gtr-150">
-							<div class="col-4 col-12-medium">
+<!-- Footer -->
+<footer id="footer">
+	<ul class="copyright">
+		<li>&copy; PROBE 2020. All rights reserved.</li>
+	</ul>
+</footer>
 
-                                <!-- Sidebar -->
-                
-									<section id="sidebar">
 
-                                        <section>
-											<h3>Details</h3>
-											<ul>
-												<li>Date : 
-													<ul style="list-style-type:none">
-														<li>2nd February 2019, 5:30PM</b></li>
-													</ul>
-                                                </li>
-                                                <li>Venue : 
-													<ul style="list-style-type:none">
-														<li><b>LH 109</b></li>
-													</ul>
-                                                </li>
-                                                
-											</ul>
-										</section>
-									</section>
-							</div>
-							<div class="col-8 col-12-medium imp-medium">
+</div>
 
-                            <!-- Content -->
-                                <section id="content">
-                                    <p>The use of Wi-Fi Technology  in homes, large campuses and enterprises is becoming inevitable day by day. Number of WiFi devices per unit area and data consumption per WiFi device grow largely with time which demands a redesign of Wi-Fi systems as the conventional Wi-Fi technologies had concentrated only on the peak data rates but not on the large number of users/devices.</p>
-
-                                    <p>IEEE 802.11 ax Wi-Fi technology addresses this high density usage scenarios by having several technological changes in  physical layer and medium access control layer such as Orthogonal Frequency Division Multiple Access (OFDMA), Mulituser-Multiple Input Multiple Output (MU-MIMO), Longer OFDM symbol, Uplink resource allocation, Basic Service Set (BSS) Coloring, etc.</p>
-                                    
-                                    <p>This talk will highlight these technology building blocks for high efficiency WiFi operations in dense scenarios. We will also discuss several new use cases that are catered by IEEE 802.11ax networks.</p>
-                                    
-                                </section>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
-					</ul>
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="{{ asset('js/jquery.min.js') }}"></script>
-			<script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
-			<script src="{{ asset('js/jquery.dropotron.min.js') }}"></script>
-			<script src="{{ asset('js/jquery.scrollex.min.js') }}"></script>
-			<script src="{{ asset('js/browser.min.js') }}"></script>
-			<script src="{{ asset('js/breakpoints.min.js') }}"></script>
-			<script src="{{ asset('js/util.js') }}"></script>
-			<script src="{{ asset('js/main.js') }}"></script>
-	</body>
+<!-- Scripts -->
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/jquery.scrolly.min.js') }}"></script>
+<script src="{{ asset('js/jquery.dropotron.min.js') }}"></script>
+<script src="{{ asset('js/jquery.scrollex.min.js') }}"></script>
+<script src="{{ asset('js/browser.min.js') }}"></script>
+<script src="{{ asset('js/breakpoints.min.js') }}"></script>
+<script src="{{ asset('js/main2020.js') }}"></script>
+</body>
 </html>

@@ -58,6 +58,10 @@ Route::get('/events', function () {
     return view('event');
 });
 
+Route::get('/lectures', function() {
+    return view('lectures');
+});
+
 Route::get('/workshops', function () {
     return view('workshops');
 });
@@ -66,7 +70,7 @@ Route::get('/techtalk/ssir', function () {
     return view('samsungtt');
 });
 
-Route::get('/techtalk/qualcomm', function () {
+Route::get('/lectures/qualcomm', function () {
     return view('qualcommtt');
 });
 
