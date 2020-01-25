@@ -142,26 +142,20 @@ background-image:url(../images/backract.png);">
 				<h3 class="subheader"><b>FAQ</b></h3>
 			</header>
 			<ol>
-				<li> <b>What programming language will be used ? </b><br/>
-					Python
-				</li>
-				<li> <b>Is there any pre-requisites ? </b><br/>
-                    Basic knowledge of python will be enough. Basics of NLP will be taught from scratch.
+				<li> <b>Does the workshop have any prerequisites? </b><br/>
+					There are no prerequisites for the workshop. Any interested student can register for the workshop.
 				</li>
 				<li> <b>How should the payment be made for the workshop? </b><br/>
-                    Payment can be made online 
+					Payment can be made online.
 				</li>
 				<li> <b>On what basis are workshop registrations confirmed? </b><br/>
-                    Registrations are confined after payment on first come first serve basis. Confirmation of your participation is subject to availability.
+					Registrations are confirmed after payment on first come first serve basis. Confirmation of your participation is subject to availability. 
 				</li>
-				<li> <b> Will the fees paid for the workshop be refunded in case I fail to attend the workshop?</b> <br/>
-				    Yes. The participants will be given certificates from Probe on completion of the workshop.
+				<li> <b>Will the fees paid for the workshop be refunded in case I fail to attend the workshop? </b><br/>
+					Fees once paid, is strictly non-refundable. Requests for refund will not be encouraged.
 				</li>
-				<li> <b> Will the money be refunded if we miss the workshop in any case?</b> <br/>
-				    Fees once paid is strictly non-refundable. Requests for refund will not be encouraged.
-				</li>
-				<li> <b> Will accommodation be provided?</b> <br/>
-				    Yes. We provide accommodation depending on the availability. You will have to register separately for that.
+				<li> <b>Will accommodation be provided?</b> <br/>
+				Yes. We provide accommodation depending on the availability. You will have to register separately for that.
 				</li>
 			</ol>
 			<!-- <h4>Participation certificate for all the participants making to the finals.</h4> -->

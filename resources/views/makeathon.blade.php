@@ -137,27 +137,27 @@ background-image:url(../images/backract.png);">
 							Students have to bring their own laptops.
 						</li>
 						</ul>
-			<!-- <header class="minor">
+			<header class="minor">
 				<h3 class="subheader"><b>FAQ</b></h3>
 			</header>
 			<ol>
-				<li> <b>Should we have the basic knowledge about wireless communication? </b><br/>
-					 Not necessary. You will be taught the basics of wireless communication.
+				<li> <b>Are there any prerequisites?</b><br/>
+					The basics of Electronics and microcontroller will be covered in the session. So it's not required.
 				</li>
-				<li> <b>Are laptops required? </b><br/>
-					One laptop per team is required.
+				<li> <b>What is the format of the workshop? </b><br/>
+					The first session will be teaching session which will be followed by a hackathon session in which the participants need to solve the on spot problem statement. 
 				</li>
-				<li> <b>Is knowledge of coding compulsory? </b><br/>
-					Not necessary. The basics of coding will be covered. 
+				<li> <b>Will accommodation be provided? </b><br/>
+					Yes it will be. You have to register separately for that.
 				</li>
-				<li> <b>Will you provide any compensation class if we miss any of the session? </b><br/>
-				No compensation class will be provided. However the power point presentation will be given which can be referred.
+				<li> <b>Are laptops required?</b><br/>
+					Yes. One laptop per team is required.
 				</li>
-				<li> <b> Is it a certified course?</b> <br/>
-				Yes. The participants will be given certificates from Probe on completion of the workshop.
+				<li> <b> How should the workshop fee be paid? And will the fee be refunded incase I fail to attend?</b> <br/>
+				It should be paid online.  Fees once paid is strictly non-refundable. Requests for refund will not be encouraged.
 				</li>
-				<li> <b> Will the money be refunded if we miss the workshop in any case?</b> <br/>
-				No. The money won't be refunded.
+				<li> <b> Will certificates be provided?</b> <br/>
+					Yes they will be.
 				</li>
 				<li> <b> Can we pay you directly if we miss the deadline of payment in worst case?</b> <br/>
 				No. The payments have to be done online. Only after the payment is done can the teams participate in the workshop. 
@@ -168,7 +168,7 @@ background-image:url(../images/backract.png);">
 				<li> <b> What are the required software to be installed?</b> <br/>
 				Arduino and OpenCV Python need to be installed. A detailed document will be released later regarding the installation process.
 				</li>
-			</ol> -->
+			</ol>
 			<!-- <h4>Participation certificate for all the participants making to the finals.</h4> -->
 		</section>
 	</div>
