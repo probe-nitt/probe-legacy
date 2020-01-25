@@ -72,25 +72,27 @@
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="" style="background-color:pink;">
-										<!-- <img src="/images/w1.png"/> -->
+                                    <a class="hexLink" href="/lectures/drchockalingam" style="background-color:pink;">
+										<img src="/images/gl1.jpeg"/>
 										<div class="hexagon-content">
-                                            Lecture #2
+
+
 										</div>
-										<h1>Lecture #2</h1>
-										<p>Coming soon! </p>
+										<h1>Dr. A Chockalingam</h1>
+										<p>High Mobility Support in 5G </p>
 									</a>
 								</div>
 							</li>
 							<li class="hex">
 								<div class="hexIn">
-									<a class="hexLink" href="" style="background-color:pink;">
-										<!-- <img src="/images/w3.png"/> -->
+                                    <a class="hexLink" href="/lectures/drrao" style="background-color:pink;">
+										<img src="/images/gl2.jpg"/>
 										<div class="hexagon-content">
-                                        Lecture #3
+
+
 										</div>
-										<h1>Lecutre #3</h1>
-										<p>Coming soon!</p>
+										<h1>Dr. Rao</h1>
+										<p>Chief guest for the inauguration of PROBE 2020</p>
 									</a>
 								</div>
 							</li>

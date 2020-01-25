@@ -74,6 +74,14 @@ Route::get('/lectures/qualcomm', function () {
     return view('qualcommtt');
 });
 
+Route::get('/lectures/drchockalingam', function () {
+    return view('gl1');
+});
+
+Route::get('/lectures/drrao', function () {
+    return view('gl2');
+});
+
 Route::get('/events/paper', function () {
     return view('paper');
 });
