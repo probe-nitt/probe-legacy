@@ -124,7 +124,7 @@ background-image:url(../images/backract.png);">
 												</li>
                                                 <li>Workshop fee:
 													<ul style="list-style-type:none">
-														<li><b>3500 per team ( 10% discount till 18th Jan )</b></li>
+														<li><b>2600 per team</b></li>
 													</ul>
 												</li>
 												<li>Duration :
