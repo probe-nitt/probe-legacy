@@ -15,9 +15,6 @@
 
         <ul>
             <li>Your Probe ID is : <b>{{ $pid }}</b></li>
-            <li>Registration fee : Rs 250/- </li>
-            <li>Accommodation fee : Rs 150/- per day</li>
-            <li>Caution deposit : Rs 50/-</li>
         </ul>
 
         <p>The registration fee, accommodation fee and caution deposit is to be paid in person during Probe.</p>
