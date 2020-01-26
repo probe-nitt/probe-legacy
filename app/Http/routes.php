@@ -798,5 +798,5 @@ Route::group(['prefix'=>'20/api'], function () {
     Route::post('login', 'APIController@login');
     Route::post('register', 'APIController@register');
     Route::post('forgotPassword', 'APIController@forgotPassword');
-    Route::get('events', 'APIController@eventDetails');
+    Route::get('schedule', 'APIController@getSchedule');
 });

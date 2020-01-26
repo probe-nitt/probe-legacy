@@ -25,6 +25,7 @@ use App\Models\Workshops;
 use App\Models\Events;
 use App\Models\BullseyeUsers;
 use App\Models\BullseyeData;
+use App\Models\Schedule;
 
 use GuzzleHttp\Client;
 
@@ -170,13 +171,13 @@ class APIController extends Controller
         return JSONResponse::response(500);
     }
 
-    public function eventDetails() {
-        $events = Events::get();
+    public function getSchedule() {
+        $schedule = Schedule::get();
 
-        if (! $events) {
-            return JSONResponse::response(400, 'Unable to get events');
+        if (! $schedule) {
+            return JSONResponse::response(400, 'Unable to get Schedule');
         }
-        return JSONResponse::response(200, $events);
+        return JSONResponse::response(200, $schedule);
     }
 
     public function forgotPassword(Request $request) {
