@@ -659,7 +659,7 @@ class UserController extends Controller
 
         if($data->answer==$ans){
             $user->cl=$cl+1;
-            if($user->cl==22){
+            if($user->cl==24){
                 $user->complete = 1;
                 Session::flash('message', 'More levels coming soon.');
             }
