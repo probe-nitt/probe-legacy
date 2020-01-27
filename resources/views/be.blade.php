@@ -78,6 +78,7 @@
                         <form method="post" action="{{action('UserController@bea')}}">
                             <div class="row gtr-uniform gtr-50">
                                 <div class="col-12 col-12-xsmall">
+                                    <p style="text-align:center; color:red;"> The Event is over and your answers won't afffect the leaderboard. But you could try them, nevertheless ;)</b></p>
                                     @if($extraComment!="")
                                     <p style="text-align: center;">Additional clues are added.</p>
                                     @endif

@@ -67,7 +67,7 @@
                                     <td></td>
                                     @endif
                                     @if(!$userdetail->ifAdmin)
-                                    <td>{{($page-1) * $limit + $index}}</td>
+                                    <td>{{($page-1) * $limit + $index +1}}</td>
                                     @endif
                                     <td>{{$userdetail->name}}</td>
                                     <td>{{$userdetail->cl}}</td>
@@ -108,14 +108,14 @@
                             </tbody>
                         </table>
                         <div>
-                        @if ($page < ceil($users/$limit))
+                        <!-- @if ($page < ceil($users/$limit))
                         <a href="?page={{ceil($users/$limit)}}" class="button primary" style="float: right;">>></a>
                         <a href="?page={{$page+1}}" class="button primary" style="float: right;margin: 0 10px;">></a>
                         @endif
                         @if ($page != 1)
                         <a href="?page={{$page-1}}" class="button primary" style="float: right; margin: 0 10px;"><</a>
                         <a href="?page=1" class="button primary" style="float: right;"><<</a>
-                        @endif
+                        @endif -->
                         </div>
                         <br>
 					</div>

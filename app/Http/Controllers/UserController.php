@@ -659,7 +659,7 @@ class UserController extends Controller
 
         if($data->answer==$ans){
             $user->cl=$cl+1;
-            if($user->cl==27){
+            if($user->cl==26){
                 $user->complete = 1;
                 Session::flash('message', 'More levels coming soon.');
             }
@@ -675,10 +675,7 @@ class UserController extends Controller
 
     public function bel(Request $request){
         $limit = 10;
-        if (empty($_GET["page"]))
-            $page = 1;
-        else
-            $page = $_GET['page'];
+        $page = 1;
         $ranklist = BullseyeUsers::orderBy('cl', 'desc')
                                 ->leftJoin('users', 'users.id', '=', 'bullseye_users.participant')
                                 ->select(['users.id','users.name','bullseye_users.cl'])
@@ -692,8 +689,7 @@ class UserController extends Controller
                                 ->select(['users.id','users.name','users.email','bullseye_users.cl'])
                                 ->orderBy('bullseye_users.updated_at')
                                 ->orderBy('bullseye_users.created_at')
-                                ->offset($limit*($page-1))
-                                ->limit($limit)
+                                ->limit(3)
                                 ->get();
 
         $users = BullseyeUsers::orderBy('cl', 'desc')->count();
@@ -715,7 +711,7 @@ class UserController extends Controller
                 if($user->id == $id){
                     $rank = $count;
                     $userdetail = $user;
-                    if($count>9){
+                    if($count>3){
                         $uf=1;
                     }
                     break;
