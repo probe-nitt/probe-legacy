@@ -389,14 +389,14 @@ class UserController extends Controller
             $content = View::make('emails.matrix')->render();
 
             $attachmentPath = public_path('prelimsDocs/Matrix Prelims.docx');
-            $this->sendAttachmentMailSG($email, "PROBE'20 Matrix Event Prelims", $content, $attachmentPath, "Matrix Prelims.docx");
+            $this->sendAttachmentMailSG($email, "PROBE'20 Matrix Event Prelims", $content, $attachmentPath, "Matrix Prelims.docx", "application/vnd.ms-word");
         }
 
         if($event=="tronICs") {
             $content = View::make('emails.tronics')->render();
 
             $attachmentPath = public_path('prelimsDocs/tronICs Prelims.docx');
-            $this->sendAttachmentMailSG($email, "PROBE'20 tronICs Event Prelims", $content, $attachmentPath, "tronICs Prelims.docx");
+            $this->sendAttachmentMailSG($email, "PROBE'20 tronICs Event Prelims", $content, $attachmentPath, "tronICs Prelims.docx", "application/vnd.ms-word");
         }
 
         $reg = new EventRegs;
@@ -803,7 +803,7 @@ class UserController extends Controller
         }
     }
 
-    private function sendAttachmentMailSG($tomail, $subject, $content, $attachmentPath, $filename) {
+    private function sendAttachmentMailSG($tomail, $subject, $content, $attachmentPath, $filename, $attachmentType) {
         $sendgrid = new SendGrid(env('SENDGRID_API_KEY'));
         $email    = new SendGrid\Mail\Mail();
 
@@ -818,7 +818,7 @@ class UserController extends Controller
 
         $attachment = new SendGrid\Mail\Attachment;
         $attachment->setContent($attachmentContent);
-        $attachment->setType("application/vnd.ms-word");
+        $attachment->setType($attachmentType);
         $attachment->setFilename($filename);
         $attachment->setDisposition("attachment");
         $email->addAttachment($attachment);
@@ -863,6 +863,62 @@ class UserController extends Controller
             return redirect('/changePassword?confirm='.$confirmhash);
         }
 
+    }
+
+    public function sendMailToRegisteredParticipants(Request $request) {
+        
+        $type = $request->input('type');
+        $name = $request->input('name');
+        $paid = $request->input('paid');
+        $subject = $request->input('subject');
+        $attachment = $request->input('attachment');
+
+        if($type=='workshop') {
+            $wid = Workshops::where('name', '=', $name)->first()->id;
+            $registeredTeams = WorkshopRegs::where('workshop_id', '=', $wid)
+                                                ->where('paid', '=', $paid)
+                                                ->get();
+
+            $content = View::make('emails.extraInfo')->render();
+
+            foreach($registeredTeams as $team){
+                $pid = $team->participant1;
+                $participant = Users::where('id', '=', $pid)->first();
+                if($attachment) {
+                    $attachmentName = $request->input('attachmentName');
+                    $attachmentPath = public_path($request->input('attachmentPath'));
+                    $attachmentType = $request->input('attachmentType');
+                    $this->sendAttachmentMailSG($participant->email, $subject, $content, $attachmentPath, $attachmentName, $attachmentType);
+                }
+                else 
+                    $this->sendMailSG($participant->email, $subject, $content);
+            }
+
+        } else if($type=='event') {
+            $eid = Events::where('name', '=', $name)->first()->id;
+            $registeredTeams = EventRegs::where('event_id', '=', $wid)
+                                                ->where('paid', '=', $paid)
+                                                ->get();
+
+            $content = View::make('emails.extraInfo', [
+                            'name' => $user->name, 
+                            'url' => $url
+                            ])->render();
+
+            foreach($registeredTeams as $team){
+                $pid = $team->participant1;
+                $participant = Users::where('id', '=', $pid)->first();
+                if($attachment) {
+                    $attachmentName = $request->input('attachmentName');
+                    $attachmentPath = public_path($request->input('attachmentPath'));
+                    $attachmentType = $request->input('attachmentType');
+                    $this->sendAttachmentMailSG($participant->email, $subject, $content, $attachmentPath, $attachmentName, $attachmentType);
+                }
+                else 
+                    $this->sendMailSG($participant->email, $subject, $content);
+            }
+
+        }
     }
 
 

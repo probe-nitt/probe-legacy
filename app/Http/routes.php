@@ -804,7 +804,9 @@ Route::get('/activate', 'UserController@confirm_mail');
 Route::get('/changePassword', 'UserController@changePasswordRedirect');
 Route::post('/changePassword', 'UserController@changePassword');
 
-Route::post('/aruteyy', 'UserController@se');
+# Route::post('/sendExtraInfoMail', 'UserController@sendMailToRegisteredParticipants');
+
+# Route::post('/aruteyy', 'UserController@se');
 
 Route::group(['prefix'=>'20/api'], function () {
     Route::post('login', 'APIController@login');
