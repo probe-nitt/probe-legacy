@@ -351,12 +351,16 @@ Route::get('/workshops/makeathon', function () {
                                 })->first();
 
     $regbool = 0;
+    $ispaid = 0;
 
     if($isregistered){
         $regbool = 1;
+        if($isregistered->paid){
+            $ispaid = 1;
+        }
     }
 
-    return view('makeathon',['regbool' => $regbool]);
+    return view('makeathon',['regbool' => $regbool, 'ispaid' => $ispaid]);
 });
 
 // Route::get('/events/makeathon', function () {
