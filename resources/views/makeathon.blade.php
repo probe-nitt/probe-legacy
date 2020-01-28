@@ -112,7 +112,7 @@ background-image:url(../images/backract.png);">
 											<ul>
 												<li>Maximum of participants per team: 
 													<ul style="list-style-type:none">
-														<li><b>2</b></li>
+														<li><b>3</b></li>
 													</ul>
 												</li>
                                                 <li>Workshop fee:
@@ -158,15 +158,6 @@ background-image:url(../images/backract.png);">
 				</li>
 				<li> <b> Will certificates be provided?</b> <br/>
 					Yes they will be.
-				</li>
-				<li> <b> Can we pay you directly if we miss the deadline of payment in worst case?</b> <br/>
-				No. The payments have to be done online. Only after the payment is done can the teams participate in the workshop. 
-				</li>
-				<li> <b> Is this limited to particular branch or year? </b><br/>
-				No. Any undergraduate student from any year can participate.
-				</li>
-				<li> <b> What are the required software to be installed?</b> <br/>
-				Arduino and OpenCV Python need to be installed. A detailed document will be released later regarding the installation process.
 				</li>
 			</ol>
 			<!-- <h4>Participation certificate for all the participants making to the finals.</h4> -->
