@@ -54,6 +54,8 @@
             <header class="major">
 							<h2><b>Event registration</b></h2>
             </header>
+			<p style="text-align: center; margin-bottom: 2em;"> Visiting Probe? <a href="/accomodation">Click here</a> for details about accomodation! </p>
+
 						<ul id="hexGrid">
 							<li class="hex">
 								<div class="hexIn">

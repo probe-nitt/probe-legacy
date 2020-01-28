@@ -86,6 +86,14 @@ Route::get('/events/paper', function () {
     return view('paper');
 });
 
+Route::get('legal', function() {
+    return view('privacyPolicy');
+});
+
+Route::get('accomodation', function() {
+    return view('acco');
+});
+
 Route::get('/events/bullseye', function () {
 
 
@@ -795,10 +803,6 @@ Route::get('/activate', 'UserController@confirm_mail');
 
 Route::get('/changePassword', 'UserController@changePasswordRedirect');
 Route::post('/changePassword', 'UserController@changePassword');
-
-Route::get('legal', function() {
-    return view('privacyPolicy');
-});
 
 Route::post('/aruteyy', 'UserController@se');
 
