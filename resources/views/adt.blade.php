@@ -125,7 +125,7 @@ background-image:url(../images/backract.png);">
 												</li>
                                                 <li>Workshop fee:
 													<ul style="list-style-type:none">
-														<li><b>1440 per team</b></li>
+														<li><b>1500 per team</b></li>
 													</ul>
 												</li>
 												<li>Duration :

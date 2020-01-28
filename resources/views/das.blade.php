@@ -118,7 +118,7 @@ background-image:url(../images/backract.png);">
 												</li>
                                                 <li>Workshop fee:
 													<ul style="list-style-type:none">
-														<li><b>Rs 2020 per team</b></li>
+														<li><b>Rs 2100 per team</b></li>
 													</ul>
 												</li>
 												<li>Duration :

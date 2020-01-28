@@ -167,7 +167,7 @@ background-image:url(../images/backract.png);">
 				No. Any undergraduate student from any year can participate.
 				</li>
 				<li> <b> What are the required software to be installed?</b> <br/>
-				Arduino and OpenCV Python need to be installed. <a href="instructions/Probot 2k20 instructions.pdf"> Click here </a> for detailed instructions. 
+				Arduino and OpenCV Python need to be installed. <a href="/instructions/Probot 2k20 instructions.pdf"> Click here </a> for detailed instructions. 
 				</li>
 			</ol>
 			<!-- <h4>Participation certificate for all the participants making to the finals.</h4> -->
