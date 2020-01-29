@@ -168,7 +168,7 @@ background-image:url(../images/backract.png);">
 <div class=reg-button-wrapper><a href="/workshops/register?workshop=Makeathon%20-%20Embedded%20Electronics" class="myButton">Register</a></div>
                                             @endif
                                             @if($regbool==1 && $ispaid==0)
-											<div class=reg-button-wrapper><a href="/workshops/register?workshop=Makethon%20-%20Embedded%20Electronics" class="myButton">Pay and complete registration</a></div>
+											<div class=reg-button-wrapper><a href="/workshops/register?workshop=Makeathon%20-%20Embedded%20Electronics" class="myButton">Pay and complete registration</a></div>
 											@endif
 											@if($regbool==1 && $ispaid==1)
 											<div class=reg-button-wrapper><a href="" class="myButton">Registered</a></div>
