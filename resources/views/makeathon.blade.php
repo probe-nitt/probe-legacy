@@ -147,6 +147,9 @@ background-image:url(../images/backract.png);">
 				<li> <b>What is the format of the workshop? </b><br/>
 					The first session will be teaching session which will be followed by a hackathon session in which the participants need to solve the on spot problem statement. 
 				</li>
+				<li> <b> What are the required software to be installed?</b> <br/>
+				<a href="/instructions/Makeathon Instructions.pdf"> Click here </a> for detailed instructions about software to be installed. 
+				</li>
 				<li> <b>Will accommodation be provided? </b><br/>
 					Yes it will be. You have to register separately for that.
 				</li>
