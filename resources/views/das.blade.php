@@ -171,15 +171,6 @@ background-image:url(../images/backract.png);">
 											@if($regbool1==1 && $ispaid1==1)
 											<div class=reg-button-wrapper><a href="" class="myButton">Registered for day 1</a></div>
                                             @endif
-                                            @if($regbool1==0&&$regbool2==0)
-											<div class=reg-button-wrapper><a href="/workshops/register?workshop=Data%20Acquisition%20and%20Processing%20using%20LabView%20Day%202" class="myButton">Register for session on 2nd Feb, 2020</a></div>
-                                            @endif
-                                            @if($regbool2==1 && $ispaid2==0)
-											<div class=reg-button-wrapper><a href="/workshops/register?workshop=Data%20Acquisition%20and%20Processing%20using%20LabView%20Day%202" class="myButton">Pay and complete registration</a></div>
-											@endif
-											@if($regbool2==1 && $ispaid2==1)
-											<div class=reg-button-wrapper><a href="" class="myButton">Registered for day 2</a></div>
-											@endif
 </div>
 </div>
 

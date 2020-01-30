@@ -175,10 +175,10 @@ background-image:url(../images/backract.png);">
 	</div>
 </div>
 @if($regbool==0)
-<div class=reg-button-wrapper><a href="/workshops/register?workshop=Probot" class="myButton">Register</a></div>
+<div class=reg-button-wrapper><a href="" class="myButton">Registrations closed. No onspot registration</a></div>
                                             @endif
                                             @if($regbool==1 && $ispaid==0)
-											<div class=reg-button-wrapper><a href="/workshops/register?workshop=Probot" class="myButton">Pay and complete registration</a></div>
+											<div class=reg-button-wrapper><a href="" class="myButton">Registration closed. No onspot registration</a></div>
 											@endif
 											@if($regbool==1 && $ispaid==1)
 											<div class=reg-button-wrapper><a href="/workshops/register?workshop=Probot" class="myButton">Registered</a></div>

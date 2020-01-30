@@ -169,13 +169,13 @@ background-image:url(../images/backract.png);">
 	</div>
 </div>
 @if($regbool1==0&&$regbool2==0)
-<div class=reg-button-wrapper><a href="/workshops/register?workshop=Build%20your%20own%20J.A.R.V.I.S.%20Day 1" class="myButton">Register for session on 1st Feb, 2020</a></div>
+<div class=reg-button-wrapper><a href="" class="myButton">Registrations closed. No onspot registration</a></div>
                                             @endif
                                             @if($regbool1==1 && $ispaid1==0)
-											<div class=reg-button-wrapper><a href="/workshops/register?workshop=Build%20your%20own%20J.A.R.V.I.S.%20Day%201" class="myButton">Pay and complete registration</a></div>
+											<div class=reg-button-wrapper><a href="" class="myButton">Registrations closed. No onspot registration</a></div>
 											@endif
 											@if($regbool1==1 && $ispaid1==1)
-											<div class=reg-button-wrapper><a href="/workshops/register?workshop=Build%20your%20own%20J.A.R.V.I.S.%20Day%201" class="myButton">Registered for day 1</a></div>
+											<div class=reg-button-wrapper><a href="" class="myButton">Registered for day 1</a></div>
                                             @endif
                                             @if($regbool1==0&&$regbool2==0)
 											<div class=reg-button-wrapper><a href="/workshops/register?workshop=Build%20your%20own%20J.A.R.V.I.S.%20Day%202" class="myButton">Register for session on 2nd Feb, 2020</a></div>
@@ -184,7 +184,7 @@ background-image:url(../images/backract.png);">
 											<div class=reg-button-wrapper><a href="/workshops/register?workshop=Build%20your%20own%20J.A.R.V.I.S.%20Day%202" class="myButton">Pay and complete registration</a></div>
 											@endif
 											@if($regbool2==1 && $ispaid2==1)
-											<div class=reg-button-wrapper><a href="/workshops/register?workshop=Build%20your%20own%20J.A.R.V.I.S.%20Day%202" class="myButton">Registered for day 2</a></div>
+											<div class=reg-button-wrapper><a href="" class="myButton">Registered for day 2</a></div>
 											@endif
 </div>
 </div>
