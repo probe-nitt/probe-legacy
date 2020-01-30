@@ -148,6 +148,9 @@ background-image:url(../images/backract.png);">
 				<li> <b>Is there any pre-requisites ? </b><br/>
                     Basic knowledge of python will be enough. Basics of NLP will be taught from scratch.
 				</li>
+				<li> <b> What are the required software to be installed?</b> <br/>
+				<a href="/instructions/Jarvis Instructions.pdf"> Click here </a> for detailed instructions about software to be installed. 
+				</li>
 				<li> <b>How should the payment be made for the workshop? </b><br/>
                     Payment can be made online 
 				</li>
