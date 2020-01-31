@@ -148,6 +148,9 @@ background-image:url(../images/backract.png);">
 				<li> <b>How should the payment be made for the workshop? </b><br/>
 					Payment can be made online.
 				</li>
+				<li> <b> What are the required software to be installed?</b> <br/>
+				<a href="/instructions/Data Acquisition and Processing Instructions.pdf"> Click here </a> for detailed instructions about software to be installed. 
+				</li>
 				<li> <b>On what basis are workshop registrations confirmed? </b><br/>
 					Registrations are confirmed after payment on first come first serve basis. Confirmation of your participation is subject to availability. 
 				</li>
