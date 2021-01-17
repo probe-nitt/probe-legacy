@@ -45,7 +45,9 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
     return view('aboutUs');
 });
-
+Route::get('/gallery', function () {
+    return view('gallery');
+});
 Route::get('/techtalk', function () {
     return view('techtalk');
 });

@@ -54,7 +54,7 @@ class UserController extends Controller
         $dept     = $request->input('dept');
         $cn       = $request->input('cn');
         $phoneno  = $request->input('phoneno');
-        $acco  = (int)$request->input('acco');
+        $acco  = $request->input('acco');
 
         $checkmail = Users::where('email','=',$email)->first();
 
@@ -84,8 +84,8 @@ class UserController extends Controller
         $user->department = $dept;
         $user->college_name = $cn;
         $user->phone_no = $phoneno; 
-        $user->yos = $yos;
-        $user->acco_needed = $acco;
+        $user->yos = (int)$yos[0];
+        $user->acco_needed = $acco == 'on'? 1 : 0;
 
         $user->save();
 
