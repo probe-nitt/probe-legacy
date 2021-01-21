@@ -17,9 +17,6 @@
 
  	<!-- CSS
    ================================================== -->
-    @if ($name = session('name'))
-		<link rel="stylesheet" href="{{ asset('css/main-loggedin.css') }}"  />
-	@endif
    <link rel="stylesheet" href="{{ asset('css/base.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/vendor.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/events.css') }}"  />
@@ -78,11 +75,11 @@
 			 </li>
 			 @if ($name = session('name'))
 				<li>{{ $name }}</li>
-				<li><a href="/logout" class="button primary">Log out</a></li>
+				<li><a href="/logout" class="applyFont logoutBtn">Log out</a></li>
 			@endif
 			@if (!session('name'))
-				<li><a href="/register">Sign up</a></li>
-				<li><a href="/login">Log in</a></li>
+				<li><a href="/register" class="applyFont">Sign up</a></li>
+				<li><a href="/login" class="applyFont">Log in</a></li>
 			@endif         
 	      </ul>		
 

@@ -84,13 +84,13 @@
 	         	<a href="#"><i class="fa fa-instagram"></i></a>
              </li>
              @if ($name = session('name'))
-                <li>{{ $name }}</li>
-                <li><a href="/logout" class="button primary">Log out</a></li>
+               <li>{{ $name }}</li>
+               <li><a href="/logout" class="applyFont logoutBtn">Log out</a></li>
             @endif
             @if (!session('name'))
-                <li><a href="/register">Sign up</a></li>
-                <li><a href="/login">Log in</a></li>
-            @endif       
+               <li><a class="applyFont" href="/register">Sign up</a></li>
+               <li><a class="applyFont" href="/login">Log in</a></li>
+            @endif    
 	      </ul>		
 
 		</nav>  <!-- end #menu-nav-wrap -->
