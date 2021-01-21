@@ -113,7 +113,7 @@
 
                <label for="sampleInput" style="color: white;">Your name</label>
                <div  class="form-field">
- 					   <input name="name" type="text" id="Name" placeholder="Harish Raj" value="" minlength="5" required="">
+ 					   <input name="name" type="text" id="Name" placeholder="Name" value="" minlength="5" required="">
                </div>
 
                <label for="sampleInput" style="color: white;">Your E-mail ID</label>

@@ -55,13 +55,21 @@
 	   	<h3>Probe</h3>  
 
 			<ul class="nav-list">
+				@if ($name = session('name'))
+				<li>{{ $name }}</li>
+				<li><a href="/logout" class="login-button button">Log out</a></li>
+				@endif
+				@if (!session('name'))
+					<li><a class="login-button button" href="/register">Sign up</a></li>
+					<li><a class="login-button button"  href="/login">Log in</a></li>
+				@endif
 				<li class="current"><a href="/" title="">Home</a></li>
 				<li><a href="/about" title="">About</a></li>
 				<li><a href="/events" title="">Events</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
 				<li><a href="/lectures" title="">Guest Lectures</a></li>
 				<li><a href="/gallery" title="">Gallery</a></li>
-				<li><a href="/contact" title="">Contact</a></li>					
+				<li><a href="/contact" title="">Contact</a></li>
 			</ul>	
 			<ul style="text-align:center;" class="header-social-list">
 	         <li>
@@ -72,17 +80,9 @@
 	         </li>
 	         <li>
 	         	<a href="#"><i class="fa fa-instagram"></i></a>
-			 </li>
-			 @if ($name = session('name'))
-				<li>{{ $name }}</li>
-				<li><a href="/logout" class="applyFont logoutBtn">Log out</a></li>
-			@endif
-			@if (!session('name'))
-				<li><a class="applyFont" href="/register">Sign up</a></li>
-				<li><a class="applyFont"  href="/login">Log in</a></li>
-			@endif         
+			 </li>  
 	      </ul>		
-
+			
 		</nav>  <!-- end #menu-nav-wrap -->
 
 	</header> <!-- end header --> 
@@ -235,7 +235,7 @@
 		 <div class="col-twelve">
 			 <div class="copyright">
 				<span>© Copyright Probe 2021.</span> 
-				<span>Design by Design and  WebDev Team of Probe</span>		         	
+				<span>Designed by Probe Webops and Design Teams</span>		         	
 			</div>		               
 		 </div>
 
