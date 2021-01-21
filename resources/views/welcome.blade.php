@@ -66,12 +66,12 @@
 					<li><a class="login-button button"  href="/login">Log in</a></li>
 				@endif
 				<li class="current"><a href="/" title="">Home</a></li>
-				<li><a href="/about" title="">About</a></li>
+				<li><a href="#services" title="">About</a></li>
 				<li><a href="/events" title="">Events</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
 				<li><a href="/lectures" title="">Guest Lectures</a></li>
-				<li><a href="/gallery" title="">Gallery</a></li>
-				<li><a href="/contact" title="">Contact</a></li>
+				<li><a href="/podcasts" title="">Podcasts</a></li>
+				<li><a href="/contact" title="">Contact Us</a></li>
 			</ul>	
 			<ul style="text-align:center;" class="header-social-list">
 	         <li>
@@ -216,11 +216,11 @@
 			   </div> <!-- end bgrid -->
 
 				<div class="bgrid service-item animate-this">
-				<a href="/sponsors">
+				<a href="/podcasts">
 					<span class="icon"><i class="icon-megaphone"></i></span>	              
 
 	            <div class="service-content">
-				<h3 class="h05">Marketing</h3>
+				<h3 class="h05">Podcasts</h3>
 
 		            <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
 	         		</p>	         		 -->
@@ -289,9 +289,9 @@
 	            <h4 class="h05">Contact Us</h4>
 
 	            <ul class="list-links">
-	      				<li><div>Devesh</li>
-						<li>Surya Pranay Teja</li>
-						<li>Nishant VT</li>						
+	      				<li>Devesh: +91 6301 924 908</li>
+						<li>Surya: +91 98495 29201</li>
+						<li>Nishant: +91 94456 38282</li>						
 					</ul>	            
 
 		      </div> <!-- end footer-about -->
@@ -302,7 +302,7 @@
 
 	      		<ul class="list-links">
 	      			<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank" >Facebook</a></li>
-						<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" >Twitter</a></li>
+						<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" >Linkedin</a></li>
 						<li><a href="https://www.instagram.com/probe.nitt/" target="_blank" >Instagram</a></li>						
 					</ul>
 
@@ -310,24 +310,9 @@
 
 	      	<div class="col-four tab-full footer-subscribe end">
 
-	      		<h4 class="h05">Get Notified.</h4>
+	      		<h4 class="h05">Stay up to date.</h4>
 
-	      		<p>Sign up for our weekly NewsLetter</p>
-
-	      		<div class="subscribe-form">
-	      	
-	      			<form id="mc-form" class="group" novalidate="true">
-
-							<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="type email" required=""> 
-	   		
-			   			<!-- <input type="submit" name="subscribe" > -->
-			   			<button><i class="icon-mail"></i></button>
-		   	
-		   				<label for="mc-email" class="subscribe-message"></label>
-			
-						</form>
-
-	      		</div>
+	      		<p>Take a look at our <a href="https://medium.com/probe-nit-trichy">blog</a>.</p>
 	      	           	
 	      	</div> <!-- end footer-subscribe -->      	    
 
@@ -341,8 +326,8 @@
 
       		<div class="col-twelve">
 	      		<div class="copyright">
-		         	<span>© Copyright Probe 2021.</span> 
-		         	<span>Design by Design and  WebDev Team of Probe</span>		         	
+		         	<span>© Copyright Probe 2021</span> 
+		         	<span>Built by Probe Webops and Design Teams</span>		         	
 		         </div>		               
 	      	</div>
 

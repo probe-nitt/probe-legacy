@@ -20,6 +20,8 @@
    <link rel="stylesheet" href="{{ asset('css/base.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/vendor.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/events.css') }}"  />
+   <link rel="stylesheet" href="{{ asset('css/login.css') }}"  />
+
 
    <!-- script
    ================================================== -->
@@ -55,59 +57,59 @@
 	   	<h3>Probe</h3>  
 
 			<ul class="nav-list">
+				@if ($name = session('name'))
+				<li>{{ $name }}</li>
+				<li><a href="/logout" class="login-button button">Log out</a></li>
+				@endif
+				@if (!session('name'))
+					<li><a class="login-button button" href="/register">Sign up</a></li>
+					<li><a class="login-button button"  href="/login">Log in</a></li>
+				@endif
 				<li class="current"><a href="/" title="">Home</a></li>
-				<li><a href="/about" title="">About</a></li>
+				<li><a href="#services" title="">About</a></li>
 				<li><a href="/events" title="">Events</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
 				<li><a href="/lectures" title="">Guest Lectures</a></li>
-				<li><a href="/gallery" title="">Gallery</a></li>
-				<li><a href="/contact" title="">Contact</a></li>					
+				<li><a href="/podcasts" title="">Podcasts</a></li>
+				<li><a href="/contact" title="">Contact Us</a></li>
 			</ul>	
 			<ul style="text-align:center;" class="header-social-list">
 	         <li>
-	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	         	<a href="https://www.facebook.com/Probe.NITT/" target="_blank" ><i class="fa fa-facebook-square"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-twitter"></i></a>
+	         	<a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" ><i class="fa fa-twitter"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-instagram"></i></a>
-			 </li>
-			 @if ($name = session('name'))
-				<li>{{ $name }}</li>
-				<li><a href="/logout" class="applyFont logoutBtn">Log out</a></li>
-			@endif
-			@if (!session('name'))
-				<li><a href="/register" class="applyFont">Sign up</a></li>
-				<li><a href="/login" class="applyFont">Log in</a></li>
-			@endif         
+	         	<a href="https://www.instagram.com/probe.nitt/" target="_blank" ><i class="fa fa-instagram"></i></a>
+			 </li>  
 	      </ul>		
-
+			
 		</nav>  <!-- end #menu-nav-wrap -->
 
 	</header> <!-- end header --> 
 
 	<section id="cards">
 		<div id="events">
-			<h5 style="font-size: 5rem;">Gallery</h5>	
+			<h5 style="font-size: 5rem;">Podcasts</h5>	
 		</div>
 		<div id="events">				
 			<div class="econtainer">
-				<h5 style="font-size: 2rem;">PIC HEADING</h5>
+				<h5 style="font-size: 2rem;">Podcast Name</h5>
 				<img src="/images/EVENTS/bullseye.jpg" >
 				<p>Description<br>
 			</div>
 		</div>
 		<div id="events">
             <div class="econtainer">
-				<h5 style="font-size: 2rem;">PIC HEADING</h5>
+				<h5 style="font-size: 2rem;">Podcast Name</h5>
 				<img src="/images/EVENTS/bullseye.jpg" >
 				<p>Description<br>
 			</div>
 		</div>
 		<div id="events">
             <div class="econtainer">
-				<h5 style="font-size: 2rem;">PIC HEADING</h5>
+				<h5 style="font-size: 2rem;">Podcast Name</h5>
 				<img src="/images/EVENTS/bullseye.jpg" >
 				<p>Description<br>
 			</div>
@@ -115,21 +117,21 @@
 
 		<div id="events">				
             <div class="econtainer">
-				<h5 style="font-size: 2rem;">PIC HEADING</h5>
+				<h5 style="font-size: 2rem;">Podcast Name</h5>
 				<img src="/images/EVENTS/bullseye.jpg" >
 				<p>Description<br>
 			</div>
 		</div>
 		<div id="events">
             <div class="econtainer">
-                <h5 style="font-size: 2rem;">PIC HEADING</h5>
+                <h5 style="font-size: 2rem;">Podcast Name</h5>
                 <img src="/images/EVENTS/bullseye.jpg" >
                 <p>Description<br>
             </div>
 		</div>
 		<div id="events">
             <div class="econtainer">
-                <h5 style="font-size: 2rem;">PIC HEADING</h5>
+                <h5 style="font-size: 2rem;">Podcast Name</h5>
                 <img src="/images/EVENTS/bullseye.jpg" >
                 <p>Description<br>
             </div>
@@ -140,79 +142,67 @@
    ================================================== -->
    <footer>
 
-	<div class="footer-main">
+     	<div class="footer-main">
 
-	  <div class="row">  
+   		<div class="row">  
 
-		 <div class="col-five tab-full footer-about">       
+	      	<div class="col-five tab-full footer-about">       
 
-		   <h4 class="h05">Probe.</h4>
+	            <h4 class="h05">Contact Us</h4>
 
-		   <p>Probe is the Annual International Technical Symposium of the Department of ECE, NIT Trichy.It's the biggest ECE symposium in India, 
-			   where it creates a learning platform in the latest fields and trends related to electronics and communication.</p>	            
+	            <ul class="list-links">
+	      				<li>Devesh: +91 6301 924 908</li>
+						<li>Surya: +91 98495 29201</li>
+						<li>Nishant: +91 94456 38282</li>						
+					</ul>	            
 
-		 </div> <!-- end footer-about -->
+		      </div> <!-- end footer-about -->
 
-		 <div class="col-three tab-full footer-social">
+	      	<div class="col-three tab-full footer-social">
 
-			 <h4 class="h05">Follow Us.</h4>
+	      		<h4 class="h05">Follow Us.</h4>
 
-			 <ul class="list-links">
-				 <li><a href="#">Facebook</a></li>
-				   <li><a href="#">Twitter</a></li>
-				   <li><a href="#">Instagram</a></li>						
-			   </ul>
+	      		<ul class="list-links">
+	      			<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank" >Facebook</a></li>
+						<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" >Twitter</a></li>
+						<li><a href="https://www.instagram.com/probe.nitt/" target="_blank" >Instagram</a></li>						
+					</ul>
 
-		 </div> <!-- end footer-social -->  
+	      	</div> <!-- end footer-social -->  
 
-		 <div class="col-four tab-full footer-subscribe end">
+	      	<div class="col-four tab-full footer-subscribe end">
 
-			 <h4 class="h05">Get Notified.</h4>
+	      		<h4 class="h05">Stay up to date.</h4>
 
-			 <p>Sign up for our weekly NewsLetter</p>
+	      		<p>Take a look at our <a href="https://medium.com/probe-nit-trichy">blog</a>.</p>
+	      	           	
+	      	</div> <!-- end footer-subscribe -->      	    
 
-			 <div class="subscribe-form">
-		 
-				 <form id="mc-form" class="group" novalidate="true">
+	      </div> <!-- end row -->
 
-					   <input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="type email" required=""> 
-		  
-					  <!-- <input type="submit" name="subscribe" > -->
-					  <button><i class="icon-mail"></i></button>
-		  
-					  <label for="mc-email" class="subscribe-message"></label>
-	   
-				   </form>
+   	</div> <!-- end footer-main -->
 
-			 </div>
-						
-		 </div> <!-- end footer-subscribe -->      	    
+   	<div class="footer-bottom">
 
-	 </div> <!-- end row -->
+      	<div class="row">
 
-  </div> <!-- end footer-main -->
+      		<div class="col-twelve">
+	      		<div class="copyright">
+		         	<span>© Copyright Probe 2021</span> 
+		         	<span>Built by Probe Webops and Design Teams</span>		         	
+		         </div>		               
+	      	</div>
 
-  <div class="footer-bottom">
+      	</div>   	
 
-	 <div class="row">
+      </div> <!-- end footer-bottom -->
 
-		 <div class="col-twelve">
-			 <div class="copyright">
-				<span>© Copyright Probe 2021.</span> 
-				<span>Design by Design and  WebDev Team of Probe</span>		         	
-			</div>		               
-		 </div>
-
-	 </div>   	
-
- </div> <!-- end footer-bottom -->
-
- <div id="go-top">
-	  <a title="Back to Top" href="#top">
-		  <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
-	  </a>
-   </div>		
-</footer>
+      <div id="go-top">
+		   <a title="Back to Top" href="#top">
+		   	<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+		   </a>
+		</div>		
+   </footer>
 
 <div id="preloader"> 
    <div id="loader"></div>

@@ -178,79 +178,67 @@
    ================================================== -->
    <footer>
 
-	<div class="footer-main">
+     	<div class="footer-main">
 
-	  <div class="row">  
+   		<div class="row">  
 
-		 <div class="col-five tab-full footer-about">       
+	      	<div class="col-five tab-full footer-about">       
 
-		   <h4 class="h05">Probe.</h4>
+	            <h4 class="h05">Contact Us</h4>
 
-		   <p>Probe is the Annual International Technical Symposium of the Department of ECE, NIT Trichy.It's the biggest ECE symposium in India, 
-			   where it creates a learning platform in the latest fields and trends related to electronics and communication.</p>	            
+	            <ul class="list-links">
+	      				<li>Devesh: +91 6301 924 908</li>
+						<li>Surya: +91 98495 29201</li>
+						<li>Nishant: +91 94456 38282</li>						
+					</ul>	            
 
-		 </div> <!-- end footer-about -->
+		      </div> <!-- end footer-about -->
 
-		 <div class="col-three tab-full footer-social">
+	      	<div class="col-three tab-full footer-social">
 
-			 <h4 class="h05">Follow Us.</h4>
+	      		<h4 class="h05">Follow Us.</h4>
 
-			 <ul class="list-links">
-				 <li><a href="#">Facebook</a></li>
-				   <li><a href="#">Twitter</a></li>
-				   <li><a href="#">Instagram</a></li>						
-			   </ul>
+	      		<ul class="list-links">
+	      			<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank" >Facebook</a></li>
+						<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" >Linkedin</a></li>
+						<li><a href="https://www.instagram.com/probe.nitt/" target="_blank" >Instagram</a></li>						
+					</ul>
 
-		 </div> <!-- end footer-social -->  
+	      	</div> <!-- end footer-social -->  
 
-		 <div class="col-four tab-full footer-subscribe end">
+	      	<div class="col-four tab-full footer-subscribe end">
 
-			 <h4 class="h05">Get Notified.</h4>
+	      		<h4 class="h05">Stay up to date.</h4>
 
-			 <p>Sign up for our weekly NewsLetter</p>
+	      		<p>Take a look at our <a href="https://medium.com/probe-nit-trichy">blog</a>.</p>
+	      	           	
+	      	</div> <!-- end footer-subscribe -->      	    
 
-			 <div class="subscribe-form">
-		 
-				 <form id="mc-form" class="group" novalidate="true">
+	      </div> <!-- end row -->
 
-					   <input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="type email" required=""> 
-		  
-					  <!-- <input type="submit" name="subscribe" > -->
-					  <button><i class="icon-mail"></i></button>
-		  
-					  <label for="mc-email" class="subscribe-message"></label>
-	   
-				   </form>
+   	</div> <!-- end footer-main -->
 
-			 </div>
-						
-		 </div> <!-- end footer-subscribe -->      	    
+   	<div class="footer-bottom">
 
-	 </div> <!-- end row -->
+      	<div class="row">
 
-  </div> <!-- end footer-main -->
+      		<div class="col-twelve">
+	      		<div class="copyright">
+		         	<span>© Copyright Probe 2021</span> 
+		         	<span>Built by Probe Webops and Design Teams</span>		         	
+		         </div>		               
+	      	</div>
 
-  <div class="footer-bottom">
+      	</div>   	
 
-	 <div class="row">
+      </div> <!-- end footer-bottom -->
 
-		 <div class="col-twelve">
-			 <div class="copyright">
-				<span>© Copyright Probe 2021.</span> 
-				<span>Designed by Probe Webops and Design Teams</span>		         	
-			</div>		               
-		 </div>
-
-	 </div>   	
-
- </div> <!-- end footer-bottom -->
-
- <div id="go-top">
-	  <a title="Back to Top" href="#top">
-		  <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
-	  </a>
-   </div>		
-</footer>
+      <div id="go-top">
+		   <a title="Back to Top" href="#top">
+		   	<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+		   </a>
+		</div>		
+   </footer>
 
 <div id="preloader"> 
    <div id="loader"></div>
