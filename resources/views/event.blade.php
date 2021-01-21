@@ -20,6 +20,8 @@
    <link rel="stylesheet" href="{{ asset('css/base.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/vendor.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/events.css') }}"  />
+   <link rel="stylesheet" href="{{ asset('css/login.css') }}"  />
+
 
    <!-- script
    ================================================== -->

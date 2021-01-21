@@ -21,6 +21,7 @@
    <link rel="stylesheet" href="{{ asset('css/vendor.css') }}">  
    <link rel="stylesheet" href="{{ asset('css/index.css') }}"> 
    <link rel="stylesheet" href="{{ asset('/css/micon/css/micon.min.css') }}"> 
+   <link rel="stylesheet" href="{{ asset('css/login.css') }}"  />
 
    <!-- script
    ================================================== -->
@@ -56,29 +57,34 @@
 	   	<h3>Probe</h3>  
 
 			<ul class="nav-list">
-				<li class="current"><a href="index.html" title="">Home</a></li>
-				<li><a href="#about" title="">About</a></li>
-				<li><a href="events.html" title="">Events</a></li>
-				<li><a href="#services" title="">Workshops</a></li>
-				<li><a href="#services" title="">Guest Lectures</a></li>
-				<li><a href="#portfolio" title="">Gallery</a></li>
-				<li><a href="#contact" title="">Contact</a></li>						
+				@if ($name = session('name'))
+				<li>{{ $name }}</li>
+				<li><a href="/logout" class="login-button button">Log out</a></li>
+				@endif
+				@if (!session('name'))
+					<li><a class="login-button button" href="/register">Sign up</a></li>
+					<li><a class="login-button button"  href="/login">Log in</a></li>
+				@endif
+				<li class="current"><a href="/" title="">Home</a></li>
+				<li><a href="/about" title="">About</a></li>
+				<li><a href="/events" title="">Events</a></li>
+				<li><a href="/workshops" title="">Workshops</a></li>
+				<li><a href="/lectures" title="">Guest Lectures</a></li>
+				<li><a href="/gallery" title="">Gallery</a></li>
+				<li><a href="/contact" title="">Contact</a></li>
 			</ul>	
-
-						
-
-			<ul class="header-social-list">
+			<ul style="text-align:center;" class="header-social-list">
 	         <li>
-	         	<a href="https://www.facebook.com/Probe.NITT/"><i class="fa fa-facebook-square"></i></a>
+	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
 	         </li>
 	         <li>
-	         	<a href="https://www.linkedin.com/company/probe-nit-trichy/"><i class="fa fa-linkedin"></i></a>
+	         	<a href="#"><i class="fa fa-twitter"></i></a>
 	         </li>
 	         <li>
-	         	<a href="https://www.instagram.com/probe.nitt/"><i class="fa fa-instagram"></i></a>
-	         </li>	         
+	         	<a href="#"><i class="fa fa-instagram"></i></a>
+			 </li>  
 	      </ul>		
-
+			
 		</nav>  <!-- end #menu-nav-wrap -->
 
 	</header> <!-- end header -->  

@@ -3180,18 +3180,3 @@ footer h4.h05::after {
     font-size: 1.75rem;
   }
 }
-
-.login-button{
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 0;
-  right: 0;
-  margin: 0;
-  height: 6rem;
-  width: 14rem;
-  background: #f9a828 !important;
-  color: #000000 !important;
-  z-index: 50;
-}
