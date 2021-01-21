@@ -116,7 +116,7 @@ class UserController extends Controller
 
         $this->sendMailSG($email, "PROBE'20 Registration", $content);
 
-        Session::flash('message', 'You have successfully registered for Probe 2020. Please check your mail for instructions on account activation and activate your account before logging in');
+        Session::flash('message', 'You have successfully registered for Probe 2021. Please check your mail for instructions on account activation and activate your account before logging in');
         return redirect('/login');
     }
 
@@ -608,7 +608,7 @@ class UserController extends Controller
 
         $user = BullseyeUsers::where('participant','=',$id)->first();
 
-        $title = "Bullseye | Probe 2020";
+        $title = "Bullseye | Probe 2021";
         $comment = "";
         $extraComment = "";
         $cb = 0;
@@ -792,7 +792,7 @@ class UserController extends Controller
         $domain = 'mailer.probe.org.in';
         try {
             $result = $mgClient->messages()->send($domain, array(
-                'from'  => 'Probe 2020, NIT Trichy no-reply@mailer.probe.org.in',
+                'from'  => 'Probe 2021, NIT Trichy no-reply@mailer.probe.org.in',
                 'to'    => $tomail,
                 'subject' => $subject,
                 'text'  => "Your mail doesn't support html",
@@ -815,7 +815,7 @@ class UserController extends Controller
         $domain = 'mailer.probe.org.in';
         try {
             $result = $mgClient->messages()->send($domain, array(
-                'from'  => 'Probe 2020, NIT Trichy no-reply@mailer.probe.org.in',
+                'from'  => 'Probe 2021, NIT Trichy no-reply@mailer.probe.org.in',
                 'to'    => $tomail,
                 'subject' => $subject,
                 'text'  => "Your mail doesn't support html",
