@@ -75,13 +75,13 @@
 			</ul>	
 			<ul style="text-align:center;" class="header-social-list">
 	         <li>
-	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	         	<a href="https://www.facebook.com/Probe.NITT/" target="_blank" ><i class="fa fa-facebook-square"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-twitter"></i></a>
+	         	<a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" ><i class="fa fa-twitter"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-instagram"></i></a>
+	         	<a href="https://www.instagram.com/probe.nitt/" target="_blank" ><i class="fa fa-instagram"></i></a>
 			 </li>  
 	      </ul>		
 			
@@ -107,12 +107,17 @@
 						<h3 class="animate-intro">The Annual ECE Symposium of NIT Trichy</h3>
 						
 				  			<div class="more animate-intro">
+							  	@if ($name = session('name'))
+								<p style="color: rgba(242, 242, 242, 1)">Welcome {{ $name }}</p>
+								@endif
+								@if (!session('name'))
 				  				<a class="button stroke" href="/register">
 				  					Register
 								  </a>
 								  <a class="button stroke" href="/login">
 									Sign  In
 								</a>
+								@endif
 							  </div>
 							
 
@@ -123,18 +128,18 @@
 
 		<ul class="home-social-list">
 	      <li class="animate-intro">
-	        	<a href="https://www.facebook.com/Probe.NITT/"><i class="fa fa-facebook-square"></i></a>
+	        	<a href="https://www.facebook.com/Probe.NITT/" target="_blank" ><i class="fa fa-facebook-square"></i></a>
 	      </li>
 	      <li class="animate-intro">
-	        	<a href="https://www.linkedin.com/company/probe-nit-trichy/"><i class="fa fa-linkedin"></i></a>
+	        	<a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank"><i class="fa fa-linkedin"></i></a>
 	      </li>
 	      <li class="animate-intro">
-	        	<a href="https://www.instagram.com/probe.nitt/"><i class="fa fa-instagram"></i></a>
+	        	<a href="https://www.instagram.com/probe.nitt/" target="_blank"><i class="fa fa-instagram"></i></a>
 	      </li>	      
 	   </ul> <!-- end home-social-list -->	
 
 	   <div class="scrolldown">
-		<a href="#about" class="scroll-icon smoothscroll">		
+		<a href="#services" class="scroll-icon smoothscroll">		
 		   Scroll Down		   	
 		   <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 		</a>
@@ -159,9 +164,10 @@
    		<div class="col-full">
    			
    				<!-- <h3>Services</h3> -->
-   			   <h1>What We Do.</h1>
+   			   <h1>About Us</h1>
    			
-   			   <p class="lead">We here at Probe, conduct World class Events and Workshops counducted by Professionals from various Organizations and Industries.</p>
+   			   <p class="lead">Probe is the Annual International Technical Symposium of the Department of ECE, NIT Trichy. It's the biggest ECE symposium in India, 
+					where it creates a learning platform in the latest fields and trends related to electronics and communication.</p>
    			
    	   </div> <!-- end col-full -->
    	</div> <!-- end row -->
@@ -169,56 +175,57 @@
    	<div class="row services-content">
 
    		<div class="services-list block-1-2 block-tab-full group">
-
 	      	<div class="bgrid service-item animate-this">	
-
+		   <a href="/events">
+			  	 
 	      		<span class="icon"><i class="mi mi-IOT"></i></span>            
-
 	            <div class="service-content">
-	            	<a href="#"> <h3 class="h05">Events</h3> </a>
+	            	<h3 class="h05">Events</h3> 
 
 		            <!-- <p>We have 8 events rangeing from</p>	         		 -->
 	         	</div> 	         	 
+				 </a>
 
-				</div> <!-- end bgrid -->
+			</div> <!-- end bgrid -->
 
 				<div class="bgrid service-item animate-this">	
-
+				<a href="/workshops">
 					<span class="icon"><i class="icon-settings"></i></span>                          
 
 	            <div class="service-content">	
-				<a href="#"><h3 class="h05">Workshops</h3>  </a>
+				<h3 class="h05">Workshops</h3>
 
 		            <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
 	         		</p>	         		 -->
 	            </div>	                          
-
+				</a>
 			   </div> <!-- end bgrid -->
 
 			   <div class="bgrid service-item animate-this">
+			   <a href="/lectures">
 
 			   	<span class="icon"><i class="icon-microphone"></i></span>		            
 
 	            <div class="service-content">
-				<a href="#"><h3 class="h05">Guest Lectures</h3> </a>
+				<h3 class="h05">Guest Lectures</h3>
 
 		            <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
 	        			</p> -->
 	            </div> 	            	               
-
+				</a>
 			   </div> <!-- end bgrid -->
 
 				<div class="bgrid service-item animate-this">
-
+				<a href="/sponsors">
 					<span class="icon"><i class="icon-megaphone"></i></span>	              
 
 	            <div class="service-content">
-				<a href="#"><h3 class="h05">Marketing</h3> </a>
+				<h3 class="h05">Marketing</h3>
 
 		            <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
 	         		</p>	         		 -->
 	            </div>                
-
+				</a>
 				</div> <!-- end bgrid -->			   
 
 	      </div> <!-- end services-list -->
@@ -236,7 +243,7 @@
 
 	<!-- stats
    ================================================== -->
-   <section id="clients">
+   <!-- <section id="clients">
 
 		<div class="row animate-this">
 			<div class="col-twelve">
@@ -255,117 +262,18 @@
   					<div><img src="images/clients/wordpress.png" alt=""></div>
 				</div>
 				
-			</div> <!-- end col-twelve -->
-		</div> <!-- end row -->
+			</div> 
+			<!-- end col-twelve -->
+		<!-- </div>  -->
+		<!-- end row -->
 
-   </section> <!-- end clients -->
+   <!-- </section>  --> 
+   <!-- end clients -->
 
 
 	<!-- contact
    ================================================== -->
-   <section id="contact">
-
-      <div class="overlay"></div>
-
-		<div class="row narrow section-intro with-bottom-sep animate-this">
-   		<div class="col-twelve">
-   			<h3>Contact</h3>
-   			<h1>Get In Touch.</h1>
-
-   			<!-- <p class="lead">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p> -->
-   		</div> 
-   	</div> <!-- end section-intro -->
-
-   	<div class="row contact-content">
-
-   		<div class="col-seven tab-full animate-this">
-
-   			<h5>Send Us A Message</h5>
-
-            <!-- form -->
-            <form name="contactForm" id="contactForm" method="post">     			
-
-               <div class="form-field">
- 					   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-               </div>
-
-               <div class="row">
-                 	<div class="col-six tab-full">
-                 		<div class="form-field">
-                 			<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-                 		</div>		      			   
-		            </div>
-	            	<div class="col-six tab-full">	            
-	            		<div class="form-field">
-	            			<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	                  </div>		     				   
-		            </div>
-               </div>
-                                         
-               <div class="form-field">
-	              	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	            </div> 
-
-               <div class="form-field">
-                  <button class="submitform">Submit</button>
-
-                  <div id="submit-loader">
-                     <div class="text-loader">Sending...</div>                             
-       			      <div class="s-loader">
-							  	<div class="bounce1"></div>
-							  	<div class="bounce2"></div>
-							  	<div class="bounce3"></div>
-							</div>
-						</div>
-               </div>
-
-      		</form> <!-- end form -->
-
-            <!-- contact-warning -->
-            <div id="message-warning"></div> 
-
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
-
-         </div> <!-- end col-seven --> 
-
-         <div class="col-four tab-full contact-info end animate-this">
-
-         	<h5>Contact Information</h5>
-
-         	<div class="cinfo">
-	   			<h6>Where to Find Us</h6>
-	   			<p>
-	            	1600 Amphitheatre Parkway<br>
-	            	Mountain View, CA<br>
-	            	94043 US
-	            </p>
-	   		</div> <!-- end cinfo -->
-
-	   		<div class="cinfo">
-	   			<h6>Email Us At</h6>
-	   			<p>
-	   				someone@Probesite.com<br>
-				   	info@Probesite.com			     
-				   </p>
-	   		</div> <!-- end cinfo -->
-
-	   		<div class="cinfo">
-	   			<h6>Call Us At</h6>
-	   			<p>
-	   				Phone: (+63) 555 1212<br>
-				   	Mobile: (+63) 555 0100<br>
-				     	Fax: (+63) 555 0101
-				   </p>
-	   		</div>
-
-         </div> <!-- end cinfo --> 
-
-   	</div> <!-- end row contact-content -->
-		
-	</section> <!-- end contact -->
+   
 
 
 	<!-- footer
@@ -378,10 +286,13 @@
 
 	      	<div class="col-five tab-full footer-about">       
 
-	            <h4 class="h05">Probe.</h4>
+	            <h4 class="h05">Contact Us</h4>
 
-	            <p>Probe is the Annual International Technical Symposium of the Department of ECE, NIT Trichy.It's the biggest ECE symposium in India, 
-					where it creates a learning platform in the latest fields and trends related to electronics and communication.</p>	            
+	            <ul class="list-links">
+	      				<li><div>Devesh</li>
+						<li>Surya Pranay Teja</li>
+						<li>Nishant VT</li>						
+					</ul>	            
 
 		      </div> <!-- end footer-about -->
 
@@ -390,16 +301,16 @@
 	      		<h4 class="h05">Follow Us.</h4>
 
 	      		<ul class="list-links">
-	      			<li><a href="#">Facebook</a></li>
-						<li><a href="#">Twitter</a></li>
-						<li><a href="#">Instagram</a></li>						
+	      			<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank" >Facebook</a></li>
+						<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" >Twitter</a></li>
+						<li><a href="https://www.instagram.com/probe.nitt/" target="_blank" >Instagram</a></li>						
 					</ul>
 
 	      	</div> <!-- end footer-social -->  
 
 	      	<div class="col-four tab-full footer-subscribe end">
 
-	      		<h4 class="h05">Get Notified.</h4>a
+	      		<h4 class="h05">Get Notified.</h4>
 
 	      		<p>Sign up for our weekly NewsLetter</p>
 
