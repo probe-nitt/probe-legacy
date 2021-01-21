@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+require '../vendor/autoload.php';
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -24,6 +24,7 @@ use App\Models\BullseyeUsers;
 use App\Models\BullseyeData;
 
 use GuzzleHttp\Client;
+use Mailgun\Mailgun;
 
 class UserController extends Controller
 {
@@ -786,50 +787,46 @@ class UserController extends Controller
         return;
     }
 
-    private function sendMailSG( $tomail, $subject, $content) {
-        
-        $email = new \SendGrid\Mail\Mail(); 
-        $email->setFrom("no-reply@probe.org.in", "Probe 2020, NIT Trichy");
-        $email->setSubject($subject);
-        $email->addTo($tomail, null);
-        $email->addContent(
-            "text/html", $content
-            );
-        $sendgrid = new \SendGrid(env('SENDGRID_API_KEY'));
+    private function sendAttachmentMailSG($tomail, $subject, $content, $attachmentPath, $filename, $attachmentType) {
+        $mgClient = Mailgun::create(env('MAILGUN_API_KEY'), env('MAILGUN_BASE_URL'));
+        $domain = 'mailer.probe.org.in';
         try {
-          $response = $sendgrid->send($email);
+            $result = $mgClient->messages()->send($domain, array(
+                'from'  => 'Probe 2020, NIT Trichy no-reply@mailer.probe.org.in',
+                'to'    => $tomail,
+                'subject' => $subject,
+                'text'  => "Your mail doesn't support html",
+                'html' => $content,
+                'attachment' => array(
+                    array(
+                        'filePath' => $attachmentPath,
+                        'filename' => $filename
+                  )
+                )
+            ));
+        } catch (Exception $e) {
+            Log::error('Caught exception while sending '. $subject . "email: ". $e->getMessage() ."\n");
+        }
+
+    }
+
+    private function sendMailSG( $tomail, $subject, $content) {
+        $mgClient = Mailgun::create(env('MAILGUN_API_KEY'), env('MAILGUN_BASE_URL'));
+        $domain = 'mailer.probe.org.in';
+        try {
+            $result = $mgClient->messages()->send($domain, array(
+                'from'  => 'Probe 2020, NIT Trichy no-reply@mailer.probe.org.in',
+                'to'    => $tomail,
+                'subject' => $subject,
+                'text'  => "Your mail doesn't support html",
+                'html' => $content
+            ));
         } catch (Exception $e) {
             echo 'Caught exception: '. $e->getMessage() ."\n";
         }
     }
 
-    private function sendAttachmentMailSG($tomail, $subject, $content, $attachmentPath, $filename, $attachmentType) {
-        $sendgrid = new SendGrid(env('SENDGRID_API_KEY'));
-        $email    = new SendGrid\Mail\Mail();
-
-        try {
-        $email->addTo($tomail, null);
-        $email->setFrom("no-reply@probe.org.in", "Probe 2020, NIT Trichy");
-        $email->setSubject($subject);
-        $email->addContent("text/html", $content);
-
-        $attachmentContent    = file_get_contents($attachmentPath);
-        $attachmentContent    = base64_encode($attachmentContent);
-
-        $attachment = new SendGrid\Mail\Attachment;
-        $attachment->setContent($attachmentContent);
-        $attachment->setType($attachmentType);
-        $attachment->setFilename($filename);
-        $attachment->setDisposition("attachment");
-        $email->addAttachment($attachment);
-
-            $response = $sendgrid->send($email);
-          } catch (Exception $e) {
-              Log::error('Caught exception while sending '. $subject . "email: ". $e->getMessage() ."\n");
-          }
-
-
-    }
+    
 
     public function changePasswordRedirect(Request $request)
     {

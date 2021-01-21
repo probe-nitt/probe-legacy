@@ -806,7 +806,7 @@ Route::get('/activate', 'UserController@confirm_mail');
 Route::get('/changePassword', 'UserController@changePasswordRedirect');
 Route::post('/changePassword', 'UserController@changePassword');
 
-# Route::post('/sendExtraInfoMail', 'UserController@sendMailToRegisteredParticipants');
+# Route::get('/sendExtraInfoMail', 'UserController@sendMailToRegisteredParticipants');
 
 # Route::post('/aruteyy', 'UserController@se');
 
