@@ -95,7 +95,7 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Event name</h5>
+				<h5 style="font-size: 2rem;">Cryptech</h5>
 				<img src="/images/EVENTS/bullseye.jpg" >
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 					sed do eiusmod tempor incididunt ut labore et dolore 
@@ -103,7 +103,7 @@
 					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
 					 <span>Number of Participants: </span>#<br>
 					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
+				<button class="LM"><a class="LM" href="events/cryptech">Learn More</a></button>
 			</div>
 		</div>
 		<div id="events">

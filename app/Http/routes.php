@@ -162,7 +162,7 @@ Route::get('/events/cryptech', function () {
         $regbool = 1;
     }
 
-    return view('cryptech',['regbool' => $regbool]);
+    return view('cryptech2021',['regbool' => $regbool]);
 });
 
 Route::get('/events/quizzical', function () {
