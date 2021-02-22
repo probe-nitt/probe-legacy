@@ -3026,8 +3026,17 @@ footer h4.h05::after {
 
 .econtainer{
   position: relative;
-  display: block;
-  overflow: hidden;
+  height: 350px;
+  width: 60%;
+  border: #8e8e8e solid 1px;
+  padding-left: 2rem;
+  padding-top: 3rem;
+  background-color: #111111;
+}
+
+.podcastecontainer{
+  position: relative;
+  height: 500px;
   width: 60%;
   border: #8e8e8e solid 1px;
   padding-left: 2rem;
@@ -3060,7 +3069,7 @@ footer h4.h05::after {
 
 
 .econtainer p span{
-  font-weight: 400;
+  font-weight: 700;
   color: #dfdede;
 }
 
