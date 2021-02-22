@@ -93,48 +93,61 @@
 		<div id="events">
 			<h5 style="font-size: 5rem;">Podcasts</h5>	
 		</div>
+        <div id="events">
+            <div class="econtainer">
+				<h5 style="font-size: 2rem;">S.Dasgupta</h5>
+				<img src="/images/PODCASTS/dasGupta.png" >
+				<p> <span style="font-size: 2rem;">H.O.D ECE,IIT ROORKEE</span></br>
+					S. Dasgupta is presently working as a Professor and Head, in the Department of Electronics and Communication Engineering at the Indian Institute of Technology, Roorkee. He has authored/co-authored more than 250 research papers in peer-reviewed international journals and conferences. He is a member of EDS, ISTE, and an associate member of the Institute of Nanotechnology, UK. His areas of interest are Nanoelectronics, Nanoscale MOSFET modeling and simulation, Design and Development of low power novel devices, and development of reconfigurable logic, to name a few. He has won several awards to carry out his groundbreaking research. Dr. Dasgupta has also acted as a reviewer and member of 
+					several technical committees of various international conferences.<br>
+				</p>
+			    <button class="LM"><a class="LM" href="https://open.spotify.com/episode/18lhLyqZg6q4wzSqGUTRuy">Spotify</a></button>
+			</div>
+		</div>
 		<div id="events">				
 			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Podcast Name</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Description<br>
+				<h5 style="font-size: 2rem;">Chandani Anand</h5>
+				<img src="/images/PODCASTS/chandini.jpg" >
+				<p> <span style="font-size: 2rem;">Staff Engineer(CMOS image sensors) SAMSUNG R&D INSTITUTE INDIA</span></br>
+					Chandani Anand received her Ph.D. degree with the Image Sensors 
+					Research Group, Electrical Engineering Department at IIT Delhi. 
+					Currently, she is working with Samsung Semiconductor R&D Institute, 
+					Bengaluru, India. She has designed and tested multiple prototype image sensors for time-of-flight 3D cameras during her Ph.D. and has contributed to designing various state-of-the-art commercial CMOS image sensors during her industry experience. She has published multiple papers in reputed IEEE Journals and conferences. She has received the best paper award and a travel grant in IEEE APCCAS 2016. Her professional interests include analog and mixed-signal circuit design for CMOS image sensors, time-of-flight cameras, and sensor applications.<br>
+                </p>
+				<button class="LM"><a class="LM" href="https://open.spotify.com/episode/5LuxOCmeJwcOsToKebNkkf?si=Sk75X0OLRX6w2WZeU2gOhQ&nd=1">Spotify</a></button>
 			</div>
 		</div>
 		<div id="events">
-            <div class="econtainer">
-				<h5 style="font-size: 2rem;">Podcast Name</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Description<br>
-			</div>
-		</div>
-		<div id="events">
-            <div class="econtainer">
-				<h5 style="font-size: 2rem;">Podcast Name</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Description<br>
+            <div class="econtainer" >
+				<h5 style="font-size: 2rem;">Shilpa Pandit</h5>
+				<img src="/images/PODCASTS/shilpa.jpg" >
+				<p> <span style="font-size: 1.8rem;">Co-Founder at Dreampath Foundation,Research and Evaluation,Technology and Social sector,Social policy</span></br>
+					Shilpa Pandit, in her more than two-decade-long adventure, has primarily identified herself as a researcher in Psychology. During her work of 23 years, she has alternatively wandered and worked as a pilgrim and an exile in three actions: 
+                   Teaching – social psychology, theories in psychology, and research methods. Researching and consulting on issues such as poverty, public policy relating to MGNREGA, associating with several organizations such as UNICEF, UNDP, to name a few. Founding - The organization - Dreampath Foundation, which has reached out to more than 15,000 students in 100 schools in Karnataka, through its workshops and a dedicated career helpline.
+                    She has worked as a UNDP Research officer, on public policy relating to rural employment with the Ministry of Rural Development, she was also the Head- Monitoring and Evaluation, Hand in Hand(India), and was selected for the Chevening Fellowship (CRISP) at the University of Oxford, UK, for her leadership in the social sector.
+                <br>
+				</p>
+                <button class="LM"><a class="LM" href="https://open.spotify.com/episode/1a960jAGYWB6POkk4OCLhq?si=3JzUlC0xQUW7gBOq0lzHUA&nd=1">Spotify</a></button>
 			</div>
 		</div>
 
 		<div id="events">				
             <div class="econtainer">
-				<h5 style="font-size: 2rem;">Podcast Name</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Description<br>
+				<h5 style="font-size: 2rem;">Sai Kamal</h5>
+				<img src="/images/PODCASTS/saiKamal.jpg" >
+				<p> <span style="font-size: 2rem;">MS in ECE at purdue university</span></br>
+					Sai Kamal is an ongoing masters student and a Graduate 
+					Teaching Assistant at Purdue University.
+					He had previously worked on developing state of the 
+					art NPUs (Neuromorphic Processing Units) in 
+					Samsung Research Institute Bangalore for 2 years. 
+					During the last summer he worked in Microsoft  BING FPGA 
+					engineering team, where he worked on improving the efficiency of Neural function unit (NFU). 
+					 He is currently specialising in the field of VLSI and Computer Engineering 
+					 at Purdue. His professional interests include frontend design, computer architecture and hardware for machine learning.NITT - Chairman Probe, Vice President Apekshaa<br>
+				</p>
+				<button class="LM"><a class="LM" href="https://open.spotify.com/episode/1a960jAGYWB6POkk4OCLhq?si=3JzUlC0xQUW7gBOq0lzHUA&nd=1">Spotify</a></button>
 			</div>
-		</div>
-		<div id="events">
-            <div class="econtainer">
-                <h5 style="font-size: 2rem;">Podcast Name</h5>
-                <img src="/images/EVENTS/bullseye.jpg" >
-                <p>Description<br>
-            </div>
-		</div>
-		<div id="events">
-            <div class="econtainer">
-                <h5 style="font-size: 2rem;">Podcast Name</h5>
-                <img src="/images/EVENTS/bullseye.jpg" >
-                <p>Description<br>
-            </div>
 		</div>
 
 	</section>

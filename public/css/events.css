@@ -3021,19 +3021,18 @@ footer h4.h05::after {
   align-items: center;
   padding-top: 170px;
   gap: 50px;
-
 }
 
 
 .econtainer{
   position: relative;
-  height: 350px;
+  display: block;
+  overflow: hidden;
   width: 60%;
   border: #8e8e8e solid 1px;
   padding-left: 2rem;
   padding-top: 3rem;
   background-color: #111111;
-
 }
 
 
@@ -3057,12 +3056,12 @@ footer h4.h05::after {
   position: absolute;
   width: 80%; 
   padding-right: 4rem;
-
 }
 
 
 .econtainer p span{
-  font-weight: 700;
+  font-weight: 400;
+  color: #dfdede;
 }
 
 
@@ -3076,7 +3075,7 @@ footer h4.h05::after {
   right: 0;
   margin: 0;
   height: 6rem;
-  width: fit-content;
+  width: 200px;
   background: #f9a828;
   color: #000000;
   z-index: 50;
