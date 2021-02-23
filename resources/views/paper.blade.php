@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Paper Presentation | PROBE 2019</title>
+		<title>Paper Presentation | PROBE 2021</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		@if ($name = session('name'))
@@ -53,22 +53,22 @@
 											<ul>
 												<li>Last date for Paper Submission (extended): 
 													<ul style="list-style-type:none">
-														<li><b>27th January 2019</b></li>
+														<li><b>27th January 2021</b></li>
 													</ul>
 												</li>
 												<li>Notification of Acceptance:
 													<ul style="list-style-type:none">
-														<li><b>29th January 2019</b></li>
+														<li><b>29th January 2021</b></li>
 													</ul>
 												</li>
 												<li>Final paper submission:
 													<ul style="list-style-type:none">
-														<li><b>31st January 2019</b></li>
+														<li><b>31st January 2021</b></li>
 													</ul>
 												</li>
 												<li>Event Date:
 													<ul style="list-style-type:none">
-														<li><b>3rd February 2019, 9AM - 12PM</b></li>
+														<li><b>3rd February 2021, 9AM - 12PM</b></li>
 														<li>Venue : <b>Orion S3</b></li>
 													</ul>
 												</li>
@@ -121,7 +121,7 @@
 										<a href="mailto:probe2019events@gmail.com">probe2019events@gmail.com</a> with <code>Paper_<'author_name'>_<'college_name'></code> as the subject.
 										</p>
 										<p>
-										Shortlisted students will have finals during Probe2019 at NIT-Trichy, where they can present their papers in the form of Power point presentation.
+										Shortlisted students will have finals during Probe2021 at NIT-Trichy, where they can present their papers in the form of Power point presentation.
 										</p>
 										<h4>Participation certificate for all the participants</h4>
 									</section>
@@ -134,7 +134,7 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
+						<li>&copy; PROBE 2021. All rights reserved.</li>
 					</ul>
 				</footer>
 

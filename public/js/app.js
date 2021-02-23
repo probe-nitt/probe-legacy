@@ -11,6 +11,14 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
-particlesJS.load('particles-js', 'particlesjs-config.json', function () {
-  console.log('callback - particles.js config loaded');
-});
+if(window.innerWidth<600 || window.innerHeight<750) {
+  particlesJS.load('particles-js', '/mobileparticlesjs-config.json', function () {
+    console.log('callback - particles.js config loaded');
+  });
+}
+else {
+  particlesJS.load('particles-js', '/particlesjs-config.json', function () {
+    console.log('callback - particles.js config loaded');
+  });
+}
+

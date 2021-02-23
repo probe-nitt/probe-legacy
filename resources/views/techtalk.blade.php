@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>TECH TALKS | PROBE 2019</title>
+		<title>TECH TALKS | PROBE 2021</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		@if ($name = session('name'))
@@ -42,7 +42,7 @@
                 <section id="four" class="wrapper style1 special fade-up">
                     <div class="container">
                         <header class="major">
-                            <h2>Tech Talks | PROBE 2019</h2>
+                            <h2>Tech Talks | PROBE 2021</h2>
                         </header>
                         <div class="box alt">
                             <div class="row gtr-uniform">
@@ -69,7 +69,7 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
+						<li>&copy; PROBE 2021. All rights reserved.</li>
 					</ul>
 				</footer>
 

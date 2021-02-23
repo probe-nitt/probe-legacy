@@ -33,7 +33,7 @@
 @import url("font-awesome.min.css");
 @import url("/fonts/micons/micons.css");
 @import url("fonts.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
 /* ===================================================================
  *  02. base style overrides - (_document-setup)
@@ -156,7 +156,7 @@ p img {
 }
 
 p.lead {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   line-height: 1.8;
   color: #4f4f4f;
@@ -797,6 +797,7 @@ button.large, .button.large {
 }
 
 button.stroke, .button.stroke {
+  border-radius: 7.5px;
   background: transparent !important;
   border: 3px solid #313131;
   line-height: 4.8rem;
@@ -1149,7 +1150,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.2rem;
 }
 .section-intro .lead {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.8;
   line-height: 1.833;
 }
@@ -1499,9 +1500,9 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   header .header-logo a {
-    width: 51px;
-    height: 24px;
-    background-size: 51px 24px;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -1559,11 +1560,32 @@ header .header-logo a {
 }
 .home-content-tablecell h3 {
   font-family: "montserrat-bold", sans-serif;
-  font-size: 2.2rem;
   color: white;
   text-transform: uppercase;
-  letter-spacing: .3rem;
+  /* letter-spacing: .3rem; */
   margin: 0 0 .9rem 0;
+  position: relative;
+  -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+.home-content-tablecell h3 span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  animation: wave 2.5s ease-in-out infinite;
+  animation-delay: calc(0.5s + 0.05s * var(--i));
+}
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
 }
 .home-content-tablecell h1 {
   font-family: "montserrat-bold", serif;
@@ -1992,6 +2014,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
   #services .services-list .icon i {
     font-size: 5.1rem;
+  }
+  .home-content-tablecell h3 span {
+    font-size: 1.55rem;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -3018,4 +3043,9 @@ a.fill-div {
   height: 100%;
   width: 100%;
   text-decoration: none;
+}
+
+.button.button.stroke:hover {
+  color: purple;
+  background-color: white !important;
 }

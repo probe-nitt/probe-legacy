@@ -518,7 +518,7 @@ class UserController extends Controller
     
         //     $message->from('no-reply@probe.org.in', 'PROBE NIT TRICHY');
     
-        //     $message->to($email)->subject('PROBE 2019 Registration');
+        //     $message->to($email)->subject('PROBE 2021 Registration');
     
         // });
 

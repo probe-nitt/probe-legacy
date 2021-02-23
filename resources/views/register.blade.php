@@ -14,15 +14,12 @@
    <!-- mobile specific metas
    ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    @if ($name = session('name'))
-    <link rel="stylesheet" href="{{ asset('css/main-loggedin.css') }}"  />
-    @endif
  	<!-- CSS
    ================================================== -->
    <link rel="stylesheet" href="{{ asset('css/base.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/vendor.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/signup.css') }}"  /> 
-
+   <link rel="stylesheet" href="{{ asset('css/login.css') }}"  />
    <!-- script
    ================================================== -->
 	<script src="{{ asset('js/modernizr.js') }}"></script>
@@ -60,40 +57,36 @@
 
 	   	<h3>Probe</h3>  
 
-           <ul class="nav-list">
+			<ul class="nav-list">
+				@if ($name = session('name'))
+				<li>{{ $name }}</li>
+				<li><a href="/logout" class="login-button button">Log out</a></li>
+				@endif
+				@if (!session('name'))
+					<li><a class="login-button button" href="/register">Sign up</a></li>
+					<li><a class="login-button button"  href="/login">Log in</a></li>
+				@endif
 				<li class="current"><a href="/" title="">Home</a></li>
-				<li><a href="/about" title="">About</a></li>
+				<li><a href="/#services" title="">About</a></li>
 				<li><a href="/events" title="">Events</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
 				<li><a href="/lectures" title="">Guest Lectures</a></li>
-				<li><a href="/gallery" title="">Gallery</a></li>
-				<li><a href="/contact" title="">Contact</a></li>
-										
+				<li><a href="/podcasts" title="">Podcasts</a></li>
+				<li><a href="/contact" title="">Contact Us</a></li>
 			</ul>	
-
-						
-
 			<ul style="text-align:center;" class="header-social-list">
 	         <li>
-	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	         	<a href="https://www.facebook.com/Probe.NITT/" target="_blank" ><i class="fa fa-facebook-square"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-twitter"></i></a>
+	         	<a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" ><i class="fa fa-twitter"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-instagram"></i></a>
-             </li>
-             @if ($name = session('name'))
-               <li>{{ $name }}</li>
-               <li><a href="/logout" class="applyFont logoutBtn">Log out</a></li>
-            @endif
-            @if (!session('name'))
-               <li><a class="applyFont" href="/register">Sign up</a></li>
-               <li><a class="applyFont" href="/login">Log in</a></li>
-            @endif    
+	         	<a href="https://www.instagram.com/probe.nitt/" target="_blank" ><i class="fa fa-instagram"></i></a>
+			 </li>  
 	      </ul>		
-
-		</nav>  <!-- end #menu-nav-wrap -->
+			
+		</nav>  
 
     </header> <!-- end header -->  
 
@@ -172,7 +165,7 @@
                <input  name="phoneno" type="tel" id="Phone" placeholder="123567890" value="" minlength="10" maxlength="10" required="" style="color: white; width: 100%;">
             </div>
 
-            <label class="add-bottom">
+            <label class="add-bottom" style="display:none;">
                <input type="checkbox" name="acco">	            
                <span class="label-text" style="color: white;">Do you need Accomodation?</span>
             </label>

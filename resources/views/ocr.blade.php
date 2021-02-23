@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Optical Character Recognition using Deep Learning | PROBE 2019</title>
+		<title>Optical Character Recognition using Deep Learning | PROBE 2021</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		@if ($name = session('name'))
@@ -51,20 +51,20 @@
 									<section id="sidebar">
 										<section>
 											@if($regbool1==0)
-											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%201" class="button primary fit">Register for session on 2nd Feb, 2019</a>
+											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%201" class="button primary fit">Register for session on 2nd Feb, 2021</a>
                                             @endif
                                             @if($regbool1==1 && $ispaid1==0)
-											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%201" class="button primary fit">Pay and Complete registration <br/> for session on 2nd Feb, 2019</a>
+											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%201" class="button primary fit">Pay and Complete registration <br/> for session on 2nd Feb, 2021</a>
 											@endif
 											@if($regbool1==1 && $ispaid1==1)
 											<span class="button primary fit disabled">Registered for Day 1</span>
                                             @endif
                                             <br/><br/>
                                             @if($regbool2==0)
-											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%202" class="button primary fit">Register for session on 3rd Feb, 2019</a>
+											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%202" class="button primary fit">Register for session on 3rd Feb, 2021</a>
                                             @endif
                                             @if($regbool2==1 && $ispaid2==0)
-											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%202" class="button primary fit">Pay and Complete registration <br/>  for  session on 3rd Feb, 2019</a>
+											<a href="/workshops/register?workshop=Optical%20Character%20Recognition%20using%20Deep%20Learning%20Day%202" class="button primary fit">Pay and Complete registration <br/>  for  session on 3rd Feb, 2021</a>
 											@endif
 											@if($regbool2==1 && $ispaid2==1)
 											<span class="button primary fit disabled">Registered for Day 2</span>
@@ -92,7 +92,7 @@
 												</li>
 												<li>Date : 
 													<ul style="list-style-type:none">
-														<li><b>2nd and 3rd February 2019</b></li>
+														<li><b>2nd and 3rd February 2021</b></li>
 													</ul>
 												</li>
 												<li>Limited registrations.</li>
@@ -149,7 +149,7 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
+						<li>&copy; PROBE 2021. All rights reserved.</li>
 					</ul>
 				</footer>
 

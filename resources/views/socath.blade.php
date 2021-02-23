@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>System on Chip using Atheros ath10k | PROBE 2019</title>
+		<title>System on Chip using Atheros ath10k | PROBE 2021</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		@if ($name = session('name'))
@@ -92,7 +92,7 @@
 												</li>
 												<li>Date : 
 													<ul style="list-style-type:none">
-														<li><b>3rd February 2019</b></li>
+														<li><b>3rd February 2021</b></li>
 													</ul>
 												</li>
 												<li>Limited registrations.</li>
@@ -148,7 +148,7 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
+						<li>&copy; PROBE 2021. All rights reserved.</li>
 					</ul>
 				</footer>
 

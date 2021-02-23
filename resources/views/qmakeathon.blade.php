@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Qualcomm Make-a-thon | PROBE 2019</title>
+		<title>Qualcomm Make-a-thon | PROBE 2021</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		@if ($name = session('name'))
@@ -69,7 +69,7 @@
 												</li>
 												<li>Release of problem statements:
 													<ul style="list-style-type:none">
-														<li><b>3rd Feb 2019, 5:30PM</b></li>
+														<li><b>3rd Feb 2021, 5:30PM</b></li>
 													</ul>
                                                 </li>
 											</ul>
@@ -87,11 +87,11 @@
 
                             <!-- Content -->
                                 <section id="content">
-                                    <p>Our flagship event is back, bigger and better than ever before. The 27th edition of Probe in association with Qualcomm presents to you Makeathon 2019, an extraordinary career-defining opportunity just for the students of NIT Trichy!</p>
+                                    <p>Our flagship event is back, bigger and better than ever before. The 27th edition of Probe in association with Qualcomm presents to you Makeathon 2021, an extraordinary career-defining opportunity just for the students of NIT Trichy!</p>
 
                                     <p>Form teams of <b>3 members</b> and get ready to build solutions for industry grade problems using Qualcomm's Atheros ath10k</p>
                                     
-                                    <p>Problem statements will be released on 3rd February 2019 during Probe. Participants will be given 3 months' time to build their prototype, during which multiple development deadlines and eliminative rounds will take place. Development kits and mentoring will be provided by experts from Qualcomm to help students effectively build their solutions.</p>
+                                    <p>Problem statements will be released on 3rd February 2021 during Probe. Participants will be given 3 months' time to build their prototype, during which multiple development deadlines and eliminative rounds will take place. Development kits and mentoring will be provided by experts from Qualcomm to help students effectively build their solutions.</p>
                                     
                                     <p>The final presentation will be conducted at NIT Trichy in front of a panel of judges from Qualcomm.</p>
                                     
@@ -113,7 +113,7 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
+						<li>&copy; PROBE 2021. All rights reserved.</li>
 					</ul>
 				</footer>
 

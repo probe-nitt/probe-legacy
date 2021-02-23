@@ -113,7 +113,7 @@ class UserController extends Controller
     
         });
 
-        Session::flash('message', 'You have successfully registered for Probe 2019. Please check your mail for instructions on account activation and activate your account before logging in');
+        Session::flash('message', 'You have successfully registered for Probe 2021. Please check your mail for instructions on account activation and activate your account before logging in');
         return redirect('/login');
     }
 
@@ -590,7 +590,7 @@ class UserController extends Controller
     
         //     $message->from('no-reply@probe.org.in', 'PROBE NIT TRICHY');
     
-        //     $message->to($email)->subject('PROBE 2019 Registration');
+        //     $message->to($email)->subject('PROBE 2021 Registration');
     
         // });
 
@@ -673,7 +673,7 @@ class UserController extends Controller
 
         $user = BullseyeUsers::where('participant','=',$id)->first();
 
-        $title = "Bullseye | Probe 2019";
+        $title = "Bullseye | Probe 2021";
         $comment = "";
         $cb = 0;
         if($user->complete){

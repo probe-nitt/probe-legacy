@@ -104,7 +104,47 @@
 					   <h1 class="animate-intro">
 						   Probe
 						</h1>	
-						<h3 class="animate-intro">The Annual ECE Symposium of NIT Trichy</h3>
+						<h3 class="animate-intro">
+							<span style="--i:1;">T</span>
+							<span style="--i:2;">h</span>
+							<span style="--i:3;">e</span>
+							<span style="--i:4;">&nbsp;</span>
+							<span style="--i:5;">A</span>
+							<span style="--i:6;">n</span>
+							<span style="--i:7;">n</span>
+							<span style="--i:8;">u</span>
+							<span style="--i:9;">a</span>
+							<span style="--i:10;">l</span>
+							<span style="--i:11;">&nbsp;</span>
+							<span style="--i:12;">E</span>
+							<span style="--i:13;">C</span>
+							<span style="--i:14;">E</span>
+							<span style="--i:15;">&nbsp;</span>
+							<span style="--i:16;">S</span>
+							<span style="--i:17;">y</span>
+							<span style="--i:18;">m</span>
+							<span style="--i:19;">p</span>
+							<span style="--i:20;">o</span>
+							<span style="--i:21;">s</span>
+							<span style="--i:22;">i</span>
+							<span style="--i:23;">u</span>
+							<span style="--i:24;">m</span>
+							<span style="--i:25;">&nbsp;</span>
+							<span style="--i:26;">o</span>
+							<span style="--i:27;">f</span>
+							<span style="--i:28;">&nbsp;</span>
+							<span style="--i:29;">N</span>
+							<span style="--i:30;">I</span>
+							<span style="--i:31;">T</span>
+							<span style="--i:32;">&nbsp;</span>
+							<span style="--i:33;">T</span>
+							<span style="--i:34;">R</span>
+							<span style="--i:35;">I</span>
+							<span style="--i:36;">C</span>
+							<span style="--i:37;">H</span>
+							<span style="--i:38;">Y</span>
+							<!-- e Annual ECE Symposium of NIT Trichy -->
+						</h3>
 						
 				  			<div class="more animate-intro">
 							  	@if ($name = session('name'))
@@ -139,7 +179,7 @@
 	   </ul> <!-- end home-social-list -->	
 
 	   <div class="scrolldown">
-		<a href="#services" class="scroll-icon smoothscroll">		
+		<a href="#services" id="scrollAbout" class="scroll-icon smoothscroll">		
 		   Scroll Down		   	
 		   <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 		</a>
@@ -347,13 +387,19 @@
    </div> 
 
    <!-- Java Script
-   ================================================== --> 
+   ================================================== -->
+   
    <script src="js/jquery-2.1.3.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/index.js"></script>
    <script src="js/particles.js"></script>
-   <script src="js/app.js"></script>
-
+	<script>
+	   	window.onload = setTimeout(function() {
+			var scrollToAbout = document.getElementById("scrollAbout");
+			if(window.location.pathname=='/' && window.location.hash=='#services')
+				scrollToAbout.click();
+		} , 2000);
+   </script> 
 
 </body>
 

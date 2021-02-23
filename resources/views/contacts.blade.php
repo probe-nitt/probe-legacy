@@ -66,7 +66,7 @@
 					<li><a class="login-button button"  href="/login">Log in</a></li>
 				@endif
 				<li class="current"><a href="/" title="">Home</a></li>
-				<li><a href="#services" title="">About</a></li>
+				<li><a href="/#services" title="">About</a></li>
 				<li><a href="/events" title="">Events</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
 				<li><a href="/lectures" title="">Guest Lectures</a></li>
@@ -186,7 +186,6 @@
 <script src="{{ asset('js/plugins.js') }}"></script>
 <script src="{{ asset('js/index.js') }}"></script>
 <script src="{{ asset('js/particles.js') }}"></script>
-<script src="{{ asset('js/app.js') }}"></script>
 
 </body>
 

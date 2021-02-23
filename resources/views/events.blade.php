@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Events | PROBE 2019</title>
+		<title>Events | PROBE 2021</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		@if ($name = session('name'))
@@ -46,7 +46,7 @@
                         </div>
                         <p></br></p>
                         <header class="major">
-                            <h2>EVENTS | PROBE 2019</h2>
+                            <h2>EVENTS | PROBE 2021</h2>
                         </header>
 
                         <div class="box alt">
@@ -113,7 +113,7 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="copyright">
-						<li>&copy; PROBE 2019. All rights reserved.</li>
+						<li>&copy; PROBE 2021. All rights reserved.</li>
 					</ul>
 				</footer>
 

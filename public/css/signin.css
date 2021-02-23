@@ -33,7 +33,7 @@
 @import url("font-awesome.min.css");
 @import url("/fonts/micons/micons.css");
 @import url("fonts.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
 /* ===================================================================
  *  02. base style overrides - (_document-setup)
@@ -156,7 +156,7 @@ p img {
 }
 
 p.lead {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   line-height: 1.8;
   color: #4f4f4f;
@@ -1149,7 +1149,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.2rem;
 }
 .section-intro .lead {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.8;
   line-height: 1.833;
 }
@@ -1489,9 +1489,9 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   header .header-logo a {
-    width: 51px;
-    height: 24px;
-    background-size: 51px 24px;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -2530,10 +2530,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   position: relative;
   z-index: 600;
 }
-.contact-content h5 {
+.contact-content h5, h2 {
   color: #FFFFFF;
   margin-bottom: 5.4rem;
   text-align: center;
+  text-transform: uppercase;
+}
+.major-header {
+  margin: 1.8rem;
 }
 .contact-content h6 {
   color: #555555;
@@ -2945,7 +2949,27 @@ footer h4.h05::after {
   background: #000000;
   color: #FFFFFF;
 }
+#registration-details {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
 
+.participant {
+  font-size: 2rem;
+  font-style: italic;
+}
+#payment-btn {
+  font-size: 1.5rem;
+  display: block;
+  letter-spacing: .2rem;
+  height: 6rem;
+  line-height: 6rem;
+  padding: 0 3rem;
+  width: 100%;
+  background: #f44336;
+  color: white;
+  margin-top: .6rem;
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * footer
@@ -2986,4 +3010,9 @@ footer h4.h05::after {
   .footer-bottom .copyright span::after {
     display: none;
   }
+  #payment-btn {
+    font-size: 1.3rem;
+    padding: 0 1.5rem;
+  }
 }
+
