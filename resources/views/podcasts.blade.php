@@ -94,60 +94,41 @@
 			<h5 style="font-size: 5rem;">Probe FM 55.5</h5>	
 		</div>
         <div id="events">
-            <div class="econtainer" style="height: 420px;">
+            <div class="econtainer">
 				<h5 style="font-size: 2rem;">Dr. S. Dasgupta</h5>
 				<img src="/images/PODCASTS/dasGupta.png" >
-				<p> <span style="font-size: 2rem;">H.O.D Department of Electronics and Communication Engineering,IIT Roorkee</span></br>
-					Dr. S. Dasgupta is presently working as a Professor and Head, in the Department of Electronics and Communication Engineering at the Indian Institute of Technology, Roorkee. He has authored/co-authored more than 250 research papers in peer-reviewed international journals and conferences. His areas of interest include Nanoelectronics, Nanoscale MOSFET modeling and simulation. He is a member of EDS, ISTE, and an associate member of the Institute of Nanotechnology, UK.
-					 In this podcast he shares his wisdom about the future course of technology with us!<br>
+				<p>Dr. S. Dasgupta is currently a Professor and the Head of the department of Electronics and Communication Engineering at IIT Roorkee. He has authored more than 250 research papers in peer-reviewed international journals and conferences. He is a member of various prestigious institutions like EDS, ISTE and Institute of Nanotechnology, UK. He is also a DAAD and Erasmus Mundus scholar. In this podcast he shares his wisdom about the future course of technology with us!<br>
 				</p>
-			    <button class="LM"><a class="LM" href="https://open.spotify.com/episode/18lhLyqZg6q4wzSqGUTRuy">Listen on Spotify</a></button>
+			    <button class="LM"><a class="LM" href="https://open.spotify.com/episode/18lhLyqZg6q4wzSqGUTRuy">Listen</a></button>
 			</div>
 		</div>
 		<div id="events">				
-			<div class="econtainer" style="height: 500px;">
+			<div class="econtainer">
 				<h5 style="font-size: 2rem;">Dr. Chandani Anand</h5>
 				<img src="/images/PODCASTS/chandini.jpg" >
-				<p> <span style="font-size: 2rem;">Staff Engineer at Samsung R&D Institute India</span></br>
-					Dr. Chandani Anand received her Ph.D. degree with the Image Sensors 
-					Research Group, Electrical Engineering Department at IIT Delhi. 
-					Currently, she is working with Samsung Semiconductor R&D Institute, 
-					Bengaluru, India. She has designed and tested multiple prototype image sensors for time-of-flight 3D cameras during her Ph.D. and has contributed to designing various state-of-the-art commercial CMOS image sensors during her industry experience. She has published multiple papers in reputed IEEE Journals and conferences. She has received the best paper award and a travel grant in IEEE APCCAS 2016. Her professional interests include analog and mixed-signal circuit design for CMOS image sensors, time-of-flight cameras, and sensor applications. 
-					Tune in to listen to her experiences and learnings in life!<br>
+				<p>Dr. Chandani Anand is an engineer working at the Samsung Semiconductor R&D Institute, Bengaluru, India. She earned her Ph.D. degree from the Electrical Engineering Department at IIT Delhi. She has designed and tested multiple prototype image sensors for time-of-flight 3D cameras during her Ph.D. They are one of the first indigenous attempts towards developing depth sensing cameras in modern day smartphones. Tune in to listen to her experiences and learnings in life!<br>
                 </p>
-				<button class="LM"><a class="LM" href="https://open.spotify.com/episode/5LuxOCmeJwcOsToKebNkkf?si=Sk75X0OLRX6w2WZeU2gOhQ&nd=1">Spotify</a></button>
+				<button class="LM"><a class="LM" href="https://open.spotify.com/episode/5LuxOCmeJwcOsToKebNkkf?si=Sk75X0OLRX6w2WZeU2gOhQ&nd=1">Listen</a></button>
 			</div>
 		</div>
 		<div id="events">
-            <div class="econtainer" style="height: 500px;">
+            <div class="econtainer">
 				<h5 style="font-size: 2rem;">Dr. Shilpa Ashok Pandit</h5>
 				<img src="/images/PODCASTS/shilpa.jpg" >
-				<p> <span style="font-size: 2rem;">Co-Founder at Dreampath Foundation</span></br>
-					Shilpa Pandit, in her more than two-decade-long adventure, has primarily identified herself as a researcher in Psychology. During her work of 23 years, she has alternatively wandered and worked as a pilgrim and an exile in three actions, 
-                   teaching social psychology, theories in psychology, and research methods. Researching and consulting on issues such as poverty, public policy relating to MGNREGA, associating with several organizations such as UNICEF, UNDP to name a few. Join us as she talks about founding her own NGO Dreampath Foundation, her research associations with UNICEF and UNDP, working for women upliftment in rural Tamilnadu and the life lessons she has gained through her journey.
-
+				<p>Dr Shilpa Pandit, is a prominent researcher in Psychology. In her two decade long career in social psychology, she has been a researcher and consultant on issues such as poverty and contributing to public policy such as MGNREGA. She has worked with  UNICEF, UNDP prior to founding her own NGO Dreampath Foundation. Tune in to listen to the life lessons she has gained throughout her journey.
                 <br>
 				</p>
-                <button class="LM"><a class="LM" href="https://open.spotify.com/episode/1a960jAGYWB6POkk4OCLhq?si=3JzUlC0xQUW7gBOq0lzHUA&nd=1">Spotify</a></button>
+                <button class="LM"><a class="LM" href="https://open.spotify.com/episode/1a960jAGYWB6POkk4OCLhq?si=3JzUlC0xQUW7gBOq0lzHUA&nd=1">Listen</a></button>
 			</div>
 		</div>
 
 		<div id="events">				
-            <div class="econtainer" style="height: 500px;">
+            <div class="econtainer">
 				<h5 style="font-size: 2rem;">Sai Kamal</h5>
 				<img src="/images/PODCASTS/saiKamal.jpg" >
-				<p> <span style="font-size: 2rem;">MS in ECE at purdue university</span></br>
-					Mr Sai Kamal is an ongoing masters student and a Graduate 
-					Teaching Assistant at Purdue University.
-					He had previously worked on developing state of the 
-					art NPUs (Neuromorphic Processing Units) in 
-					Samsung Research Institute Bangalore for 2 years. 
-					During the last summer he worked in Microsoft  BING FPGA 
-					engineering team, where he worked on improving the efficiency of Neural function unit (NFU). 
-					 He is currently specialising in the field of VLSI and Computer Engineering 
-					 at Purdue. His professional interests include frontend design, computer architecture and hardware for machine learning. As an ex-chairman of Probe he shares with us his journey.<br>
+				<p>Mr Sai Kamal is an ongoing masters student specialising in VLSI and computer engineering at Purdue University. He had previously worked on developing state of the art NPUs (Neuromorphic Processing Units) in Samsung Research Institute Bangalore for 2 years. He worked with the Microsoft BING FPGA engineering team, on improving the efficiency of Neural Function Unit (NFU) last summer. Listen from the ex-chairman of Probe himself on how the experiences in college helped in shaping his career and also about his journey from the corporate world to Purdue.<br>
 				</p>
-				<button class="LM"><a class="LM" href="https://open.spotify.com/episode/1a960jAGYWB6POkk4OCLhq?si=3JzUlC0xQUW7gBOq0lzHUA&nd=1">Spotify</a></button>
+				<button class="LM"><a class="LM" href="https://open.spotify.com/episode/1a960jAGYWB6POkk4OCLhq?si=3JzUlC0xQUW7gBOq0lzHUA&nd=1">Listen</a></button>
 			</div>
 		</div>
 
