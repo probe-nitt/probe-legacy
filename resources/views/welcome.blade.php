@@ -42,7 +42,7 @@
    <header> 
 
    	<div class="header-logo">
-	      <a href="index.html">Probe</a>
+	      <a href="/">Probe</a>
 	   </div> 
 
 		<a id="header-menu-trigger" href="#0">
@@ -78,7 +78,7 @@
 	         	<a href="https://www.facebook.com/Probe.NITT/" target="_blank" ><i class="fa fa-facebook-square"></i></a>
 	         </li>
 	         <li>
-	         	<a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" ><i class="fa fa-twitter"></i></a>
+	         	<a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" ><i class="fa fa-linkedin"></i></a>
 	         </li>
 	         <li>
 	         	<a href="https://www.instagram.com/probe.nitt/" target="_blank" ><i class="fa fa-instagram"></i></a>

@@ -3054,10 +3054,15 @@ footer h4.h05::after {
 
 }
 
+.econtainer h5{
+  font-size: 2rem;
+  width: 80%; 
+}
+
 
 .econtainer p{
   font-family:"montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: 350;
   font-size: 2rem;
   line-height: 4rem;
   color: #a1a1a1;
@@ -3065,6 +3070,16 @@ footer h4.h05::after {
   position: absolute;
   width: 80%; 
   padding-right: 4rem;
+}
+
+.econtainer span{
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 4rem;
+  color: #dfdede;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 2rem;
 }
 
 
@@ -3127,11 +3142,18 @@ footer h4.h05::after {
   }
   .econtainer p{
     font-size: 1.75rem;
-    padding-top: 32rem;
+    padding-top: 40rem;
     text-align: justify;
     width: 80%;
     padding-right: 0;
 
+  }
+  .econtainer h5{
+    text-align: center;
+  }
+  .econtainer span{
+    text-align: center;
+    padding-bottom: 8rem;
   }
   #events button.LM{
     width: 100%;
@@ -3141,6 +3163,7 @@ footer h4.h05::after {
     right: auto;
     top: auto;
     margin: 7rem;
+    margin-top: 12rem;
   }
   .econtainer p span{
     text-align: center;
@@ -3151,7 +3174,7 @@ footer h4.h05::after {
 
 @media only screen and (max-width: 500px){
   .econtainer{
-    height: 770px;
+    height: 870px;
     display: flex;
     justify-content: center;
     padding-left: 0;
@@ -3165,7 +3188,7 @@ footer h4.h05::after {
 
 @media only screen and (max-width: 414px){
   .econtainer{
-    height: 810px;
+    height: 910px;
     display: flex;
     justify-content: center;
     padding-left: 0;
@@ -3179,7 +3202,19 @@ footer h4.h05::after {
 
 @media only screen and (max-width: 350px){
   .econtainer{
-    height: 850px;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .econtainer p{
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 300px){
+  .econtainer{
+    height: 1000px;
     display: flex;
     justify-content: center;
     padding-left: 0;

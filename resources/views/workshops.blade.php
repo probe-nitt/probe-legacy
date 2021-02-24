@@ -95,81 +95,38 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Workshop name</h5>
+				<h5>ASIC and Physical Design Workshop by Marvell Technology</h5>
 				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					 <span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
+				<p> Explore the world of semi - custom IC design with Marvell Technology, where you will learn the ASIC design concepts and the paradigms in the physical design<br></p>
+				<span>Date: 13-03-2021 </span>
+				<button class="LM" ><a href="/workshops/asicdesign">Learn More</a></button>
 			</div>
 		</div>
-		<div id="events">
-			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Workshop name</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
-			</div>
-		</div>
-		<div id="events">
-			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Workshop name</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
-			</div>
-		</div>
-
 		<div id="events">				
 			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Workshop name</h5>
+				<h5> 5G and beyond by Chandhar Research Labs</h5>
 				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
+				<p>Buckle up as Probe '21 brings you Demystifying Wireless Communication: 5G and Beyond workshop by Chandhar Research Labs. Learn how wireless technologies evolved with the Generations, from concepts in 2G till 5G<br></p>
+					<span>Date: 13-03-2021 to 14-03-2021 </span>
+				<button class="LM"><a href="/workshops/5gandbeyond">Learn More</a></button>
 			</div>
 		</div>
 		<div id="events">
 			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Workshop name</h5>
+				<h5>CPU design using Verilog</h5>
 				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
+				<p>Ever wondered what goes on under the hood of a core i5 processor? Probe '21 presents to you, the CPU Design workshop. Here we take you on a journey which teaches you not only the basics of computer architecture, but also the programming behind it all<br></p>
+					<span>Date: 12-03-2021 to 14-03-2021 </span>
+				<button class="LM"><a href="/workshops/cpudesign">Learn More</a></button>
 			</div>
 		</div>
 		<div id="events">
 			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Workshop name</h5>
+				<h5>Mazebot</h5>
 				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
+				<p>This 3 day-long workshop named "Mazebot" from Probe NITT teaches you the basics of Python and mobile robotics to build a line follower bot to solve line mazes.<br></p>
+					<span>Date: 12-03-2021 to 14-03-2021</span>
+				<button class="LM"><a href="/workshops/mazebot">Learn More</a></button>
 			</div>
 		</div>
 

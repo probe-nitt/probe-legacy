@@ -373,6 +373,171 @@ Route::get('/workshops/makeathon', function () {
     return view('makeathon',['regbool' => $regbool, 'ispaid' => $ispaid]);
 });
 
+Route::get('/workshops/asicdesign', function () {
+    $event = "ASIC & Physical Design";
+
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,'PROBE20');
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
+
+    $w = Workshops::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = WorkshopRegs::where('workshop_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+    $regbool = 0;
+    $ispaid = 0;
+
+    if($isregistered){
+        $regbool = 1;
+        if($isregistered->paid){
+            $ispaid = 1;
+        }
+    }
+
+    return view('asicdesign',['regbool' => $regbool, 'ispaid' => $ispaid]);
+});
+
+
+
+Route::get('/workshops/mazebot', function () {
+    $event = "mazebot";
+
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,'PROBE20');
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
+
+    $w = Workshops::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = WorkshopRegs::where('workshop_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+    
+    $regbool = 0;
+    $ispaid = 0;
+
+    if($isregistered){
+        $regbool = 1;
+        if($isregistered->paid){
+            $ispaid = 1;
+        }
+    }
+
+    return view('mazebot',['regbool' => $regbool, 'ispaid' => $ispaid]);
+});
+
+
+
+
+
+Route::get('/workshops/cpudesign', function () {
+    $event = "CPU Design";
+
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,'PROBE20');
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
+
+    $w = Workshops::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = WorkshopRegs::where('workshop_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+    
+    $regbool = 0;
+    $ispaid = 0;
+
+    if($isregistered){
+        $regbool = 1;
+        if($isregistered->paid){
+            $ispaid = 1;
+        }
+    }
+
+
+    return view('cpudesign',['regbool' => $regbool, 'ispaid' => $ispaid]);
+});
+
+
+
+
+Route::get('/workshops/5gandbeyond', function () {
+    $event = "5G AND Beyond";
+
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,'PROBE20');
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
+
+    $w = Workshops::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = WorkshopRegs::where('workshop_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+    
+    $regbool = 0;
+    $ispaid = 0;
+
+    if($isregistered){
+        $regbool = 1;
+        if($isregistered->paid){
+            $ispaid = 1;
+        }
+    }
+
+    return view('5gandbeyond',['regbool' => $regbool, 'ispaid' => $ispaid]);
+});
+
+
+
+
+
+
+
+
+
 // Route::get('/events/makeathon', function () {
 //     return view('makeathon');
 // });
