@@ -374,7 +374,7 @@ Route::get('/workshops/makeathon', function () {
 });
 
 Route::get('/workshops/asicdesign', function () {
-    $event = "ASIC & Physical Design";
+    $event = "ASIC and Physical Design";
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,'PROBE20');

@@ -43,7 +43,7 @@
 <div id="particles-js"></div>
 <div class="hero-nav">
     <div class="hero-nav__inner">
-        <h1>ASIC & Physical Design</h1>
+        <h1>5G AND Beyond</h1>
     </div>
 </div>
 	<!-- header 
@@ -143,9 +143,8 @@
 
 <h1 data-splitting>Contacts</h1>
 
-<p>Email: <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></p>
-			<p>Vasanth: 9629457300</p>
-			<p>Siddharth: 9629904004</p>
+			<p>Vishwas: 7382548724</p>
+			<p>Mukesh: 8608419656</p>
 
             
     </div>
@@ -154,14 +153,14 @@
     @if($regbool==0)
     <div class="wrap">
             
-                <a class="button" id="buttonz" href="/events/register?event=5gandbeyond">Register</a>
+                <a class="button" id="buttonz" href="/workshops/register?workshop=5G%20AND%20Beyond">Register</a>
             
             </div>
     @endif
     @if($regbool==1 && $ispaid==0 )
     <div class="wrap">
                
-               <a class="button" id="buttonz" href="/events/register?event=5gandbeyond">Make payment</a>
+               <a class="button" id="buttonz" href="/workshops/register?workshop=5G%20AND%20Beyond">Make payment</a>
             
     </div>
     @endif

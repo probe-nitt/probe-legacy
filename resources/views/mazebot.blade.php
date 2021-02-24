@@ -146,10 +146,8 @@
 
 <h1 data-splitting>Contacts</h1>
 
-<p>Email: <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></p>
-			<p>Vasanth: 9629457300</p>
-			<p>Siddharth: 9629904004</p>
-
+			<p>Vishwas: 7382548724</p>
+			<p>Mukesh: 8608419656</p>
             
     </div>
     <br>
@@ -157,14 +155,14 @@
     @if($regbool==0)
     <div class="wrap">
             
-                <a class="button" id="buttonz" href="/events/register?event=mazebot">Register</a>
+                <a class="button" id="buttonz" href="/workshops/register?workshop=mazebot">Register</a>
             
             </div>
     @endif
     @if($regbool==1 && $ispaid==0 )
     <div class="wrap">
                
-               <a class="button" id="buttonz" href="/events/register?event=mazebot">Make payment</a>
+               <a class="button" id="buttonz" href="/workshops/register?workshop=mazebot">Make payment</a>
             
     </div>
     @endif
