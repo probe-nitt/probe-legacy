@@ -161,7 +161,7 @@
     @if($regbool==1 && $ispaid==1 )
     <div class="wrap">
     <h1 data-splitting id="reg-message">Registered Successfully</h1>
-    <a class="button" id="buttonz" href='/instructions/Data Acquisition and Processing Instructions.pdf' download>Download instructions</a>
+    <!-- <a class="button" id="buttonz" href='/instructions/Data Acquisition and Processing Instructions.pdf' download>Download instructions</a> -->
             
     </div>
     @endif

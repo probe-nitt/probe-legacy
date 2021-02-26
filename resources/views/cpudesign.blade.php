@@ -175,7 +175,7 @@
     <div class="wrap">
                
     <h1 data-splitting id="reg-message">Registered Successfully</h1>
-    <a class="button" id="buttonz" href='/instructions/Data Acquisition and Processing Instructions.pdf' download>Download instructions</a>
+    <a class="button" id="buttonz" href='/instructions/Verilog Workshop Instruction.pdf' download>Download instructions</a>
             
     </div>
     @endif
