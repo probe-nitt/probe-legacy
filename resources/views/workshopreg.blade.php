@@ -143,7 +143,7 @@
 						<p class='participant'>Participant 3: {{$p3}}</p>
 						@endif
 						<strong>For successful payment, please use the email that is registered in this website.</strong><br/><br/>
-						<a href="https://www.thecollegefever.com/events/probe-2020" target="_blank"><button id="payment-btn">Pay and complete registration</button></a>
+						<button id="payment-btn" onclick="popup('probe-032110');" class="tsbutton">Pay and complete registration</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="//www.townscript.com/organizer-popup-widget/townscript-organizer-widget.nocache.js" type="text/javascript"></script>
 					</div>
 				@endif
 				<!-- <div class="alert-box ss-success hideit" id="mmessage-success">

@@ -533,18 +533,18 @@ class UserController extends Controller
             Log::info($request);
             Log::info($request->getContent());
             $data = json_decode($request->getContent());
-            //Log::info($data);
-            
-            if(is_array($data->ticketItems)){
+            $data = $data->data;            
+            if(is_array($data)){
+                Log::info("Multiple Coming");
 
-                foreach($data->ticketItems as $ticket){
+                foreach($data as $ticket){
 
-                    $registrant = $ticket->attendee;
-                    $email = $registrant->email;
+                    $registrant = $ticket->userName;
+                    $email = $ticket->userEmailId;
+                    $workshopCode = $ticket->eventCode;
                     
-                    $workshop = $ticket->subProgramName;
-                    Log::info($workshop);
-                    $wid = Workshops::where('name',$workshop)->first();
+                    Log::info($workshopCode);
+                    $wid = Workshops::where('event_code',$workshopCode)->first();
                     $wid = $wid->id;
                     $user = Users::where('email','=',$email)->first();
                     $user_id = $user->id;
@@ -557,17 +557,18 @@ class UserController extends Controller
                                                 })->first();
                     $reg->paid = 1;
                     $reg->save();
-                    return response('Success', 200)
-                        ->header('Content-Type', 'text/plain');
-                    
                 }
+                return response('Success', 200)
+                        ->header('Content-Type', 'text/plain');
             }
             else{
-                
-                $registrant = $data->attendee;
-                $email = $registrant->email;
-                $workshop = $data->programName;
-                $wid = Workshops::where('name',$workshop)->first();
+                Log::info("Single Coming");
+                $ticket = $data;
+                $registrant = $ticket->userName;
+                $email = $ticket->userEmailId;
+                $workshopCode = $ticket->eventCode;
+
+                $wid = Workshops::where('event_code',$workshopCode)->first();
                 $wid = $wid->id;
                 $user = Users::where('email','=',$email)->first();
                 $user_id = $user->id;
