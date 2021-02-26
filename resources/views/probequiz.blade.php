@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Probe Quiz | PROBE 2020</title>
+	<title>Probe Quiz | PROBE 2021</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	@if ($name = session('name'))
@@ -106,7 +106,7 @@ background-image:url(../images/backract.png);">
 		<h3 class="subheader"><b>Description</b></h3>
 	</header>
             <p>Do you pride yourself in your knowledge of Tronix-Trivia? Can you shout out the answer and get it right? There is a strategy behind every game. Come down with a strategy and be prepared to change it, as this event has a lot in store for you. </p>
-			<p>Probe 2020 presents, Probe Quiz. Get prepared to be "shocked" by the intense competition and stay "grounded" enough to win it. </p>
+			<p>PROBE 2021 presents, Probe Quiz. Get prepared to be "shocked" by the intense competition and stay "grounded" enough to win it. </p>
             <header class="minor">
 				<h3 class="subheader"><b>Important Dates</b></h3>
 			</header>
@@ -155,7 +155,7 @@ background-image:url(../images/backract.png);">
 
 <footer id="footer">
 	<ul class="copyright">
-		<li>&copy; PROBE 2020. All rights reserved.</li>
+		<li>&copy; PROBE 2021. All rights reserved.</li>
 	</ul>
 </footer>
 

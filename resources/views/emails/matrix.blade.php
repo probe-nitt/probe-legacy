@@ -5,7 +5,7 @@
     </head>
     <body>
         <div>
-            <p>Greetings from Probe 2020 Events Team!</p>
+            <p>Greetings from PROBE 2021 Events Team!</p>
         </div>
         <div>
             <p>Please find attached the questionnaire for Matrix event. </p>
@@ -13,7 +13,7 @@
             <p>Deadline for sending the filled questionnaire is 24th January 2020. </p>
         </div>
 
-        <p>Thanks for your interest in Probe 2020!</p>
+        <p>Thanks for your interest in PROBE 2021!</p>
         <p>Team Probe</p>
     </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Dr. A. Chockalingam | PROBE 2020</title>
+	<title>Dr. A. Chockalingam | PROBE 2021</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	@if ($name = session('name'))
@@ -106,7 +106,7 @@ background-image:url(../images/backract.png);">
 		<h3 class="subheader"><b>Description</b></h3>
 	</header>
             <p>Dr. Rao is an authority in, and has acquired over thirty years of experience, in the fields of Antennas, RF and Electromagnetics. A lifelong academic, Dr Rao has been involved in several key design and development projects at eminent organisations such as ISRO and SAMEER-CEM (Chennai). Having over a hundred papers in IEEE and IEE, he had served as the Vice Chair at IEEE-AP, Chennai Chapter (2013-2015) and is a senior member of the IEEE. </p>
-            <p>We at PROBE, NIT Trichy, are extremely proud and happy to announce Dr. Rao as the chief guest for the inauguration of PROBE 2020. Be sure to attend the inauguration on the 31st of January at the EEE Auditorium between 1:30 PM to 4:30 PM.</p>
+            <p>We at PROBE, NIT Trichy, are extremely proud and happy to announce Dr. Rao as the chief guest for the inauguration of PROBE 2021. Be sure to attend the inauguration on the 31st of January at the EEE Auditorium between 1:30 PM to 4:30 PM.</p>
             <header class="minor">
 				<h3 class="subheader"><b>Date</b></h3>
 			</header>
@@ -128,7 +128,7 @@ background-image:url(../images/backract.png);">
 <!-- Footer -->
 <footer id="footer">
 	<ul class="copyright">
-		<li>&copy; PROBE 2020. All rights reserved.</li>
+		<li>&copy; PROBE 2021. All rights reserved.</li>
 	</ul>
 </footer>
 

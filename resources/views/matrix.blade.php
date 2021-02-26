@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Matrix | PROBE 2020</title>
+	<title>Matrix | PROBE 2021</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	@if ($name = session('name'))
@@ -105,7 +105,7 @@ background-image:url(../images/backract.png);">
 	<header class="minor">
 		<h3 class="subheader"><b>Description</b></h3>
 	</header>
-            <p>MATLAB’s usage is increasing in a variety of domains- validation of algorithms, modelling of digital and analog circuits, simulations in microwave and RF antenna design, digital signal processing, filter designs, and so on. Probe 2020 presents the MATLAB coding contest - Matrix. Test your MATLAB coding skills and code away to glory. </p>
+            <p>MATLAB’s usage is increasing in a variety of domains- validation of algorithms, modelling of digital and analog circuits, simulations in microwave and RF antenna design, digital signal processing, filter designs, and so on. PROBE 2021 presents the MATLAB coding contest - Matrix. Test your MATLAB coding skills and code away to glory. </p>
             <header class="minor">
 				<h3 class="subheader"><b>Important Dates</b></h3>
 			</header>
@@ -130,7 +130,7 @@ background-image:url(../images/backract.png);">
 				<ol>
 				<li>Register with a maximum of 3 members per team at probe.org.in/events/matrix. Questionnaire will be sent to the registered email ID.</li>
 				<li>Submit the answers to the questionnaire before the deadline via email to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></li>
-				<li>Shortlisted teams will have finals during Probe 2020 at NIT-Trichy. Finals will involve tasks, for which problem statements will be announced on spot. </li>
+				<li>Shortlisted teams will have finals during PROBE 2021 at NIT-Trichy. Finals will involve tasks, for which problem statements will be announced on spot. </li>
 				</ol>
 
 			<header class="minor">
@@ -163,7 +163,7 @@ background-image:url(../images/backract.png);">
 
 <footer id="footer">
 	<ul class="copyright">
-		<li>&copy; PROBE 2020. All rights reserved.</li>
+		<li>&copy; PROBE 2021. All rights reserved.</li>
 	</ul>
 </footer>
 

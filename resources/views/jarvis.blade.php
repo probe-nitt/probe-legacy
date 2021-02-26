@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Build your own J.A.R.V.I.S. (NLP) | PROBE 2020</title>
+	<title>Build your own J.A.R.V.I.S. (NLP) | PROBE 2021</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	@if ($name = session('name'))
@@ -195,7 +195,7 @@ background-image:url(../images/backract.png);">
 <!-- Footer -->
 <footer id="footer">
 	<ul class="copyright">
-		<li>&copy; PROBE 2020. All rights reserved.</li>
+		<li>&copy; PROBE 2021. All rights reserved.</li>
 	</ul>
 </footer>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Probe It! | PROBE 2020</title>
+	<title>Probe It! | PROBE 2021</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	@if ($name = session('name'))
@@ -105,7 +105,7 @@ background-image:url(../images/backract.png);">
 	<header class="minor">
 		<h3 class="subheader"><b>Description</b></h3>
 	</header>
-            <p>Probe It, one of the online quizzing events of Probe 2020, was a grand success, both in terms of the overwhelming amount of responses, and the enthusiasm for the questions. </p>
+            <p>Probe It, one of the online quizzing events of PROBE 2021, was a grand success, both in terms of the overwhelming amount of responses, and the enthusiasm for the questions. </p>
 			<p>The questions not only brought out the inquisitiveness in participants, but also assisted them to delve deep and know about the latest tech used in blockbuster films like Spiderman, Robot etc. </p>
 			<p>Be it domains like wireless communication, VLSI or the real life electronic gadgets, the quiz had got them all!</p>
             <header class="minor">
@@ -128,7 +128,7 @@ background-image:url(../images/backract.png);">
 <!-- Footer -->
 <footer id="footer">
 	<ul class="copyright">
-		<li>&copy; PROBE 2020. All rights reserved.</li>
+		<li>&copy; PROBE 2021. All rights reserved.</li>
 	</ul>
 </footer>
 

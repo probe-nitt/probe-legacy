@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Qualcomm Ideathon | PROBE 2020</title>
+	<title>Qualcomm Ideathon | PROBE 2021</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	@if ($name = session('name'))
@@ -141,7 +141,7 @@ background-image:url(../images/backract.png);">
 				<ol>
 				<li>Register with a maximum of 2 members per team at probe.org.in/events/ideathon.</li>
 				<li>Submit the abstract of the idea before the deadline via email to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></li>
-				<li>Shortlisted teams will have finals during Probe 2020 at NIT-Trichy. During the finals the ideas will be judged by an eminent panel from Qualcomm.</li>
+				<li>Shortlisted teams will have finals during PROBE 2021 at NIT-Trichy. During the finals the ideas will be judged by an eminent panel from Qualcomm.</li>
 				</ol>
 
 			<header class="minor">
@@ -175,7 +175,7 @@ background-image:url(../images/backract.png);">
 
 <footer id="footer">
 	<ul class="copyright">
-		<li>&copy; PROBE 2020. All rights reserved.</li>
+		<li>&copy; PROBE 2021. All rights reserved.</li>
 	</ul>
 </footer>
 
