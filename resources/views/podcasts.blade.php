@@ -94,7 +94,7 @@
 			<h5 id="title">Probe FM 55.5</h5>	
 		</div>
         <div id="events">
-            <div class="econtainer">
+            <div class="econtainer podcast-content">
 				<h5 style="font-size: 2rem;">Dr. S. Dasgupta</h5>
 				<img src="/images/PODCASTS/dasGupta.png" >
 				<p>Dr. S. Dasgupta is currently a Professor and the Head of the department of Electronics and Communication Engineering at IIT Roorkee. He has authored more than 250 research papers in peer-reviewed international journals and conferences. He is a member of various prestigious institutions like EDS, ISTE and Institute of Nanotechnology, UK. He is also a DAAD and Erasmus Mundus scholar. In this podcast he shares his wisdom about the future course of technology with us!<br>
@@ -123,7 +123,7 @@
 		</div>
 
 		<div id="events">				
-            <div class="econtainer">
+            <div class="econtainer podcast-content">
 				<h5 style="font-size: 2rem;">Sai Kamal</h5>
 				<img src="/images/PODCASTS/saiKamal.jpg" >
 				<p>Mr Sai Kamal is an ongoing masters student specialising in VLSI and computer engineering at Purdue University. He had previously worked on developing state of the art NPUs (Neuromorphic Processing Units) in Samsung Research Institute Bangalore for 2 years. He worked with the Microsoft BING FPGA engineering team, on improving the efficiency of Neural Function Unit (NFU) last summer. Listen from the ex-chairman of Probe himself on how the experiences in college helped in shaping his career and also about his journey from the corporate world to Purdue.<br>

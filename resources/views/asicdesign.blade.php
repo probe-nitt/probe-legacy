@@ -105,7 +105,7 @@
         <p>In our college time, we get practice in modelling circuits in HDL, create software simulations, trying out breadboard implementations and so on. Have you ever wondered how does any project idea transforms into a physical  product to reach the hands of a customer? What does a digital design engineer do to change a typical design in paper into a device satisfying requirements in the industry? </p>
 		<p>Explore the world of semi- custom IC design with Marvell Technology, where you will learn the ASIC design concepts and the paradigms in the physical design.</p>
 
-<h1 data-splitting>Important Dates</h1>
+    <h1 data-splitting>Workshop details</h1>
 
     <ul>
 		<li>Date: 13-03-2021</li>
@@ -116,27 +116,26 @@
         <li>Team: Individual</li>
 	</ul>
 
-<h1 data-splitting>FAQ's</h1>
+<h1 data-splitting id="faq-header">FAQ</h1>
 
-
-            <ul>
-                <li>1.What is the format of the workshop?</li>
-                <li>Workshop is conducted in Microsoft Teams, before the workshop every participant will be added into teams, all the meetings and discussion will be done in Microsoft Teams. </li>
-                <li>2.How should the workshop fee be paid? And will the fee be refunded in case I fail to attend?</li>
-				<li>It should be paid online. Fees once paid is strictly non-refundable. Requests for refund will not be encouraged.</li>
-				<li>3.Is this limited to a particular branch or year?</li>
-				<li>No. Any undergraduate or postgraduate student from any year can participate.</li>
-                <li>4.Can I pay you directly if we miss the deadline of payment in the worst case?</li>
-				<li>No. The payments have to be done online. Only after the payment is done you can participate in the workshop</li>
-				<li>5.Is it a certified course?</li>
-                <li>Yes. The participants will be given certificates from Probe and the company on completion of the workshop</li>
-				<li>6.How do we receive the certificate?</li>
-				<li>After the completion of the workshop certificate will be mailed to participants.</li>
-            </ul>
+            <ol>
+                <li>What is the format of the workshop?</li>
+                <span class='answer-faq'>Workshop is conducted in Microsoft Teams, before the workshop every participant will be added into teams, all the meetings and discussion will be done in Microsoft Teams. </span>
+                <li>How should the workshop fee be paid? And will the fee be refunded in case I fail to attend?</li>
+				<span class='answer-faq'>It should be paid online. Fees once paid is strictly non-refundable. Requests for refund will not be encouraged.</span>
+				<li>Is this limited to a particular branch or year?</li>
+				<span class='answer-faq'>No. Any undergraduate or postgraduate student from any year can participate.</span>
+                <li>Can I pay you directly if we miss the deadline of payment in the worst case?</li>
+				<span class='answer-faq'>No. The payments have to be done online. Only after the payment is done you can participate in the workshop</span>
+				<li>Is it a certified course?</li>
+                <span class='answer-faq'>Yes. The participants will be given certificates from Probe and the company on completion of the workshop</span>
+				<li>How do we receive the certificate?</li>
+				<span class='answer-faq'>After the completion of the workshop certificate will be mailed to participants.</span>
+            </ol>
             
             
 
-<h1 data-splitting>Contacts</h1>
+            <h1 data-splitting class='contact-workshop'>Contacts</h1>
 			<p>Vishwas: 7382548724</p>
 			<p>Mukesh: 8608419656</p>
 
@@ -146,23 +145,23 @@
     <br>
     @if($regbool==0)
     <div class="wrap">
-            
-                <a class="button" id="buttonz" href="/workshops/register?workshop=ASIC%20and%20Physical%20Design">Register</a>
+                <h1 data-splitting id="reg-message">Limited Registrations!</h1>
+                <a class="button reg-btn" id="buttonz" href="/workshops/register?workshop=asicdesign">Register</a>
             
             </div>
     @endif
     @if($regbool==1 && $ispaid==0 )
     <div class="wrap">
-               
-               <a class="button" id="buttonz" href="/workshops/register?workshop=ASIC%20and%20Physical%20Design">Make payment</a>
+                <h1 data-splitting id="reg-message">Limited Registrations!</h1>
+               <a class="button pay-btn" id="buttonz" href="/workshops/register?workshop=asicdesign">Make payment</a>
             
     </div>
     @endif
 
     @if($regbool==1 && $ispaid==1 )
     <div class="wrap">
-               
-               <a class="button" id="buttonz" href="#">Registered Successfully</a>
+    <h1 data-splitting id="reg-message">Registered Successfully</h1>
+    <a class="button" id="buttonz" href='/instructions/Data Acquisition and Processing Instructions.pdf' download>Download instructions</a>
             
     </div>
     @endif
@@ -241,8 +240,6 @@
 <script src="{{ asset('js/jquery-2.1.3.min.js') }}"></script>
 <script src="{{ asset('js/plugins.js') }}"></script>
 <script src="{{ asset('js/index.js') }}"></script>
-<script src="{{ asset('js/particles.js') }}"></script>
-<script src="{{ asset('js/app.js') }}"></script>
 
 <!-- CDNs for splitting.js and scroll-out.js -->
 <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>

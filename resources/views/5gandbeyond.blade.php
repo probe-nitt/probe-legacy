@@ -22,7 +22,6 @@
    <link rel="stylesheet" href="{{ asset('css/events.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/login.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/eventsnew.css') }}"  />
-
    <!-- Link sheets for splitting -->
    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
     <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
@@ -36,7 +35,6 @@
 	================================================== -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-
 </head>
 
 <body id="top">
@@ -104,7 +102,7 @@
 <h1 data-splitting>Description</h1>
         <p>Are you enthralled by the evolution of G's in the field of communication? Do you want to know more about the buzz words 5G, Machine Learning and their relations with the wireless domain? Buckle up as Probe '21 brings you Demystifying Wireless Communication: 5G and Beyond workshop by Chandhar Research Labs. You will be learning how wireless technologies evolved with the Generations, from concepts in 2G till 5G, to practical experiments with signals captured from your home's nearby cellular towers! You will also be taken through the application of Deep Learning(DL) in RF systems for signal classification. Various DL models will be explained and used for a hands-on RF signal processing session.</p>
 
-<h1 data-splitting>Important Dates</h1>
+<h1 data-splitting>Workshop details</h1>
 
     <ul>
 		<li>Date: 13-03-2021 to 14-03-2021</li>
@@ -115,33 +113,33 @@
         <li>Team: Individual</li>
 	</ul>
 
-<h1 data-splitting>FAQ's</h1>
+<h1 data-splitting id="faq-header">FAQ</h1>
 
 
-            <ul>
-                <li>1) Are there any prerequisites?</li>
-                <li>Yes, you need to be familiar with python programming. </li>
-                <li>2) What is the format of the workshop?</li>
-                <li>The workshop is conducted for two days in Microsoft Teams. Before the workshop, every participant will be added into teams, all the meetings and discussion will be done in Microsoft Teams. </li>
-                <li>3) What are the requirements for the workshop?</li>
-                <li>Every participant should have a smartphone for 4G measurements, Laptop/Computer for running Python programs and Kaggle account for running DL experiments. </li>
-                <li>4) How should the workshop fee be paid? And will the fee be refunded in case I fail to attend?</li>
-                <li>It should be paid online. Fees once paid is strictly non-refundable. Requests for a refund will not be encouraged</li>
-                <li>5) Is this limited to a particular branch or year?</li>
-                <li>No. Any undergraduate or postgraduate student from any year can participate.</li>
-                <li>6) What are the required software to be installed?</li>
-                <li>No software installation is required everything will be done in Kaggle</li>
-                <li>7) Can I pay you directly if we miss the deadline of payment in the worst case?</li>
-                <li>No. The payments have to be done online. Only after the payment is done you can participate in the workshop.</li>
-                <li>8) Is it a certified course?</li>
-                <li>Yes. The participants will be given certificates from the Probe and the company on completion of the workshop.</li>
-                <li>9) How do we receive the certificate?</li>
-                <li>After the completion of the workshop certificate will be mailed to participants.</li>
+            <ol>
+                <li>Are there any prerequisites?</li>
+                <span class='answer-faq'>Yes, you need to be familiar with python programming. </span>
+                <li>What is the format of the workshop?</li>
+                <span class='answer-faq'>The workshop is conducted for two days in Microsoft Teams. Before the workshop, every participant will be added into teams, all the meetings and discussion will be done in Microsoft Teams. </span>
+                <li>What are the requirements for the workshop?</li>
+                <span class='answer-faq'>Every participant should have a smartphone for 4G measurements, Laptop/Computer for running Python programs and Kaggle account for running DL experiments. </span>
+                <li>How should the workshop fee be paid? And will the fee be refunded in case I fail to attend?</li>
+                <span class='answer-faq'>It should be paid online. Fees once paid is strictly non-refundable. Requests for a refund will not be encouraged</span>
+                <li>Is this limited to a particular branch or year?</li>
+                <span class='answer-faq'>No. Any undergraduate or postgraduate student from any year can participate.</span>
+                <li>What are the required software to be installed?</li>
+                <span class='answer-faq'>No software installation is required everything will be done in Kaggle</span>
+                <li>Can I pay you directly if we miss the deadline of payment in the worst case?</li>
+                <span class='answer-faq'>No. The payments have to be done online. Only after the payment is done you can participate in the workshop.</span>
+                <li>Is it a certified course?</li>
+                <span class='answer-faq'>Yes. The participants will be given certificates from the Probe and the company on completion of the workshop.</span>
+                <li>How do we receive the certificate?</li>
+                <span class='answer-faq'>After the completion of the workshop certificate will be mailed to participants.</span>
             </ul>
             
             
 
-<h1 data-splitting>Contacts</h1>
+<h1 data-splitting class='contact-workshop'>Contacts</h1>
 
 			<p>Vishwas: 7382548724</p>
 			<p>Mukesh: 8608419656</p>
@@ -152,15 +150,15 @@
     <br>
     @if($regbool==0)
     <div class="wrap">
-            
-                <a class="button" id="buttonz" href="/workshops/register?workshop=5G%20AND%20Beyond">Register</a>
+                <h1 data-splitting id="reg-message">Limited Registrations!</h1>
+                <a class="button reg-btn" id="buttonz" href="/workshops/register?workshop=5gandbeyond">Register</a>
             
             </div>
     @endif
     @if($regbool==1 && $ispaid==0 )
     <div class="wrap">
-               
-               <a class="button" id="buttonz" href="/workshops/register?workshop=5G%20AND%20Beyond">Make payment</a>
+               <h1 data-splitting id="reg-message">Limited Registrations!</h1>
+               <a class="button pay-btn" id="buttonz" href="/workshops/register?workshop=5gandbeyond">Make payment</a>
             
     </div>
     @endif
@@ -168,7 +166,8 @@
     @if($regbool==1 && $ispaid==1 )
     <div class="wrap">
                
-               <a class="button" id="buttonz" href="#">Registered Successfully</a>
+    <h1 data-splitting id="reg-message">Registered Successfully</h1>
+    <a class="button" id="buttonz" href='/instructions/Data Acquisition and Processing Instructions.pdf' download>Download instructions</a>
             
     </div>
     @endif
@@ -247,8 +246,6 @@
 <script src="{{ asset('js/jquery-2.1.3.min.js') }}"></script>
 <script src="{{ asset('js/plugins.js') }}"></script>
 <script src="{{ asset('js/index.js') }}"></script>
-<script src="{{ asset('js/particles.js') }}"></script>
-<script src="{{ asset('js/app.js') }}"></script>
 
 <!-- CDNs for splitting.js and scroll-out.js -->
 <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>

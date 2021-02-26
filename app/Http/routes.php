@@ -374,7 +374,7 @@ Route::get('/workshops/makeathon', function () {
 });
 
 Route::get('/workshops/asicdesign', function () {
-    $event = "ASIC and Physical Design";
+    $event = "asicdesign";
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,'PROBE20');
@@ -453,7 +453,7 @@ Route::get('/workshops/mazebot', function () {
 
 
 Route::get('/workshops/cpudesign', function () {
-    $event = "CPU Design";
+    $event = "cpudesign";
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,'PROBE20');
@@ -494,7 +494,7 @@ Route::get('/workshops/cpudesign', function () {
 
 
 Route::get('/workshops/5gandbeyond', function () {
-    $event = "5G AND Beyond";
+    $event = "5gandbeyond";
 
     $pid = Session::get('pid');
     //$uid = (int)ltrim($pid,'PROBE20');

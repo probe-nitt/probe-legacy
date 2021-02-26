@@ -3189,7 +3189,7 @@ footer h4.h05::after {
 
 @media only screen and (max-width: 414px){
   .econtainer{
-    height: 910px;
+    height: 1000px;
     display: flex;
     justify-content: center;
     padding-left: 0;
@@ -3197,7 +3197,9 @@ footer h4.h05::after {
   .econtainer p{
     font-size: 1.75rem;
   }
-
+  .podcast-content {
+    height: 1100px;
+  }
 
 }
 
@@ -3222,5 +3224,11 @@ footer h4.h05::after {
   }
   .econtainer p{
     font-size: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 545px){
+  #image-tech {
+   margin-top: 20rem; 
   }
 }

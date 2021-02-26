@@ -25,7 +25,8 @@ body {
 }
 
 .page {
-  max-width: 65%;
+  max-width: 75%;
+  padding-left: 10px;
   margin: auto;
   position: relative;
   overflow: hidden;
@@ -90,13 +91,13 @@ body, html {
 }
 
 .wrap {
-  height: 30%;
+  flex-direction: column;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  transform: translateX(160px);
   text-align: center;
   padding-bottom: 10px;
+  margin-right: 12vw;
 }
 
 .buttonz {
@@ -163,5 +164,31 @@ body, html {
   }
 }
 
+ .answer-faq {
+  color: rgba(255, 255, 255, 0.6);
+ }
 
+ .contact-workshop {
+     margin-top: 25px;
+ }
+
+ @media screen and (max-width: 700px) {
+  .wrap {
+    margin-top: 2vh;
+    align-items: center;
+    margin-right: 0;
+  }
+}
+#reg-message {
+  font-size: 2.5rem;
+  padding: 0 3rem;
+}
+
+.wrap .reg-btn {
+  margin: 0 8rem;
+}
+
+.wrap .pay-btn {
+  margin: 0 5rem;
+}
 /*# sourceMappingURL=eventsnew.css.map */
