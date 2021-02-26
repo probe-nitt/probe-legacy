@@ -94,7 +94,7 @@
 			<h5 id="title">Probe FM 55.5</h5>	
 		</div>
         <div id="events">
-            <div class="econtainer podcast-content">
+            <div class="econtainer larger-box">
 				<h5 style="font-size: 2rem;">Dr. S. Dasgupta</h5>
 				<img src="/images/PODCASTS/dasGupta.png" >
 				<p>Dr. S. Dasgupta is currently a Professor and the Head of the department of Electronics and Communication Engineering at IIT Roorkee. He has authored more than 250 research papers in peer-reviewed international journals and conferences. He is a member of various prestigious institutions like EDS, ISTE and Institute of Nanotechnology, UK. He is also a DAAD and Erasmus Mundus scholar. In this podcast he shares his wisdom about the future course of technology with us!<br>
@@ -103,7 +103,7 @@
 			</div>
 		</div>
 		<div id="events">				
-			<div class="econtainer">
+			<div class="econtainer larger-box">
 				<h5 style="font-size: 2rem;">Dr. Chandani Anand</h5>
 				<img src="/images/PODCASTS/chandini.jpg" >
 				<p>Dr. Chandani Anand is an engineer working at the Samsung Semiconductor R&D Institute, Bengaluru, India. She earned her Ph.D. degree from the Electrical Engineering Department at IIT Delhi. She has designed and tested multiple prototype image sensors for time-of-flight 3D cameras during her Ph.D. They are one of the first indigenous attempts towards developing depth sensing cameras in modern day smartphones. Tune in to listen to her experiences and learnings in life!<br>

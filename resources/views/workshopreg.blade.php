@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>{{ $workshop }} Registration | PROBE 2021</title>
+		<title>Workshop Registration | PROBE 2021</title>
 		<meta name="description" content="">  
 		<meta name="author" content="">
 

@@ -70,7 +70,9 @@ body, html {
 
 .hero-nav h1 {
   color: #efefef;
-  font-size: 5vw;
+  font-size: 3vw;
+  text-align: center;
+  margin: auto;
   z-index: 100;
 }
 
@@ -177,6 +179,11 @@ body, html {
     margin-top: 2vh;
     align-items: center;
     margin-right: 0;
+  }
+  .hero-nav h1 {
+    width: 85%;
+    font-size: 4vw;
+    width: 65%;
   }
 }
 #reg-message {

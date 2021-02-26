@@ -43,7 +43,7 @@
 <div id="particles-js"></div>
 <div class="hero-nav">
     <div class="hero-nav__inner">
-        <h1>Mazebot</h1>
+        <h1>MAZEBOT WORKSHOP</h1>
     </div>
 </div>
 	<!-- header 

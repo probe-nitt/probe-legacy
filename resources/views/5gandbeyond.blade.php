@@ -41,7 +41,7 @@
 <div id="particles-js"></div>
 <div class="hero-nav">
     <div class="hero-nav__inner">
-        <h1>5G AND Beyond</h1>
+        <h1>WIRELESS COMMUNICATION: 5G AND BEYOND WORKSHOP BY CHANDHAR RESEARCH LABS</h1>
     </div>
 </div>
 	<!-- header 

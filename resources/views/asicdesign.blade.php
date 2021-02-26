@@ -43,7 +43,7 @@
 <div id="particles-js"></div>
 <div class="hero-nav">
     <div class="hero-nav__inner">
-        <h1>ASIC & Physical Design</h1>
+        <h1 style="text-align:center;">ASIC & PHYSICAL DESIGN WORKSHOP BY MARVELL TECHNOLOGY</h1>
     </div>
 </div>
 	<!-- header 

@@ -3201,8 +3201,11 @@ footer h4.h05::after {
   .econtainer p{
     font-size: 1.75rem;
   }
-  .podcast-content {
+  .larger-box {
     height: 1100px;
+  }
+  .podcast-content {
+    height: 1200px;
   }
 
 }
