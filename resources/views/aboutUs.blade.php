@@ -186,7 +186,7 @@
 	</section>
 		<!-- footer
    ================================================== -->
-   <footer>
+   <footer id="contacts">
 
 	<div class="footer-main">
 
@@ -203,7 +203,7 @@
 
 		 <div class="col-three tab-full footer-social">
 
-			 <h4 class="h05">Follow Us.</h4>
+			 <h4 class="h05">Follow us</h4>
 
 			 <ul class="list-links">
 				 <li><a href="#">Facebook</a></li>

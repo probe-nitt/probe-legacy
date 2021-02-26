@@ -59,7 +59,7 @@
 		  	<span class="header-menu-icon"></span>
 		</a> 
 
-		<nav id="menu-nav-wrap">
+				<nav id="menu-nav-wrap">
 
 			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
 
@@ -75,22 +75,22 @@
 					<li><a class="login-button button"  href="/login">Log in</a></li>
 				@endif
 				<li class="current"><a href="/" title="">Home</a></li>
-				<li><a href="/about" title="">About</a></li>
-				<li><a href="/events" title="">Events</a></li>
+				<li><a href="/#services" title="">About</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
-				<li><a href="/lectures" title="">Guest Lectures</a></li>
-				<li><a href="/gallery" title="">Gallery</a></li>
-				<li><a href="/contact" title="">Contact</a></li>
+				<li><a title="">Events (Coming Soon)</a></li>
+				<li><a href="/podcasts" title="">Podcasts</a></li>
+				<li><a href="#contacts" title="">Contact Us</a></li>
+
 			</ul>	
 			<ul style="text-align:center;" class="header-social-list">
 	         <li>
-	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	         	<a href="https://www.facebook.com/Probe.NITT/" target="_blank" ><i class="fa fa-facebook-square"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-twitter"></i></a>
+	         	<a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" ><i class="fa fa-linkedin"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-instagram"></i></a>
+	         	<a href="https://www.instagram.com/probe.nitt/" target="_blank" ><i class="fa fa-instagram"></i></a>
 			 </li>  
 	      </ul>		
 			
@@ -175,7 +175,7 @@
     @endif
     	<!-- footer
    ================================================== -->
-   <footer>
+   <footer id="contacts">
 
 <div class="footer-main">
 
@@ -195,7 +195,7 @@
 
      <div class="col-three tab-full footer-social">
 
-         <h4 class="h05">Follow Us.</h4>
+         <h4 class="h05">Follow us</h4>
 
          <ul class="list-links">
              <li><a href="https://www.facebook.com/Probe.NITT/" target="_blank" >Facebook</a></li>
@@ -207,7 +207,7 @@
 
      <div class="col-four tab-full footer-subscribe end">
 
-         <h4 class="h05">Stay up to date.</h4>
+         <h4 class="h05">Stay up to date</h4>
 
          <p>Take a look at our <a href="https://medium.com/probe-nit-trichy">blog</a>.</p>
                     

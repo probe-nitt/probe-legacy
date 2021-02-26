@@ -112,7 +112,7 @@
 	</section>
 		<!-- footer
    ================================================== -->
-   <footer>
+ 	<footer id="contacts">
 
      	<div class="footer-main">
 
@@ -132,7 +132,7 @@
 
 	      	<div class="col-three tab-full footer-social">
 
-	      		<h4 class="h05">Follow Us.</h4>
+	      		<h4 class="h05">Follow us</h4>
 
 	      		<ul class="list-links">
 	      			<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank" >Facebook</a></li>
@@ -144,7 +144,7 @@
 
 	      	<div class="col-four tab-full footer-subscribe end">
 
-	      		<h4 class="h05">Stay up to date.</h4>
+	      		<h4 class="h05">Stay up to date</h4>
 
 	      		<p>Take a look at our <a href="https://medium.com/probe-nit-trichy">blog</a>.</p>
 	      	           	
