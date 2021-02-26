@@ -32,7 +32,7 @@
 
 </head>
 
-
+<div id="particles-js"></div>
 
 <body id="top">
 
@@ -99,7 +99,7 @@
            @if ($message = session('message'))
                 <p style="text-align: center;">{{ $message }}</p>
             @endif
-   			<h5>Registration</h5>
+   			<h5 id="title">Registration</h5>
 
             <!-- form -->
             <form name="registerForm" id="registerForm" method="POST" action="{{action('UserController@register')}}" >     			
@@ -127,7 +127,7 @@
                <label for="sampleInput" style="color: white;">Gender</label>
                <div class="form-field">
                   <div class="ss-custom-select" style="color: white;">
-                     <input type="text" name="gender" list="Gender" class="full-width" id="sampleRecipientInput" required="">
+                     <input type="text" name="gender" list="Gender" class="full-width" placeholder="Gender" id="sampleRecipientInput" required="">
                      <datalist id="Gender">
                         <option value="Female"></option>
                         <option value="Male"></option>
@@ -150,7 +150,7 @@
                <label for="sampleInput" style="color: white;">Year of Study</label>
                <div class="form-field">
                   <div class="ss-custom-select" style="color: white;">
-                     <input type="text" name="yos" list="Year" class="full-width" id="sampleRecipientInput" required="">
+                     <input type="text" name="yos" list="Year" class="full-width" placeholder="Year" id="sampleRecipientInput" required="">
                      <datalist id="Year">
                         <option value="1st"></option>
                         <option value="2nd"></option>
@@ -171,7 +171,7 @@
             </label>
 
             <div class="form-field">
-               <button class="submitform" type="submit" value="Register">Sign In</button>
+               <button class="submitform" type="submit" value="Register">Register</button>
 
                <div id="submit-loader">
                   <div class="text-loader">Sending...</div>                             

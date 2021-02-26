@@ -91,7 +91,7 @@
 
 	<section id="cards">
 		<div id="events">
-			<h5 style="font-size: 5rem;">CONTACTS</h5>	
+			<h5 id="title">CONTACTS</h5>	
         </div>
         @if ($message = session('message'))
             <p style="text-align: center;">{{ $message }}</p>

@@ -106,6 +106,11 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 2.1rem;
 }
 
+h5#title {
+  font-family: "lovelo-light", sans-serif;
+  font-size: 3.6rem;
+}
+
 h3, .h03, h4, .h04 {
   margin-bottom: 1.8rem;
 }
@@ -2510,7 +2515,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #contact {
   background-color: #111111;
-  padding: 24rem 0 0;
+  padding: 10rem 0 0;
   position: relative;
   
 }
@@ -2611,7 +2616,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   width: 100%;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 3.6rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(40, 40, 40);
 }
 
 #contact input[type="text"]:focus,
@@ -2802,16 +2807,6 @@ footer {
   width: 100%; 
   height: 1750px;;
   z-index: 1;
-}
-
-@media only screen and (max-height: 900px){
-  #particles-js{
-
-    display: none;
-    height: auto;
-  }
-
-
 }
 
 footer a, footer a:visited {

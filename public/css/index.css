@@ -1135,7 +1135,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.5rem;
 }
 .section-intro h1 {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "lovelo-light", serif;
   font-size: 4.8rem;
   line-height: 1.375;
   color: #151515;
@@ -1980,12 +1980,24 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #services .services-list .icon i {
   font-size: 5.4rem;
   color: #f9a828;
+  transform: scale(1.2);
+	transition: all 500ms ease-in;
 }
+
+#services .service-item:hover .icon i {
+  color: #fff;
+}
+
 #services .services-list .h05 {
   font-size: 1.7rem;
   line-height: 1.765;
   color: #FFFFFF;
   margin-bottom: 3rem;
+	transition: all 500ms ease-in;
+}
+
+#services .service-item:hover .h05 {
+	text-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
 }
 
 /* ------------------------------------------------------------------- 

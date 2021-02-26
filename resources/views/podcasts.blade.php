@@ -91,7 +91,7 @@
 
 	<section id="cards">
 		<div id="events">
-			<h5 style="font-size: 5rem;">Probe FM 55.5</h5>	
+			<h5 id="title">Probe FM 55.5</h5>	
 		</div>
         <div id="events">
             <div class="econtainer">

@@ -40,3 +40,13 @@
   font-style: normal;
   font-weight: normal;
 }
+
+/*
+ * Lovelo
+================================================================================ */
+@font-face {
+	font-family: "lovelo-light";
+	src: url("../fonts/lovelo/Lovelo\ Line\ Light.otf");
+	font-style: normal;
+	font-weight: normal;
+}

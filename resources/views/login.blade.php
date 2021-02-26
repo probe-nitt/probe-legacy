@@ -97,7 +97,7 @@
 
    		<div class="col-seven tab-full animate-this">
 
-   			<h5>Sign In</h5>
+   			<h5 id="title">Sign In</h5>
 
 			<!-- form -->
 			@if ($message = session('message'))
@@ -106,11 +106,11 @@
             <form name="loginForm" id="loginForm"  method="POST" action="{{action('UserController@login')}}">		
 
                <div class="form-field">
-			   			<input type="email" name="email" id="email" required />
+			   			<input type="email" name="email" id="email" placeholder="Enter your email" required />
                </div>
                                          
                <div class="form-field">
-                  <input name="password" type="password" id="password" placeholder="password" value="" minlength="8" required="">
+                  <input name="password" type="password" id="password" placeholder="Enter the password" value="" minlength="8" required="">
               </div> 
 
                <div class="form-field">

@@ -91,7 +91,7 @@
 
 	<section id="cards">
 		<div id="events">
-			<h5 style="font-size: 5rem;">Events</h5>	
+			<h5 id="title">Events</h5>	
 		</div>
 		<div id="events">				
 			<div class="econtainer">

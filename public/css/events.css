@@ -109,6 +109,10 @@ h3, .h03, h4, .h04 {
 h5, .h05, h6, .h06 {
   margin-bottom: 1.2rem;
 }
+h5#title {
+  font-family: "lovelo-light", sans-serif;
+  font-size: 3.6rem;
+}
 
 h1, .h01 {
   font-size: 3.1rem;
@@ -3019,7 +3023,7 @@ footer h4.h05::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 170px;
+  margin: 60px 0;
   gap: 50px;
 }
 
@@ -3067,7 +3071,6 @@ footer h4.h05::after {
   line-height: 4rem;
   color: #a1a1a1;
   text-align: justify;
-  position: absolute;
   width: 80%; 
   padding-right: 4rem;
 }
@@ -3077,8 +3080,6 @@ footer h4.h05::after {
   font-size: 2rem;
   line-height: 4rem;
   color: #dfdede;
-  position: absolute;
-  bottom: 0;
   padding-bottom: 2rem;
 }
 
