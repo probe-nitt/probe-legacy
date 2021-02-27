@@ -142,26 +142,6 @@
          </div> <!-- end col-seven --> 
 
    	</div> <!-- end row contact-content -->
-		
-	</section> <!-- end contact -->
-
-
- 
-         <ul class="home-social-list">
-           <li class="animate-intro">
-                 <a href="#"><i class="fa fa-facebook-square"></i></a>
-           </li>
-           <li class="animate-intro">
-                 <a href="#"><i class="fa fa-twitter"></i></a>
-           </li>
-           <li class="animate-intro">
-                 <a href="#"><i class="fa fa-instagram"></i></a>
-           </li>	      
-        </ul> <!-- end home-social-list -->	
- 
-         			
-    
-    </section> <!-- end home -->
 
     <div id="preloader"> 
     	<div id="loader"></div>

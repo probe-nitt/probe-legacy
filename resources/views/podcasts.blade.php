@@ -124,7 +124,7 @@
 
 		<div id="events">				
             <div class="econtainer">
-				<h5 style="font-size: 2rem;">Sai Kamal</h5>
+				<h5 style="font-size: 2rem;">Mr. Sai Kamal</h5>
 				<img src="/images/PODCASTS/saiKamal.jpg" >
 				<p>Mr Sai Kamal is an ongoing masters student specialising in VLSI and computer engineering at Purdue University. He had previously worked on developing state of the art NPUs (Neuromorphic Processing Units) in Samsung Research Institute Bangalore for 2 years. He worked with the Microsoft BING FPGA engineering team, on improving the efficiency of Neural Function Unit (NFU) last summer. Listen from the ex-chairman of Probe himself on how the experiences in college helped in shaping his career and also about his journey from the corporate world to Purdue.<br>
 				</p>
