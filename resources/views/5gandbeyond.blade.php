@@ -43,6 +43,12 @@
     <div class="hero-nav__inner">
         <h1>WIRELESS COMMUNICATION: 5G AND BEYOND WORKSHOP BY CHANDHAR RESEARCH LABS</h1>
     </div>
+    <div class="hero-nav__broughtby">
+        <span>brought to you by</span>
+        <a href="https://in.micron.com/" target="_blank">
+            <img src="/images/Micron_whitelogo.png">
+        </a>
+    </div>
 </div>
 	<!-- header 
    ================================================== -->

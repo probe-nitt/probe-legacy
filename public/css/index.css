@@ -1504,6 +1504,12 @@ header .header-logo a {
     height: 50px;
     background-size: 50px 50px;
   }
+  header .header-presents span {
+    font-size: 12px;
+  }
+  header .header-presents img {
+    height: 25px;
+  }
 }
 @media only screen and (max-width: 400px) {
   #header-menu-trigger .header-menu-text {
@@ -1629,10 +1635,11 @@ header .header-logo a {
 .home-social-list li a, .home-social-list li a:visited {
   color: #FFFFFF;
 }
+
 .home-social-list li a:hover, 
 .home-social-list li a:focus, 
 .home-social-list li a:active {
-  color: #151515;
+  text-shadow: 0 0 4px white;
 }
 
 /* scroll down */
@@ -1652,7 +1659,7 @@ header .header-logo a {
   padding-left: 9px;
 }
 .scrolldown a:hover, .scrolldown a:focus, .scrolldown a:active {
-  color: #151515 !important;
+  text-shadow: 0 0 4px white !important;
 }
 
 html[data-useragent*='MSIE 10.0'] .scrolldown,
@@ -1700,6 +1707,42 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 /* ------------------------------------------------------------------- 
+ * header - Presented by - (_layout.css) 
+ * ------------------------------------------------------------------- */
+ .header-presents {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "montserrat-bold", sans-serif;
+  display:table;
+  margin: auto;
+}
+
+.header-presents a {
+  text-decoration: none;
+}
+
+.header-presents img {
+  height: 50px;
+  display:table-cell;
+  vertical-align:middle;
+  transition: all 500ms ease;
+}
+
+.header-presents img:hover {
+  transform: scale(1.1);
+}
+
+.header-presents span {
+  color: white;
+  display:table-cell;
+  vertical-align:middle;
+  padding: 0 5px;
+  padding-top: 3px;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+/* ------------------------------------------------------------------- 
  * responsive:
  * home section 
  * ------------------------------------------------------------------- */
@@ -1710,6 +1753,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-content-tablecell h1 {
     font-size: 7rem;
   }
+  .header-presents span {
+    font-size: 2rem;
+  }
+  .header-presents img {
+    height: 45px;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .home-content-tablecell h3 {
@@ -1717,6 +1766,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
   .home-content-tablecell h1 {
     font-size: 6rem;
+  }  
+  .header-presents span {
+    font-size: 1.7rem;
+  }
+  .header-presents img {
+    height: 40px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1737,6 +1792,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     left: 36px;
     bottom: 30px;
     font-size: 2.1rem;
+
   }
   .home-social-list::before {
     height: 30px;
@@ -1746,6 +1802,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 1.2rem;
     top: 24px;
     right: 10px;
+  }
+  .header-presents span {
+    font-size: 1.5rem;
+  }
+  .header-presents img {
+    height: 30px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1980,7 +2042,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #services .services-list .icon i {
   font-size: 5.4rem;
   color: #f9a828;
-  transform: scale(1.2);
 	transition: all 500ms ease-in;
 }
 

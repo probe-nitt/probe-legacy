@@ -41,9 +41,9 @@
    ================================================== -->
    <header> 
 
-   	<div class="header-logo">
-	      <a href="/">Probe</a>
-	   </div> 
+		<div class="header-logo">
+			<a href="/">Probe</a>
+		</div>
 
 		<a id="header-menu-trigger" href="#0">
 		 	<span class="header-menu-text">Menu</span>
@@ -100,7 +100,16 @@
 		   <div class="home-content-tablecell">
 		   	<div class="row">
 		   		<div class="col-twelve">		   			
-			  		
+				   <div class="header-presents">
+						<a href="https://www.nitt.edu/home/academics/departments/ece/ece_association/" target="_blank">
+							<img src="/images/ECEA_whitelogo.png">
+						</a>
+						<span>and</span>
+						<a href="https://in.micron.com/" target="_blank">
+							<img src="/images/Micron_whitelogo.png">
+						</a>
+						<span>presents<span>
+					</div>
 					   <h1 class="animate-intro">
 						   Probe
 						</h1>	

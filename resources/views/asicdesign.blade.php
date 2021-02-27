@@ -45,6 +45,12 @@
     <div class="hero-nav__inner">
         <h1 style="text-align:center;">ASIC & PHYSICAL DESIGN WORKSHOP BY MARVELL TECHNOLOGY</h1>
     </div>
+    <div class="hero-nav__broughtby">
+        <span>brought to you by</span>
+        <a href="https://in.micron.com/" target="_blank">
+            <img src="/images/Micron_whitelogo.png">
+        </a>
+    </div>
 </div>
 	<!-- header 
    ================================================== -->

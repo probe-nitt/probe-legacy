@@ -76,6 +76,31 @@ body, html {
   z-index: 100;
 }
 
+.hero-nav .hero-nav__broughtby {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: table
+}
+
+.hero-nav .hero-nav__broughtby span {
+  font-size: 12px;
+  font-family: "montserrat-bold", sans-serif;
+  vertical-align:middle;
+  color: #efefef;
+}
+
+.hero-nav .hero-nav__broughtby img {
+  height: 25px;
+  vertical-align:middle;
+  margin-bottom: 3px;
+  transition: all 500ms ease;
+}
+
+.hero-nav .hero-nav__broughtby img:hover {
+  transform: scale(1.2);
+}
+
 .hero-nav:before {
   content: "";
   background: rgba(0, 0, 0, 0);
@@ -90,6 +115,10 @@ body, html {
 
 .hero-nav.fixme:before {
   background: rgba(0, 0, 0, 0.8);
+}
+
+.hero-nav.fixme .hero-nav__broughtby {
+  display: none;
 }
 
 .wrap {

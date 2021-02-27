@@ -45,6 +45,12 @@
     <div class="hero-nav__inner">
         <h1>MAZEBOT WORKSHOP</h1>
     </div>
+    <div class="hero-nav__broughtby">
+        <span>brought to you by</span>
+        <a href="https://in.micron.com/" target="_blank">
+            <img src="/images/Micron_whitelogo.png">
+        </a>
+    </div>
 </div>
 	<!-- header 
    ================================================== -->
@@ -132,7 +138,7 @@
                 <li>Is this limited to a particular branch or year?</li>
                 <span class='answer-faq'>No. Any undergraduate or postgraduate student from any year can participate.</span>
                 <li>What are the required softwares to be installed?</li>
-                <span class='answer-faq'>Click here for installation guide.</span>
+                <span class='answer-faq'>Installation guide will be available after payment is complete.</span>
                 <li>Can I pay you directly if we miss the deadline of payment in the worst case?</li>
                 <span class='answer-faq'>No. The payments have to be done online. Only after the payment is done you can participate in the workshop.</span>
                 <li>Is it a certified course?</li>
