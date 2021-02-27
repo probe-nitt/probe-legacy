@@ -161,7 +161,7 @@ body, html {
   opacity: 1;
 }
 
-#buttonz::after {
+/* #buttonz::after {
   content: '';
   width: 30px; height: 30px;
   border-radius: 100%;
@@ -172,7 +172,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   animation: ring 1.5s infinite;
-}
+} */
 
 #buttonz:hover::after, #buttonz:focus::after {
   animation: none;
