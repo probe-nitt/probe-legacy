@@ -8,7 +8,7 @@
    ================================================== -->
    <meta charset="utf-8">
 	<title>Probe</title>
-	<meta name="description" content="">  
+	<meta name="description" content="The Annual Technical Symposium of the Department of Electronics and Communication Engineering, NIT Trichy">  
 	<meta name="author" content="">
 
    <!-- mobile specific metas
@@ -216,8 +216,7 @@
    				<!-- <h3>Services</h3> -->
    			   <h1>About Us</h1>
    			
-   			   <p class="lead">Probe is the Annual International Technical Symposium of the Department of ECE, NIT Trichy. It's the biggest ECE symposium in India, 
-					where it creates a learning platform in the latest fields and trends related to electronics and communication.</p>
+   			   <p class="lead">Probe is the annual technical symposium of the department of Electronics and Communication Engineering, NIT Trichy. The international level symposium hosts a variety of workshops, technical contests, quizzes, guest lectures by industrial experts and academia, and tech talks to help bridging the gap between classroom learning and the latest trends across the spectrum of fields in Electronics and Communication.</p>
    			
    	   </div> <!-- end col-full -->
    	</div> <!-- end row -->
