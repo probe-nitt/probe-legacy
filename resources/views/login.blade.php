@@ -69,7 +69,8 @@
 				<li class="current"><a href="/" title="">Home</a></li>
 				<li><a href="/#services" title="">About</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
-				<li><a title="">Events (Coming Soon)</a></li>
+				<li><a href="/events" title="">Events</a></li>
+				<li><a href="/lectures" title="">Guest Lectures</a></li>
 				<li><a href="/podcasts" title="">Podcasts</a></li>
 				<li><a href="#contacts" title="">Contact Us</a></li>
 

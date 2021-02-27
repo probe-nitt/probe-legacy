@@ -56,13 +56,14 @@ Route::get('/podcasts', function () {
 //     return view('sponsors');
 // });
 
-// Route::get('/events', function () {
-//     return view('event');
-// });
+Route::get('/events', function () {
+    return view('comingsoon');
+});
 
-// Route::get('/lectures', function() {
-//     return view('lectures');
-// });
+Route::get('/lectures', function() {
+    // return view('lectures');
+    return view('comingsoon');
+});
 
 Route::get('/workshops', function () {
     return view('workshops');

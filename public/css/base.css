@@ -823,3 +823,25 @@ textarea {
   color: white !important;
   line-height: 4.8rem;
 }
+
+.coming-soon-container {
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title.coming-soon-msg {
+  font-size: 10rem;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  #title.coming-soon-msg {
+    font-size: 7rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  #title.coming-soon-msg {
+    font-size: 5rem;
+  }
+}
