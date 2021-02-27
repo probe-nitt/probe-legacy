@@ -7,7 +7,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Workshops | PROBE 2021</title>
+	<title>Coming Soon | PROBE 2021</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 

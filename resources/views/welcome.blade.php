@@ -109,7 +109,7 @@
 						<a href="https://in.micron.com/" target="_blank">
 							<img src="/images/Micron_whitelogo.png">
 						</a>
-						<span>presents<span>
+						<span>present<span>
 					</div>
 					   <h1 class="animate-intro">
 						   Probe
