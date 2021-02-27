@@ -97,7 +97,7 @@
 		<div id="events">				
 			<div class="econtainer">
 				<h5>ASIC and Physical Design Workshop by Marvell Technology</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
+				<img src="/images/ICONS/IC.png" >
 				<p> Explore the world of semi - custom IC design with Marvell Technology, where you will learn the ASIC design concepts and the paradigms in the physical design<br></p>
 				<span>
 					Registration deadline: 11-03-2021<br>
@@ -109,7 +109,7 @@
 		<div id="events">				
 			<div class="econtainer">
 				<h5>Wireless Communication: 5G and beyond Workshop by chandhar research labs</h5>
-				<img id="image-tech" src="/images/EVENTS/bullseye.jpg" >
+				<img id="image-tech" src="/images/ICONS/5G.png" >
 				<p>Buckle up as Probe '21 brings you Demystifying Wireless Communication: 5G and Beyond workshop by Chandhar Research Labs. Learn how wireless technologies evolved with the Generations, from 2G to 5G and application of Deep Learning in RF systems.<br></p>
 					<span>
 						Registration deadline: 11-03-2021<br>
@@ -121,7 +121,7 @@
 		<div id="events">
 			<div class="econtainer">
 				<h5>Cpu design using verilog Workshop</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
+				<img src="/images/ICONS/CPU.png" >
 				<p>Ever wondered what goes on under the hood of a core i5 processor? Probe '21 presents to you, the CPU Design workshop. Here we take you on a journey which teaches you not only the basics of computer architecture, but also the programming behind it all<br></p>
 					<span>
 						Registration deadline: 11-03-2021<br>
@@ -133,7 +133,7 @@
 		<div id="events">
 			<div class="econtainer">
 				<h5>Mazebot Workshop</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
+				<img src="/images/ICONS/MAZEBOT.png" >
 				<p>Mazebot from Probe NITT teaches you the basics of Python and mobile robotics to build a line follower bot which can solve line mazes.<br></p>
 					<span>
 						Registration deadline: 11-03-2021<br>
