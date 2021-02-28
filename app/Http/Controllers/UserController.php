@@ -532,8 +532,11 @@ class UserController extends Controller
         try{
             Log::info($request);
             Log::info($request->getContent());
-            $data = json_decode($request->getContent());
-            $data = $data->data;            
+            Log::info($request->get('data'));
+            $json_string = urldecode($request->get('data'));
+            Log::info(urldecode($request->get('data')));
+            $data = json_decode(urldecode($request->get('data')));
+            // $data = $data->data;   
             if(is_array($data)){
                 Log::info("Multiple Coming");
 
