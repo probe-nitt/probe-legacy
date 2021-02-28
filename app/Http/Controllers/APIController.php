@@ -123,7 +123,7 @@ class APIController extends Controller
                'url' => $url
             ])->render();
 
-            $this->sendMailSG($email, "PROBE'20 Registration", $content);
+            $this->sendMailSG($email, "PROBE'21 Registration", $content);
             
             return JSONResponse::response(200, 'Registration Successful!');
 
@@ -215,7 +215,7 @@ class APIController extends Controller
            'url' => $url
         ])->render();
 
-        $this->sendMailSG($email, "PROBE'20 Website Password Change", $content);
+        $this->sendMailSG($email, "PROBE'21 Website Password Change", $content);
         
         return JSONResponse::response(200, 'Email has been sent');
 

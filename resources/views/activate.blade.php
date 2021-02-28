@@ -17,9 +17,6 @@
             <li>Your Probe ID is : <b>{{ $pid }}</b></li>
         </ul>
 
-        <p>The registration fee, accommodation fee and caution deposit is to be paid in person during Probe.</p>
-        <p>Please bring valid Institute ID proof to complete the registration process during Probe.</p>
-
         <p>Thank you</p>
         <p>Team Probe</p>
     </body>

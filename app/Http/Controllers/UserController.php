@@ -114,7 +114,7 @@ class UserController extends Controller
             'url' => $url
         ])->render();
 
-        $this->sendMailSG($email, "PROBE'20 Registration", $content);
+        $this->sendMailSG($email, "PROBE'21 Registration", $content);
 
         Session::flash('message', 'You have successfully registered for Probe 2021. Please check your mail for instructions on account activation and activate your account before logging in');
         return redirect('/login');
@@ -390,14 +390,14 @@ class UserController extends Controller
             $content = View::make('emails.matrix')->render();
 
             $attachmentPath = public_path('prelimsDocs/Matrix Prelims.docx');
-            $this->sendAttachmentMailSG($email, "PROBE'20 Matrix Event Prelims", $content, $attachmentPath, "Matrix Prelims.docx", "application/vnd.ms-word");
+            $this->sendAttachmentMailSG($email, "PROBE'21 Matrix Event Prelims", $content, $attachmentPath, "Matrix Prelims.docx", "application/vnd.ms-word");
         }
 
         if($event=="tronICs") {
             $content = View::make('emails.tronics')->render();
 
             $attachmentPath = public_path('prelimsDocs/tronICs Prelims.docx');
-            $this->sendAttachmentMailSG($email, "PROBE'20 tronICs Event Prelims", $content, $attachmentPath, "tronICs Prelims.docx", "application/vnd.ms-word");
+            $this->sendAttachmentMailSG($email, "PROBE'21 tronICs Event Prelims", $content, $attachmentPath, "tronICs Prelims.docx", "application/vnd.ms-word");
         }
 
         $reg = new EventRegs;
