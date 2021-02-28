@@ -71,7 +71,6 @@
 				<li><a href="/events" title="">Events</a></li>
 				<li><a href="/lectures" title="">Guest Lectures</a></li>
 				<li><a href="/podcasts" title="">Podcasts</a></li>
-				<li><a href="/sponsors" title="">Sponsors</a></li>
 				<li><a href="#contacts" title="">Contact Us</a></li>
 
 			</ul>	
@@ -99,20 +98,22 @@
                 <h5>TITLE SPONSOR</h5>
 				<img src="/images/micron_logo.png" style="width: 100%;
   height: auto;
-  max-width: 40vw;" >
+  max-width: 50vw;" >
 		</div>
 
         <div id="events" style="display:flex; flex-direction:column;">				
                 <h5>WORKSHOP SPONSORS</h5>
-				<img src="/images/marvell_logo.png" style="width: 100%;
-  height: auto;
-  max-width: 40vw;" >
+				
 		</div>
 
-        <div id="events" style="display:flex; flex-direction:column;">				
+        <div id="events" style="display:flex; flex-direction:row;">				
 			<img src="/images/crl_logo.png" style="width: 100%;
   height: auto;
-  max-width: 40vw; margin-bottom:20vh;" >
+  max-width: 30vw; margin-bottom:0vh;" >
+             
+			 <img src="/images/marvell_logo.png" style="width: 100%;
+  height: auto;
+  max-width: 30vw;" >
 		</div>
 		
 	</section>
