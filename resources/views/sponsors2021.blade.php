@@ -7,7 +7,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Coming Soon | PROBE 2021</title>
+	<title>Sponsors | PROBE 2021</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
@@ -91,10 +91,30 @@
 
 	</header> <!-- end header --> 
 
-	<section id="cards" class="coming-soon-container">
+	<section id="cards">
 		<div id="events">
-			<h5 id="title" class="coming-soon-msg">COMING SOON...</h5>
+			<h5 id="title">Sponsors</h5>
 		</div>
+		<div id="events" style="display:flex; flex-direction:column;">				
+                <h5>TITLE SPONSOR</h5>
+				<img src="/images/micron_logo.png" style="width: 100%;
+  height: auto;
+  max-width: 40vw;" >
+		</div>
+
+        <div id="events" style="display:flex; flex-direction:column;">				
+                <h5>WORKSHOP SPONSORS</h5>
+				<img src="/images/marvell_logo.png" style="width: 100%;
+  height: auto;
+  max-width: 40vw;" >
+		</div>
+
+        <div id="events" style="display:flex; flex-direction:column;">				
+			<img src="/images/crl_logo.png" style="width: 100%;
+  height: auto;
+  max-width: 40vw; margin-bottom:20vh;" >
+		</div>
+		
 	</section>
 		<!-- footer
    ================================================== -->

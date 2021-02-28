@@ -52,9 +52,9 @@ Route::get('/podcasts', function () {
 //     return view('techtalk');
 // });
 
-// Route::get('/sponsors', function () {
-//     return view('sponsors');
-// });
+Route::get('/sponsors', function () {
+    return view('sponsors2021');
+ });
 
 Route::get('/events', function () {
     return view('comingsoon');
