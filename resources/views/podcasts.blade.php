@@ -96,9 +96,9 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer">
-				<h5>Anil Agarwal</h5>
+				<h5>Mr Anil Agarwal</h5>
 				<img src="/images/podcastPerson.jpg" >
-				<p>Director, NVM SSD<br></p>
+				<p>Director, NVM SSD Micron Technology, Inc<br></p>
 				<span>
 					<div>
 						<span class="micron-present">brought to you by</span>
@@ -107,7 +107,7 @@
 						</a>
 					</div>
 				</span>
-				<button class="LM"><a class="LM" href="#">Listen</a></button>
+				<button class="LM"><a class="LM" href="#">Coming Soon</a></button>
 			</div>
 		</div>
         <div id="events">

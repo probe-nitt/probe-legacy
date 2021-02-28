@@ -97,7 +97,7 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer">
-				<h5>Demonstrate role of  Memory in  Computing System<br><i>Partha Parthasarathy-Director, Device Technology</i></h5>
+				<h5>Demonstrating the role of Memory in Computing System by<br>Mr Partha Parthasarathy, <i> Director, Device Technology, Micron Technology, Inc</i></h5>
 				
 				<img src="/images/companyWorkshop.jpg" >
 				<p><br></p>

@@ -96,15 +96,16 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer">
-				<h5>The Fab Way—Manufacturing the new buzz word, shaping the business and semiconductor ecosystem across the world<br><i>Howard  Chua- Sr.Director- TSE- NAND/MNAND</i>
-					<br><i>Parag Mohanty- Sr.Manager</i>
-					<br><i>Sarita Yadav- Manager</i>
+				<h5>The Fab Way—Manufacturing the new buzz word, shaping the business and semiconductor ecosystem across the world by
+					<br>Mr Howard  Chua, <i>Sr.Director, TSE - NAND/MNAND, Micron Technology, Inc</i>
+					<br>Mr Parag Mohanty, <i>Sr.Manager, Micron Technology, Inc</i>
+					<br>Mr Sarita Yadav, <i>Manager, Micron Technology, Inc</i>
 				</h5>
 				
 				<img src="/images/companyg1.jpg" >
 				<p><br></p>
 				<span>
-					Date: 13-03-2021 [11:00 AM]
+					Date: 13-03-2021, 11:00 AM
 					<div>
 						<span class="micron-present">brought to you by</span>
 						<a href="https://in.micron.com/" target="_blank">
@@ -117,13 +118,13 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer">
-				<h5>Art of Data Science
-					<br><i>Koushik Raghavan-Director Data Science</i>
+				<h5>Art of Data Science by
+					<br>Mr Koushik Raghavan, <i>Director Data Science, Micron Technology, Inc</i>
 				</h5>
 				<img src="/images/micron_logo.png" >
 				<p><br></p>
 				<span>
-					Date: 12-03-2021 [7:00 PM]
+					Date: 12-03-2021, 7:00 PM
 					<div>
 						<span class="micron-present">brought to you by</span>
 						<a href="https://in.micron.com/" target="_blank">
@@ -136,8 +137,8 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer">
-				<h5>Introduction to NAND FLASH
-					<br><i>Kalyan Kavalipurapu- Sr.Design Manager</i>
+				<h5>Introduction to NAND FLASH by
+					<br>Mr Kalyan Kavalipurapu, <i>Sr.Design Manager, Micron Technology, Inc</i>
 				</h5>
 				<img src="/images/companyg3.jpg" >
 				<p><br></p>
