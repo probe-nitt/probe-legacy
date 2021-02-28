@@ -61,8 +61,8 @@ Route::get('/events', function () {
 });
 
 Route::get('/lectures', function() {
-    // return view('lectures');
-    return view('comingsoon');
+    return view('lectures');
+    // return view('comingsoon');
 });
 
 Route::get('/workshops', function () {

@@ -3254,7 +3254,20 @@ footer h4.h05::after {
     font-size: 1.75rem;
   }
 }
-
+.econtainer .micron-present {
+  font-size: 15px;
+  font-family: "montserrat-bold", sans-serif;
+  color: #efefef;
+  position: unset;
+  padding: 0;
+}
+.econtainer .micron-img {
+  position: unset;
+  height: 25px;
+  width: 75px;
+  vertical-align: middle;
+  margin: 0 0 3px 0;
+}
 /* @media only screen and (max-width: 545px){
   #image-tech {
    margin-top: 20rem; 

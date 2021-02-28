@@ -97,6 +97,24 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer">
+				<h5>Demonstrate role of  Memory in  Computing System<br><i>Partha Parthasarathy-Director, Device Technology</i></h5>
+				
+				<img src="/images/companyWorkshop.jpg" >
+				<p><br></p>
+				<span>
+					<div>
+						<span class="micron-present">brought to you by</span>
+						<a href="https://in.micron.com/" target="_blank">
+							<img class="micron-img" src="/images/Micron_whitelogo.png">
+						</a>
+					</div>
+					Date: 13-03-2021 [2:00 PM]
+				</span>
+				<button class="LM" ><a href="#">Coming soon</a></button>
+			</div>
+		</div>
+		<div id="events">				
+			<div class="econtainer">
 				<h5>ASIC and Physical Design Workshop by Marvell Technology</h5>
 				<img src="/images/ICONS/IC.png" >
 				<p> Explore the world of semi - custom IC design with Marvell Technology, where you will learn the ASIC design concepts and the paradigms in the physical design<br></p>

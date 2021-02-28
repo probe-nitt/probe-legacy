@@ -96,84 +96,104 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Lecture topic</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					 <span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
+				<h5>The Fab Way—Manufacturing the new buzz word, shaping the business and semiconductor ecosystem across the world<br><i>Howard  Chua- Sr.Director- TSE- NAND/MNAND</i>
+					<br><i>Parag Mohanty- Sr.Manager</i>
+					<br><i>Sarita Yadav- Manager</i>
+				</h5>
+				
+				<img src="/images/companyg1.jpg" >
+				<p><br></p>
+				<span>
+					Date: 13-03-2021 [11:00 AM]
+					<div>
+						<span class="micron-present">brought to you by</span>
+						<a href="https://in.micron.com/" target="_blank">
+							<img class="micron-img" src="/images/Micron_whitelogo.png">
+						</a>
+					</div>
+				</span>
+				<button class="LM" ><a href="#">Coming soon</a></button>
 			</div>
 		</div>
-		<div id="events">
-			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Lecture topic</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
-			</div>
-		</div>
-		<div id="events">
-			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Lecture topic</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
-			</div>
-		</div>
-
 		<div id="events">				
 			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Lecture topic</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
+				<h5>Art of Data Science
+					<br><i>Koushik Raghavan-Director Data Science</i>
+				</h5>
+				<img src="/images/micron_logo.png" >
+				<p><br></p>
+				<span>
+					Date: 12-03-2021 [7:00 PM]
+					<div>
+						<span class="micron-present">brought to you by</span>
+						<a href="https://in.micron.com/" target="_blank">
+							<img class="micron-img" src="/images/Micron_whitelogo.png">
+						</a>
+					</div>
+				</span>
+				<button class="LM" ><a href="#">Coming soon</a></button>
 			</div>
 		</div>
-		<div id="events">
+		<div id="events">				
 			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Lecture topic</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
-			</div>
-		</div>
-		<div id="events">
-			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Lecture topic</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
+				<h5>Introduction to NAND FLASH
+					<br><i>Kalyan Kavalipurapu- Sr.Design Manager</i>
+				</h5>
+				<img src="/images/companyg3.jpg" >
+				<p><br></p>
+				<span>
+					Date: 14-03-2021 [4:00 PM]
+					<div>
+						<span class="micron-present">brought to you by</span>
+						<a href="https://in.micron.com/" target="_blank">
+							<img class="micron-img" src="/images/Micron_whitelogo.png">
+						</a>
+					</div>
+				</span>
+				<button class="LM" ><a href="#">Coming soon</a></button>
 			</div>
 		</div>
 
+		<!-- <div id="events">				
+			<div class="econtainer">
+				<h5 style="font-size: 2rem;">Lecture topic</h5>
+				<img src="/images/EVENTS/bullseye.jpg" >
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore 
+					magna aliqua. Ut enim ad minim veniam, quis nostrud 
+					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+					<span>Number of Attendees: </span>#<br>
+					<span>Date:</span> dd-mm-yyyy</p>
+				<button class="LM">Learn More</button>
+			</div>
+		</div>
+		<div id="events">
+			<div class="econtainer">
+				<h5 style="font-size: 2rem;">Lecture topic</h5>
+				<img src="/images/EVENTS/bullseye.jpg" >
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore 
+					magna aliqua. Ut enim ad minim veniam, quis nostrud 
+					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+					<span>Number of Attendees: </span>#<br>
+					<span>Date:</span> dd-mm-yyyy</p>
+				<button class="LM">Learn More</button>
+			</div>
+		</div>
+		<div id="events">
+			<div class="econtainer">
+				<h5 style="font-size: 2rem;">Lecture topic</h5>
+				<img src="/images/EVENTS/bullseye.jpg" >
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore 
+					magna aliqua. Ut enim ad minim veniam, quis nostrud 
+					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+					<span>Number of Attendees: </span>#<br>
+					<span>Date:</span> dd-mm-yyyy</p>
+				<button class="LM">Learn More</button>
+			</div>
+		</div> -->
+		
 	</section>
 		<!-- footer
    ================================================== -->
