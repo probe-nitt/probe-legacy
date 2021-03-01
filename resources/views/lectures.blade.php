@@ -95,15 +95,14 @@
 			<h5 id="title">Guest Lectures</h5>
 		</div>
 		<div id="events">				
-			<div class="econtainer">
-				<h5>The Fab Way—Manufacturing the new buzz word, shaping the business and semiconductor ecosystem across the world by
-					<br>Mr Howard  Chua, <i>Sr.Director, TSE - NAND/MNAND, Micron Technology, Inc</i>
+			<div class="econtainer big">
+				<h5>Mr Howard  Chua, <i>Sr.Director, TSE - NAND/MNAND, Micron Technology, Inc</i>
 					<br>Mr Parag Mohanty, <i>Sr.Manager, Micron Technology, Inc</i>
 					<br>Mr Sarita Yadav, <i>Manager, Micron Technology, Inc</i>
 				</h5>
 				
 				<img src="/images/companyg1.jpg" >
-				<p><br></p>
+				<p>What does it take to establish a fab, procure manufacturing machines and battle with the growing demand and reducing cycle times to successfully run it? Probe '21 is elated to bring you a guest lecture by Mr. Howard Chua, Senior Director, Device Technology at Micron Technology on the <i class="lecture-name">"The Fab way - Manufacturing the new buzz word, shaping the business and semiconductor ecosystem across the world"</i>. Tune in to the guest lecture on 13th March at 11:00 AM as he elucidates the importance of the fabrication business and the challenges in providing state-of-the-art chipsets to the ecosystem. Click below to register for the guest lecture.<br></p>
 				<span>
 					Date: 13-03-2021, 11:00 AM
 					<div>
@@ -117,12 +116,11 @@
 			</div>
 		</div>
 		<div id="events">				
-			<div class="econtainer">
-				<h5>Art of Data Science by
-					<br>Mr Koushik Raghavan, <i>Director Data Science, Micron Technology, Inc</i>
+			<div class="econtainer big">
+				<h5>Mr Koushik Raghavan, <i>Director Data Science, Micron Technology, Inc</i>
 				</h5>
 				<img src="/images/micron_logo.png" >
-				<p><br></p>
+				<p>Data, data everywhere, not a way to make sense. Does this feeling puzzle you when you hear about data science?  Probe '21 in association with Micron Technology is thrilled to announce the guest lecture by Dr. Koushik Raghavan, the Director of AI, ML and Data Science division at Micron. He has developed his expertise in the fields of product management, machine learning and data science with 10+ years of experience. He has played a key role in defining products for next-generation Industrial IoT sensors when he was the Director of COE for Data Science and Machine Learning at Flicq. Witness him dispelling the fears and shining a guiding light about the <i class="lecture-name">“Art of Data Science”</i>, where he will share his experience in the field of data science and machine learning at 7:00 PM on 12th of March. Find the link to register for the guest lecture below.<br></p>
 				<span>
 					Date: 12-03-2021, 7:00 PM
 					<div>
@@ -136,14 +134,17 @@
 			</div>
 		</div>
 		<div id="events">				
-			<div class="econtainer">
-				<h5>Introduction to NAND FLASH by
-					<br>Mr Kalyan Kavalipurapu, <i>Sr.Design Manager, Micron Technology, Inc</i>
+			<div class="econtainer big">
+				<h5>Mr Kalyan Kavalipurapu, <i>Sr.Design Manager, Micron Technology, Inc</i>
 				</h5>
 				<img src="/images/companyg3.jpg" >
-				<p><br></p>
+				<p>We are delighted to announce a Guest Lecture with Mr. Kalyan Kavalipurapu on "Introduction to NAND Flash". Mr. Kavalipurapu is a Senior NAND Design Manager at Micron Technology, Hyderabad. 
+
+After graduating with Masters degree in Electrical Engineering from Arizona State University, he joined Micron in July 2006. He has an experience of over 14 years in analog design domain. He was responsible for designing state of the art both high voltage and low voltage NAND flash products at Micron. 
+
+Be there to <i class="lecture-name">dive into the world of NAND flash memory</i> with Mr. Kavalipurapu on 14th March at 4:00pm. Click below to register for the guest lecture.<br></p>
 				<span>
-					Date: 14-03-2021 [4:00 PM]
+					Date: 14-03-2021, 4:00 PM
 					<div>
 						<span class="micron-present">brought to you by</span>
 						<a href="https://in.micron.com/" target="_blank">

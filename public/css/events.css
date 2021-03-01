@@ -3039,6 +3039,11 @@ footer h4.h05::after {
   background-color: #111111;
 }
 
+.big {
+  height: 550px;
+}
+
+
 .podcastecontainer{
   position: relative;
   height: 500px;
@@ -3120,15 +3125,20 @@ footer h4.h05::after {
     width: 90%;
 
   }
-
+  .big {
+    height: 600px;
+  }
 
 }
 
 
 @media only screen and (max-width: 1025px) {
   .econtainer{
-    height: 350px;
+    height: 550px;
 
+  }
+  .big {
+    height: 650px;
   }
   .econtainer p{
     padding-right: 8rem;
@@ -3273,3 +3283,11 @@ footer h4.h05::after {
    margin-top: 20rem; 
   }
 } */
+
+.lecture-name {
+  font-size: 2rem;
+  font-style: normal;
+  color: #dfdede;
+  font-weight: 800;
+  font-family: "montserrat", sans-serif;
+}
