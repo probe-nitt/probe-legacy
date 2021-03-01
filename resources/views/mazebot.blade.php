@@ -110,7 +110,7 @@
     
 
 <h1 data-splitting>Description</h1>
-        <p>Ever wondered "Oh! This maze is so hard to pass"? We from the Probe NITT team have got a solution for you as modern problems require a modern solution:). We, as imminent engineers, love to solve it differently! This month beat the boredom and learn something cool. This 3 day-long workshop named "Mazebot" from Probe NITT teaches you the basics of Python and mobile robotics to build a line follower bot to solve line mazes. All in a price of Rs.200.</p>
+        <p>Ever wondered "Oh! This maze is so hard to pass"? We from the Probe NITT team have got a solution for you as modern problems require a modern solution:). We, as imminent engineers, love to solve it differently! This month beat the boredom and learn something cool. This 3 day-long workshop named "Mazebot" from Probe NITT teaches you the basics of Python and mobile robotics to build a line follower bot to solve line mazes. All in a price of Rs.150.</p>
 
 <h1 data-splitting>Workshop details</h1>
 
@@ -121,7 +121,7 @@
         Timings: 5:30PM to 9:00PM (Day 0) <br>
            	     9:00AM to 5:00PM (Day 1,2)
         </li>
-        <li>Fee : 200/-</li>
+        <li>Fee : 150/-</li>
         <li>Platform: Microsoft Teams</li>
         <li>Team: Individual</li>
 	</ul>

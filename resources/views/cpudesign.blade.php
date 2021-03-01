@@ -123,7 +123,7 @@
            	     9:00AM to 5:00PM (Day 1,2)
         </li>
 
-        <li>Fee : 250/-</li>
+        <li>Fee : 150/-</li>
         <li>Platform: Microsoft Teams</li>
         <li>Team: Individual</li>
 	</ul>

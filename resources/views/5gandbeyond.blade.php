@@ -115,7 +115,7 @@
 		<li>Date: 13-03-2021 to 14-03-2021</li>
         <li>Duration: 2 day</li>
         <li>Timings: 9:00AM to 5:00PM </li>
-        <li>Fee : 250/-</li>
+        <li>Fee : 200/-</li>
         <li>Platform: Microsoft Teams</li>
         <li>Team: Individual</li>
 	</ul>
