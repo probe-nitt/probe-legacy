@@ -100,7 +100,7 @@
 				<h5>Demonstrating the role of Memory in Computing System by<br>Mr Partha Parthasarathy, <i> Director, Device Technology, Micron Technology, Inc</i></h5>
 				
 				<img src="/images/companyWorkshop.jpg" >
-				<p><br></p>
+				<p>Learn about how computer memory organisation and faster access are becoming a necessity in the modern world with a sharply rising need for data analysing and  processing, and how the industry is tackling the challenges associated.<br></p>
 				<span>
 					<div>
 						<span class="micron-present">brought to you by</span>
@@ -108,7 +108,7 @@
 							<img class="micron-img" src="/images/Micron_whitelogo.png">
 						</a>
 					</div>
-					Date: 13-03-2021 [2:00 PM]
+					Date: 13-03-2021, 2:00 PM
 				</span>
 				<button class="LM" ><a href="#">Coming soon</a></button>
 			</div>

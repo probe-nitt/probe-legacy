@@ -96,9 +96,9 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer">
-				<h5>Mr Anil Agarwal</h5>
+				<h5>Mr. Anil Agarwal</h5>
 				<img src="/images/podcastPerson.jpg" >
-				<p>Director, NVM SSD Micron Technology, Inc<br></p>
+				<p>Mr. Anil Agarwal is the Director of NVM System Quality and Reliability division at Micron Technology, Bangalore. After doing his masters study in Electrical Engineering at IIT Roorkie, he equipped himself with adequate industrial knowledge to rise from an application engineer to the Director of Quality and Reliability Engineering at SanDisk. He has a decade of experience in system design, quality and reliability engineering. Probe'21 in association with Micron presents Mr. Anil Agarwal for the upcoming podcast. Stay tuned!<br></p>
 				<span>
 					<div>
 						<span class="micron-present">brought to you by</span>

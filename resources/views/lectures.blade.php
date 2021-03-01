@@ -117,7 +117,7 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer big">
-				<h5>Mr Koushik Raghavan, <i>Director Data Science, Micron Technology, Inc</i>
+				<h5>Dr Koushik Raghavan, <i>Director Data Science, Micron Technology, Inc</i>
 				</h5>
 				<img src="/images/micron_logo.png" >
 				<p>Data, data everywhere, not a way to make sense. Does this feeling puzzle you when you hear about data science?  Probe '21 in association with Micron Technology is thrilled to announce the guest lecture by Dr. Koushik Raghavan, the Director of AI, ML and Data Science division at Micron. He has developed his expertise in the fields of product management, machine learning and data science with 10+ years of experience. He has played a key role in defining products for next-generation Industrial IoT sensors when he was the Director of COE for Data Science and Machine Learning at Flicq. Witness him dispelling the fears and shining a guiding light about the <i class="lecture-name">“Art of Data Science”</i>, where he will share his experience in the field of data science and machine learning at 7:00 PM on 12th of March. Find the link to register for the guest lecture below.<br></p>
@@ -138,11 +138,11 @@
 				<h5>Mr Kalyan Kavalipurapu, <i>Sr.Design Manager, Micron Technology, Inc</i>
 				</h5>
 				<img src="/images/companyg3.jpg" >
-				<p>We are delighted to announce a Guest Lecture with Mr. Kalyan Kavalipurapu on "Introduction to NAND Flash". Mr. Kavalipurapu is a Senior NAND Design Manager at Micron Technology, Hyderabad. 
+				<p>We are delighted to announce a Guest Lecture with Mr. Kalyan Kavalipurapu on <i class="lecture-name">"Introduction to NAND Flash"</i>. Mr. Kavalipurapu is a Senior NAND Design Manager at Micron Technology, Hyderabad. 
 
 After graduating with Masters degree in Electrical Engineering from Arizona State University, he joined Micron in July 2006. He has an experience of over 14 years in analog design domain. He was responsible for designing state of the art both high voltage and low voltage NAND flash products at Micron. 
 
-Be there to <i class="lecture-name">dive into the world of NAND flash memory</i> with Mr. Kavalipurapu on 14th March at 4:00pm. Click below to register for the guest lecture.<br></p>
+Be there to dive into the world of NAND flash memory with Mr. Kavalipurapu on 14th March at 4:00pm. Click below to register for the guest lecture.<br></p>
 				<span>
 					Date: 14-03-2021, 4:00 PM
 					<div>
