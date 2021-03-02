@@ -512,6 +512,8 @@ class UserController extends Controller
         if($p3!='')
             $reg->participant3 = $p3;
         $reg->workshop_id = $wid;
+        if($workshop == "roleofmemory")
+            $reg->paid = 1;
         $reg->save();
 
         // Mail::send('verifymail', $data, function ($message) use ($email) {

@@ -22,6 +22,7 @@
    <link rel="stylesheet" href="{{ asset('css/events.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/login.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/eventsnew.css') }}"  />
+
    <!-- Link sheets for splitting -->
    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
     <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
@@ -35,13 +36,14 @@
 	================================================== -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
 
 <body id="top">
 <div id="particles-js"></div>
 <div class="hero-nav">
     <div class="hero-nav__inner">
-        <h1>WIRELESS COMMUNICATION: 5G AND BEYOND WORKSHOP BY CHANDHAR RESEARCH LABS</h1>
+        <h1 style="text-align:center;">DEMONSTRATING THE ROLE OF MEMORY IN COMPUTING SYSTEMS</h1>
     </div>
     <div class="hero-nav__broughtby">
         <span>brought to you by</span>
@@ -81,9 +83,10 @@
 				<li class="current"><a href="/" title="">Home</a></li>
 				<li><a href="/#services" title="">About</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
-                <li><a href="/events" title="">Events</a></li>
+				<li><a href="/events" title="">Events</a></li>
 				<li><a href="/lectures" title="">Guest Lectures</a></li>
 				<li><a href="/podcasts" title="">Podcasts</a></li>
+				<li><a href="/sponsors" title="">Sponsors</a></li>
 				<li><a href="#contacts" title="">Contact Us</a></li>
 
 			</ul>	
@@ -104,56 +107,41 @@
 	</header> <!-- end header --> 
     
     <div class="page">
-    
+
+     
 
 <h1 data-splitting>Description</h1>
-        <p>Are you enthralled by the evolution of G's in the field of communication? Do you want to know more about the buzz words 5G, Machine Learning and their relations with the wireless domain? Buckle up as Probe '21 brings you Demystifying Wireless Communication: 5G and Beyond workshop by Chandhar Research Labs. You will be learning how wireless technologies evolved with the Generations, from concepts in 2G till 5G, to practical experiments with signals captured from your home's nearby cellular towers! You will also be taken through the application of Deep Learning(DL) in RF systems for signal classification. Various DL models will be explained and used for a hands-on RF signal processing session.</p>
+        <p>Dr.C.R.Parthasarathy is a distinguished engineer who is the Director for Technology Development at Micron. He is an alumnus of IIT Bombay and earned his PhD on Microelectronics at the Aix-Marseille University. He has more than two decades of experience in the fields of reliability model development and ESD development methodology.</p>
+		<p>He would be taking part in Probe '21 as the speaker in a workshop conducted by Micron on “The role of memory in computer systems”. Join us in this workshop to get insightful views about the critical role the organisation of memory plays on the performance of the computer systems on 13th March at 2:00 PM.</p>
 
-<h1 data-splitting>Workshop details</h1>
+    <h1 data-splitting>Workshop details</h1>
 
     <ul>
-		<li>Date: 13-03-2021 to 14-03-2021</li>
-        <li>Duration: 2 day</li>
-        <li>Timings: 9:00AM to 5:00PM </li>
-        <li>Fee : 200/-</li>
+		<li>Date: 13-03-2021</li>
+        <li>Duration: 1 day</li>
+        <li>Timings: 2:00PM to 5:00PM </li>
+        <li>Fee : Free</li>
         <li>Platform: Microsoft Teams</li>
         <li>Team: Individual</li>
 	</ul>
-    <h1 data-splitting>Company Info</h1>
-    <div class="cinfo">
-        <img class="logo-img" src="/images/crl_logo.png">
-        <p>Chander Research Labs Pvt. Ltd is a research and development company based in Chennai. They are currently working on the next-generation software and communication equipments for 5G cellular and drone communication systems.</p> 
-    </div>
+
+    <h1 data-splitting>Workshop partner</h1>
+    <p>Micron Technology</p>
+
 <h1 data-splitting id="faq-header">FAQ</h1>
 
-
             <ol>
-                <li>Are there any prerequisites?</li>
-                <span class='answer-faq'>Yes, you need to be familiar with python programming. </span>
                 <li>What is the format of the workshop?</li>
-                <span class='answer-faq'>The workshop is conducted for two days in Microsoft Teams. Before the workshop, every participant will be added into teams, all the meetings and discussion will be done in Microsoft Teams. </span>
-                <li>What are the requirements for the workshop?</li>
-                <span class='answer-faq'>Every participant should have a smartphone for 4G measurements, Laptop/Computer for running Python programs and Kaggle account for running DL experiments. </span>
-                <li>How should the workshop fee be paid? And will the fee be refunded in case I fail to attend?</li>
-                <span class='answer-faq'>It should be paid online. Fees once paid is strictly non-refundable. Requests for a refund will not be encouraged</span>
-                <li>Is this limited to a particular branch or year?</li>
-                <span class='answer-faq'>No. Any undergraduate or postgraduate student from any year can participate.</span>
-                <li>What are the required software to be installed?</li>
-                <span class='answer-faq'>No software installation is required. Everything will be done in Kaggle</span>
-                <li>Can I pay you directly if we miss the deadline of payment in the worst case?</li>
-                <span class='answer-faq'>No. The payments have to be done online. Only after the payment is done you can participate in the workshop.</span>
+                <span class='answer-faq'>Workshop is conducted in Microsoft Teams, before the workshop every participant will be added into teams, all the meetings and discussion will be done in Microsoft Teams. </span>
+                <li>Are there any prerequisites for the workshop?</li>
+				<span class='answer-faq'>No need for any prerequisites, all the concepts will be taught from basics.</span>
+				<li>Is this limited to a particular branch or year?</li>
+				<span class='answer-faq'>No. Any undergraduate or postgraduate student from any year can participate.</span>
                 <li>Is it a certified course?</li>
-                <span class='answer-faq'>Yes. The participants will be given certificates from the Probe and the company on completion of the workshop.</span>
-                <li>How do we receive the certificate?</li>
-                <span class='answer-faq'>After the completion of the workshop certificate will be mailed to participants.</span>
-            </ul>
-            
-            
-
-<h1 data-splitting class='contact-workshop'>Contacts</h1>
-
-			<p>Vishwas: 7382548724</p>
-			<p>Mukesh: 8608419656</p>
+                <span class='answer-faq'>Yes. The participants will be given certificates from the company on completion of the workshop</span>
+				<li>How do we receive the certificate?</li>
+				<span class='answer-faq'>After the completion of the workshop certificate will be mailed to participants.</span>
+            </ol>
 
             
     </div>
@@ -162,24 +150,21 @@
     @if($regbool==0)
     <div class="wrap">
                 <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-                <a class="button reg-btn" id="buttonz" href="/workshops/register?workshop=5gandbeyond">Register</a>
+                <a class="button reg-btn" id="buttonz" href="/workshops/register?workshop=roleofmemory">Register</a>
             
             </div>
     @endif
     @if($regbool==1 && $ispaid==0 )
     <div class="wrap">
-               <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-               <a class="button pay-btn" id="buttonz" href="/workshops/register?workshop=5gandbeyond">Make payment</a>
-            
+                <h1 data-splitting id="reg-message">Limited Registrations!</h1>
+               <a class="button pay-btn" id="buttonz" href="/workshops/register?workshop=roleofmemory">Make payment</a>
     </div>
     @endif
 
     @if($regbool==1 && $ispaid==1 )
     <div class="wrap">
-               
     <h1 data-splitting id="reg-message">Registered Successfully</h1>
-    <!-- <a class="button" id="buttonz" href='/instructions/Data Acquisition and Processing Instructions.pdf' download>Download instructions</a> -->
-            
+    <!-- <a class="button" id="buttonz" href='/instructions/Data Acquisition and Processing Instructions.pdf' download>Download instructions</a> -->    
     </div>
     @endif
     	<!-- footer

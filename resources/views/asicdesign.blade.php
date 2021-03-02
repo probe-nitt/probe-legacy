@@ -107,7 +107,8 @@
 	</header> <!-- end header --> 
     
     <div class="page">
-    
+
+     
 
 <h1 data-splitting>Description</h1>
         <p>In our college time, we get practice in modelling circuits in HDL, create software simulations, trying out breadboard implementations and so on. Have you ever wondered how does any project idea transforms into a physical  product to reach the hands of a customer? What does a digital design engineer do to change a typical design in paper into a device satisfying requirements in the industry? </p>
@@ -124,6 +125,12 @@
         <li>Team: Individual</li>
 	</ul>
 
+    <h1 data-splitting>Company Info</h1>
+    <div class="cinfo">
+        <img class="logo-img" src="/images/marvell_logo.png">
+        <p>Marvell is an American international company that specialises in building cutting-edge physical layer networking products, storage devices, custom ASIC design and data security solutions.</p> 
+    </div>
+    
 <h1 data-splitting id="faq-header">FAQ</h1>
 
             <ol>

@@ -201,7 +201,42 @@ Route::get('accomodation', function() {
 
 //     return view('makeathon',['regbool' => $regbool, 'ispaid' => $ispaid]);
 // });
+Route::get('/workshops/roleofmemory', function () {
+    $event = "roleofmemory";
 
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,'PROBE20');
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
+
+    $w = Workshops::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = WorkshopRegs::where('workshop_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+    
+    $regbool = 0;
+    $ispaid = 0;
+
+    if($isregistered){
+        $regbool = 1;
+        if($isregistered->paid){
+            $ispaid = 1;
+        }
+    }
+
+    return view('roleofmemory',['regbool' => $regbool, 'ispaid' => $ispaid]);
+});
 Route::get('/workshops/asicdesign', function () {
     $event = "asicdesign";
 

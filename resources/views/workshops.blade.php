@@ -110,7 +110,7 @@
 					</div>
 					Date: 13-03-2021, 2:00 PM
 				</span>
-				<button class="LM" ><a href="#">Coming soon</a></button>
+				<button class="LM" ><a href="/workshops/roleofmemory">Learn More</a></button>
 			</div>
 		</div>
 		<div id="events">				
