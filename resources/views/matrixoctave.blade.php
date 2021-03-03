@@ -22,7 +22,6 @@
    <link rel="stylesheet" href="{{ asset('css/events.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/login.css') }}"  />
    <link rel="stylesheet" href="{{ asset('css/eventsnew.css') }}"  />
-
    <!-- Link sheets for splitting -->
    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
     <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
@@ -36,14 +35,13 @@
 	================================================== -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-
 </head>
 
 <body id="top">
 <div id="particles-js"></div>
 <div class="hero-nav">
     <div class="hero-nav__inner">
-        <h1>Cryptech</h1>
+        <h1>Matrix Octave</h1>
     </div>
 </div>
 	<!-- header 
@@ -59,7 +57,7 @@
 		  	<span class="header-menu-icon"></span>
 		</a> 
 
-		<nav id="menu-nav-wrap">
+				<nav id="menu-nav-wrap">
 
 			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
 
@@ -76,21 +74,23 @@
 				@endif
 				<li class="current"><a href="/" title="">Home</a></li>
 				<li><a href="/#services" title="">About</a></li>
-				<li><a href="/events" title="">Events</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
+				<li><a href="/events" title="">Events</a></li>
 				<li><a href="/lectures" title="">Guest Lectures</a></li>
-				<li><a href="/gallery" title="">Gallery</a></li>
-				<li><a href="/contact" title="">Contact</a></li>
+				<li><a href="/podcasts" title="">Podcasts</a></li>
+				<li><a href="/sponsors" title="">Sponsors</a></li>
+				<li><a href="#contacts" title="">Contact Us</a></li>
+
 			</ul>	
 			<ul style="text-align:center;" class="header-social-list">
 	         <li>
-	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	         	<a href="https://www.facebook.com/Probe.NITT/" target="_blank" ><i class="fa fa-facebook-square"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-twitter"></i></a>
+	         	<a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" ><i class="fa fa-linkedin"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-instagram"></i></a>
+	         	<a href="https://www.instagram.com/probe.nitt/" target="_blank" ><i class="fa fa-instagram"></i></a>
 			 </li>  
 	      </ul>		
 			
@@ -102,42 +102,49 @@
     
 
 <h1 data-splitting>Description</h1>
-        <p>How often have you calculated the time remaining and the speed required to reach your college
-            after being late in your morning schedule by 5 minutes? How about the number of mugs of water that
-            can fill your bucket? Have you wondered about measuring time with the help of candles? Buckle up as
-            Probe '21 brings you Cryptech, where your aptitude skills will be put to test. Put on your aptitude cap to
-            crack the puzzles, sudoku and a variety of tasks in store for you.
+        <p>Does the art of problem solving and the language of coding enthrall you? Probe'21 presents to
+            you a coding competition MATRIX - in GNU octave, a well known software used in fields like machine
+            learning, data analytics and industry. Showcase your skills in electronics and signal processing systems
+            and code your way to glory!
         </p>
 
 <h1 data-splitting>Important Details</h1>
 
     <ul>
-		<li>Event on 13th March 2021 (6:00 – 7:00 pm) </li>
-	</ul>
+        
+        Matrix will have a preliminary event and a final event<br>
+        <li>Prelims: 10th March 2021 </li>
+        <li>Finals: 14th March 2021 (6:00 – 7:00 pm)</li>    
+    </ul>
+        <!-- <li>Registration cost : 25/-</li> -->
+        <h1 data-splitting>Prizes</h1>
+        <ul>
+            <li>Prizes worth 7,500 INR for Top 3 teams.</li>
+            <li>Participation Certificates will be provided for all finalists.</li>
+        </ul>
+         <h1 data-splitting>Rules</h1>
+        <ul>
+            <li>This is an individual event.</li>
+            <li>Decision by the event organizers will be the ultimate.</li>
+        </ul>    
+       
+	
 
-<h1 data-splitting>Prizes</h1>
-
-    <ul>
-		<li>Prizes worth 6,000 INR for Top 3 participants.</li>
-		<li>Participation Certificates will be provided.</li>
-	</ul>
-
-<h1 data-splitting>Rules</h1>
-
-
-            <ul>
-                <li>This is an individual event</li>
-                <li>Decision by the event organizers will be the ultimate.</li>
-            </ul>
-            
 <h1 data-splitting id="faq-header">FAQ</h1>
-<ol>
-    <li>On which platform is the event conducted?</li>
-    <span class='answer-faq'>Typeform</span>
-</ol>          
 
-<h1 data-splitting>Contacts</h1>
 
+            <ol>
+                <li>On which platform is the final event conducted?</li>
+                <span class='answer-faq'><a href="https://octave-online.net/" target="_blank">https://octave-online.net/</a></span>
+                <li>On which platform is the preliminary event conducted?</li>
+                <span class='answer-faq'>Typeform</span>
+                <li>How do we submit the scripts?</li>
+                <span class='answer-faq'>Create an account in the site and forward us the code.</span>
+            </ol>
+            
+            
+
+<h1 data-splitting class='contact-workshop'>Contacts</h1>
 <p>Email: <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></p>
 			<p>Purushothaman: +91 8825573900</p>
 			<p>Kiran Raj Karthi: +91 9940555314</p>
@@ -149,7 +156,7 @@
     @if($regbool==0)
     <div class="wrap">
                 <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-                <a class="button reg-btn" id="buttonz" href="/events/register?event=alwaysverilog">Register</a>
+                <a class="button reg-btn" id="buttonz" href="/events/register?event=matrixoctave">Register</a>
             
             </div>
     @endif
@@ -160,6 +167,7 @@
             
     </div>
     @endif
+
     	<!-- footer
    ================================================== -->
    <footer id="contacts">
@@ -182,7 +190,7 @@
 
      <div class="col-three tab-full footer-social">
 
-         <h4 class="h05">Follow us</h4>
+         <h4 class="h05">Follow us.</h4>
 
          <ul class="list-links">
              <li><a href="https://www.facebook.com/Probe.NITT/" target="_blank" >Facebook</a></li>
@@ -235,7 +243,6 @@
 <script src="{{ asset('js/jquery-2.1.3.min.js') }}"></script>
 <script src="{{ asset('js/plugins.js') }}"></script>
 <script src="{{ asset('js/index.js') }}"></script>
-<script src="{{ asset('js/particles.js') }}"></script>
 
 <!-- CDNs for splitting.js and scroll-out.js -->
 <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>

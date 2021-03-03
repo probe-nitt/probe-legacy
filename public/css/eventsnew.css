@@ -252,5 +252,14 @@ body, html {
     text-align: center;
     margin-top: 1.5rem;
   }
+
+.answer-faq a , b a{
+  color: #84a8ff;
+}
+.answer-faq a:focus, b a:focus {
+  color: white;
+}
+.answer-faq a:hover, b a:hover {
+  color: white;
 }
 /*# sourceMappingURL=eventsnew.css.map */

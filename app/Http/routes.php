@@ -57,7 +57,7 @@ Route::get('/sponsors', function () {
  });
 
 Route::get('/events', function () {
-    return view('comingsoon');
+    return view('event');
 });
 
 Route::get('/lectures', function() {
@@ -132,39 +132,39 @@ Route::get('accomodation', function() {
 //     return view('bullseye',['regbool' => $regbool]);
 // });
 
-// Route::get('/events/cryptech', function () {
+Route::get('/events/cryptech', function () {
     
-//     $event = "Cryptech";
+    $event = "cryptech";
 
-//     $pid = Session::get('pid');
-//     //$uid = (int)ltrim($pid,"PROBE20");
-//     if($pid)
-//         $uid = (int)explode('PROBE20',$pid)[1];
-//     else
-//         $uid = -1;
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,"PROBE20");
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
 
-//     $w = Events::where('name','=',$event)->first();
+    $w = Events::where('name','=',$event)->first();
 
-//     $wid = $w->id;
-//     $mc = $w->max_count;
+    $wid = $w->id;
+    $mc = $w->max_count;
 
-//     $isregistered = EventRegs::where('event_id', '=', $wid)
-//                                 ->where(function($query) use($uid)
-//                                 {
-//                                     $query->where('participant1',$uid)
-//                                         ->orwhere('participant2',$uid)
-//                                         ->orwhere('participant3',$uid);
-//                                 })->first();
+    $isregistered = EventRegs::where('event_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
 
 
-//     $regbool = 0;
+    $regbool = 0;
 
-//     if($isregistered){
-//         $regbool = 1;
-//     }
+    if($isregistered){
+        $regbool = 1;
+    }
 
-//     return view('cryptech2021',['regbool' => $regbool]);
-// });
+    return view('cryptech2021',['regbool' => $regbool]);
+});
 
 // Route::get('/workshops/makeathon', function () {
 //     $event = "Makeathon - Embedded Electronics";
@@ -393,6 +393,186 @@ Route::get('/workshops/5gandbeyond', function () {
 
     return view('5gandbeyond',['regbool' => $regbool, 'ispaid' => $ispaid]);
 });
+
+
+
+Route::get('/events/embedtronix', function () {
+
+    $event = "embedtronix";
+
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,"PROBE20");
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
+
+    $w = Events::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = EventRegs::where('event_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+
+    $regbool = 0;
+
+    if($isregistered){
+        $regbool = 1;
+    }
+
+    return view('embedtronix2021',['regbool' => $regbool]);
+});
+
+
+
+Route::get('/events/alwaysverilog', function () {
+
+    $event = "alwaysverilog";
+
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,"PROBE20");
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
+
+    $w = Events::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = EventRegs::where('event_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+
+    $regbool = 0;
+
+    if($isregistered){
+        $regbool = 1;
+    }
+
+    return view('alwaysverilog',['regbool' => $regbool]);
+});
+
+
+Route::get('/events/matrixoctave', function () {
+
+    $event = "matrixoctave";
+
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,"PROBE20");
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
+
+    $w = Events::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = EventRegs::where('event_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+
+    $regbool = 0;
+
+    if($isregistered){
+        $regbool = 1;
+    }
+
+    return view('matrixoctave',['regbool' => $regbool]);
+});
+
+
+Route::get('/events/pathsandholes', function () {
+
+    $event = "pathsandholes";
+
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,"PROBE20");
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
+
+    $w = Events::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = EventRegs::where('event_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+
+    $regbool = 0;
+
+    if($isregistered){
+        $regbool = 1;
+    }
+
+    return view('pathsandholes',['regbool' => $regbool]);
+});
+
+
+
+Route::get('/events/probeit', function () {
+
+    $event = "probeit";
+
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,"PROBE20");
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
+
+    $w = Events::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = EventRegs::where('event_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+
+    $regbool = 0;
+
+    if($isregistered){
+        $regbool = 1;
+    }
+
+    return view('probeit2021',['regbool' => $regbool]);
+});
+
+
 
 
 
