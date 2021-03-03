@@ -149,7 +149,7 @@
     @if($regbool==0)
     <div class="wrap">
                 <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-                <a class="button reg-btn" id="buttonz" href="/events/register?event=alwaysverilog">Register</a>
+                <a class="button reg-btn" id="buttonz" href="/events/register?event=cryptech">Register</a>
             
             </div>
     @endif
