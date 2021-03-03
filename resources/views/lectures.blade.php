@@ -96,9 +96,9 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer big">
-				<h5>Mr Howard  Chua, <i>Sr.Director, TSE - NAND/MNAND, Micron Technology, Inc</i>
-					<br>Mr Parag Mohanty, <i>Sr.Manager, Micron Technology, Inc</i>
-					<br>Mr Sarita Yadav, <i>Manager, Micron Technology, Inc</i>
+				<h5>Howard  Chua, <i>Sr.Director, TSE - NAND/MNAND, Micron Technology, Inc</i>
+					<br>Parag Mohanty, <i>Sr.Manager, Micron Technology, Inc</i>
+					<br>Sarita Yadav, <i>Manager, Micron Technology, Inc</i>
 				</h5>
 				
 				<img src="/images/companyg1.jpg" >
@@ -117,7 +117,7 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer big">
-				<h5>Dr Koushik Raghavan, <i>Director Data Science, Micron Technology, Inc</i>
+				<h5>Koushik Raghavan, <i>Director Data Science, Micron Technology, Inc</i>
 				</h5>
 				<img src="/images/micron_logo.png" >
 				<p>Data, data everywhere, not a way to make sense. Does this feeling puzzle you when you hear about data science?  Probe '21 in association with Micron Technology is thrilled to announce the guest lecture by Dr. Koushik Raghavan, the Director of AI, ML and Data Science division at Micron. He has developed his expertise in the fields of product management, machine learning and data science with 10+ years of experience. He has played a key role in defining products for next-generation Industrial IoT sensors when he was the Director of COE for Data Science and Machine Learning at Flicq. Witness him dispelling the fears and shining a guiding light about the <i class="lecture-name">“Art of Data Science”</i>, where he will share his experience in the field of data science and machine learning at 7:00 PM on 12th of March. Find the link to register for the guest lecture below.<br></p>
@@ -135,7 +135,7 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer big">
-				<h5>Mr Kalyan Kavalipurapu, <i>Sr.Design Manager, Micron Technology, Inc</i>
+				<h5>Kalyan Kavalipurapu, <i>Sr.Design Manager, Micron Technology, Inc</i>
 				</h5>
 				<img src="/images/companyg3.jpg" >
 				<p>We are delighted to announce a Guest Lecture with Mr. Kalyan Kavalipurapu on <i class="lecture-name">"Introduction to NAND Flash"</i>. Mr. Kavalipurapu is a Senior NAND Design Manager at Micron Technology, Hyderabad. 
