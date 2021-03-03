@@ -209,6 +209,9 @@ body, html {
     align-items: center;
     margin-right: 0;
   }
+  .hero-nav__inner {
+    width:100%;
+  }
   .hero-nav h1 {
     width: 85%;
     font-size: 4vw;
