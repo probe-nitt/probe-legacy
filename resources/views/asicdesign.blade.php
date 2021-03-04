@@ -138,8 +138,8 @@
                 <span class='answer-faq'>Workshop is conducted in Microsoft Teams, before the workshop every participant will be added into teams, all the meetings and discussion will be done in Microsoft Teams. </span>
                 <li>How should the workshop fee be paid? And will the fee be refunded in case I fail to attend?</li>
 				<span class='answer-faq'>It should be paid online. Fees once paid is strictly non-refundable. Requests for refund will not be encouraged.</span>
-				<li>Is this limited to a particular branch or year?</li>
-				<span class='answer-faq'>No. Any undergraduate or postgraduate student from any year can participate.</span>
+				<li>Is this limited to students?</li>
+				<span class='answer-faq'>No. Any UG, PG Students or working professionals can participate.</span>
                 <li>Can I pay you directly if we miss the deadline of payment in the worst case?</li>
 				<span class='answer-faq'>No. The payments have to be done online. Only after the payment is done you can participate in the workshop</span>
 				<li>Is it a certified course?</li>

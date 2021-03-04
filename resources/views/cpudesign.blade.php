@@ -140,8 +140,8 @@
                 <span class='answer-faq'>Yes. Every participant should have a laptop or computer.</span>
                 <li>How should the workshop fee be paid? And will the fee be refunded in case I fail to attend?</li>
                 <span class='answer-faq'>It should be paid online. Fees once paid is strictly non-refundable. Requests for refund will not be encouraged</span>
-                <li>Is this limited to a particular branch or year?</li>
-                <span class='answer-faq'>No. Any undergraduate or postgraduate student from any year can participate.</span>
+                <li>Is this limited to students?</li>
+                <span class='answer-faq'>No. Any UG, PG Students or working professionals can participate.</span>
                 <li>What are the required softwares to be installed?</li>
                 <span class='answer-faq'>Installation guide will be available after payment is complete.</span>
                 <li>Can I pay you directly if we miss the deadline of payment in the worst case?</li>

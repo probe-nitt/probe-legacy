@@ -119,7 +119,7 @@
 			<div class="econtainer big">
 				<h5>Koushik Raghavan, <i>Director Data Science, Micron Technology, Inc</i>
 				</h5>
-				<img src="/images/micron_logo.png" >
+				<img src="/images/guest.jpeg" >
 				<p>Data, data everywhere, not a way to make sense. Does this feeling puzzle you when you hear about data science?  Probe '21 in association with Micron Technology is thrilled to announce the guest lecture by Dr. Koushik Raghavan, the Director of AI, ML and Data Science division at Micron. He has developed his expertise in the fields of product management, machine learning and data science with 10+ years of experience. He has played a key role in defining products for next-generation Industrial IoT sensors when he was the Director of COE for Data Science and Machine Learning at Flicq. Witness him dispelling the fears and shining a guiding light about the <i class="lecture-name">“Art of Data Science”</i>, where he will share his experience in the field of data science and machine learning at 7:00 PM on 12th of March. Find the link to register for the guest lecture below.<br></p>
 				<span>
 					Date: 12-03-2021, 7:00 PM

@@ -136,8 +136,8 @@
                 <span class='answer-faq'>Every participant should have a smartphone for 4G measurements, Laptop/Computer for running Python programs and Kaggle account for running DL experiments. </span>
                 <li>How should the workshop fee be paid? And will the fee be refunded in case I fail to attend?</li>
                 <span class='answer-faq'>It should be paid online. Fees once paid is strictly non-refundable. Requests for a refund will not be encouraged</span>
-                <li>Is this limited to a particular branch or year?</li>
-                <span class='answer-faq'>No. Any undergraduate or postgraduate student from any year can participate.</span>
+                <li>Is this limited to students?</li>
+                <span class='answer-faq'>No. Any UG, PG Students or working professionals can participate.</span>
                 <li>What are the required software to be installed?</li>
                 <span class='answer-faq'>No software installation is required. Everything will be done in Kaggle</span>
                 <li>Can I pay you directly if we miss the deadline of payment in the worst case?</li>

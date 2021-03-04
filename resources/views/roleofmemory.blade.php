@@ -135,8 +135,8 @@
                 <span class='answer-faq'>Workshop is conducted in Microsoft Teams, before the workshop every participant will be added into teams, all the meetings and discussion will be done in Microsoft Teams. </span>
                 <li>Are there any prerequisites for the workshop?</li>
 				<span class='answer-faq'>No need for any prerequisites, all the concepts will be taught from basics.</span>
-				<li>Is this limited to a particular branch or year?</li>
-				<span class='answer-faq'>No. Any undergraduate or postgraduate student from any year can participate.</span>
+				<li>Is this limited to students?</li>
+				<span class='answer-faq'>No. Any UG, PG Students or working professionals can participate.</span>
                 <li>Is it a certified course?</li>
                 <span class='answer-faq'>Yes. The participants will be given certificates from the company on completion of the workshop</span>
 				<li>How do we receive the certificate?</li>
