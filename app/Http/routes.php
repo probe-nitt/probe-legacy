@@ -573,8 +573,42 @@ Route::get('/events/probeit', function () {
 });
 
 
+Route::get('/workshops/deeplearning', function () {
+    $event = "deeplearning";
 
+    $pid = Session::get('pid');
+    //$uid = (int)ltrim($pid,'PROBE20');
+    if($pid)
+        $uid = (int)explode('PROBE20',$pid)[1];
+    else
+        $uid = -1;
 
+    $w = Workshops::where('name','=',$event)->first();
+
+    $wid = $w->id;
+    $mc = $w->max_count;
+
+    $isregistered = WorkshopRegs::where('workshop_id', '=', $wid)
+                                ->where(function($query) use($uid)
+                                {
+                                    $query->where('participant1',$uid)
+                                        ->orwhere('participant2',$uid)
+                                        ->orwhere('participant3',$uid);
+                                })->first();
+
+    
+    $regbool = 0;
+    $ispaid = 0;
+
+    if($isregistered){
+        $regbool = 1;
+        if($isregistered->paid){
+            $ispaid = 1;
+        }
+    }
+
+    return view('deeplearning',['regbool' => $regbool, 'ispaid' => $ispaid]);
+});
 
 
 

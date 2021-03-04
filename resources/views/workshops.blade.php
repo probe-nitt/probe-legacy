@@ -161,6 +161,19 @@
 				<button class="LM"><a href="/workshops/mazebot">Learn More</a></button>
 			</div>
 		</div>
+		<div id="events">				
+			<div class="econtainer">
+				<h5>Deep Learning for Computer Vision Workshop by<br>Ms.Usha Rengaraju, <i>recognised as one of the top 10 leading data scientists in India by Analytics India mag </i></h5>
+				
+				<img src="/images/usha_rengaraju.jpg" >
+				<p>learn the basics of python and then dive into deep learning for computer vision using a Tensorflow topping up with a real world use case<br></p>
+				    <span>
+						Registration deadline: 11-03-2021<br>
+						Date: 14-03-2021 
+					</span>
+				<button class="LM" ><a href="/workshops/deeplearning">Learn More</a></button>
+			</div>
+		</div>
 
 	</section>
 		<!-- footer
