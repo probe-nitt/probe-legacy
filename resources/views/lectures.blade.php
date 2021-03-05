@@ -158,17 +158,13 @@ Be there to dive into the world of NAND flash memory with Mr. Kavalipurapu on 14
 
 		<div id="events">				
 			<div class="econtainer big">
-				<h5>Ms. Sneha Balan, <i>Alumnus NIT Trichy</i>
+				<h5>Sneha Balan, <i>Alumnus NIT Trichy</i>
 				</h5>
 				<img src="/images/guest4.jpeg" >
-				<p>Probe '21 in association with Micron Technology proudly presents Ms Sneha Balan, an alumnus of ECE, NIT Trichy - batch of 2014. Ms Balan is currently working at Yousuf Mahmood Hussain, a healthcare distributor company as a Healthcare Solutions Designer. In this guest lecture she will focus on the topic of "Healthcare Infratech", where she will walk us through the different contemporary technologies used in healthcare settings across the world. She has associated herself with the Ministry of Health, Bahrain for the construction of new government hospitals and revamping the existing ones. She is also the recipient of Best Outgoing Student Award from the department of ECE. Make sure to listen to her experience and wisdom in the healthcare sector on 13th of March at 2:00 PM. Find the link to register for the guest lecture below.<br></p>
+				<p>Probe '21 in association with Micron Technology proudly presents Ms. Sneha Balan, an alumnus of ECE, NIT Trichy - batch of 2014. Ms Balan is currently working at Yousuf Mahmood Hussain, a healthcare distributor company as a Healthcare Solutions Designer. In this guest lecture she will focus on the topic of  <i class="lecture-name">"Healthcare Infratech"</i>, where she will walk us through the different contemporary technologies used in healthcare settings across the world. She has associated herself with the Ministry of Health, Bahrain for the construction of new government hospitals and revamping the existing ones. She is also the recipient of Best Outgoing Student Award from the department of ECE. Make sure to listen to her experience and wisdom in the healthcare sector on 13th of March at 2:00 PM. Find the link to register for the guest lecture below.<br></p>
 				<span>
 					Date: 13-03-2021, 2:00 PM
 					<div>
-						<span class="micron-present">brought to you by</span>
-						<a href="https://in.micron.com/" target="_blank">
-							<img class="micron-img" src="/images/Micron_whitelogo.png">
-						</a>
 					</div>
 				</span>
 				<button class="LM" ><a href="#">Coming soon</a></button>

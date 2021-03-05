@@ -99,12 +99,8 @@
 			<div class="econtainer">
 				<h5>Cryptech</h5>
 				<img src="/images/EVENTS/cryptech.jpg" >
-				<p>How often have you calculated the time remaining and the speed required to reach your college
-after being late in your morning schedule by 5 minutes? How about the number of mugs of water that
-can fill your bucket? Have you wondered about measuring time with the help of candles? Buckle up as
-Probe '21 brings you Cryptech, where your aptitude skills will be put to test. Put on your aptitude cap to
-crack the puzzles, sudoku and a variety of tasks in store for you.<br></p>
-				<span>Date: 07-03-2021 </span>
+				<p>Ever wondered how will you measure time with the help of candles? Put on your aptitude cap as Cryptech is here with puzzles, sudoku and a vareity of tasks to solve!<br></p>
+				<span>Date: 13-03-2021 </span>
 				<button class="LM"><a class="LM" href="/events/cryptech">Learn More</a></button>
 			</div>
 		</div>
@@ -152,7 +148,7 @@ crack the puzzles, sudoku and a variety of tasks in store for you.<br></p>
 			<div class="econtainer">
 				<h5>Paths And Holes</h5>
 				<img src="/images/EVENTS/pcb.png" >
-				<p>Do you consider yourself a wizard at designing digital circuits? Does logic never seem illogical to you? Join us at Probe '21 to play Paths and Holes, an event to showcase your skills in designing PCBs<br></p>
+				<p>Play around with online CAD tools designing circuit for PCBs and showcase your circuit designing skills in Path and Holes at Probe '21!<br></p>
 				<span>Date: 14-03-2021</span>
 				<button class="LM"><a class="LM" href="/events/pathsandholes">Learn More</a></button>
 			</div>
