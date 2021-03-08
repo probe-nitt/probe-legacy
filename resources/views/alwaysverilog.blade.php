@@ -131,8 +131,8 @@
     <ol>
     <li>On which platform is the final event conducted?</li>
     <span class='answer-faq'><a target='_blank' href="http://www.edaplayground.com/">www.edaplayground.com</a></span>
-    <li>On which platform is preliminary the event conducted?</li>
-    <span class='answer-faq'>Typeform</span>
+    <li>On which platform is the preliminary event conducted?</li>
+    <span class='answer-faq'>MS Forms</span>
     </ol>             
             
 

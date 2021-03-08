@@ -133,7 +133,7 @@
 <h1 data-splitting id="faq-header">FAQ</h1>
 <ol>
     <li>On which platform is the event conducted?</li>
-    <span class='answer-faq'>Typeform</span>
+    <span class='answer-faq'>MS Forms</span>
 </ol>          
 
 <h1 data-splitting>Contacts</h1>

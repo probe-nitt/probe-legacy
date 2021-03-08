@@ -166,7 +166,7 @@
 				<h5>Deep Learning for Computer Vision Workshop by<br>Ms. Usha Rengaraju, <i>India's first woman Kaggle grandmaster</i></h5>
 				
 				<img src="/images/usha_rengaraju.jpg" >
-				<p>learn the basics of python and then dive into deep learning for computer vision using a Tensorflow topping up with a real world use case<br></p>
+				<p>An opportunity to demystify the concepts of Deep Learning for Computer Vision with a real-world use case from the expert Usha Rengaraju herself!<br></p>
 				    <span>
 						Registration deadline: 11-03-2021<br>
 						Date: 14-03-2021 

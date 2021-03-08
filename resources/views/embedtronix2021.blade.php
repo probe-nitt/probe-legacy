@@ -132,7 +132,7 @@ Embedtronix will have a preliminary event and a final event.<br>
             <li>On which platform is the final event conducted?</li>
             <span class='answer-faq'>Multisim</span>
             <li>On which platform is the preliminary event conducted?</li>
-            <span class='answer-faq'>Typeform</span>
+            <span class='answer-faq'>MS Forms</span>
             <li>Are cross-college teams allowed?</li>
             <span class='answer-faq'>Yes</span>
         </ol>

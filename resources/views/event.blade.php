@@ -138,7 +138,7 @@
 			<div class="econtainer">
 				<h5>ProbeIt</h5>
 				<img src="/images/EVENTS/probeIT.jpg" >
-				<p>Surely many of us must have wondered by a working of a simple remote to complex processors in our palms. The necessity to develop better devices makes us break old boundaries. We're sure many of you would have been developing your acumen for electronics and waiting for the time to come in big and showcase it.<br></p>
+				<p>Are you someone who likes keeping abreast of the latest developments across the length and breadth of electronics and waiting to exhibit them in the right time at the right place?  ProbeIT is here!<br></p>
 				<span>Date: 12-03-2021</span>
 				<button class="LM"><a class="LM" href="/events/probeit">Learn More</a></button>
 			</div>

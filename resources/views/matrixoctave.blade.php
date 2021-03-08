@@ -137,7 +137,7 @@
                 <li>On which platform is the final event conducted?</li>
                 <span class='answer-faq'><a href="https://octave-online.net/" target="_blank">https://octave-online.net/</a></span>
                 <li>On which platform is the preliminary event conducted?</li>
-                <span class='answer-faq'>Typeform</span>
+                <span class='answer-faq'>MS Forms</span>
                 <li>How do we submit the scripts?</li>
                 <span class='answer-faq'>Create an account in the site and forward us the code.</span>
             </ol>

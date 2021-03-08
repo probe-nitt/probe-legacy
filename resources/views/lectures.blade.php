@@ -99,6 +99,7 @@
 				<h5>Howard  Chua, <i>Sr.Director, TSE - NAND/MNAND, Micron Technology, Inc</i>
 					<br>Parag Mohanty, <i>Sr.Manager, Micron Technology, Inc</i>
 					<br>Sarita Yadav, <i>Manager, Micron Technology, Inc</i>
+					<br>Praveen Ramapuram - <i>Manager</i>
 				</h5>
 				
 				<img src="/images/companyg1.jpg" >
