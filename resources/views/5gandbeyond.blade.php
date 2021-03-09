@@ -122,7 +122,7 @@
     <h1 data-splitting>Company Info</h1>
     <div class="cinfo">
         <img class="logo-img" src="/images/crl_logo.png">
-        <p>Chander Research Labs Pvt. Ltd is a research and development company based in Chennai. They are currently working on the next-generation software and communication equipments for 5G cellular and drone communication systems.</p> 
+        <p>Chandhar Research Labs Pvt. Ltd is a research and development company based in Chennai. They are currently working on the next-generation software and communication equipments for 5G cellular and drone communication systems.</p> 
     </div>
 <h1 data-splitting id="faq-header">FAQ</h1>
 

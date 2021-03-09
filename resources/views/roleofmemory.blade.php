@@ -149,8 +149,7 @@
     <br>
     @if($regbool==0)
     <div class="wrap">
-                <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-                <a class="button reg-btn" id="buttonz" href="/workshops/register?workshop=roleofmemory">Register</a>
+                <h1 data-splitting id="reg-message">Registrations Full!</h1>
             
             </div>
     @endif
