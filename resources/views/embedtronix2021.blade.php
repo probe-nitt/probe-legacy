@@ -107,7 +107,7 @@
 <h1 data-splitting>Important Details</h1>
 <ul>
 Embedtronix will have a preliminary event and a final event.<br>
-    <li>Prelims: 10th March 2021 </li>
+    <li>Prelims: 10th March 2021 (7.00 - 7.15 pm)</li>
     <li>Finals: 13th March 2021 (7:30 – 9:00 pm) </li> 
 </ul>
     <!-- <li>Registration cost : 25/-</li> -->

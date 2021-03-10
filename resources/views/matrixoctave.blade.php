@@ -113,7 +113,7 @@
     <ul>
         
         Matrix will have a preliminary event and a final event<br>
-        <li>Prelims: 10th March 2021 </li>
+        <li>Prelims: 10th March 2021 (6.30 pm -6.45 pm)</li>
         <li>Finals: 14th March 2021 (6:00 – 7:00 pm)</li>    
     </ul>
         <!-- <li>Registration cost : 25/-</li> -->

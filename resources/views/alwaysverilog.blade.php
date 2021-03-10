@@ -108,7 +108,7 @@
 <h1 data-splitting>Important Details</h1>
 <ul>
     Always@(verilog) will have a preliminary event and a final event<br>
-		<li>Prelims: 10th March 2021 </li>
+		<li>Prelims: 10th March 2021 (7.30 - 7.45) pm </li>
         <li>Finals: 12th March 2021 (7:00 – 8:00 pm)</li>
 </ul>
 
