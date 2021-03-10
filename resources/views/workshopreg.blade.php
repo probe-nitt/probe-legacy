@@ -1,4 +1,4 @@
-@if (($regbool==1 && $ispaid==1) || $workshop=="roleofmemory")
+@if (($regbool==1 && $ispaid==1))
 <script type="text/javascript">
     window.location = "{{ url('/workshops') }}"+"/"+"{{ $workshop }}";//here double curly bracket
 </script>
