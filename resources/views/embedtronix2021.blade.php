@@ -157,9 +157,8 @@ Embedtronix will have a preliminary event and a final event.<br>
     @endif
     @if($regbool==1 )
     <div class="wrap">
-
-               <a class="button pay-btn" id="buttonz" href="#">Registered successfully</a>
-            
+            <h1 data-splitting id="reg-message">Registered Successfully</h1>
+            <a class="button eventbtn" id="buttonz" href='https://forms.office.com/Pages/ResponsePage.aspx?id=p1CEoozbM0yRKkQzEbIt21NrAKA3IfZJhZryojX4BmRUMVVFWjhKR1VQWVlCWVE1U1lNS0RHMDIwVy4u'>ENTER EVENT</a>
     </div>
     @endif
 

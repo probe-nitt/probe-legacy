@@ -242,6 +242,9 @@ body, html {
 .cinfo p {
   margin: auto 0;
 }
+.wrap .eventbtn {
+  margin: 0 6rem;
+}
 @media screen and (max-width: 700px) {
   .cinfo {
     display: flex;
