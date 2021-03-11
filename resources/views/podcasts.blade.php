@@ -94,11 +94,11 @@
 		<div id="events">
 			<h5 id="title">Probe FM 55.5</h5>	
 		</div>
-		<!-- <div id="events">				
+		<div id="events">				
 			<div class="econtainer">
-				<h5>Mr. Anil Agarwal</h5>
-				<img src="/images/podcastPerson.jpg" >
-				<p>Mr. Anil Agarwal is the Director of NVM System Quality and Reliability division at Micron Technology, Bangalore. After doing his masters study in Electrical Engineering at IIT Roorkie, he equipped himself with adequate industrial knowledge to rise from an application engineer to the Director of Quality and Reliability Engineering at SanDisk. He has a decade of experience in system design, quality and reliability engineering. Probe'21 in association with Micron presents Mr. Anil Agarwal for the upcoming podcast. Stay tuned!<br></p>
+				<h5>Mr. Srikant Sharma</h5>
+				<img src="/images/srikanth.jpg" >
+				<p>Mr. Srikant Sharma is a Principal Engineer, at Micron Technology working on NVM Quality and Reliablity. He has around 13 years of experience working in the Semiconductor/Software industry in domains ranging from Telecom, Aviation, Networking to Storage. Currently, he is working at Mircon for more than two years, leading the Quality and Reliability Group. He takes care of the qualification of the emerging memory technology based NVMe PCIe SSDs. In this podcast in association with Micron Technology, he will talk about his early years and his experience in the industry. Stay tuned!<br></p>
 				<span>
 					<div>
 						<span class="micron-present">brought to you by</span>
@@ -109,7 +109,7 @@
 				</span>
 				<button class="LM"><a class="LM" href="#">Coming Soon</a></button>
 			</div>
-		</div> -->
+		</div>
         <div id="events">
             <div class="econtainer">
 				<h5 style="font-size: 2rem;">Dr. S. Dasgupta</h5>
