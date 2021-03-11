@@ -9,7 +9,7 @@
         </div>
         <div>
             <p>Please find attached the questionnaire for Matrix event. </p>
-            <p>Fill the questionnaire and send it to probe.events2020@gmail.com.</p>
+            <p>Fill the questionnaire and send it to probe.events2021@gmail.com.</p>
             <p>Deadline for sending the filled questionnaire is 24th January 2020. </p>
         </div>
 

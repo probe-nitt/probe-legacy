@@ -125,7 +125,7 @@ background-image:url(../images/backract.png);">
 			</header>
 				<ol>
 				<li>Register with a maximum of 3 members per team at probe.org.in/events/tronics. Questionnaire will be sent to the registered email ID.</li>
-				<li>Submit the answers to the questionnaire before the deadline via email to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></li>
+				<li>Submit the answers to the questionnaire before the deadline via email to <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b></li>
 				<li>Shortlisted teams will have finals during PROBE 2021 at NIT-Trichy. Finals will involve a task, for which problem statement will be announced on spot. Components will be given to build the circuit. </li>
 				</ol>
 
@@ -134,14 +134,14 @@ background-image:url(../images/backract.png);">
 			</header>
                 <ul>
                 <li>Maximum of 3 members per team. Teams can consist of individuals from different colleges/departments.</li>
-                <li>For the prelims, mail the answers to the questionnaire to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b> with “tronICs_&lt;your team name>" as the subject. Also mention the names and Probe IDs of the team members in the mail. </li>
+                <li>For the prelims, mail the answers to the questionnaire to <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b> with “tronICs_&lt;your team name>" as the subject. Also mention the names and Probe IDs of the team members in the mail. </li>
                 <li>For finals, a problem statement will be given on the spot. Components will be given to build the circuit. Rules for finals will be announced on the spot. </li>
 				</ul>
 
 			<header class="minor">
 				<h3 class="subheader"><b>Contacts</b></h3>
 			</header>
-			<p>Email: <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></p>
+			<p>Email: <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b></p>
 			<p>Vasanth: 9629457300</p>
 			<p>Bhuvana: 9585894011</p>
 		</section>

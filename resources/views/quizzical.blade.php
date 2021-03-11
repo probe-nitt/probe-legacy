@@ -136,7 +136,7 @@ background-image:url(../images/backract.png);">
 			<header class="minor">
 				<h3 class="subheader"><b>Contacts</b></h3>
 			</header>
-			<p>Email: <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></p>
+			<p>Email: <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b></p>
 			<p>Vasanth: 9629457300</p>
 			<p>Siddharth: 9629904004</p>
 		</section>

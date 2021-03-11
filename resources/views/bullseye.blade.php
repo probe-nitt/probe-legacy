@@ -130,7 +130,7 @@ background-image:url(../images/backract.png);">
 			<header class="minor">
 				<h3 class="subheader"><b>Contacts</b></h3>
 			</header>
-			<p>Email: <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></p>
+			<p>Email: <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b></p>
 			<p>Anshuman : 7675012631</p>
 			<p>For Technical Issues: Naven : 9500152736</p>
 

@@ -140,7 +140,7 @@ Embedtronix will have a preliminary event and a final event.<br>
 
 <h1 data-splitting class='contact-workshop'>Contacts</h1>
 
-<p>Email: <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></p>
+<p>Email: <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b></p>
 			<p>Purushothaman: +91 8825573900</p>
 			<p>Kiran Raj Karthi: +91 9940555314</p>
 
@@ -150,9 +150,7 @@ Embedtronix will have a preliminary event and a final event.<br>
     <br>
     @if($regbool==0)
     <div class="wrap">
-                <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-                <a class="button reg-btn" id="buttonz" href="/events/register?event=embedtronix">Register</a>
-            
+                <h1 data-splitting id="reg-message">Registrations Closed</h1>            
             </div>
     @endif
     @if($regbool==1 )

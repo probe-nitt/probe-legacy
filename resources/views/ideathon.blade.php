@@ -140,7 +140,7 @@ background-image:url(../images/backract.png);">
 			</header>
 				<ol>
 				<li>Register with a maximum of 2 members per team at probe.org.in/events/ideathon.</li>
-				<li>Submit the abstract of the idea before the deadline via email to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></li>
+				<li>Submit the abstract of the idea before the deadline via email to <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b></li>
 				<li>Shortlisted teams will have finals during PROBE 2021 at NIT-Trichy. During the finals the ideas will be judged by an eminent panel from Qualcomm.</li>
 				</ol>
 
@@ -149,15 +149,15 @@ background-image:url(../images/backract.png);">
 			</header>
                 <ul>
                 <li>Maximum of 2 members per team. Teams can consist of individuals from different colleges/departments.</li>
-                <li>For the prelims, mail the abstract of yout idea to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b> with “Ideathon_&lt;your team name>" as the subject. Also mention the names and Probe IDs of the team members in the mail. </li>
-                <li>Prior to finals, the shortlisted teams have to submit the writeup of their idea as a printed document and mail the softcopy of the same to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b> with “Ideathon_&lt;your team name>” as the subject. Also mention the names and Probe IDs of the team members in the mail.</li>
+                <li>For the prelims, mail the abstract of yout idea to <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b> with “Ideathon_&lt;your team name>" as the subject. Also mention the names and Probe IDs of the team members in the mail. </li>
+                <li>Prior to finals, the shortlisted teams have to submit the writeup of their idea as a printed document and mail the softcopy of the same to <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b> with “Ideathon_&lt;your team name>” as the subject. Also mention the names and Probe IDs of the team members in the mail.</li>
 				<li>During finals, the ideas have to presented in front of a panel of judges from Qualcomm. </li>
 				</ul>
 
 			<header class="minor">
 				<h3 class="subheader"><b>Contacts</b></h3>
 			</header>
-			<p>Email: <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></p>
+			<p>Email: <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b></p>
 			<p>Vasanth: 9629457300</p>
 			<p>Pavan Kumar: 8500514232</p>
 		</section>

@@ -821,7 +821,7 @@ class UserController extends Controller
         $domain = 'mailer.probe.org.in';
         try {
             $result = $mgClient->messages()->send($domain, array(
-                'from'  => 'Probe 2021, NIT Trichy no-reply@mailer.probe.org.in',
+                'from'  => 'Probe 2021, NIT Trichy register@mailer.probe.org.in',
                 'to'    => $tomail,
                 'subject' => $subject,
                 'text'  => "Your mail doesn't support html",

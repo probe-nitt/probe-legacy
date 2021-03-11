@@ -129,7 +129,7 @@ background-image:url(../images/backract.png);">
 			</header>
 				<ol>
 				<li>Register with a maximum of 3 members per team at probe.org.in/events/matrix. Questionnaire will be sent to the registered email ID.</li>
-				<li>Submit the answers to the questionnaire before the deadline via email to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></li>
+				<li>Submit the answers to the questionnaire before the deadline via email to <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b></li>
 				<li>Shortlisted teams will have finals during PROBE 2021 at NIT-Trichy. Finals will involve tasks, for which problem statements will be announced on spot. </li>
 				</ol>
 
@@ -138,14 +138,14 @@ background-image:url(../images/backract.png);">
 			</header>
                 <ul>
                 <li>Maximum of 3 members per team. Teams can consist of individuals from different colleges/departments.</li>
-                <li>For the prelims, mail the answers to the questionnaire to <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b> with “Matrix_&lt;your team name>" as the subject. Also mention the names and Probe IDs of the team members in the mail. </li>
+                <li>For the prelims, mail the answers to the questionnaire to <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b> with “Matrix_&lt;your team name>" as the subject. Also mention the names and Probe IDs of the team members in the mail. </li>
                 <li>For finals, problem statements will be given on the spot. Rules for finals will be announced on the spot. </li>
 				</ul>
 
 			<header class="minor">
 				<h3 class="subheader"><b>Contacts</b></h3>
 			</header>
-			<p>Email: <b><a href="mailto:probe.events2020@gmail.com">probe.events2020@gmail.com</a></b></p>
+			<p>Email: <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b></p>
 			<p>Purushothaman: 8825573900</p>
 			<p>Priyanka: 9629922179</p>
 		</section>
