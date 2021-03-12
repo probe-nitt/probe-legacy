@@ -114,7 +114,7 @@
     <ul>
 		<li>Date: 13-03-2021 to 14-03-2021</li>
         <li>Duration: 2 day</li>
-        <li>Timings: 9:00AM to 5:00PM </li>
+        <li>Timings: 10:00AM to 5:45PM </li>
         <li>Fee : 200/-</li>
         <li>Platform: Microsoft Teams</li>
         <li>Team: Individual</li>
@@ -161,9 +161,7 @@
     <br>
     @if($regbool==0)
     <div class="wrap">
-                <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-                <a class="button reg-btn" id="buttonz" href="/workshops/register?workshop=5gandbeyond">Register</a>
-            
+                <h1 data-splitting id="reg-message">Registrations Closed</h1>            
             </div>
     @endif
     @if($regbool==1 && $ispaid==0 )

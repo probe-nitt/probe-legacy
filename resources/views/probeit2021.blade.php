@@ -111,7 +111,7 @@
 
 <h1 data-splitting>Important Details</h1>
 <ul>
-    <li>12th March 2021 (6:00 – 6:30 pm)</li>
+    <li>12th March 2021 (6:00 – 6:15 pm)</li>
 </ul>
     <!-- <li>Registration cost : 25/-</li> -->
     <h1 data-splitting>Prizes</h1>
@@ -147,16 +147,15 @@
     <br>
     @if($regbool==0)
     <div class="wrap">
-                <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-                <a class="button reg-btn" id="buttonz" href="/events/register?event=probeit">Register</a>
-            
+                <h1 data-splitting id="reg-message">Registrations Closed</h1>            
             </div>
     @endif
     @if($regbool==1 )
     <div class="wrap">
 
-               <a class="button pay-btn" id="buttonz" href="#">Registered successfully</a>
-            
+            <h1 data-splitting id="reg-message">Registered Successfully</h1>
+                <a class="button eventbtn" id="buttonz" href='https://forms.office.com/Pages/ResponsePage.aspx?id=p1CEoozbM0yRKkQzEbIt21wF0FvSSI5Mqj_gmGLRE_lURElCRjYwVjFFV1NWUjVJN0tLU0dFMktLMS4u'>ENTER EVENT</a>
+
     </div>
     @endif
 
