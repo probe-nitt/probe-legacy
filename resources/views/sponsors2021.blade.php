@@ -103,7 +103,7 @@
 		</div>
 
         <div id="events" style="display:flex; flex-direction:column;">				
-                <h5>WORKSHOP SPONSORS</h5>
+                <h5>WORKSHOP PARTNERS</h5>
 				
 		</div>
 
@@ -115,6 +115,17 @@
 			 <img src="/images/marvell_logo.png" style="width: 100%;
   height: auto;
   max-width: 30vw;" >
+		</div>
+
+		<div id="events" style="display:flex; flex-direction:column;">				
+                <h5>SAVINGS PARTNER</h5>
+				
+		</div>
+
+        <div id="events" style="display:flex; flex-direction:row;">				
+			<img src="/images/GrabOn_highres_white_primary.png" style="width: 100%;
+  height: auto;
+  max-width: 30vw; margin-bottom:0vh;" >
 		</div>
 		
 	</section>
