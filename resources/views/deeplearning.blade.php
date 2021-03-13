@@ -162,9 +162,7 @@
     <br>
     @if($regbool==0)
     <div class="wrap">
-                <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-                <a class="button reg-btn" id="buttonz" href="/workshops/register?workshop=deeplearning">Register</a>
-            
+                <h1 data-splitting id="reg-message">Registrations Closed</h1>            
             </div>
     @endif
     @if($regbool==1 && $ispaid==0 )
