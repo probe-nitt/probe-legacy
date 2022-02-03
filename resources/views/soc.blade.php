@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Life of SoC | PROBE 2021</title>
+	<title>Life of SoC | PROBE 2022</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	@if ($name = session('name'))
@@ -105,7 +105,7 @@ background-image:url(../images/backract.png);">
 	<header class="minor">
 		<h3 class="subheader"><b>Description</b></h3>
 	</header>
-			<p>Mobile devices are evolving from a means of communication to a pocket-sized PC, driven by increasing usage in the automation of industrial processes and connected network of objects. With the increasing number and complexity of tasks to be performed and a constraint to make the device as power-efficient as possible, it is useful to know from what features to consider for designing a SoC to its verification and testing. PROBE 2021 presents “Life of SoC”, an opportunity to get a sneak peak into the world of SoC design from the resource persons of Qualcomm. Exclusive for students of NIT Trichy. </p>
+			<p>Mobile devices are evolving from a means of communication to a pocket-sized PC, driven by increasing usage in the automation of industrial processes and connected network of objects. With the increasing number and complexity of tasks to be performed and a constraint to make the device as power-efficient as possible, it is useful to know from what features to consider for designing a SoC to its verification and testing. PROBE 2022 presents “Life of SoC”, an opportunity to get a sneak peak into the world of SoC design from the resource persons of Qualcomm. Exclusive for students of NIT Trichy. </p>
 			<!-- <header class="minor">
 				<h3 class="subheader"><b>DETAILS</b></h3>
 			</header>
@@ -182,7 +182,7 @@ background-image:url(../images/backract.png);">
 <!-- Footer -->
 <footer id="footer">
 	<ul class="copyright">
-		<li>&copy; PROBE 2021. All rights reserved.</li>
+		<li>&copy; PROBE 2022. All rights reserved.</li>
 	</ul>
 </footer>
 

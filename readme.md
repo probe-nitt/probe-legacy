@@ -1,6 +1,6 @@
 # Probe Website
 
-The website that will contain all information and handle registrations for PROBE 2021. 
+The website that will contain all information and handle registrations for PROBE 2022. 
 
 ## Setup
 

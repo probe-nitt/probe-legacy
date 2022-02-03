@@ -7,7 +7,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>About us | PROBE 2021</title>
+	<title>About us | PROBE 2022</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
@@ -246,7 +246,7 @@
 
 		 <div class="col-twelve">
 			 <div class="copyright">
-				<span>© Copyright Probe 2021.</span> 
+				<span>© Copyright PROBE 2022.</span> 
 				<span>Design by Design and  WebDev Team of Probe</span>		         	
 			</div>		               
 		 </div>

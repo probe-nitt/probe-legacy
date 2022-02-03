@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Sponsors | PROBE 2021</title>
+		<title>Sponsors | PROBE 2022</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		@if ($name = session('name'))
@@ -51,7 +51,7 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2><b>PROBE 2021 Sponsors</b></h2>
+							<h2><b>PROBE 2022 Sponsors</b></h2>
                         </header>
                         <!--p style="text-align: center;">Coming Soon</p-->
                         <div style="margin:auto; text-align: center; justify-content: center;" class="row gtr-uniform gtr-50">
@@ -102,7 +102,7 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="copyright">
-						<li>&copy; PROBE 2021. All rights reserved.</li>
+						<li>&copy; PROBE 2022. All rights reserved.</li>
 					</ul>
 				</footer>
 

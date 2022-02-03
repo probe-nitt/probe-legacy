@@ -225,7 +225,7 @@ class APIController extends Controller
     private function sendMailSG( $tomail, $subject, $content) {
         
         $email = new \SendGrid\Mail\Mail(); 
-        $email->setFrom("no-reply@probe.org.in", "PROBE 2021, NIT Trichy");
+        $email->setFrom("no-reply@probe.org.in", "PROBE 2022, NIT Trichy");
         $email->setSubject($subject);
         $email->addTo($tomail, null);
         $email->addContent(

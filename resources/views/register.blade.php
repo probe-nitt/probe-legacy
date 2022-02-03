@@ -7,7 +7,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>SignUp | PROBE 2021</title>
+	<title>SignUp | PROBE 2022</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
@@ -253,7 +253,7 @@
 
       		<div class="col-twelve">
 	      		<div class="copyright">
-		         	<span>© Copyright Probe 2021</span> 
+		         	<span>© Copyright PROBE 2022</span> 
 		         	<span>Built by Probe Webops and Design Teams</span>		         	
 		         </div>		               
 	      	</div>

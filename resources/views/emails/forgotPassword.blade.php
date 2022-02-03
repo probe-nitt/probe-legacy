@@ -8,7 +8,7 @@
             <p>Greetings from Team Probe!</p>
         </div>
         <div>
-            <p>You have requested for change of password in PROBE 2021 Website</p>
+            <p>You have requested for change of password in PROBE 2022 Website</p>
             <p>Please click <a href="{{ $url }}">here</a> to change your password.</p>
         </div>
 

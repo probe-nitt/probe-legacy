@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>tronICs | PROBE 2021</title>
+	<title>tronICs | PROBE 2022</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="{{ asset('css/main.css') }}"  />
@@ -101,7 +101,7 @@ background-image:url(../images/backract.png);">
 		<h3 class="subheader"><b>Description</b></h3>
 	</header>
             <p>A huge shoutout to all the garage scientists out there, who would like to solve everyday problems with electronics. </p>
-			<p>PROBE 2021 brings to you tronICs, where we give you a canvas of Breadboards and ICs to develop a prototype for a problem statement given on the spot! </p>
+			<p>PROBE 2022 brings to you tronICs, where we give you a canvas of Breadboards and ICs to develop a prototype for a problem statement given on the spot! </p>
             <header class="minor">
 				<h3 class="subheader"><b>Important Dates</b></h3>
 			</header>
@@ -126,7 +126,7 @@ background-image:url(../images/backract.png);">
 				<ol>
 				<li>Register with a maximum of 3 members per team at probe.org.in/events/tronics. Questionnaire will be sent to the registered email ID.</li>
 				<li>Submit the answers to the questionnaire before the deadline via email to <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b></li>
-				<li>Shortlisted teams will have finals during PROBE 2021 at NIT-Trichy. Finals will involve a task, for which problem statement will be announced on spot. Components will be given to build the circuit. </li>
+				<li>Shortlisted teams will have finals during PROBE 2022 at NIT-Trichy. Finals will involve a task, for which problem statement will be announced on spot. Components will be given to build the circuit. </li>
 				</ol>
 
 			<header class="minor">
@@ -159,7 +159,7 @@ background-image:url(../images/backract.png);">
 
 <footer id="footer">
 	<ul class="copyright">
-		<li>&copy; PROBE 2021. All rights reserved.</li>
+		<li>&copy; PROBE 2022. All rights reserved.</li>
 	</ul>
 </footer>
 

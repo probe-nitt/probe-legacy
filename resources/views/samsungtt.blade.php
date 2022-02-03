@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Probot | PROBE 2021</title>
+		<title>Probot | PROBE 2022</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		@if ($name = session('name'))
@@ -87,7 +87,7 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="copyright">
-						<li>&copy; PROBE 2021. All rights reserved.</li>
+						<li>&copy; PROBE 2022. All rights reserved.</li>
 					</ul>
 				</footer>
 

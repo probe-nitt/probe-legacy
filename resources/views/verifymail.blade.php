@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="format-detection" content="telephone=no" /> <!-- disable auto telephone linking in iOS -->
-		<title>PROBE 2021 Registration</title>
+		<title>PROBE 2022 Registration</title>
 		<style type="text/css">
 			/* RESET STYLES */
 			html { background-color:#E1E1E1; margin:0; padding:0; }
@@ -148,7 +148,7 @@
 																			<tr>
 																				<td align="left" class="textContent">
 																					<div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
-																						Confirmation and activation of your Probe 2021 account
+																						Confirmation and activation of your PROBE 2022 account
 																					</div>
 																				</td>
 																			</tr>
@@ -189,7 +189,7 @@
 															<table border="0" cellpadding="30" cellspacing="0" width="100%">
 																<tr>
 																	<td align="center" valign="top" class="textContent">
-																		<h1 style="color:#FFFFFF;line-height:100%;font-family:Helvetica,Arial,sans-serif;font-size:35px;font-weight:normal;margin-bottom:5px;text-align:center;">PROBE 2021</h1>
+																		<h1 style="color:#FFFFFF;line-height:100%;font-family:Helvetica,Arial,sans-serif;font-size:35px;font-weight:normal;margin-bottom:5px;text-align:center;">PROBE 2022</h1>
 																		
                                                                     </td>
 																</tr>
@@ -233,7 +233,7 @@
                                                                             <tr><td height=30 colspan=1></td></tr>
                                                                             <tr>
                                                                                 <td valign="top" class="textContent">
-                                                                                    <div mc:edit="body" style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Thank you for registering for PROBE 2021</div>
+                                                                                    <div mc:edit="body" style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Thank you for registering for PROBE 2022</div>
                                                                                 </td>
                                                                             </tr>
                                                                             <tr><td height=30 colspan=1></td></tr>
@@ -364,7 +364,7 @@
 																<tr>
 																	<td valign="top" bgcolor="#E1E1E1">
 																		<div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
-																			<div>This is an auto-generated email. Please do not reply to it as this email address is not monitored. This email was sent because you or someone registered on the PROBE 2021 website with this mail id. Please ignore the mail otherwise.</div>
+																			<div>This is an auto-generated email. Please do not reply to it as this email address is not monitored. This email was sent because you or someone registered on the PROBE 2022 website with this mail id. Please ignore the mail otherwise.</div>
 																		</div>
 																	</td>
 																</tr>

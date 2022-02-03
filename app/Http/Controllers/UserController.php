@@ -116,7 +116,7 @@ class UserController extends Controller
 
         $this->sendMailSG($email, "PROBE'21 Registration", $content);
 
-        Session::flash('message', 'You have successfully registered for Probe 2021. Please check your mail for instructions on account activation and activate your account before logging in');
+        Session::flash('message', 'You have successfully registered for Probe 2022. Please check your mail for instructions on account activation and activate your account before logging in');
         return redirect('/login');
     }
 
@@ -520,7 +520,7 @@ class UserController extends Controller
     
         //     $message->from('no-reply@probe.org.in', 'PROBE NIT TRICHY');
     
-        //     $message->to($email)->subject('PROBE 2021 Registration');
+        //     $message->to($email)->subject('PROBE 2022 Registration');
     
         // });
 
@@ -614,7 +614,7 @@ class UserController extends Controller
 
         $user = BullseyeUsers::where('participant','=',$id)->first();
 
-        $title = "Bullseye | Probe 2021";
+        $title = "Bullseye | Probe 2022";
         $comment = "";
         $extraComment = "";
         $cb = 0;
@@ -748,85 +748,42 @@ class UserController extends Controller
 
     }
 
-
-    public function se(Request $request){
-
-        $emails = Users::where('mail_verified','=',0)->get();
-    
-        foreach ($emails as $mail){
-
-            $mailid = $mail->email;
-
-            echo $mailid;
-
-            $user = Users::where('email','=',$mailid)->first();
-
-            echo json_encode($user);
-    
-            $id = "PROBE20".str_pad($user->id, 4, '0', STR_PAD_LEFT);
-    
-            $user->probe_id = $id;
-
-            $name = $user->name;
-    
-            $confirmhash = md5($id."arut");
-    
-            $user->mail_confirmation_hash = $confirmhash;       
-    
-            $user->save();
-    
-            $url = "https://".env("HOST_ADDR", "probe.org.in")."/activate?confirm=".$confirmhash;
-    
-            $data = array(
-                'name' => $name, 'pid' => $id, 'url' => $url,
-            );
-        
-            Mail::send('activate', $data, function ($message) use ($mailid) {
-        
-                $message->from('noreply@probe.org.in', 'PROBE, NIT Trichy');
-        
-                $message->to($mailid)->subject("PROBE'19 Registration");
-        
-            });
-        }
-
-        return;
-    }
-
     private function sendAttachmentMailSG($tomail, $subject, $content, $attachmentPath, $filename, $attachmentType) {
-        $mgClient = Mailgun::create(env('MAILGUN_API_KEY'), env('MAILGUN_BASE_URL'));
-        $domain = 'mailer.probe.org.in';
+        $email = new \SendGrid\Mail\Mail(); 
+        $email->setFrom("no-reply@probe.org.in", "PROBE 2022, NIT Trichy");
+        $email->setSubject($subject);
+        $email->addTo($tomail, null);
+        $email->addContent(
+            "text/html", $content
+            );
+        $file_encoded = base64_encode(file_get_contents($attachmentPath));
+        $email->addAttachment(
+            $file_encoded,
+            $attachmentType,
+            $filename,
+            "attachment"
+        );
+
+        $sendgrid = new \SendGrid(getenv('SENDGRID_API_KEY'));
         try {
-            $result = $mgClient->messages()->send($domain, array(
-                'from'  => 'Probe 2021, NIT Trichy no-reply@mailer.probe.org.in',
-                'to'    => $tomail,
-                'subject' => $subject,
-                'text'  => "Your mail doesn't support html",
-                'html' => $content,
-                'attachment' => array(
-                    array(
-                        'filePath' => $attachmentPath,
-                        'filename' => $filename
-                  )
-                )
-            ));
+            $response = $sendgrid->send($email);
         } catch (Exception $e) {
             Log::error('Caught exception while sending '. $subject . "email: ". $e->getMessage() ."\n");
         }
-
     }
 
     private function sendMailSG( $tomail, $subject, $content) {
-        $mgClient = Mailgun::create(env('MAILGUN_API_KEY'), env('MAILGUN_BASE_URL'));
-        $domain = 'mailer.probe.org.in';
+        
+        $email = new \SendGrid\Mail\Mail(); 
+        $email->setFrom("no-reply@probe.org.in", "PROBE 2022, NIT Trichy");
+        $email->setSubject($subject);
+        $email->addTo($tomail, null);
+        $email->addContent(
+            "text/html", $content
+            );
+        $sendgrid = new \SendGrid(env('SENDGRID_API_KEY'));
         try {
-            $result = $mgClient->messages()->send($domain, array(
-                'from'  => 'Probe 2021, NIT Trichy register@mailer.probe.org.in',
-                'to'    => $tomail,
-                'subject' => $subject,
-                'text'  => "Your mail doesn't support html",
-                'html' => $content
-            ));
+          $response = $sendgrid->send($email);
         } catch (Exception $e) {
             echo 'Caught exception: '. $e->getMessage() ."\n";
         }
