@@ -102,7 +102,7 @@ class UserController extends Controller
 
         $user->save();
 
-        $url = "https://".env("HOST_ADDR", "probe.org.in")."/activate?confirm=".$confirmhash;
+        $url = env("HOST_ADDR", "https://probe.org.in")."/activate?confirm=".$confirmhash;
 
         $data = array(
             'name' => $name, 'pid' => $id, 'url' => $url,
@@ -775,7 +775,7 @@ class UserController extends Controller
     private function sendMailSG( $tomail, $subject, $content) {
         
         $email = new \SendGrid\Mail\Mail(); 
-        $email->setFrom("no-reply@probe.org.in", "PROBE 2022, NIT Trichy");
+        $email->setFrom("noreply@probe.org.in", "PROBE 2022, NIT Trichy");
         $email->setSubject($subject);
         $email->addTo($tomail, null);
         $email->addContent(

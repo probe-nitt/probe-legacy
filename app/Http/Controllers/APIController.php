@@ -111,7 +111,7 @@ class APIController extends Controller
 
             $user->save();
 
-            $url = "https://".env("HOST_ADDR", "probe.org.in")."/activate?confirm=".$confirmhash;
+            $url = env("HOST_ADDR", "https://probe.org.in")."/activate?confirm=".$confirmhash;
 
             $data = array(
                'name' => $name, 'pid' => $id, 'url' => $url,
@@ -208,7 +208,7 @@ class APIController extends Controller
         $user->forgot_password_sent = 1;
         $user->save();
 
-        $url = "https://".env("HOST_ADDR", "probe.org.in")."/changePassword?confirm=".$confirmhash;
+        $url = env("HOST_ADDR", "https://probe.org.in")."/changePassword?confirm=".$confirmhash;
 
         $content = View::make('emails.forgotPassword', [
             'name' => $user->name, 
