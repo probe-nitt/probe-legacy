@@ -1979,13 +1979,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #services {
-  background-color: #19191b;
-  background-image: url(../images/services-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  background-image: radial-gradient(circle, #2e2f6d, #27285e, #1f2050, #181942,#0f0330, #33001a, #cc0066);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
   min-height: 800px;
   position: relative;
   padding: 15rem 0 15rem;
