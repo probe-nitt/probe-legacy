@@ -42,9 +42,9 @@ Route::get('/', function () {
 // Route::get('/contact', function () {
 //     return view('contacts');
 // });
-// Route::get('/about', function () {
-//     return view('aboutUs');
-// });
+Route::get('/about-us', function () {
+    return view('aboutUs');
+});
 Route::get('/podcasts', function () {
     return view('podcasts');
 });

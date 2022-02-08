@@ -75,7 +75,7 @@
 					<li><a class="login-button button"  href="/login">Log in</a></li>
 				@endif
 				<li class="current"><a href="/" title="">Home</a></li>
-				<li><a href="/#services" title="">About</a></li>
+				<li><a href="/about-us" title="">About Us</a></li>
 				<li><a href="/events" title="">Events</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
 				<li><a href="/lectures" title="">Guest Lectures</a></li>
