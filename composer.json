@@ -10,7 +10,6 @@
         "guzzlehttp/guzzle": "~5.3|~6.0",
         "sendgrid/sendgrid": "~7",
         "gokulsrinivas/sangria": "1.0.1",
-        "mailgun/mailgun-php": "^3.2",
         "php-http/guzzle6-adapter": "^2.0",
         "php-http/message": "^1.10",
         "kriswallsmith/buzz": "^1.2",
@@ -43,12 +42,10 @@
             "php artisan key:generate"
         ],
         "post-install-cmd": [
-            "Illuminate\\Foundation\\ComposerScripts::postInstall",
-            "php artisan optimize"
+            "Illuminate\\Foundation\\ComposerScripts::postInstall"
         ],
         "post-update-cmd": [
-            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
-            "php artisan optimize"
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate"
         ]
     },
     "config": {

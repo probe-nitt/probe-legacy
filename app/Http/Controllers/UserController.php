@@ -24,7 +24,6 @@ use App\Models\BullseyeUsers;
 use App\Models\BullseyeData;
 
 use GuzzleHttp\Client;
-use Mailgun\Mailgun;
 
 class UserController extends Controller
 {
