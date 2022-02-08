@@ -165,6 +165,11 @@
                <input  name="phoneno" type="tel" id="Phone" placeholder="123567890" value="" minlength="10" maxlength="10" required="" style="color: white; width: 100%;">
             </div>
 
+            <label for="referral" style="color: white;">Referral</label>
+            <div class="form-field">
+               <input name="referral" type="text" id="referral" placeholder="Referral code" maxlength="6">
+            </div>
+
             <label class="add-bottom" style="display:none;">
                <input type="checkbox" name="acco">	            
                <span class="label-text" style="color: white;">Do you need Accomodation?</span>

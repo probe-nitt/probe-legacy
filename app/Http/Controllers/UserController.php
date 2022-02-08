@@ -43,7 +43,7 @@ class UserController extends Controller
             'yos'       => 'required',
             'dept'      => 'required',
             'cn'        => 'required',
-            'phoneno'   => 'required|digits:10'
+            'phoneno'   => 'required|digits:10',
         ]);
 
         $name     = $request->input('name');
@@ -54,6 +54,7 @@ class UserController extends Controller
         $dept     = $request->input('dept');
         $cn       = $request->input('cn');
         $phoneno  = $request->input('phoneno');
+        $referral = $request->input('referral');
         $acco  = $request->input('acco');
 
         $checkmail = Users::where('email','=',$email)->first();
@@ -85,6 +86,7 @@ class UserController extends Controller
         $user->college_name = $cn;
         $user->phone_no = $phoneno; 
         $user->yos = (int)$yos[0];
+        $user->referral = $referral;
         $user->acco_needed = $acco == 'on'? 1 : 0;
 
         $user->save();
