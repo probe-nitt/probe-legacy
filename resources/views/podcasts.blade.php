@@ -94,22 +94,6 @@
 		<div id="events">
 			<h5 id="title">Probe FM 55.5</h5>	
 		</div>
-		<div id="events">				
-			<div class="econtainer">
-				<h5>Mr. Srikant Sharma</h5>
-				<img src="/images/srikanth.jpg" >
-				<p>Mr. Srikant Sharma is a Principal Engineer, at Micron Technology working on NVM Quality and Reliablity. He has around 13 years of experience working in the Semiconductor/Software industry in domains ranging from Telecom, Aviation, Networking to Storage. Currently, he is working at Mircon for more than two years, leading the Quality and Reliability Group. He takes care of the qualification of the emerging memory technology based NVMe PCIe SSDs. In this podcast in association with Micron Technology, he will talk about his early years and his experience in the industry. Stay tuned!<br></p>
-				<span>
-					<div>
-						<span class="micron-present">brought to you by</span>
-						<a href="https://in.micron.com/" target="_blank">
-							<img class="micron-img" src="/images/Micron_whitelogo.png">
-						</a>
-					</div>
-				</span>
-				<button class="LM"><a class="LM" href="#">Coming Soon</a></button>
-			</div>
-		</div>
         <div id="events">
             <div class="econtainer">
 				<h5 style="font-size: 2rem;">Dr. S. Dasgupta</h5>

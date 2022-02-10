@@ -95,19 +95,19 @@
 		<div id="events">
 			<h5 id="title">Sponsors</h5>
 		</div>
-		<div id="events" style="display:flex; flex-direction:column;">				
+		<div id="events" style="display:flex; flex-direction:column; padding-top: 20px">
                 <h5>TITLE SPONSOR</h5>
 				<img src="/images/micron_logo.png" style="width: 100%;
   height: auto;
   max-width: 50vw;" >
 		</div>
 
-        <div id="events" style="display:flex; flex-direction:column;">				
+        <div id="events" style="display:flex; flex-direction:column; padding-top: 40px">			
                 <h5>WORKSHOP PARTNERS</h5>
 				
 		</div>
 
-        <div id="events" style="display:flex; flex-direction:row;">				
+        <div id="events" style="display:flex; flex-direction:column; padding-top: 40px">		
 			<img src="/images/crl_logo.png" style="width: 100%;
   height: auto;
   max-width: 30vw; margin-bottom:0vh;" >
@@ -115,17 +115,6 @@
 			 <img src="/images/marvell_logo.png" style="width: 100%;
   height: auto;
   max-width: 30vw;" >
-		</div>
-
-		<div id="events" style="display:flex; flex-direction:column;">				
-                <h5>SAVINGS PARTNER</h5>
-				
-		</div>
-
-        <div id="events" style="display:flex; flex-direction:row;">				
-			<img src="/images/GrabOn_highres_white_primary.png" style="width: 100%;
-  height: auto;
-  max-width: 30vw; margin-bottom:0vh;" >
 		</div>
 		
 	</section>

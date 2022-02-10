@@ -44,7 +44,7 @@
 	<header>
 
 		<div class="header-logo">
-			<a href="/" style="position: fixed;">Probe</a>
+			<a href="/">Probe</a>
 		</div>
 
 		<a id="header-menu-trigger" href="#0">
@@ -97,7 +97,8 @@
 		<div id="events">
 			<h5 style="font-size: 5rem; font-family: 'lovelo-light', sans-serif;">About Us</h5>
 		</div>
-		<div class='aboutProbeDescription'>Probe is the annual international technical symposium of the Department of ECE, NIT Trichy. It is one of the biggest ECE symposiums in India, where it creates a learning platform in the latest fields and trends related to electronics and communication.</div>
+		<p class="lead">Probe is the annual technical symposium of the department of Electronics and Communication Engineering, NIT Trichy. The international level symposium hosts a variety of workshops, technical contests, quizzes, guest lectures by industrial experts and academia, and tech talks to help bridging the gap between classroom learning and the latest trends across the spectrum of fields in Electronics and Communication.</p>
+		<?php /*
 		<div id="events">
 			<div class="econtainer">
 				<h5 style="font-size: 2rem;">Member's name</h5>
@@ -105,6 +106,7 @@
 				<p>Position of Responsibility<br>Description</p>
 			</div>
 		</div>
+		*/ ?>
 	</section>
 	<!-- footer
    ================================================== -->

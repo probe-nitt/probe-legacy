@@ -49,7 +49,7 @@
    <header> 
 
    	<div class="header-logo">
-	      <a href="/" style="position: fixed;">Probe</a>
+	      <a href="/">Probe</a>
 	   </div> 
 
 		<a id="header-menu-trigger" href="#0">
