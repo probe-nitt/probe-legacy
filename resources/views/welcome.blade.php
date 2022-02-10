@@ -207,9 +207,6 @@
    <!-- about
    ================================================== -->
    <section id="services">
-
-   	<div class="overlay"></div>
-   	<div class="gradient-overlay"></div>
    	
    	<div class="row narrow section-intro with-bottom-sep animate-this">
    		<div class="col-full">
