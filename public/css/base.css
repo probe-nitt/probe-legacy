@@ -831,17 +831,18 @@ textarea {
   align-items: center;
 }
 
-#title.coming-soon-msg {
-  font-size: 10rem;
+.coming-soon-msg {
+  font-family: "lovelo-light";
+  font-size: 4rem;
   text-align: center;
 }
 @media screen and (max-width: 500px) {
-  #title.coming-soon-msg {
-    font-size: 7rem;
+  .coming-soon-msg {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 300px) {
-  #title.coming-soon-msg {
-    font-size: 5rem;
+  .coming-soon-msg {
+    font-size: 1rem;
   }
 }

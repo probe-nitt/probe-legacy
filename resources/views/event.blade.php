@@ -96,6 +96,10 @@
 			<h5 style="font-size: 5.6rem;font-family: 'lovelo-light', sans-serif;">Events</h5>	
 		</div>
 		<div id="events">
+			<h5 class="coming-soon-msg">COMING SOON...</h5>
+		</div>
+		<?php /*
+		<div id="events">
 			<div class="econtainer">
 				<h5>Cryptech</h5>
 				<img src="/images/EVENTS/cryptech.jpg" >
@@ -104,55 +108,7 @@
 				<button class="LM"><a class="LM" href="/events/cryptech">Learn More</a></button>
 			</div>
 		</div>
-		<div id="events">
-			<div class="econtainer">
-				<h5>Always@(Verilog)</h5>
-				<img src="/images/EVENTS/verilog.jpg" >
-				<p>Probe brings you Always@(Verilog), where participants compete in a two-round contest that tests their Verilog knowledge and general aptitude using a mix of objective and coding questions.<br></p>
-				<span>Date: 10-03-2021 </span>
-				<button class="LM"><a class="LM" href="/events/alwaysverilog">Learn More</a></button>
-			</div>
-		</div>
-		
-        <div id="events">
-			<div class="econtainer">
-				<h5>Matrix Octave</h5>
-				<img src="/images/EVENTS/octave.png" >
-				<p>GNU Octave is a well-known software used in fields like machine learning, data analytics and industry. Probe'21 presents to you a coding competition in GNU octave - MATRIX.<br></p>
-				<span>Date: 10-03-2021 </span>
-				<button class="LM"><a class="LM" href="/events/matrixoctave">Learn More</a></button>
-			</div>
-		</div>
-
-        <div id="events">
-			<div class="econtainer">
-				<h5>Embedtronix</h5>
-				<img src="/images/EVENTS/Embedtronix.jpg" >
-				<p>If making water level detectors for your home's rooftop tanks, or building a burglar alarm are those that kindle your interest, here is the event for you. Dive deep into the world of digital electronics with Probe 21's Embedtronix<br></p>
-				<span>Date: 10-03-2021 </span> 
-				<button class="LM"><a class="LM" href="/events/embedtronix">Learn More</a></button>
-			</div>
-		</div>
-
-		<div id="events">
-			<div class="econtainer">
-				<h5>ProbeIt</h5>
-				<img src="/images/EVENTS/probeIT.jpg" >
-				<p>Are you someone who likes keeping abreast of the latest developments across the length and breadth of electronics and waiting to exhibit them in the right time at the right place?  ProbeIT is here!<br></p>
-				<span>Date: 12-03-2021</span>
-				<button class="LM"><a class="LM" href="/events/probeit">Learn More</a></button>
-			</div>
-		</div>
-
-		<div id="events">
-			<div class="econtainer">
-				<h5>Paths And Holes</h5>
-				<img src="/images/EVENTS/pcb.png" >
-				<p>Play around with online CAD tools designing circuit for PCBs and showcase your circuit designing skills in Path and Holes at Probe '21!<br></p>
-				<span>Date: 14-03-2021</span>
-				<button class="LM"><a class="LM" href="/events/pathsandholes">Learn More</a></button>
-			</div>
-		</div>
+		*/ ?>
 
 	</section>
 		<!-- footer

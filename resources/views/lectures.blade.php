@@ -94,6 +94,10 @@
 		<div id="events">
 			<h5 id="title">Guest Lectures</h5>
 		</div>
+		<div id="events">
+			<h5 class="coming-soon-msg">COMING SOON...</h5>
+		</div>
+		<?php /*
 		<div id="events">				
 			<div class="econtainer big">
 				<h5>Howard  Chua, <i>Sr.Director, TSE - NAND/MNAND, Micron Technology, Inc</i>
@@ -116,101 +120,7 @@
 				<button class="LM" ><a href="https://forms.gle/N72MypxXn3LSnJHZ8">Register here</a></button>
 			</div>
 		</div>
-		<div id="events">				
-			<div class="econtainer big">
-				<h5>Koushik Raghavan, <i>Director Data Science, Micron Technology, Inc</i>
-				</h5>
-				<img src="/images/guestopt.jpeg" >
-				<p>In the complex world of Business Analytics and Intelligence, Big data and Machine learning how do you crawl, walk, run & fly? Is Data Science only about correlation & R-Square? Probe '21 in association with Micron Technology proudly presents a guest lecture by Koushik Ragavan.<br>He is an AI, ML leader, Data Science enthusiast and Software Product Engineering expert with hands-on experience in designing and building AI/ML-based real-time analytical engines and recommender systems. He has led Data Science teams and successfully delivered ML products across the semi-conductor business spectrum. His areas of expertise include Virtual Metrology, Recommender systems, Predictive Modeling, Prescriptive Modeling, NLP & Combinatorial Optimizations to name a few. Koushik has 20+ Inventions, including 4 Patents USPO and several publications. Witness him decode and demystify the <i class="lecture-name">"Art of Data Science"</i> on 12th March at 7:00 PM.</p>
-				<span>
-					Date: 12-03-2021, 7:00 PM
-					<div>
-						<span class="micron-present">brought to you by</span>
-						<a href="https://www.qualcomm.com/" target="_blank">
-							<img class="micron-img" src="/images/Qualcomm_whitelogo.png">
-						</a>
-					</div>
-				</span>
-				<button class="LM" ><a href="https://forms.gle/gKrkX2QBSyWaei9MA">Register here</a></button>
-			</div>
-		</div>
-		<div id="events">				
-			<div class="econtainer big">
-				<h5>Kalyan Kavalipurapu, <i>Sr.Design Manager, Micron Technology, Inc</i>
-				</h5>
-				<img src="/images/companyg3.jpg" >
-				<p>We are delighted to announce a Guest Lecture with Mr. Kalyan Kavalipurapu on <i class="lecture-name">"Introduction to NAND Flash"</i>. Mr. Kavalipurapu is a Senior NAND Design Manager at Micron Technology, Hyderabad. 
-
-After graduating with Masters degree in Electrical Engineering from Arizona State University, he joined Micron in July 2006. He has an experience of over 14 years in analog design domain. He was responsible for designing state of the art both high voltage and low voltage NAND flash products at Micron. 
-
-Be there to dive into the world of NAND flash memory with Mr. Kavalipurapu on 14th March at 4:00pm. Click below to register for the guest lecture.<br></p>
-				<span>
-					Date: 14-03-2021, 4:00 PM
-					<div>
-						<span class="qualcomm-present">brought to you by</span>
-						<a href="https://www.qualcomm.com/" target="_blank">
-							<img class="qualcomm-img" src="/images/Qualcomm_whitelogo.png">
-						</a>
-					</div>
-				</span>
-				<button class="LM" ><a href="https://forms.gle/YCc9Q75x1rZDcPKt9">Register here</a></button>
-			</div>
-		</div>
-
-		<div id="events">				
-			<div class="econtainer big">
-				<h5>Sneha Balan, <i>Alumnus NIT Trichy</i>
-				</h5>
-				<img src="/images/guest4.jpeg" >
-				<p>Probe '21 in association with Micron Technology proudly presents Ms. Sneha Balan, an alumnus of ECE, NIT Trichy - batch of 2014. Ms Balan is currently working at Yousuf Mahmood Hussain, a healthcare distributor company as a Healthcare Solutions Designer. In this guest lecture she will focus on the topic of  <i class="lecture-name">"Healthcare Infratech"</i>, where she will walk us through the different contemporary technologies used in healthcare settings across the world. She has associated herself with the Ministry of Health, Bahrain for the construction of new government hospitals and revamping the existing ones. She is also the recipient of Best Outgoing Student Award from the department of ECE. Make sure to listen to her experience and wisdom in the healthcare sector on 13th of March at 2:00 PM. Find the link to register for the guest lecture below.<br></p>
-				<span>
-					Date: 13-03-2021, 2:00 PM
-					<div>
-					</div>
-				</span>
-				<button class="LM" ><a href="https://forms.gle/faznd1L5roceSwdi7">Register here</a></button>
-			</div>
-		</div>
-
-		<!-- <div id="events">				
-			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Lecture topic</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
-			</div>
-		</div>
-		<div id="events">
-			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Lecture topic</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
-			</div>
-		</div>
-		<div id="events">
-			<div class="econtainer">
-				<h5 style="font-size: 2rem;">Lecture topic</h5>
-				<img src="/images/EVENTS/bullseye.jpg" >
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-					sed do eiusmod tempor incididunt ut labore et dolore 
-					magna aliqua. Ut enim ad minim veniam, quis nostrud 
-					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-					<span>Number of Attendees: </span>#<br>
-					<span>Date:</span> dd-mm-yyyy</p>
-				<button class="LM">Learn More</button>
-			</div>
-		</div> -->
+		*/ ?>
 		
 	</section>
 		<!-- footer

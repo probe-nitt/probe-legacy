@@ -97,25 +97,20 @@
 		</div>
 		<div id="events" style="display:flex; flex-direction:column; padding-top: 20px">
                 <h5>TITLE SPONSOR</h5>
-				<img src="/images/qualcomm_logo.png" style="width: 100%;
+				<img src="/images/Qualcomm_whitelogo.png" style="width: 100%;
   height: auto;
   max-width: 50vw;" >
 		</div>
 
+		<?php /*
         <div id="events" style="display:flex; flex-direction:column; padding-top: 40px">			
                 <h5>WORKSHOP PARTNERS</h5>
-				
 		</div>
 
         <div id="events" style="display:flex; flex-direction:column; padding-top: 40px">		
-			<img src="/images/crl_logo.png" style="width: 100%;
-  height: auto;
-  max-width: 30vw; margin-bottom:0vh;" >
-             
-			 <img src="/images/marvell_logo.png" style="width: 100%;
-  height: auto;
-  max-width: 30vw;" >
+			<img src="/images/entuple_logo.png" style="width: 100%; height: auto; max-width: 30vw; margin-bottom:0vh;">
 		</div>
+		*/ ?>
 		
 	</section>
 		<!-- footer
