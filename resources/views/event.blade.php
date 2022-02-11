@@ -136,9 +136,10 @@
 	      		<h4 class="h05">Follow us</h4>
 
 	      		<ul class="list-links">
-	      			<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank" >Facebook</a></li>
+						<li><a href="https://www.instagram.com/probe.nitt/" target="_blank" >Instagram</a></li>
+						<li><a href="https://www.facebook.com/Probe.NITT/" target="_blank" >Facebook</a></li>
 						<li><a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" >Linkedin</a></li>
-						<li><a href="https://www.instagram.com/probe.nitt/" target="_blank" >Instagram</a></li>						
+						<li><a href="https://www.youtube.com/channel/UCIHhIMy1mdE5suJMN7lYT-w">Youtube</a></li>
 					</ul>
 
 	      	</div> <!-- end footer-social -->  
