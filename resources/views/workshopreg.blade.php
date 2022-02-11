@@ -1,4 +1,4 @@
-@if (($regbool==1 && $ispaid==1) || 1)
+@if (($regbool==1 && $ispaid==1) || 0)
 <script type="text/javascript">
     window.location = "{{ url('/workshops') }}"+"/"+"{{ $workshop }}";//here double curly bracket
 </script>
@@ -145,7 +145,7 @@
 						<p class='participant'>Participant 3: {{$p3}}</p>
 						@endif
 						<strong>For successful payment, please use the email that is registered in this website.</strong><br/><br/>
-						<button id="payment-btn" onclick="popup('copy-of-probe-122100');" class="tsbutton">Pay and complete registration</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js" type="text/javascript"></script>
+						<button id="payment-btn" onclick="popup('{{$workshopCode}}');" class="tsbutton">Pay and complete registration</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js" type="text/javascript"></script>
 					</div>
 				@endif
 				<!-- <div class="alert-box ss-success hideit" id="mmessage-success">

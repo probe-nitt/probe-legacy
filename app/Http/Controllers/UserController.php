@@ -231,6 +231,7 @@ class UserController extends Controller
         $w = Workshops::where('name','=',$workshop)->first();
 
         $wid = $w->id;
+        $workshopCode = $w->event_code;
         $mc = $w->max_count;
         $ec = $w->event_code;
 
@@ -262,7 +263,7 @@ class UserController extends Controller
                 $p3 = "PROBE20".str_pad($isregistered->participant3, 4, '0', STR_PAD_LEFT);
         }
 
-        return view('workshopreg',['regbool' => $regbool, 'ispaid' => $ispaid, 'workshop' => $workshop, 'p1' => $p1, 'p2' => $p2, 'p3' => $p3, 'mc' => $mc, 'ec' => $ec]);
+        return view('workshopreg',['regbool' => $regbool, 'ispaid' => $ispaid, 'workshop' => $workshop, 'p1' => $p1, 'p2' => $p2, 'p3' => $p3, 'mc' => $mc, 'ec' => $ec, 'workshopCode' => $workshopCode]);
 
     }
 
@@ -513,8 +514,6 @@ class UserController extends Controller
         if($p3!='')
             $reg->participant3 = $p3;
         $reg->workshop_id = $wid;
-        if($workshop == "roleofmemory")
-            $reg->paid = 1;
         $reg->save();
 
         // Mail::send('verifymail', $data, function ($message) use ($email) {

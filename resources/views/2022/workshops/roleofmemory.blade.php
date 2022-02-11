@@ -7,7 +7,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Events | PROBE 2022</title>
+	<title>Workshops | PROBE 2022</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
@@ -43,7 +43,13 @@
 <div id="particles-js"></div>
 <div class="hero-nav">
     <div class="hero-nav__inner">
-        <h1>Cryptech</h1>
+        <h1 style="text-align:center;">DEMONSTRATING THE ROLE OF MEMORY IN COMPUTING SYSTEMS</h1>
+    </div>
+    <div class="hero-nav__broughtby">
+        <span>brought to you by</span>
+        <a href="https://www.qualcomm.com/" target="_blank">
+            <img src="/images/Qualcomm_whitelogo.png">
+        </a>
     </div>
 </div>
 	<!-- header 
@@ -59,7 +65,7 @@
 		  	<span class="header-menu-icon"></span>
 		</a> 
 
-		<nav id="menu-nav-wrap">
+				<nav id="menu-nav-wrap">
 
 			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
 
@@ -82,16 +88,17 @@
 				<li><a href="/podcasts" title="">Podcasts</a></li>
 				<li><a href="/sponsors" title="">Sponsors</a></li>
 				<li><a href="#contacts" title="">Contact Us</a></li>
+
 			</ul>	
 			<ul style="text-align:center;" class="header-social-list">
 	         <li>
-	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	         	<a href="https://www.facebook.com/Probe.NITT/" target="_blank" ><i class="fa fa-facebook-square"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-twitter"></i></a>
+	         	<a href="https://www.linkedin.com/company/probe-nit-trichy/" target="_blank" ><i class="fa fa-linkedin"></i></a>
 	         </li>
 	         <li>
-	         	<a href="#"><i class="fa fa-instagram"></i></a>
+	         	<a href="https://www.instagram.com/probe.nitt/" target="_blank" ><i class="fa fa-instagram"></i></a>
 			 </li>  
 	      </ul>		
 			
@@ -100,66 +107,70 @@
 	</header> <!-- end header --> 
     
     <div class="page">
-    
+
+     
 
 <h1 data-splitting>Description</h1>
-        <p>How often have you calculated the time remaining and the speed required to reach your college
-            after being late in your morning schedule by 5 minutes? How about the number of mugs of water that
-            can fill your bucket? Have you wondered about measuring time with the help of candles? Buckle up as
-            Probe '21 brings you Cryptech, where your aptitude skills will be put to test. Put on your aptitude cap to
-            crack the puzzles, sudoku and a variety of tasks in store for you.
-        </p>
+        <p>Dr.C.R.Parthasarathy is a distinguished engineer who is the Director for Technology Development at Micron. He is an alumnus of IIT Bombay and earned his PhD on Microelectronics at the Aix-Marseille University. He has more than two decades of experience in the fields of reliability model development and ESD development methodology.</p>
+		<p>He would be taking part in Probe '21 as the speaker in a workshop conducted by Micron on “The role of memory in computer systems”. Join us in this workshop to get insightful views about the critical role the organisation of memory plays on the performance of the computer systems on 13th March at 2:00 PM.</p>
 
-<h1 data-splitting>Important Details</h1>
+    <h1 data-splitting>Workshop details</h1>
 
     <ul>
-		<li>Event on 13th March 2021 (6:00 – 7:00 pm) </li>
+		<li>Date: 13-03-2021</li>
+        <li>Duration: 1 day</li>
+        <li>Timings: 2:00PM to 5:00PM </li>
+        <li>Fee : Free</li>
+        <li>Platform: Microsoft Teams</li>
+        <li>Team: Individual</li>
 	</ul>
 
-<h1 data-splitting>Prizes</h1>
+    <h1 data-splitting>Workshop partner</h1>
+    <p>Micron Technology</p>
 
-    <ul>
-		<li>Prizes worth 6,000 INR for Top 3 participants.</li>
-		<li>Participation Certificates will be provided.</li>
-	</ul>
-
-<h1 data-splitting>Rules</h1>
-
-
-            <ul>
-                <li>This is an individual event</li>
-                <li>Decision by the event organizers will be the ultimate.</li>
-            </ul>
-            
 <h1 data-splitting id="faq-header">FAQ</h1>
-<ol>
-    <li>On which platform is the event conducted?</li>
-    <span class='answer-faq'>MS Forms</span>
-</ol>          
 
-<h1 data-splitting>Contacts</h1>
-
-<p>Email: <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b></p>
-			<p>Purushothaman: +91 8825573900</p>
-			<p>Kiran Raj Karthi: +91 9940555314</p>
+            <ol>
+                <li>What is the format of the workshop?</li>
+                <span class='answer-faq'>Workshop is conducted in Microsoft Teams, before the workshop every participant will be added into teams, all the meetings and discussion will be done in Microsoft Teams. </span>
+                <li>Are there any prerequisites for the workshop?</li>
+				<span class='answer-faq'>No need for any prerequisites, all the concepts will be taught from basics.</span>
+				<li>Is this limited to students?</li>
+				<span class='answer-faq'>No. Any UG, PG Students or working professionals can participate.</span>
+                <li>Is it a certified course?</li>
+                <span class='answer-faq'>Yes. The participants will be given certificates from the company on completion of the workshop</span>
+				<li>How do we receive the certificate?</li>
+				<span class='answer-faq'>After the completion of the workshop certificate will be mailed to participants.</span>
+            </ol>
 
             
     </div>
     <br>
     <br>
-    @if($regbool==0)
+    @if($regbool==1 && $ispaid==0 )
     <div class="wrap">
                 <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-                <a class="button reg-btn" id="buttonz" href="/events/register?event=cryptech">Register</a>
-            
-            </div>
-    @endif
-    @if($regbool==1 )
-    <div class="wrap">
-
-               <a class="button pay-btn" id="buttonz" href="#">Registered successfully</a>
-            
+               <a class="button pay-btn" id="buttonz" href="/workshops/register?workshop=roleofmemory">Make payment</a>
     </div>
+    @endif
+
+    @if($regbool==1 && $ispaid==1 )
+    <div class="wrap">
+    <h1 data-splitting id="reg-message">Registered Successfully</h1>
+    <!-- <a class="button" id="buttonz" href='/instructions/Data Acquisition and Processing Instructions.pdf' download>Download instructions</a> -->    
+    </div>
+    @endif
+
+    @if($regopen==1)
+    <div class="wrap">
+                <h1 data-splitting id="reg-message">Limited Registrations!</h1>
+               <a class="button pay-btn" id="buttonz" href="/workshops/register?workshop=roleofmemory">Register now</a>
+    </div>
+    @endif
+    @if($regopen==0)
+    <div class="wrap">
+                <h1 data-splitting id="reg-message">Registrations Full!</h1>            
+            </div>
     @endif
     	<!-- footer
    ================================================== -->
@@ -237,7 +248,6 @@
 <script src="{{ asset('js/jquery-2.1.3.min.js') }}"></script>
 <script src="{{ asset('js/plugins.js') }}"></script>
 <script src="{{ asset('js/index.js') }}"></script>
-<script src="{{ asset('js/particles.js') }}"></script>
 
 <!-- CDNs for splitting.js and scroll-out.js -->
 <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
