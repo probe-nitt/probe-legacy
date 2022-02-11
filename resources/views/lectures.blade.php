@@ -107,9 +107,9 @@
 				<span>
 					Date: 13-03-2021, 11:00 AM
 					<div>
-						<span class="micron-present">brought to you by</span>
-						<a href="https://in.micron.com/" target="_blank">
-							<img class="micron-img" src="/images/Micron_whitelogo.png">
+						<span class="qualcomm-present">brought to you by</span>
+						<a href="https://www.qualcomm.com/" target="_blank">
+							<img class="qualcomm-img" src="/images/Qualcomm_whitelogo.png">
 						</a>
 					</div>
 				</span>
@@ -126,8 +126,8 @@
 					Date: 12-03-2021, 7:00 PM
 					<div>
 						<span class="micron-present">brought to you by</span>
-						<a href="https://in.micron.com/" target="_blank">
-							<img class="micron-img" src="/images/Micron_whitelogo.png">
+						<a href="https://www.qualcomm.com/" target="_blank">
+							<img class="micron-img" src="/images/Qualcomm_whitelogo.png">
 						</a>
 					</div>
 				</span>
@@ -147,9 +147,9 @@ Be there to dive into the world of NAND flash memory with Mr. Kavalipurapu on 14
 				<span>
 					Date: 14-03-2021, 4:00 PM
 					<div>
-						<span class="micron-present">brought to you by</span>
-						<a href="https://in.micron.com/" target="_blank">
-							<img class="micron-img" src="/images/Micron_whitelogo.png">
+						<span class="qualcomm-present">brought to you by</span>
+						<a href="https://www.qualcomm.com/" target="_blank">
+							<img class="qualcomm-img" src="/images/Qualcomm_whitelogo.png">
 						</a>
 					</div>
 				</span>

@@ -3285,14 +3285,14 @@ footer h4.h05::after {
     font-size: 1.75rem;
   }
 }
-.econtainer .micron-present {
+.econtainer .qualcomm-present {
   font-size: 15px;
   font-family: "montserrat-bold", sans-serif;
   color: #efefef;
   position: unset;
   padding: 0;
 }
-.econtainer .micron-img {
+.econtainer .qualcomm-img {
   position: unset;
   height: 25px;
   width: 75px;

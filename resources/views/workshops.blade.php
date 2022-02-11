@@ -103,9 +103,9 @@
 				<p>Learn about how computer memory organisation and faster access are becoming a necessity in the modern world with a sharply rising need for data analysing and  processing, and how the industry is tackling the challenges associated.<br></p>
 				<span>
 					<div>
-						<span class="micron-present">brought to you by</span>
-						<a href="https://in.micron.com/" target="_blank">
-							<img class="micron-img" src="/images/Micron_whitelogo.png">
+						<span class="qualcomm-present">brought to you by</span>
+						<a href="https://www.qualcomm.com/" target="_blank">
+							<img class="qualcomm-img" src="/images/Qualcomm_whitelogo.png">
 						</a>
 					</div>
 					Date: 13-03-2021, 2:00 PM

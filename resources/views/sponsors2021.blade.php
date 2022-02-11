@@ -97,7 +97,7 @@
 		</div>
 		<div id="events" style="display:flex; flex-direction:column; padding-top: 20px">
                 <h5>TITLE SPONSOR</h5>
-				<img src="/images/micron_logo.png" style="width: 100%;
+				<img src="/images/qualcomm_logo.png" style="width: 100%;
   height: auto;
   max-width: 50vw;" >
 		</div>

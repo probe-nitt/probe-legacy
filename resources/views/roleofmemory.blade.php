@@ -47,8 +47,8 @@
     </div>
     <div class="hero-nav__broughtby">
         <span>brought to you by</span>
-        <a href="https://in.micron.com/" target="_blank">
-            <img src="/images/Micron_whitelogo.png">
+        <a href="https://www.qualcomm.com/" target="_blank">
+            <img src="/images/Qualcomm_whitelogo.png">
         </a>
     </div>
 </div>
