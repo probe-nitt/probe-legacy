@@ -191,9 +191,9 @@
        <h4 class="h05">Contact Us</h4>
 
        <ul class="list-links">
-                 <li>Devesh: +91 6301 924 908</li>
-               <li>Surya: +91 98495 29201</li>
-               <li>Nishant: +91 94456 38282</li>						
+                 <li>Akhil: +91 9381 332 279</li>
+               <li>Pavan sai: +91 9573 514 613</li>
+               						
            </ul>	            
 
      </div> <!-- end footer-about -->

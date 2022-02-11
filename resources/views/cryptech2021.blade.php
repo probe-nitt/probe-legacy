@@ -76,11 +76,12 @@
 				@endif
 				<li class="current"><a href="/" title="">Home</a></li>
 				<li><a href="/about-us" title="">About Us</a></li>
-				<li><a href="/events" title="">Events</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
+				<li><a href="/events" title="">Events</a></li>
 				<li><a href="/lectures" title="">Guest Lectures</a></li>
-				<li><a href="/gallery" title="">Gallery</a></li>
-				<li><a href="/contact" title="">Contact</a></li>
+				<li><a href="/podcasts" title="">Podcasts</a></li>
+				<li><a href="/sponsors" title="">Sponsors</a></li>
+				<li><a href="#contacts" title="">Contact Us</a></li>
 			</ul>	
 			<ul style="text-align:center;" class="header-social-list">
 	         <li>
@@ -173,9 +174,9 @@
        <h4 class="h05">Contact Us</h4>
 
        <ul class="list-links">
-                 <li>Devesh: +91 6301 924 908</li>
-               <li>Surya: +91 98495 29201</li>
-               <li>Nishant: +91 94456 38282</li>						
+                 <li>Akhil: +91 9381 332 279</li>
+               <li>Pavan sai: +91 9573 514 613</li>
+               						
            </ul>	            
 
      </div> <!-- end footer-about -->

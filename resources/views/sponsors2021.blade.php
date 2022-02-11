@@ -97,9 +97,9 @@
 		</div>
 		<div id="events" style="display:flex; flex-direction:column; padding-top: 20px">
                 <h5>TITLE SPONSOR</h5>
-				<img src="/images/Qualcomm_whitelogo.png" style="width: 100%;
-  height: auto;
-  max-width: 50vw;" >
+				<a href="https://www.qualcomm.com/" target="_blank">
+				<img src="/images/Qualcomm_whitelogo.png" style="width: 100%; height: auto; max-width: 50vw;" >
+				</a>
 		</div>
 
 		<?php /*
@@ -126,9 +126,9 @@
 	            <h4 class="h05">Contact Us</h4>
 
 	            <ul class="list-links">
-	      				<li>Devesh: +91 6301 924 908</li>
-						<li>Surya: +91 98495 29201</li>
-						<li>Nishant: +91 94456 38282</li>						
+	      				<li>Akhil: +91 9381 332 279</li>
+						<li>Pavan sai: +91 9573 514 613</li>
+												
 					</ul>	            
 
 		      </div> <!-- end footer-about -->
