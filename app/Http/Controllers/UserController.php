@@ -115,7 +115,7 @@ class UserController extends Controller
             'url' => $url
         ])->render();
 
-        $this->sendMailSG($email, "PROBE'21 Registration", $content);
+        $this->sendMailSG($email, "PROBE'22 Registration", $content);
 
         Session::flash('message', 'You have successfully registered for Probe 2022. Please check your mail for instructions on account activation and activate your account before logging in');
         return redirect('/login');
@@ -315,7 +315,7 @@ class UserController extends Controller
         }*/
 		
 
-        $lid = Users::orderBy('created_at', 'desc')->first()->id;
+        $lid = Users::orderBy('id', 'desc')->first()->id;
 
         //$p1 = (int)ltrim($p1,"PROBE20");
         $p1 = (int)explode('PROBE20',$p1)[1];
@@ -392,14 +392,14 @@ class UserController extends Controller
             $content = View::make('emails.matrix')->render();
 
             $attachmentPath = public_path('prelimsDocs/Matrix Prelims.docx');
-            $this->sendAttachmentMailSG($email, "PROBE'21 Matrix Event Prelims", $content, $attachmentPath, "Matrix Prelims.docx", "application/vnd.ms-word");
+            $this->sendAttachmentMailSG($email, "PROBE'22 Matrix Event Prelims", $content, $attachmentPath, "Matrix Prelims.docx", "application/vnd.ms-word");
         }
 
         if($event=="tronICs") {
             $content = View::make('emails.tronics')->render();
 
             $attachmentPath = public_path('prelimsDocs/tronICs Prelims.docx');
-            $this->sendAttachmentMailSG($email, "PROBE'21 tronICs Event Prelims", $content, $attachmentPath, "tronICs Prelims.docx", "application/vnd.ms-word");
+            $this->sendAttachmentMailSG($email, "PROBE'22 tronICs Event Prelims", $content, $attachmentPath, "tronICs Prelims.docx", "application/vnd.ms-word");
         }
 
         $reg = new EventRegs;
@@ -434,7 +434,7 @@ class UserController extends Controller
             return redirect('/workshops/register/'.'?workshop='.$workshop);
         }
 
-        $lid = Users::orderBy('created_at', 'desc')->first()->id;
+        $lid = Users::orderBy('id', 'desc')->first()->id;
 
         //$p1 = (int)ltrim($p1,"PROBE20");
         $p1 = (int)explode('PROBE20',$p1)[1];

@@ -102,7 +102,7 @@
     
 
 <h1 data-splitting>Description</h1>
-        <p>Does the art of problem solving and the language of coding enthrall you? Probe'21 presents to
+        <p>Does the art of problem solving and the language of coding enthrall you? Probe'22 presents to
             you a coding competition MATRIX - in GNU octave, a well known software used in fields like machine
             learning, data analytics and industry. Showcase your skills in electronics and signal processing systems
             and code your way to glory!
@@ -181,6 +181,7 @@
        <ul class="list-links">
                  <li>Akhil: +91 9381 332 279</li>
                <li>Pavan sai: +91 9573 514 613</li>
+<li>Email: <a href="mailto:probe@nitt.edu">probe@nitt.edu</a></li>
                						
            </ul>	            
 

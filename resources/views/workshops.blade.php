@@ -95,31 +95,22 @@
 		<div id="events">
 			<h5 id="title">Workshops</h5>
 		</div>
-
-		<div id="events">
-			<h5 class="coming-soon-msg">COMING SOON...</h5>
-		</div>
-
-		<?php /*
+		
 		<div id="events">				
 			<div class="econtainer">
-				<h5>Demonstrating the role of Memory in Computing System by<br>Mr Partha Parthasarathy, <i> Director, Device Technology, Micron Technology, Inc</i></h5>
+				<h5>DEEP VISION WORKSHOP</h5>
 				
-				<img src="/images/companyWorkshop.jpg" >
-				<p>Learn about how computer memory organisation and faster access are becoming a necessity in the modern world with a sharply rising need for data analysing and  processing, and how the industry is tackling the challenges associated.<br></p>
-				<span>
-					<div>
-						<span class="qualcomm-present">brought to you by</span>
-						<a href="https://www.qualcomm.com/" target="_blank">
-							<img class="qualcomm-img" src="/images/Qualcomm_whitelogo.png">
-						</a>
-					</div>
-					Date: 13-03-2021, 2:00 PM
+				<img src="/images/deepvision-workshop.png" style="right: 15px; top: 15px" >
+				<p>Deep Learning can automate almost every job that most people thought could only be done by humans. Dive into Deep Vision with this workshop that helps you learn to build a DL model using convolutional neural networks to detect facial expressions and hand gestures.<br></p>
+				<span style="bottom: 50px;">
+					Registration deadline: Feb 24th
 				</span>
-				<button class="LM" ><a href="/workshops/roleofmemory">Learn More</a></button>
+				<span>
+					Date: Feb 25th & Feb 26th
+				</span>
+				<button class="LM" ><a href="/workshops/deepvision">Learn More</a></button>
 			</div>
 		</div>
-		*/ ?>
 
 	</section>
 		<!-- footer
@@ -137,6 +128,7 @@
 	            <ul class="list-links">
 	      				<li>Akhil: +91 9381 332 279</li>
 						<li>Pavan sai: +91 9573 514 613</li>
+<li>Email: <a href="mailto:probe@nitt.edu">probe@nitt.edu</a></li>
 												
 					</ul>	            
 

@@ -108,7 +108,7 @@ Route::get('/workshops/{slug}', function ($slug) {
         }
     }
 
-    return view('2022/workshops/'.$slug,['regbool' => $regbool, 'ispaid' => $ispaid, 'regopen' => $regopen]);
+    return view('2022/workshops/'.$slug,['regbool' => $regbool, 'ispaid' => $ispaid, 'regopen' => $regopen, 'workshop' => $event]);
 });
 
 Route::get('/events/{slug}', function ($slug) {

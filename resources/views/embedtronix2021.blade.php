@@ -175,6 +175,7 @@ Embedtronix will have a preliminary event and a final event.<br>
        <ul class="list-links">
                  <li>Akhil: +91 9381 332 279</li>
                <li>Pavan sai: +91 9573 514 613</li>
+<li>Email: <a href="mailto:probe@nitt.edu">probe@nitt.edu</a></li>
                						
            </ul>	            
 

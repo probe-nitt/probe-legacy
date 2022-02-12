@@ -112,7 +112,7 @@
 
 <h1 data-splitting>Description</h1>
         <p>Ms. Usha Rengaraju is better known as India's first woman Kaggle grandmaster. She was recognised as one of the top 10 leading data scientists in India by Analytics India mag. She organised NeuroAI(www.neuroai.in), India's first ever symposium in the interface of neuroscience and data science. She also actively leads many communities such as TensorFlow User Group (TFUG Mysore), GDG Mysore and 6 others.</p>
-		<p>Probe'21 is excited to announce a workshop by Ms.Usha on the topic of Deep Learning for Computer Vision. The participants will learn the basics of python and then dive into deep learning for computer vision using a Tensorflow topping up with a real world use case.</p>
+		<p>Probe'22 is excited to announce a workshop by Ms.Usha on the topic of Deep Learning for Computer Vision. The participants will learn the basics of python and then dive into deep learning for computer vision using a Tensorflow topping up with a real world use case.</p>
 
     <h1 data-splitting>Workshop details</h1>
 
@@ -195,6 +195,7 @@
        <ul class="list-links">
                  <li>Akhil: +91 9381 332 279</li>
                <li>Pavan sai: +91 9573 514 613</li>
+<li>Email: <a href="mailto:probe@nitt.edu">probe@nitt.edu</a></li>
                						
            </ul>	            
 
