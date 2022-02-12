@@ -96,19 +96,16 @@
 			<h5 style="font-size: 5.6rem;font-family: 'lovelo-light', sans-serif;">Events</h5>	
 		</div>
 		<div id="events">
-			<h5 class="coming-soon-msg">COMING SOON...</h5>
-		</div>
-		<?php /*
-		<div id="events">
 			<div class="econtainer">
-				<h5>Cryptech</h5>
-				<img src="/images/EVENTS/cryptech.jpg" >
-				<p>Ever wondered how will you measure time with the help of candles? Put on your aptitude cap as Cryptech is here with puzzles, sudoku and a vareity of tasks to solve!<br></p>
-				<span>Date: 13-03-2021 </span>
-				<button class="LM"><a class="LM" href="/events/cryptech">Learn More</a></button>
+				<h5>Always@Verilog</h5>
+				<img src="/images/EVENTS/verilog.jpg" >
+				<p>
+					Have you ever designed hardware and then coded it up using Verilog? Do you consider yourself to be proficient enough in Verilog? Here is an event, "Always @Verilog", a contest that tests your Verilog knowledge and general aptitude using a mix of objective and coding questions, triggered by Probe'22!
+				</p>
+				<span>Date: 19-02-2022 </span>
+				<button class="LM"><a class="LM" href="/events/always-verilog">Learn More</a></button>
 			</div>
 		</div>
-		*/ ?>
 
 	</section>
 		<!-- footer
