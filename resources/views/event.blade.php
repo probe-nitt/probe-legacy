@@ -95,6 +95,20 @@
 		<div id="events">
 			<h5 style="font-size: 5.6rem;font-family: 'lovelo-light', sans-serif;">Events</h5>	
 		</div>
+
+		<div id="events">
+			<div class="econtainer">
+				<h5>ElectroXtreme</h5>
+				<img src="/images/EVENTS/Embedtronix.jpg" >
+				<p>
+				Probe '22 presents to you "ElectroXtreme", a two-round event filled with digital and analog electronics questions. Show your skills to prove it's no feat of god, but another human skill.
+				</p>
+				<span>Date: 21-02-2022 </span>
+				<button class="LM"><a class="LM" href="/events/electroxtreme">Learn More</a></button>
+			</div>
+		</div>
+
+		
 		<div id="events">
 			<div class="econtainer">
 				<h5>Always@Verilog</h5>

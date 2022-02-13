@@ -46,7 +46,7 @@
     <div id="particles-js"></div>
     <div class="hero-nav">
         <div class="hero-nav__inner">
-            <h1>Always@Verilog</h1>
+            <h1>ElectroXtreme</h1>
         </div>
     </div>
     <!-- header 
@@ -107,31 +107,31 @@
 
         <h1 data-splitting>Description</h1>
         <p>
-            Do you consider yourself a proficient Verilog coder? Have you been practising to code in Verilog for very long?
+            How a nano-sized chip helps us deal with communications to solve complex equations might be a god feat for many, but not to the few who consider themselves masters of this digital world. And if you, too, are one of them, then we've got the perfect platform to test your skills. 
         </p>
 
         <p>
-            Here is an event, "Always @Verilog", a contest that tests your Verilog knowledge and general aptitude using a mix of objective and coding questions, triggered by Probe'22! You shall wait for it to flaunt your coding skills!
+        Probe '22 presents to you "ElectroXtreme", a two-round event filled with digital and analog electronics questions. Show your skills to prove it's no feat of god, but another human skill.
         </p>
 
         <h1 data-splitting>Event details: </h1>
 
         <ul>
-            <li>Prelims: MCQs based on Verilog</li>
-            <li>Finals: Verilog coding challenge</li>
+            <li>Prelims: MCQs based on Digital electronics</li>
+            <li>Finals: MCQs based on Analog electronics</li>
         </ul>
 
         <h1 data-splitting>Event dates:</h1>
 
         <ul>
-            <li>Prelims - 19th February (6 - 7 PM)</li>
-            <li>Finals - 27th February (7 - 8 PM)</li>
+            <li>Prelims - 21st February (6 - 7 PM)</li>
+            <li>Finals - 26th February (5:30 - 6:30 PM)</li>
         </ul>
 
         <h1 data-splitting>Prizes</h1>
 
         <ul>
-            <li>Prizes worth 7,000 INR for Top 3 participants.</li>
+            <li>Prizes worth 8,000 INR for Top 3 participants.</li>
             <li>Participation Certificates will be provided.</li>
         </ul>
 

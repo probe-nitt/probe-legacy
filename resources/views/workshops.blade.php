@@ -102,8 +102,11 @@
 				
 				<img src="/images/deepvision-workshop.png" style="right: 15px; top: 15px" >
 				<p>Capture your emotions and gestures using DL</p>
-				<span style="bottom: 50px;">
+				<span style="bottom: 100px;">
 					Registration deadline: Feb 24th
+				</span>
+				<span style="bottom: 60px; color: indianred" class="flash">
+					Limited registrations
 				</span>
 				<span>
 					Date: Feb 25th & Feb 26th
@@ -118,8 +121,11 @@
 				
 				<img src="/images/antenna.png" style="right: 15px; top: 15px" >
 				<p>Plunge into the world of Antenna design and testing in the workshop organized by Entuple technologies!</p>
-				<span style="bottom: 50px;">
+				<span style="bottom: 100px;">
 					Registration deadline: Feb 24th
+				</span>
+				<span style="bottom: 60px; color: indianred" class="flash">
+					Limited registrations
 				</span>
 				<span>
 					Date: Feb 26th
