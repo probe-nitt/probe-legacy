@@ -101,7 +101,7 @@
 				<h5>DEEP VISION WORKSHOP</h5>
 				
 				<img src="/images/deepvision-workshop.png" style="right: 15px; top: 15px" >
-				<p>Deep Learning can automate almost every job that most people thought could only be done by humans. Dive into Deep Vision with this workshop that helps you learn to build a DL model using convolutional neural networks to detect facial expressions and hand gestures.<br></p>
+				<p>Capture your emotions and gestures using DL</p>
 				<span style="bottom: 50px;">
 					Registration deadline: Feb 24th
 				</span>
@@ -109,6 +109,22 @@
 					Date: Feb 25th & Feb 26th
 				</span>
 				<button class="LM" ><a href="/workshops/deepvision">Learn More</a></button>
+			</div>
+		</div>
+
+		<div id="events">				
+			<div class="econtainer">
+				<h5>ANTENNA DESIGN AND TESTING <br>Organised by Entuple Technologies</h5>
+				
+				<img src="/images/antenna.png" style="right: 15px; top: 15px" >
+				<p>Plunge into the world of Antenna design and testing in the workshop organized by Entuple technologies!</p>
+				<span style="bottom: 50px;">
+					Registration deadline: Feb 24th
+				</span>
+				<span>
+					Date: Feb 26th
+				</span>
+				<button class="LM" ><a href="/workshops/antenna-design">Learn More</a></button>
 			</div>
 		</div>
 

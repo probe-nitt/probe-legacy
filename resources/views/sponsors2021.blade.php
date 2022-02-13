@@ -102,15 +102,13 @@
 				</a>
 		</div>
 
-		<?php /*
         <div id="events" style="display:flex; flex-direction:column; padding-top: 40px">			
                 <h5>WORKSHOP PARTNERS</h5>
 		</div>
 
         <div id="events" style="display:flex; flex-direction:column; padding-top: 40px">		
-			<img src="/images/entuple_logo.png" style="width: 100%; height: auto; max-width: 30vw; margin-bottom:0vh;">
+			<img src="/images/entuple_logo.png" style="width: 100%; height: auto; max-width: 30vw; margin-bottom:0vh; background: white">
 		</div>
-		*/ ?>
 		
 	</section>
 		<!-- footer

@@ -43,7 +43,6 @@ class UserController extends Controller
             'yos'       => 'required',
             'dept'      => 'required',
             'cn'        => 'required',
-            'phoneno'   => 'required|digits:10',
         ]);
 
         $name     = $request->input('name');
