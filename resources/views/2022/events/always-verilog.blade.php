@@ -167,7 +167,7 @@
     @if($regopen==1 && $regbool==0)
     <div class="wrap">
         <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-        <a class="button reg-btn" id="buttonz" href="/events/register?event=cryptech">Register</a>
+        <a class="button reg-btn" id="buttonz" href="/events/register?event={{$event}}">Register</a>
     </div>
     @endif
     <!-- footer

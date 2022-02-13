@@ -145,7 +145,7 @@ Route::get('/events/{slug}', function ($slug) {
         $regbool = 1;
     }
 
-    return view('2022/events/'.$slug,['regbool' => $regbool, 'regopen' => $regopen]);
+    return view('2022/events/'.$slug,['regbool' => $regbool, 'regopen' => $regopen, 'event' => $event]);
 });
 
 Route::get('/register', function () {
