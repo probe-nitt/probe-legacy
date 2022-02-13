@@ -277,6 +277,10 @@ class UserController extends Controller
         $p3 = $request->input('p3');
         $teamname = $request->input('teamname');
 
+        if (!$teamname) {
+            $teamname = $p1;
+        }
+
         $p1 = preg_replace('/\s+/', '', $p1);
         $p2 = preg_replace('/\s+/', '', $p2);
         $p3 = preg_replace('/\s+/', '', $p3);
@@ -413,7 +417,7 @@ class UserController extends Controller
         $reg->save();
 
         Session::flash('message', 'Successfully Registered!');
-        return redirect('/events');
+        return redirect('/events/'.$event);
 
     }
 

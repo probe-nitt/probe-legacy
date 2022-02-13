@@ -125,9 +125,11 @@
 					<input type="text" name="p3" id="p3" placeholder="Participant 3's PROBE ID" />
 				</div>
 				@endif
+				@if ($mc > 1)
 				<div class="form-field">
 					<input type="text" name="teamname" id="teamname" placeholder="Team Name" required/>
 				</div>
+				@endif
 				<div class="form-field">
 					<input type="text" name="event" id="event" value="{{ $event }}" placeholder="event" required readonly/>
 				</div>
