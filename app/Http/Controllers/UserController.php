@@ -103,19 +103,17 @@ class UserController extends Controller
 
         $user->save();
 
-        // $url = env("HOST_ADDR", "https://probe.org.in")."/activate?confirm=".$confirmhash;
+        $url = env("HOST_ADDR", "https://probe.org.in")."/activate?confirm=".$confirmhash;
 
-        // $data = array(
-        //     'name' => $name, 'pid' => $id, 'url' => $url,
-        // );
+        $data = array(
+            'name' => $name, 'pid' => $id, 'url' => $url,
+        );
 
-        // $content = View::make('activate', $data)->render();
+        $content = View::make('activate', $data)->render();
 
-        // $this->sendMailSG($email, "PROBE'22 Registration", $content);
+        $this->sendMailSG($email, "PROBE'22 Registration", $content);
 
-        // Session::flash('message', 'You have successfully registered for Probe 2022. Please check your mail for instructions on account activation and activate your account before logging in');
-
-        Session::flash('message', 'You have successfully registered for Probe 2022.');
+        Session::flash('message', 'You have successfully registered for Probe 2022. Please check your mail for instructions on account activation and activate your account before logging in');
         return redirect('/login');
     }
 
