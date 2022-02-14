@@ -134,6 +134,27 @@
 			</div>
 		</div>
 
+		<div id="events">				
+			<div class="econtainer">
+				<h5>VIDEO CALL INTERFACE WORKSHOP</h5>
+				
+				<img src="/images/illusphone.png" style="right: 15px; top: 15px" >
+				<p>
+				Learn how to create a server and client nodes, use various protocols to transfer video and audio, and much more!
+				</p>
+				<span style="bottom: 100px;">
+					Registration deadline: Feb 24th
+				</span>
+				<span style="bottom: 60px; color: indianred" class="flash">
+					Limited registrations
+				</span>
+				<span>
+					Date: Feb 27th
+				</span>
+				<button class="LM" ><a href="/workshops/video-call-interface">Learn More</a></button>
+			</div>
+		</div>
+
 	</section>
 		<!-- footer
    ================================================== -->
