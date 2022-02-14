@@ -13,7 +13,7 @@ use Session;
 use Log;
 use Exception;
 use View;
-use SendGrid;
+use PHPMailer\PHPMailer\PHPMailer;
 
 use App\Models\Users;
 use App\Models\WorkshopRegs;
@@ -109,16 +109,28 @@ class UserController extends Controller
         //     'name' => $name, 'pid' => $id, 'url' => $url,
         // );
 
-        // $content = View::make('activate', [
-        //     'name' => $name, 
-        //     'pid' => $id, 
-        //     'url' => $url
-        // ])->render();
+        // $content = View::make('activate', $data)->render();
 
         // $this->sendMailSG($email, "PROBE'22 Registration", $content);
 
+        // Session::flash('message', 'You have successfully registered for Probe 2022. Please check your mail for instructions on account activation and activate your account before logging in');
+
         Session::flash('message', 'You have successfully registered for Probe 2022.');
         return redirect('/login');
+    }
+
+    public function test_mail(Request $request, $slug)
+    {
+        $url = 'https://probe.org.in';
+
+        $data = array(
+            'name' => $slug, 'pid' => $slug, 'url' => $url,
+        );
+
+        $content = View::make('activate', $data)->render();
+
+        $this->sendMailSG("shohanduttaroy99@gmail.com", "PROBE'22 Registration", $content);
+        Session::flash('message', 'Sent email');
     }
 
     public function confirm_mail(Request $request)
@@ -390,20 +402,6 @@ class UserController extends Controller
 
             Session::flash('message', 'One or more of the provided Probe IDs already registered for this event');
             return redirect('/events/register/'.'?event='.$event);
-        }
-
-        if($event=="Matrix") {
-            $content = View::make('emails.matrix')->render();
-
-            $attachmentPath = public_path('prelimsDocs/Matrix Prelims.docx');
-            $this->sendAttachmentMailSG($email, "PROBE'22 Matrix Event Prelims", $content, $attachmentPath, "Matrix Prelims.docx", "application/vnd.ms-word");
-        }
-
-        if($event=="tronICs") {
-            $content = View::make('emails.tronics')->render();
-
-            $attachmentPath = public_path('prelimsDocs/tronICs Prelims.docx');
-            $this->sendAttachmentMailSG($email, "PROBE'22 tronICs Event Prelims", $content, $attachmentPath, "tronICs Prelims.docx", "application/vnd.ms-word");
         }
 
         $reg = new EventRegs;
@@ -776,20 +774,50 @@ class UserController extends Controller
         }
     }
 
-    private function sendMailSG( $tomail, $subject, $content) {
-        
-        $email = new \SendGrid\Mail\Mail(); 
-        $email->setFrom("noreply@probe.org.in", "PROBE 2022, NIT Trichy");
-        $email->setSubject($subject);
-        $email->addTo($tomail, null);
-        $email->addContent(
-            "text/html", $content
-            );
-        $sendgrid = new \SendGrid(env('SENDGRID_API_KEY'));
+    private function sendMailSG($tomail, $subject, $content) {
+        $sender = 'noreply@probe.org.in';
+        $senderName = 'Probe 2022';
+
+        // Replace recipient@example.com with a "To" address. If your account
+        // is still in the sandbox, this address must be verified.
+        $recipient = $tomail;
+
+        // Replace smtp_username with your Amazon SES SMTP user name.
+        $usernameSmtp = getenv('SMTP_USERNAME');
+
+        // Replace smtp_password with your Amazon SES SMTP password.
+        $passwordSmtp = getenv('SMTP_PASSWORD');
+
+        // If you're using Amazon SES in a region other than US West (Oregon),
+        // replace email-smtp.us-west-2.amazonaws.com with the Amazon SES SMTP
+        // endpoint in the appropriate region.
+        $host = 'email-smtp.ap-south-1.amazonaws.com';
+        $port = 587;
+
+        $mail = new PHPMailer(true);
+
         try {
-          $response = $sendgrid->send($email);
+            // Specify the SMTP settings.
+            $mail->isSMTP();
+            $mail->setFrom($sender, $senderName);
+            $mail->Username   = $usernameSmtp;
+            $mail->Password   = $passwordSmtp;
+            $mail->Host       = $host;
+            $mail->Port       = $port;
+            $mail->SMTPAuth   = true;
+            $mail->SMTPSecure = 'tls';
+
+            // Specify the message recipients.
+            $mail->addAddress($recipient);
+            // You can also add CC, BCC, and additional To recipients here.
+
+            // Specify the content of the message.
+            $mail->isHTML(true);
+            $mail->Subject    = $subject;
+            $mail->Body       = $content;
+            $mail->Send();
         } catch (Exception $e) {
-            echo 'Caught exception: '. $e->getMessage() ."\n";
+            error_log('Caught exception: '. $e->getMessage() ."\n");
         }
     }
 
