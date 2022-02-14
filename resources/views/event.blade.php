@@ -98,6 +98,18 @@
 
 		<div id="events">
 			<div class="econtainer">
+				<h5>Code of duty {{ '</>' }}</h5>
+				<img src="/images/EVENTS/codeofduty.png" style="right: 15px; top: 15px" >
+				<p>
+				Probe '22 presents to you "Code of duty {{ '</>' }}", a single round software coding event. Make it work, make it right, make it fast. Get some coffee; it's time to unleash the programmer in you!
+				</p>
+				<span>Date: 25-02-2022 </span>
+				<button class="LM"><a class="LM" href="/events/code-of-duty">Learn More</a></button>
+			</div>
+		</div>
+
+		<div id="events">
+			<div class="econtainer">
 				<h5>ElectroXtreme</h5>
 				<img src="/images/EVENTS/Embedtronix.jpg" >
 				<p>
