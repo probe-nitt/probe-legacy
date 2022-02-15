@@ -118,7 +118,7 @@
         <h1 data-splitting>Workshop details</h1>
 
         <ul>
-            <li>Date: 27th February
+            <li>Date: 27th February (Session 1 + Session 2)
             <li>Duration: 1 day</li>
             <li>Timings: 
                 <ul>

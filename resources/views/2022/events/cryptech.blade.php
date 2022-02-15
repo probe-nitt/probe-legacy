@@ -37,8 +37,8 @@
 
     <!-- favicons
 	================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
 
 </head>
 
@@ -107,45 +107,40 @@
 
         <h1 data-splitting>Description</h1>
         <p>
-            How often have you calculated the time remaining and the speed required to reach your college
-            after being late in your morning schedule by 5 minutes? How about the number of mugs of water that
-            can fill your bucket? Have you wondered about measuring time with the help of candles? Buckle up as
-            Probe '21 brings you Cryptech, where your aptitude skills will be put to test. Put on your aptitude cap to
-            crack the puzzles, sudoku and a variety of tasks in store for you.
+        "Willingness to be puzzled is a valuable trait to cultivate, from childhood to advanced inquiry."  - Noah Chomsky
+        </p>
+        <p>
+        If you know the transcendental feeling when you solve a puzzle or the amusement of finding the hidden pattern in data, then here is something for you! Probe '22 presents to you "CRYPTECH" - a single round Event to test your skills on solving puzzles, riddles and data analysis questions. Grab some of your mental tools to crack some questions.
         </p>
 
-        <h1 data-splitting>Important Details</h1>
+        <h1 data-splitting>Event Date</h1>
 
         <ul>
-            <li>Event on 13th March 2021 (6:00 – 7:00 pm) </li>
+            <li>26th Feb (7 PM - 8 PM)</li>
         </ul>
 
         <h1 data-splitting>Prizes</h1>
 
         <ul>
-            <li>Prizes worth 6,000 INR for Top 3 participants.</li>
-            <li>Participation Certificates will be provided.</li>
+            <li>Prizes worth 7,000 INR for Top 3 participants combined.</li>
+            <li>Participation Certificates will be provided to all the participants.</li>
         </ul>
 
         <h1 data-splitting>Rules</h1>
 
-
         <ul>
             <li>This is an individual event</li>
-            <li>Decision by the event organizers will be the ultimate.</li>
+            <li>The links for attempting the event will be sent through mail.</li>
+            <li>In case of any dispute, the decision taken by event organizers will be the ultimate.</li>
         </ul>
-
-        <h1 data-splitting id="faq-header">FAQ</h1>
-        <ol>
-            <li>On which platform is the event conducted?</li>
-            <span class='answer-faq'>MS Forms</span>
-        </ol>
 
         <h1 data-splitting>Contacts</h1>
 
-        <p>Email: <b><a href="mailto:probe.events2021@gmail.com">probe.events2021@gmail.com</a></b></p>
-        <p>Purushothaman: +91 8825573900</p>
-        <p>Kiran Raj Karthi: +91 9940555314</p>
+        <ul class="list-links">
+            <li>Archana: +91 81790 69882</li>
+            <li>Srivathsa: +91 80150 97260</li>
+            <li>Daaris: +91 97911 87785</li>
+        </ul>
 
 
     </div>
@@ -164,7 +159,7 @@
     @if($regopen==1 && $regbool==0)
     <div class="wrap">
         <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-        <a class="button reg-btn" id="buttonz" href="/events/register?event=cryptech">Register</a>
+        <a class="button reg-btn" id="buttonz" href="/events/register?event={{$event}}">Register</a>
     </div>
     @endif
     <!-- footer

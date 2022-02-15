@@ -131,8 +131,8 @@
         <h1 data-splitting>Prizes</h1>
 
         <ul>
-            <li>Prizes worth 8,000 INR for Top 3 participants.</li>
-            <li>Participation Certificates will be provided.</li>
+            <li>Prizes worth 8,000 INR for Top 3 participants combined.</li>
+            <li>Participation Certificates will be provided to all the participants.</li>
         </ul>
 
         <h1 data-splitting>Rules</h1>

@@ -98,6 +98,18 @@
 
 		<div id="events">
 			<div class="econtainer">
+				<h5>Cryptech</h5>
+				<img src="/images/EVENTS/cryptech.jpg" style="right: 15px; top: 15px" >
+				<p>
+				Probe '22 presents to you "CRYPTECH" - a single round Event to test your skills on solving puzzles, riddles and data analysis questions. Grab some of your mental tools to crack some questions.
+				</p>
+				<span>Date: 26-02-2022 </span>
+				<button class="LM"><a class="LM" href="/events/cryptech">Learn More</a></button>
+			</div>
+		</div>
+
+		<div id="events">
+			<div class="econtainer">
 				<h5>Code of duty {{ '</>' }}</h5>
 				<img src="/images/EVENTS/codeofduty.png" style="right: 15px; top: 15px" >
 				<p>
