@@ -130,6 +130,15 @@
             <li>Team: Individual</li>
         </ul>
 
+        <h1 data-splitting>Key takeaways:</h1>
+        <ul>
+            <li>Hands on experience</li>
+            <li>Presentations</li>
+            <li>Project implementation</li>
+            <li>Resources</li>
+            <li>Certificate</li>
+        </ul>
+
         <h1 data-splitting>EARLY BIRD OFFER</h1>
         <ul>
             <li><strike>200</strike> 175 INR</li>
