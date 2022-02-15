@@ -155,6 +155,27 @@
 			</div>
 		</div>
 
+		<div id="events">				
+			<div class="econtainer">
+				<h5>MACHINE LEARNING ON HARDWARE</h5>
+				
+				<img src="/images/illuschip.png" style="right: 15px; top: 15px" >
+				<p>
+				Learn how to recognize handwritten digits using an artificial neural network built using Verilog HDL, Quartus prime lite and Modelsim software!
+				</p>
+				<span style="bottom: 100px;">
+					Registration deadline: Feb 24th
+				</span>
+				<span style="bottom: 60px; color: indianred" class="flash">
+					Limited registrations
+				</span>
+				<span>
+					Date: Feb 27th
+				</span>
+				<button class="LM" ><a href="/workshops/machine-learning">Learn More</a></button>
+			</div>
+		</div>
+
 	</section>
 		<!-- footer
    ================================================== -->
