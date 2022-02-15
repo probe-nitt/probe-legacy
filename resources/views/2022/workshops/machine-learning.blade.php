@@ -109,10 +109,10 @@
 
         <h1 data-splitting>Description</h1>
         <p>
-        How exciting is it to know that can you build something that can recognize your handwritten digits? Machine Learning has made it possible for computers to recognize handwritten digits and a lot of research currently happens in this field. Are you interested to get started?
+	How exciting is it to know that you can build something that can recognize your handwritten digits? Machine Learning has made it possible for computers to recognize handwritten digits and a lot of research currently happens in this field. Are you interested to get started?
         </p>
         <p>
-        Here we are, presenting the workshop, "Machine learning on hardware" where we will be implementing artificial neural networks using Verilog! Join us in this workshop to learn how to recognize handwritten digits using an artificial neural network built using Verilog HDL, Quartus prime lite and Modelsim software!
+	Here we are, presenting the workshop, "Machine learning on hardware" where we will be implementing artificial neural networks using Verilog! Join us in this workshop to learn how to recognize handwritten digits using an artificial neural network built using Verilog HDL, Quartus prime lite and Modelsim software!
         </p>
 
         <h1 data-splitting>Workshop details</h1>

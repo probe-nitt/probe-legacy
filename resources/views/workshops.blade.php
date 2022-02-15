@@ -170,7 +170,7 @@
 					Limited registrations
 				</span>
 				<span>
-					Date: Feb 27th
+					Date: Feb 27th & Feb 28th
 				</span>
 				<button class="LM" ><a href="/workshops/machine-learning">Learn More</a></button>
 			</div>
