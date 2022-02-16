@@ -95,23 +95,25 @@
 		<div id="events">
 			<h5 id="title">Workshops</h5>
 		</div>
-		
+
 		<div id="events">				
 			<div class="econtainer">
-				<h5>DEEP VISION WORKSHOP</h5>
+				<h5>COMPILER DESIGN ENABLING IMAGE PROCESSING AND MACHINE LEARNING <br>Mr. Sushim Srivastava, <i> Senior Director Engineering, Qualcomm.</i></h5>
 				
-				<img src="/images/deepvision-workshop.png" style="right: 15px; top: 15px" >
-				<p>Capture your emotions and gestures using DL</p>
-				<span style="bottom: 100px;">
+				<img src="/images/sushim.jpg" style="right: 15px; top: 15px; border-top-right-radius: 0;" >
+				<p>
+				Join us to get yourself equipped with the latest trends and the challenges to sustaining this kind of rapid evolution, the need for hardware accelerators and the increased significance of compilers!
+				</p>
+				<span style="bottom: 80px;">
 					Registration deadline: Feb 24th
 				</span>
-				<span style="bottom: 60px; color: indianred" class="flash">
+				<span style="bottom: 40px; color: indianred" class="flash">
 					Limited registrations
 				</span>
 				<span>
-					Date: Feb 25th & Feb 26th
+					Date: Feb 26th
 				</span>
-				<button class="LM" ><a href="/workshops/deepvision">Learn More</a></button>
+				<button class="LM" ><a href="/workshops/compiler-design">Learn More</a></button>
 			</div>
 		</div>
 
@@ -131,6 +133,25 @@
 					Date: Feb 26th
 				</span>
 				<button class="LM" ><a href="/workshops/antenna-design">Learn More</a></button>
+			</div>
+		</div>
+		
+		<div id="events">				
+			<div class="econtainer">
+				<h5>DEEP VISION WORKSHOP</h5>
+				
+				<img src="/images/deepvision-workshop.png" style="right: 15px; top: 15px" >
+				<p>Capture your emotions and gestures using DL</p>
+				<span style="bottom: 100px;">
+					Registration deadline: Feb 24th
+				</span>
+				<span style="bottom: 60px; color: indianred" class="flash">
+					Limited registrations
+				</span>
+				<span>
+					Date: Feb 25th & Feb 26th
+				</span>
+				<button class="LM" ><a href="/workshops/deepvision">Learn More</a></button>
 			</div>
 		</div>
 
