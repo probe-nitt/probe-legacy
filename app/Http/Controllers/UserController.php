@@ -598,7 +598,6 @@ class UserController extends Controller
     }
 
     public function beq(Request $request){
-
         $email = Session::get('email');
         $bu = Users::where('email','=',$email)->first();
         $id = $bu->id;
@@ -619,7 +618,7 @@ class UserController extends Controller
         $extraComment = "";
         $cb = 0;
         if($user->complete){
-            Session::flash('message', 'More levels coming soon.');  
+            Session::flash('message', 'More levels coming soon.');
             $cb = 1; 
         }
 
@@ -666,11 +665,11 @@ class UserController extends Controller
 
         if($data->answer==$ans){
             $user->cl=$cl+1;
-            if($user->cl==26){
+            if($user->cl==1){
                 $user->complete = 1;
                 Session::flash('message', 'More levels coming soon.');
             }
-            $user->save();  
+            $user->save();
         }
         else{
             Session::flash('message', 'Oops! Wrong answer');

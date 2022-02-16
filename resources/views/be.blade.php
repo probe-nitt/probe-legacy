@@ -57,7 +57,7 @@
                                 <img style="max-width:250px" src="/bullseye/Level%20{{ $cl }}/{{ $img1 }}">
                             </div>
                             @endif
-                            <!-- @if($img2)
+                            @if($img2)
                             <div class="col-6 col-12-xsmall">
                                 <img style="max-width:250px" src="/bullseye/Level%20{{ $cl }}/{{ $img2 }}">
                             </div>
@@ -71,23 +71,20 @@
                             <div class="col-6 col-12-xsmall">
                                 <img style="max-width:250px" src="/bullseye/Level%20{{ $cl }}/{{ $img4 }}">
                             </div>
-                            @endif  -->
+                            @endif
                         </div>
                         <br/>
                         <br/>
                         <form method="post" action="{{action('UserController@bea')}}">
                             <div class="row gtr-uniform gtr-50">
                                 <div class="col-12 col-12-xsmall">
-                                    <p style="text-align:center; color:red;"> The Event is over and your answers won't afffect the leaderboard. But you could try them, nevertheless ;)</b></p>
                                     @if($extraComment!="")
                                     <p style="text-align: center;">Additional clues are added.</p>
                                     @endif
-                                    @if($cl==9)
+                                    <?php /*
                                     <p style="text-align: center;">Enter your answers without spaces. Answer might contain special characters and Upper case letters for this level.</p>
-                                    @endif
-                                    @if($cl!=9)
+                                    */ ?>
                                     <p style="text-align: center;">Enter your answers without spaces in lowercase. Answers contain only alphabets and numbers. No special characters are present in the answer.</p>
-                                    @endif
                                     <input type="text" name="answer" id="email" placeholder="Answer" required />
                                 </div>
                                 <div class="col-12 col-12-xsmall">

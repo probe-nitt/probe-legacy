@@ -98,6 +98,18 @@
 
 		<div id="events">
 			<div class="econtainer">
+				<h5>Bullseye</h5>
+				<img src="/images/EVENTS/bullseye.jpg" style="right: 15px; top: 15px" >
+				<p>
+				Probe'22 presents to you "Bullseye" - an online treasure hunt event that will test your skills in uncovering clues and solving riddles to discover the hidden treasure.
+				</p>
+				<span>Date: 27-02-2022 </span>
+				<button class="LM"><a class="LM" href="/events/bullseye">Learn More</a></button>
+			</div>
+		</div>
+
+		<div id="events">
+			<div class="econtainer">
 				<h5>Cryptech</h5>
 				<img src="/images/EVENTS/cryptech.jpg" style="right: 15px; top: 15px" >
 				<p>
