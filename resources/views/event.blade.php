@@ -98,6 +98,42 @@
 
 		<div id="events">
 			<div class="econtainer">
+				<h5>Always@Verilog</h5>
+				<img src="/images/EVENTS/verilog.jpg" >
+				<p>
+					Have you ever designed hardware and then coded it up using Verilog? Do you consider yourself to be proficient enough in Verilog? Here is an event, "Always @Verilog", a contest that tests your Verilog knowledge and general aptitude using a mix of objective and coding questions, triggered by Probe'22!
+				</p>
+				<span style="bottom: 70px;">
+					No Registration Fees
+				</span>
+				<span style="bottom: 35px; color: indianred" class="flash">
+					Registration deadline: Today
+				</span>
+				<span>Date: 19-02-2022 </span>
+				<button class="LM"><a class="LM" href="/events/always-verilog">Learn More</a></button>
+			</div>
+		</div>
+
+		<div id="events">
+			<div class="econtainer">
+				<h5>ElectroXtreme</h5>
+				<img src="/images/EVENTS/Embedtronix.jpg" >
+				<p>
+				Probe '22 presents to you "ElectroXtreme", a two-round event filled with digital and analog electronics questions. Show your skills to prove it's no feat of god, but another human skill.
+				</p>
+				<span style="bottom: 70px;">
+					No Registration Fees
+				</span>
+				<span style="bottom: 35px; color: indianred" class="flash">
+					Registration deadline: 20-02-2022
+				</span>
+				<span>Date: 21-02-2022 </span>
+				<button class="LM"><a class="LM" href="/events/electroxtreme">Learn More</a></button>
+			</div>
+		</div>
+
+		<div id="events">
+			<div class="econtainer">
 				<h5>Bullseye</h5>
 				<img src="/images/EVENTS/bullseye.jpg" style="right: 15px; top: 15px" >
 				<p>
@@ -138,43 +174,6 @@
 				</span>
 				<span>Date: 25-02-2022 </span>
 				<button class="LM"><a class="LM" href="/events/code-of-duty">Learn More</a></button>
-			</div>
-		</div>
-
-		<div id="events">
-			<div class="econtainer">
-				<h5>ElectroXtreme</h5>
-				<img src="/images/EVENTS/Embedtronix.jpg" >
-				<p>
-				Probe '22 presents to you "ElectroXtreme", a two-round event filled with digital and analog electronics questions. Show your skills to prove it's no feat of god, but another human skill.
-				</p>
-				<span style="bottom: 70px;">
-					No Registration Fees
-				</span>
-				<span style="bottom: 35px; color: indianred" class="flash">
-					Registration deadline: 20-02-2022
-				</span>
-				<span>Date: 21-02-2022 </span>
-				<button class="LM"><a class="LM" href="/events/electroxtreme">Learn More</a></button>
-			</div>
-		</div>
-
-		
-		<div id="events">
-			<div class="econtainer">
-				<h5>Always@Verilog</h5>
-				<img src="/images/EVENTS/verilog.jpg" >
-				<p>
-					Have you ever designed hardware and then coded it up using Verilog? Do you consider yourself to be proficient enough in Verilog? Here is an event, "Always @Verilog", a contest that tests your Verilog knowledge and general aptitude using a mix of objective and coding questions, triggered by Probe'22!
-				</p>
-				<span style="bottom: 70px;">
-					No Registration Fees
-				</span>
-				<span style="bottom: 35px; color: indianred" class="flash">
-					Registration deadline: Today
-				</span>
-				<span>Date: 19-02-2022 </span>
-				<button class="LM"><a class="LM" href="/events/always-verilog">Learn More</a></button>
 			</div>
 		</div>
 
