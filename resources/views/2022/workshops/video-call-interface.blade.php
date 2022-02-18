@@ -170,7 +170,7 @@
     </div>
     <br>
     <br>
-    @if($regbool==1 && $ispaid==0 )
+    @if($regopen==1 && $regbool==1 && $ispaid==0 )
     <div class="wrap">
         <h1 data-splitting id="reg-message">Limited Registrations!</h1>
         <a class="button pay-btn" id="buttonz" href="/workshops/register?workshop={{$workshop}}">Make payment</a>
@@ -180,7 +180,6 @@
     @if($regbool==1 && $ispaid==1 )
     <div class="wrap">
         <h1 data-splitting id="reg-message">Registered Successfully</h1>
-        <!-- <a class="button" id="buttonz" href='/instructions/Data Acquisition and Processing Instructions.pdf' download>Download instructions</a> -->
     </div>
     @endif
 
@@ -190,7 +189,7 @@
         <a class="button pay-btn" id="buttonz" href="/workshops/register?workshop={{$workshop}}">Register now</a>
     </div>
     @endif
-    @if($regopen==0)
+    @if($regopen==0 && $ispaid==0)
     <div class="wrap">
         <h1 data-splitting id="reg-message">Registrations Full!</h1>
     </div>

@@ -135,25 +135,6 @@
 				<button class="LM" ><a href="/workshops/antenna-design">Learn More</a></button>
 			</div>
 		</div>
-		
-		<div id="events">				
-			<div class="econtainer">
-				<h5>DEEP VISION WORKSHOP</h5>
-				
-				<img src="/images/deepvision-workshop.png" style="right: 15px; top: 15px" >
-				<p>Capture your emotions and gestures using DL</p>
-				<span style="bottom: 100px;">
-					Registration deadline: Feb 24th
-				</span>
-				<span style="bottom: 60px; color: indianred" class="flash">
-					Limited registrations
-				</span>
-				<span>
-					Date: Feb 25th & Feb 26th
-				</span>
-				<button class="LM" ><a href="/workshops/deepvision">Learn More</a></button>
-			</div>
-		</div>
 
 		<div id="events">				
 			<div class="econtainer">
@@ -194,6 +175,22 @@
 					Date: Feb 27th & Feb 28th
 				</span>
 				<button class="LM" ><a href="/workshops/machine-learning">Learn More</a></button>
+			</div>
+		</div>
+
+		<div id="events">				
+			<div class="econtainer">
+				<h5>DEEP VISION WORKSHOP</h5>
+				
+				<img src="/images/deepvision-workshop.png" style="right: 15px; top: 15px" >
+				<p>Capture your emotions and gestures using DL</p>
+				<span style="bottom: 80px; color: indianred" class="flash">
+					Registrations closed
+				</span>
+				<span>
+					Date: Feb 25th & Feb 26th
+				</span>
+				<button class="LM" ><a href="/workshops/deepvision">Learn More</a></button>
 			</div>
 		</div>
 
