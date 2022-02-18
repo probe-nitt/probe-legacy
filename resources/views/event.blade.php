@@ -103,6 +103,9 @@
 				<p>
 				Probe'22 presents to you "Bullseye" - an online treasure hunt event that will test your skills in uncovering clues and solving riddles to discover the hidden treasure.
 				</p>
+				<span style="bottom: 70px;">
+					No Registration Fees
+				</span>
 				<span>Date: 27-02-2022 </span>
 				<button class="LM"><a class="LM" href="/events/bullseye">Learn More</a></button>
 			</div>
@@ -115,6 +118,9 @@
 				<p>
 				Probe '22 presents to you "CRYPTECH" - a single round Event to test your skills on solving puzzles, riddles and data analysis questions. Grab some of your mental tools to crack some questions.
 				</p>
+				<span style="bottom: 70px;">
+					No Registration Fees
+				</span>
 				<span>Date: 26-02-2022 </span>
 				<button class="LM"><a class="LM" href="/events/cryptech">Learn More</a></button>
 			</div>
@@ -127,6 +133,9 @@
 				<p>
 				Probe '22 presents to you "Code of duty {{ '</>' }}", a single round software coding event. Make it work, make it right, make it fast. Get some coffee; it's time to unleash the programmer in you!
 				</p>
+				<span style="bottom: 70px;">
+					No Registration Fees
+				</span>
 				<span>Date: 25-02-2022 </span>
 				<button class="LM"><a class="LM" href="/events/code-of-duty">Learn More</a></button>
 			</div>
@@ -139,6 +148,12 @@
 				<p>
 				Probe '22 presents to you "ElectroXtreme", a two-round event filled with digital and analog electronics questions. Show your skills to prove it's no feat of god, but another human skill.
 				</p>
+				<span style="bottom: 70px;">
+					No Registration Fees
+				</span>
+				<span style="bottom: 35px; color: indianred" class="flash">
+					Registration deadline: 20-02-2022
+				</span>
 				<span>Date: 21-02-2022 </span>
 				<button class="LM"><a class="LM" href="/events/electroxtreme">Learn More</a></button>
 			</div>
@@ -152,6 +167,12 @@
 				<p>
 					Have you ever designed hardware and then coded it up using Verilog? Do you consider yourself to be proficient enough in Verilog? Here is an event, "Always @Verilog", a contest that tests your Verilog knowledge and general aptitude using a mix of objective and coding questions, triggered by Probe'22!
 				</p>
+				<span style="bottom: 70px;">
+					No Registration Fees
+				</span>
+				<span style="bottom: 35px; color: indianred" class="flash">
+					Registration deadline: Today
+				</span>
 				<span>Date: 19-02-2022 </span>
 				<button class="LM"><a class="LM" href="/events/always-verilog">Learn More</a></button>
 			</div>
