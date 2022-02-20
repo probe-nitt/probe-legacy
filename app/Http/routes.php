@@ -111,6 +111,10 @@ Route::get('/workshops/{slug}', function ($slug) {
     return view('2022/workshops/'.$slug,['regbool' => $regbool, 'ispaid' => $ispaid, 'regopen' => $regopen, 'workshop' => $event]);
 });
 
+Route::get('/combos', function () {
+    return view('2022/combos');
+});
+
 Route::get('/events/{slug}', function ($slug) {
     $event = $slug;
 

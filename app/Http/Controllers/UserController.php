@@ -417,21 +417,15 @@ class UserController extends Controller
 
     }
 
-    public function regworkshop(Request $request)
-    {
-        $workshop = $request->input('workshop');
-
-        $p1 = $request->input('p1');
-        $p2 = $request->input('p2');
-        $p3 = $request->input('p3');
+    private function register_for_workshop($p1, $p2, $p3, $workshop) {
 
         $p1 = preg_replace('/\s+/', '', $p1);
         $p2 = preg_replace('/\s+/', '', $p2);
         $p3 = preg_replace('/\s+/', '', $p3);
-        
+
         if( ($p2!='' && !isset(explode('PROBE20',$p2)[1])) || ($p3!='' && !isset(explode('PROBE20',$p3)[1]))) {
             Session::flash('message', 'One or more of the provided Probe IDs are invalid');
-            return redirect('/workshops/register/'.'?workshop='.$workshop);
+            return;
         }
 
         $lid = Users::orderBy('id', 'desc')->first()->id;
@@ -440,14 +434,14 @@ class UserController extends Controller
         $p1 = (int)explode('PROBE20',$p1)[1];
         if($p1>$lid){
             Session::flash('message', 'One or more of the provided Probe IDs are not valid');
-            return redirect('/workshops/register/'.'?workshop='.$workshop);
+            return;
         }
         if($p2!=''){
             //$p2 = (int)ltrim($p2,"PROBE20");
             $p2 = (int)explode('PROBE20',$p2)[1];
             if($p2>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
-                return redirect('/workshops/register/'.'?workshop='.$workshop);
+                return;
             }
         }
         if($p3!=''){
@@ -455,7 +449,7 @@ class UserController extends Controller
             $p3 = (int)explode('PROBE20',$p3)[1];
             if($p3>$lid){
                 Session::flash('message', 'One or more of the provided Probe IDs are not valid');
-                return redirect('/workshops/register/'.'?workshop='.$workshop);
+                return;
             }
         }
 
@@ -504,28 +498,57 @@ class UserController extends Controller
         if((json_encode($isregistered_1)!="{}" && !is_null($isregistered_1)) || (json_encode($isregistered_2)!="{}" && !is_null($isregistered_2)) || (json_encode($isregistered_3)!="{}" && !is_null($isregistered_3))){
 
             Session::flash('message', 'One or more of the provided Probe IDs already registered for this workshop');
-            return redirect('/workshops/register/'.'?workshop='.$workshop);
+            return;
         }
 
-        $reg = new WorkshopRegs;
-        $reg->participant1 = $p1;
-        if($p2!='')
-            $reg->participant2 = $p2;
-        if($p3!='')
-            $reg->participant3 = $p3;
-        $reg->workshop_id = $wid;
-        $reg->save();
+        try {
+            $reg = new WorkshopRegs;
+            $reg->participant1 = $p1;
+            if($p2!='')
+                $reg->participant2 = $p2;
+            if($p3!='')
+                $reg->participant3 = $p3;
+            $reg->workshop_id = $wid;
+            $reg->save();
+            return $reg;
+        } catch (Exception $e) {
+            return;
+        }
+    }
 
-        // Mail::send('verifymail', $data, function ($message) use ($email) {
-    
-        //     $message->from('no-reply@probe.org.in', 'PROBE NIT TRICHY');
-    
-        //     $message->to($email)->subject('PROBE 2022 Registration');
-    
-        // });
+    public function regworkshop(Request $request)
+    {
+        
+        $workshop = $request->input('workshop');
 
+        $p1 = $request->input('p1');
+        $p2 = $request->input('p2');
+        $p3 = $request->input('p3');
+        $this->register_for_workshop($p1, $p2, $p3, $workshop);
         return redirect('/workshops/register/'.'?workshop='.$workshop);
 
+    }
+
+    private function confirm_payment($workshop, $email) {
+        $workshop = Workshops::where('event_code',$workshop)->first();
+        $user = Users::where('email','=',$email)->first();
+        $user_id = $user->id;
+        $user_probe_id = $user->probe_id;
+        $reg = WorkshopRegs::where('workshop_id', '=', $workshop->id)
+                                    ->where(function($query) use($user_id)
+                                    {
+                                        $query->where('participant1',$user_id)
+                                            ->orwhere('participant2',$user_id)
+                                            ->orwhere('participant3',$user_id);
+                                    })->first();
+        if (!$reg) {
+            $reg = $this->register_for_workshop($user_probe_id, "", "", $workshop->name);
+        }
+        if (!reg) {
+            return;
+        }
+        $reg->paid = 1;
+        $reg->save();
     }
 
 
@@ -543,54 +566,54 @@ class UserController extends Controller
                 Log::info("Multiple Coming");
 
                 foreach($data as $ticket){
-
-                    $registrant = $ticket->userName;
                     $email = $ticket->userEmailId;
                     $workshopCode = $ticket->eventCode;
                     
                     Log::info($workshopCode);
-                    $wid = Workshops::where('event_code',$workshopCode)->first();
-                    $wid = $wid->id;
-                    $user = Users::where('email','=',$email)->first();
-                    $user_id = $user->id;
-                    $reg = WorkshopRegs::where('workshop_id', '=', $wid)
-                                                ->where(function($query) use($user_id)
-                                                {
-                                                    $query->where('participant1',$user_id)
-                                                        ->orwhere('participant2',$user_id)
-                                                        ->orwhere('participant3',$user_id);
-                                                })->first();
-                    $reg->paid = 1;
-                    $reg->save();
+                    if ($workshopCode == 'compiler-design-enabling-image-processing-and-machine-learning-antenna-design-and-testing-113121') {
+                        $this->confirm_payment('antenna-design-and-testing-workshop', $email);
+                        $this->confirm_payment('compiler-design-enabling-image-processing-and-machine-learning-qualcomm-231412', $email);
+                    } else if ($workshopCode == 'compiler-design-enabling-image-processing-and-machine-learning-video-call-interface-011030') {
+                        $this->confirm_payment('compiler-design-enabling-image-processing-and-machine-learning-qualcomm-231412', $email);
+                        $this->confirm_payment('video-call-interface-workshop', $email);
+                    } else if ($workshopCode == 'antenna-design-and-testing-video-call-interface-304100') {
+                        $this->confirm_payment('antenna-design-and-testing-workshop', $email);
+                        $this->confirm_payment('video-call-interface-workshop', $email);
+                    } else if ($workshopCode == 'compiler-design-enabling-image-processing-and-ml-antenna-design-and-testing-video-call-interface-124220') {
+                        $this->confirm_payment('antenna-design-and-testing-workshop', $email);
+                        $this->confirm_payment('video-call-interface-workshop', $email);
+                        $this->confirm_payment('video-call-interface-workshop', $email);
+                    } else {
+                        $this->confirm_payment($workshopCode, $email);
+                    }
                 }
-                return response('Success', 200)
-                        ->header('Content-Type', 'text/plain');
             }
             else{
                 Log::info("Single Coming");
                 $ticket = $data;
-                $registrant = $ticket->userName;
                 $email = $ticket->userEmailId;
                 $workshopCode = $ticket->eventCode;
-
-                $wid = Workshops::where('event_code',$workshopCode)->first();
-                $wid = $wid->id;
-                $user = Users::where('email','=',$email)->first();
-                $user_id = $user->id;
-                $reg = WorkshopRegs::where('workshop_id', '=', $wid)
-                                            ->where(function($query) use($user_id)
-                                            {
-                                                $query->where('participant1',$user_id)
-                                                    ->orwhere('participant2',$user_id)
-                                                    ->orwhere('participant3',$user_id);
-                                            })->first();
-                $reg->paid = 1;
-                $reg->save();
-                return response('Success', 200)
-                        ->header('Content-Type', 'text/plain');
+                if ($workshopCode == 'compiler-design-enabling-image-processing-and-machine-learning-antenna-design-and-testing-113121') {
+                    $this->confirm_payment('antenna-design-and-testing-workshop', $email);
+                    $this->confirm_payment('compiler-design-enabling-image-processing-and-machine-learning-qualcomm-231412', $email);
+                } else if ($workshopCode == 'compiler-design-enabling-image-processing-and-machine-learning-video-call-interface-011030') {
+                    $this->confirm_payment('compiler-design-enabling-image-processing-and-machine-learning-qualcomm-231412', $email);
+                    $this->confirm_payment('video-call-interface-workshop', $email);
+                } else if ($workshopCode == 'antenna-design-and-testing-video-call-interface-304100') {
+                    $this->confirm_payment('antenna-design-and-testing-workshop', $email);
+                    $this->confirm_payment('video-call-interface-workshop', $email);
+                } else if ($workshopCode == 'compiler-design-enabling-image-processing-and-ml-antenna-design-and-testing-video-call-interface-124220') {
+                    $this->confirm_payment('antenna-design-and-testing-workshop', $email);
+                    $this->confirm_payment('video-call-interface-workshop', $email);
+                    $this->confirm_payment('video-call-interface-workshop', $email);
+                } else {
+                    $this->confirm_payment($workshopCode, $email);
+                }
             }
-            return;
+            return response('Success', 200)
+                        ->header('Content-Type', 'text/plain');
         } catch(\Throwable $e) {    
+            error_log($e->getMessage()." ".$e->getLine());
             Log::error("Hook failed".$e->getMessage()." ".$e->getLine());
             return response('Failure', 400)
                 ->header('Content-Type', 'text/plain');

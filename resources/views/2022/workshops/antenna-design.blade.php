@@ -89,6 +89,7 @@
                 <li><a href="/events" title="">Events</a></li>
                 <li><a href="/lectures" title="">Guest Lectures</a></li>
                 <li><a href="/podcasts" title="">Podcasts</a></li>
+<li><a href="/combos" title="">Combos</a></li>
                 <li><a href="/sponsors" title="">Sponsors</a></li>
                 <li><a href="#contacts" title="">Contact Us</a></li>
 

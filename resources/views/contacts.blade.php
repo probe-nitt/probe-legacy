@@ -71,6 +71,7 @@
 				<li><a href="/workshops" title="">Workshops</a></li>
 				<li><a href="/lectures" title="">Guest Lectures</a></li>
 				<li><a href="/podcasts" title="">Podcasts</a></li>
+<li><a href="/combos" title="">Combos</a></li>
 				<li><a href="/contact" title="">Contact Us</a></li>
 			</ul>	
 			<ul style="text-align:center;" class="header-social-list">

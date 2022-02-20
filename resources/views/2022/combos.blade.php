@@ -10,7 +10,7 @@
     <!--- basic page needs
    ================================================== -->
     <meta charset="utf-8">
-    <title>Workshops | PROBE 2022</title>
+    <title>Combos | PROBE 2022</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -43,16 +43,9 @@
 </head>
 
 <body id="top">
-    <div id="particles-js"></div>
-    <div class="hero-nav">
-        <div class="hero-nav__inner">
-            <h1 style="text-align:center;">DEMONSTRATING THE ROLE OF MEMORY IN COMPUTING SYSTEMS</h1>
-        </div>
-        <div class="hero-nav__broughtby">
-            <span>brought to you by</span>
-            <a href="https://www.qualcomm.com/" target="_blank">
-                <img src="/images/Qualcomm_whitelogo.png">
-            </a>
+    <div class="cards">
+        <div id="events">
+            <h5 id="title">Combos</h5>
         </div>
     </div>
     <!-- header 
@@ -110,71 +103,31 @@
 
     </header> <!-- end header -->
 
-    <div class="page">
-
-
-
-        <h1 data-splitting>Description</h1>
-        <p>Dr.C.R.Parthasarathy is a distinguished engineer who is the Director for Technology Development at Micron. He is an alumnus of IIT Bombay and earned his PhD on Microelectronics at the Aix-Marseille University. He has more than two decades of experience in the fields of reliability model development and ESD development methodology.</p>
-        <p>He would be taking part in Probe '21 as the speaker in a workshop conducted by Micron on “The role of memory in computer systems”. Join us in this workshop to get insightful views about the critical role the organisation of memory plays on the performance of the computer systems on 13th March at 2:00 PM.</p>
-
-        <h1 data-splitting>Workshop details</h1>
-
-        <ul>
-            <li>Date: 13-03-2021</li>
-            <li>Duration: 1 day</li>
-            <li>Timings: 2:00PM to 5:00PM </li>
-            <li>Fee : Free</li>
-            <li>Platform: Microsoft Teams</li>
-            <li>Team: Individual</li>
-        </ul>
-
-        <h1 data-splitting>Workshop partner</h1>
-        <p>Micron Technology</p>
-
-        <h1 data-splitting id="faq-header">FAQ</h1>
-
-        <ol>
-            <li>What is the format of the workshop?</li>
-            <span class='answer-faq'>Workshop is conducted in Microsoft Teams, before the workshop every participant will be added into teams, all the meetings and discussion will be done in Microsoft Teams. </span>
-            <li>Are there any prerequisites for the workshop?</li>
-            <span class='answer-faq'>No need for any prerequisites, all the concepts will be taught from basics.</span>
-            <li>Is this limited to students?</li>
-            <span class='answer-faq'>No. Any UG, PG Students or working professionals can participate.</span>
-            <li>Is it a certified course?</li>
-            <span class='answer-faq'>Yes. The participants will be given certificates from the company on completion of the workshop</span>
-            <li>How do we receive the certificate?</li>
-            <span class='answer-faq'>After the completion of the workshop certificate will be mailed to participants.</span>
-        </ol>
-
-
+    <div class="page" style="z-index: 1;">
+        <div class="grid">
+            <div class="grid-item">
+                <img src="/images/combos/4.png" style="max-width: min(100%, 700px);">
+                <button id="payment-btn" onclick="popup('compiler-design-enabling-image-processing-and-ml-antenna-design-and-testing-video-call-interface-124220');" class="tsbutton">Get the combo now!</button>
+            </div>
+            <div class="grid-item">
+                <img src="/images/combos/1.png">
+                <button id="payment-btn" onclick="popup('compiler-design-enabling-image-processing-and-machine-learning-antenna-design-and-testing-113121');" class="tsbutton">Get the combo now!</button>
+            </div>
+            
+            <div class="grid-item">
+                <img src="/images/combos/2.png">
+                <button id="payment-btn" onclick="popup('compiler-design-enabling-image-processing-and-machine-learning-video-call-interface-011030');" class="tsbutton">Get the combo now!</button>
+            </div>
+            
+            <div class="grid-item">
+                <img src="/images/combos/3.png">
+                <button id="payment-btn" onclick="popup('antenna-design-and-testing-video-call-interface-304100');" class="tsbutton">Get the combo now!</button>
+            </div>
+        </div>
     </div>
     <br>
     <br>
-    @if($regopen==1 && $regbool==1 && $ispaid==0 )
-    <div class="wrap">
-        <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-        <a class="button pay-btn" id="buttonz" href="/workshops/register?workshop=roleofmemory">Make payment</a>
-    </div>
-    @endif
-
-    @if($regbool==1 && $ispaid==1 )
-    <div class="wrap">
-        <h1 data-splitting id="reg-message">Registered Successfully</h1>
-    </div>
-    @endif
-
-    @if($regopen==1)
-    <div class="wrap">
-        <h1 data-splitting id="reg-message">Limited Registrations!</h1>
-        <a class="button pay-btn" id="buttonz" href="/workshops/register?workshop=roleofmemory">Register now</a>
-    </div>
-    @endif
-    @if($regopen==0 && $ispaid==0)
-    <div class="wrap">
-        <h1 data-splitting id="reg-message">Registrations Full!</h1>
-    </div>
-    @endif
+    
     <!-- footer
    ================================================== -->
     <footer id="contacts">
@@ -190,8 +143,7 @@
                     <ul class="list-links">
                         <li>Akhil: +91 9381 332 279</li>
                         <li>Pavan sai: +91 9573 514 613</li>
-<li>Email: <a href="mailto:probe@nitt.edu">probe@nitt.edu</a></li>
-
+                        <li>Email: <a href="mailto:probe@nitt.edu">probe@nitt.edu</a></li>
                     </ul>
 
                 </div> <!-- end footer-about -->
@@ -252,6 +204,8 @@
     <script src="{{ asset('js/jquery-2.1.3.min.js') }}"></script>
     <script src="{{ asset('js/plugins.js') }}"></script>
     <script src="{{ asset('js/index.js') }}"></script>
+    <noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript>
+    <script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js" type="text/javascript"></script>
 
     <!-- CDNs for splitting.js and scroll-out.js -->
     <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>

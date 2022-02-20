@@ -3337,3 +3337,32 @@ footer h4.h05::after {
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 40px;
+  column-gap: 20px;
+}
+
+.grid-item img {
+  max-width: min(100%, 400px);
+  display: block;
+  margin: 20px auto;
+}
+
+.grid-item button {
+  display: block;
+  margin: auto;
+}
+
+@media (min-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-item:nth-child(1),
+  .grid-item:nth-child(4) {
+    grid-column: 1 / 3;
+  }
+}
