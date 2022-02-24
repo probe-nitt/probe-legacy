@@ -166,11 +166,8 @@
 				<p>
 				Learn how to recognize handwritten digits using an artificial neural network built using Verilog HDL, Quartus prime lite and Modelsim software!
 				</p>
-				<span style="bottom: 100px;">
-					Registration deadline: Feb 24th
-				</span>
-				<span style="bottom: 60px; color: indianred" class="flash">
-					Limited registrations
+				<span style="bottom: 80px; color: indianred" class="flash">
+					Registrations closed
 				</span>
 				<span>
 					Date: Feb 27th & Feb 28th
