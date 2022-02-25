@@ -92,7 +92,7 @@
 	</header> <!-- end header --> 
 
 	<section id="cards">
-<?php /*		<div id="events">
+		<div id="events">
 			<h5 id="title">Guest Lectures</h5>
 		</div>
 		<div id="events">				
@@ -102,16 +102,19 @@
 				</h5>
 				
 				<img src="/images/kaushik.jpg" >
-				<p></p>
+				<p>
+				Probe presents to you "Personal Finance", a Guest Lecture by Kaushik Akiwatkar! 
+				<br>
+				Mr. Kaushik Akiwatkaris is an academician, researcher, and financial market enthusiast currently working with Elearnmarkets as Head of Product with a vision to democratize financial education in the nation. He has spent over a decade in the field of education before joining Elearnmarket. In the past, he has worked with Rishihood University as Founding Director, Gujarat Technological University (GTU), Indian Institute of Management Ahmedabad (IIMA) and Youth Connect Magazine. Crash Course worth INR 999 is free for all the participants! Join us!
+				</p>
 				<span>
 					Date: 26th February, 3 PM
 					<br>
 					Registration deadline: 26th February 11 AM
 				</span>
-				<button class="LM" ><a href="">Register here</a></button>
+				<button class="LM" ><a href="https://forms.gle/5YrSm4KZpBhiYJDq8">Register here</a></button>
 			</div>
 		</div>
-*/ ?>
 		<div id="events">				
 			<div class="econtainer big">
 				<h4>SoC DFT - Silicon on Chip: Don’t Forget Test</h4>
