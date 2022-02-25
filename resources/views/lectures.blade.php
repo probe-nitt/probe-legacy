@@ -92,7 +92,7 @@
 	</header> <!-- end header --> 
 
 	<section id="cards">
-		<div id="events">
+<?php /*		<div id="events">
 			<h5 id="title">Guest Lectures</h5>
 		</div>
 		<div id="events">				
@@ -111,14 +111,15 @@
 				<button class="LM" ><a href="">Register here</a></button>
 			</div>
 		</div>
+*/ ?>
 		<div id="events">				
 			<div class="econtainer big">
 				<h4>SoC DFT - Silicon on Chip: Don’t Forget Test</h4>
 				<h5>Chidambaram Ramaswamy, <i>Director of Engineering, Qualcomm</i>
 				</h5>
 				
-				<img src="/images/kaushik.jpg" >
-				<p></p>
+				<img src="/images/Passport_Photo.JPG" >
+				<p>We are delighted to present to you a Guest Lecture on "Silicon on Chip" organized in association with Qualcomm! The workshop will be conducted by Mr. Chidambaram Ramaswamy, currently a Director of Engineering at Qualcomm, Chennai, SoC Design Center (CDC) managing the Design Implementation vertical since 2016. He has more than 25 years of industry experience. He holds a Bachelor's degree in Computer Engineering from Thiagarajar College of Engineering, Madurai and a Masters degree in Computer Engineering from Wayne State University, Michigan. Join us to learn about the latest and trending technologies on SoC!</p>
 				<span>
 					Date: 26th February 10:30 AM
 					<br>
@@ -128,7 +129,7 @@
 			</div>
 		</div>
 
-		<div id="events">				
+		<?php /*<div id="events">				
 			<div class="econtainer big">
 				<h4>Bad AI - current scary usages of AI</h4>
 				<h5>Rehan Ahmad, <i>Head of AI team, Qualcomm</i>
@@ -143,7 +144,7 @@
 				</span>
 				<button class="LM" ><a href="">Register here</a></button>
 			</div>
-		</div>
+		</div> */ ?>
 		
 	</section>
 		<!-- footer
