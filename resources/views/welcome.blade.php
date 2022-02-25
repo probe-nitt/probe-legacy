@@ -69,7 +69,7 @@
 				<li><a href="/about-us" title="">About Us</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
 				<li><a href="/events" title="">Events</a></li>
-				<li><a href="/lectures" title="">Guest Lectures</a></li>
+				<li><a href="/guestlectures" title="">Guest Lectures</a></li>
 				<li><a href="/podcasts" title="">Podcasts</a></li>
 <li><a href="/combos" title="">Combos</a></li>
 				<li><a href="/sponsors" title="">Sponsors</a></li>
@@ -250,7 +250,7 @@
 			   </div> <!-- end bgrid -->
 
 			   <div class="bgrid service-item animate-this">
-			   <a href="/lectures">
+			   <a href="/guestlectures">
 
 			   	<span class="icon"><i class="icon-microphone"></i></span>		            
 

@@ -69,7 +69,7 @@
 				<li><a href="/about-us" title="">About Us</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
 				<li><a href="/events" title="">Events</a></li>
-				<li><a href="/lectures" title="">Guest Lectures</a></li>
+				<li><a href="/guestlectures" title="">Guest Lectures</a></li>
 				<li><a href="/podcasts" title="">Podcasts</a></li>
 <li><a href="/combos" title="">Combos</a></li>
 				<li><a href="/sponsors" title="">Sponsors</a></li>
@@ -95,33 +95,55 @@
 		<div id="events">
 			<h5 id="title">Guest Lectures</h5>
 		</div>
-		<div id="events">
-			<h5 class="coming-soon-msg">COMING SOON...</h5>
-		</div>
-		<?php /*
 		<div id="events">				
 			<div class="econtainer big">
-				<h5>Howard  Chua, <i>Sr.Director, TSE - NAND/MNAND, Micron Technology, Inc</i>
-					<br>Parag Mohanty, <i>Sr.Manager, Micron Technology, Inc</i>
-					<br>Sarita Yadav, <i>Manager, Micron Technology, Inc</i>
-					<br>Praveen Ramapuram - <i>Manager</i>
+				<h4>Personal Finance</h4>
+				<h5>Kaushik Akiwatkar, <i>Head of Product, Elearnmarkets</i>
 				</h5>
 				
-				<img src="/images/companyg1.jpg" >
-				<p>What does it take to establish a fab, procure manufacturing machines and battle with the growing demand and reducing cycle times to successfully run it? Probe '21 is elated to bring you a guest lecture by Mr. Howard Chua, Senior Director, Device Technology at Micron Technology on the <i class="lecture-name">"The Fab way - Manufacturing the new buzz word, shaping the business and semiconductor ecosystem across the world"</i>. Tune in to the guest lecture on 13th March at 11:00 AM as he elucidates the importance of the fabrication business and the challenges in providing state-of-the-art chipsets to the ecosystem. Click below to register for the guest lecture.<br></p>
+				<img src="/images/kaushik.jpg" >
+				<p></p>
 				<span>
-					Date: 13-03-2021, 11:00 AM
-					<div>
-						<span class="qualcomm-present">brought to you by</span>
-						<a href="https://www.qualcomm.com/" target="_blank">
-							<img class="qualcomm-img" src="/images/Qualcomm_whitelogo.png">
-						</a>
-					</div>
+					Date: 26th February, 3 PM
+					<br>
+					Registration deadline: 26th February 11 AM
 				</span>
-				<button class="LM" ><a href="https://forms.gle/N72MypxXn3LSnJHZ8">Register here</a></button>
+				<button class="LM" ><a href="">Register here</a></button>
 			</div>
 		</div>
-		*/ ?>
+		<div id="events">				
+			<div class="econtainer big">
+				<h4>SoC DFT - Silicon on Chip: Don’t Forget Test</h4>
+				<h5>Chidambaram Ramaswamy, <i>Director of Engineering, Qualcomm</i>
+				</h5>
+				
+				<img src="/images/kaushik.jpg" >
+				<p></p>
+				<span>
+					Date: 26th February 10:30 AM
+					<br>
+					Registration deadline: 25th February
+				</span>
+				<button class="LM" ><a href="">Register here</a></button>
+			</div>
+		</div>
+
+		<div id="events">				
+			<div class="econtainer big">
+				<h4>Bad AI - current scary usages of AI</h4>
+				<h5>Rehan Ahmad, <i>Head of AI team, Qualcomm</i>
+				</h5>
+				
+				<img src="/images/rehan.png" >
+				<p></p>
+				<span>
+					Date: 27th February, 2 PM
+					<br>
+					Registration deadline: 26th February
+				</span>
+				<button class="LM" ><a href="">Register here</a></button>
+			</div>
+		</div>
 		
 	</section>
 		<!-- footer

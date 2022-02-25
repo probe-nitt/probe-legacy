@@ -69,7 +69,7 @@
 				<li><a href="/about-us" title="">About Us</a></li>
 				<li><a href="/workshops" title="">Workshops</a></li>
 				<li><a href="/events" title="">Events</a></li>
-				<li><a href="/lectures" title="">Guest Lectures</a></li>
+				<li><a href="/guestlectures" title="">Guest Lectures</a></li>
 				<li><a href="/podcasts" title="">Podcasts</a></li>
 <li><a href="/combos" title="">Combos</a></li>
 				<li><a href="/sponsors" title="">Sponsors</a></li>
@@ -104,11 +104,19 @@
 		</div>
 
         <div id="events" style="display:flex; flex-direction:column; padding-top: 40px">			
-                <h5>WORKSHOP PARTNERS</h5>
+                <h5>WORKSHOP PARTNER</h5>
 		</div>
 
         <div id="events" style="display:flex; flex-direction:column; padding-top: 40px">		
 			<img src="/images/entuple_logo.png" style="width: 100%; height: auto; max-width: 30vw; margin-bottom:0vh; background: white">
+		</div>
+
+		<div id="events" style="display:flex; flex-direction:column; padding-top: 40px">			
+                <h5>EDUCATION PARTNER</h5>
+		</div>
+
+        <div id="events" style="display:flex; flex-direction:column; padding-top: 40px">		
+			<img src="/images/elearnmarkets.jpg" style="width: 100%; height: auto; max-width: 30vw; margin-bottom:0vh; background: white">
 		</div>
 		
 	</section>

@@ -20,7 +20,7 @@ background-image:url(../images/backract.png);">
 				<li><a href="/">Home</a></li>
 				<li><a href="/workshops">Workshops</a></li>
 				<li><a href="/events">Events</a></li>
-				<li><a href="/lectures">Lectures</a></li>
+				<li><a href="/guestlectures">Lectures</a></li>
 				<li><a href="/contact">Contact us</a></li>
 			</ul>
 		</nav>

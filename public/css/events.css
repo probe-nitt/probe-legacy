@@ -3082,6 +3082,11 @@ footer h4.h05::after {
   border-top-right-radius: 20px;
 }
 
+.econtainer h4 {
+  font-size: 3rem;
+  width: 80%; 
+}
+
 .econtainer h5{
   font-size: 2rem;
   width: 80%; 
@@ -3145,7 +3150,7 @@ footer h4.h05::after {
 
   }
   .big {
-    height: 600px;
+    height: 500px;
   }
 
 }
