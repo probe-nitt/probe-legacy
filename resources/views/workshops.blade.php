@@ -105,12 +105,9 @@
 				<p>
 				Join us to get yourself equipped with the latest trends and the challenges to sustaining this kind of rapid evolution, the need for hardware accelerators and the increased significance of compilers!
 				</p>
-				<span style="bottom: 80px;">
-					Registration deadline: Feb 24th
-				</span>
-				<span style="bottom: 40px; color: indianred" class="flash">
-					Limited registrations
-				</span>
+				<span style="bottom: 80px; color: indianred" class="flash">
+                                        Registrations closed
+                                </span>
 				<span>
 					Date: Feb 26th
 				</span>
@@ -124,12 +121,9 @@
 				
 				<img src="/images/antenna.png" style="right: 15px; top: 15px" >
 				<p>Plunge into the world of Antenna design and testing in the workshop organized by Entuple technologies!</p>
-				<span style="bottom: 100px;">
-					Registration deadline: Feb 24th
-				</span>
-				<span style="bottom: 60px; color: indianred" class="flash">
-					Limited registrations
-				</span>
+				<span style="bottom: 80px; color: indianred" class="flash">
+                                        Registrations closed
+                                </span>
 				<span>
 					Date: Feb 26th
 				</span>
@@ -145,12 +139,9 @@
 				<p>
 				Learn how to create a server and client nodes, use various protocols to transfer video and audio, and much more!
 				</p>
-				<span style="bottom: 100px;">
-					Registration deadline: Feb 24th
-				</span>
-				<span style="bottom: 60px; color: indianred" class="flash">
-					Limited registrations
-				</span>
+				<span style="bottom: 80px; color: indianred" class="flash">
+                                        Registrations closed
+                                </span>
 				<span>
 					Date: Feb 27th
 				</span>
