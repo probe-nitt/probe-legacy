@@ -620,7 +620,7 @@ class UserController extends Controller
         }   
     }
 
-    public function beq(Request $request){
+    public function beq(Request $request, $slug){
         $email = Session::get('email');
         $bu = Users::where('email','=',$email)->first();
         $id = $bu->id;
@@ -629,7 +629,7 @@ class UserController extends Controller
         if(!$user){
             $bd = new BullseyeUsers;
             $bd->participant = $id;
-            $bd->cl = 0;
+            $bd->cl = 1;
             $bd->complete = 0;
             $bd->save();
         }
@@ -641,14 +641,20 @@ class UserController extends Controller
         $extraComment = "";
         $cb = 0;
         if($user->complete){
-            Session::flash('message', 'More levels coming soon.');
             $cb = 1; 
         }
 
         $cl = $user->cl;
 
-        $cr = BullseyeData::where('level','=',$cl)->first();
-
+        $cr = BullseyeData::where('level','=',$cl)->first(); // user's level
+        $sr = BullseyeData::where('answer','=',$slug)->first(); // slug's level
+        if (!$sr) {
+            return redirect('/bullseye-event/first');
+        }
+        if ($cl > $sr->level + 1) {
+            $newcr = BullseyeData::where('level','=',$cl - 1)->first(); // user's level
+            return redirect('/bullseye-event/'.$newcr->answer);
+        }
         if($cr->clue1){
             $title = $cr->clue1;
         }
@@ -663,7 +669,7 @@ class UserController extends Controller
         $img3 = $cr->img3;
         $img4 = $cr->img4;
 
-        return view('be',['title' => $title, 'comment' => $comment, 'extraComment' => $extraComment, 'img1' => $img1, 'img2' => $img2, 'img3' => $img3, 'img4' => $img4, 'cl' => $cl, 'cb' => $cb]);
+        return view('2022/bullseye/'.$slug ,['title' => $title, 'comment' => $comment, 'extraComment' => $extraComment, 'img1' => $img1, 'img2' => $img2, 'img3' => $img3, 'img4' => $img4, 'cl' => $cl, 'cb' => $cb]);
 
 
     }
@@ -688,9 +694,8 @@ class UserController extends Controller
 
         if($data->answer==$ans){
             $user->cl=$cl+1;
-            if($user->cl==1){
+            if($user->cl==6){ // final stage
                 $user->complete = 1;
-                Session::flash('message', 'More levels coming soon.');
             }
             $user->save();
         }
@@ -698,7 +703,7 @@ class UserController extends Controller
             Session::flash('message', 'Oops! Wrong answer');
         }
 
-        return redirect('/bullseye-event');
+        return redirect('/bullseye-event/'.$data->answer);
 
     }
 
