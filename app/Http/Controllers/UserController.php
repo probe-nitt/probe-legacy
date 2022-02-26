@@ -701,6 +701,7 @@ class UserController extends Controller
         }
         else{
             Session::flash('message', 'Oops! Wrong answer');
+            $data = BullseyeData::where('level', '=', $cl-1)->first();
         }
 
         return redirect('/bullseye-event/'.$data->answer);
