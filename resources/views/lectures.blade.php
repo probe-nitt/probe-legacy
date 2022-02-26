@@ -132,7 +132,7 @@
 			</div>
 		</div>
 
-		<?php /*<div id="events">				
+		<div id="events">				
 			<div class="econtainer big">
 				<h4>Bad AI - current scary usages of AI</h4>
 				<h5>Rehan Ahmad, <i>Head of AI team, Qualcomm</i>
@@ -143,11 +143,11 @@
 				<span>
 					Date: 27th February, 2 PM
 					<br>
-					Registration deadline: 26th February
+					Registration deadline: 27th February 1 PM
 				</span>
-				<button class="LM" ><a href="">Register here</a></button>
+				<button class="LM" ><a href="https://forms.gle/RABeHfB2sGdzssNx6">Register here</a></button>
 			</div>
-		</div> */ ?>
+		</div>
 		
 	</section>
 		<!-- footer
