@@ -128,7 +128,7 @@
 					<br>
 					Registration deadline: 25th February
 				</span>
-				<button class="LM" ><a href="">Register here</a></button>
+				<button class="LM" ><a href="https://forms.gle/kUgWKUoFQShzCMGQA">Register here</a></button>
 			</div>
 		</div>
 
