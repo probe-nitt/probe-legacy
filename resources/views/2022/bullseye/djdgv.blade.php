@@ -53,7 +53,7 @@
                         @if ($cb==0)
                         1.&nbsp;&nbsp;	What is the alphabet corresponding to the number that replaces the ‘?’    
 						<br>
-						<img style="display: block; margin: 20px auto" src="/images/bullseye/stage-3-pic-1.png">
+						<img style="width: min(90vw, 400px); display: block; margin: 20px auto" src="/images/bullseye/stage-3-pic-1.png">
                         <br><br>
                         2.&nbsp;&nbsp;	Z 5 J * U 3 # K R @ L 4 ^ N 8 7 B Q $ % X 1 ÷ 6 V > T A
                         <br>
@@ -69,7 +69,7 @@
                         <br><br>
                         3.  &nbsp;&nbsp; Find the suitable alphabet which completes the pattern.
                         <br>
-                        <img style="display: block; margin: 20px auto" src="/images/bullseye/stage-3-pic-2.png">
+                        <img style="width: min(90vw, 400px); display: block; margin: 20px auto" src="/images/bullseye/stage-3-pic-2.png">
                         <br><br>
                         4.	A lock can be opened by feeding the correct four-digit code. The code is a combination of four digits. To identify the correct code, the following clues are given:
 							<br>

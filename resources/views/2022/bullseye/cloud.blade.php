@@ -57,17 +57,17 @@
                         <br>
                         From the answer format of X : Y, Give the corresponding alphabet of the number at the position X.
                         <br>
-                        <img style="display: block; margin: 20px auto" src="/images/bullseye/stage-2-pic-1.png">
+                        <img style="width: min(90vw, 400px); display: block; margin: 20px auto" src="/images/bullseye/stage-2-pic-1.png">
                         <br><br>
                         3. What is the corresponding alphabet of the number in the position ‘?’ given below?
                         <br>
-                        <img style="display: block; margin: 20px auto" src="/images/bullseye/stage-2-pic-2.jpg">
+                        <img style="width: min(90vw, 400px); display: block; margin: 20px auto" src="/images/bullseye/stage-2-pic-2.jpg">
                         <br><br>
                         4.	There are eight people in a family viz. A, B, C, D, E, F, G and H consists of 3 generations. Four of them are female. E and C are the daughter and son of B respectively and both are married. F is the sister of H whose father is D. A and G are of 3rd generation and A is the son-in-law of F. B is the brother-in-law of H. Who among the following is sister-in-law of E?
                         <br><br>
                         5.	What is the alphabet corresponding to the number that replaces the ‘?’
                             <br>
-                            <img style="display: block; margin: 20px auto" src="/images/bullseye/stage-2-pic-3.png">
+                            <img style="width: min(90vw, 400px); display: block; margin: 20px auto" src="/images/bullseye/stage-2-pic-3.png">
 
                         <br/>
                         <br/>

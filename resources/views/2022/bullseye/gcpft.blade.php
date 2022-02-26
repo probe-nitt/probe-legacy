@@ -65,12 +65,12 @@
                         <br><br>
                         4.	&nbsp;&nbsp; Find the missing letter in the position ‘?’.     
 							<br>
-							<img style="display: block; margin: 20px auto" src="/images/bullseye/stage-4-pic-1.png">
+							<img style="width: min(90vw, 400px); display: block; margin: 20px auto" src="/images/bullseye/stage-4-pic-1.png">
 						<br>
                         <br><br>
                         5.&nbsp;&nbsp; Today is Sunday. After 59 days it will be? Provide the first letter of the day as the answer. Check the below table for the first letter of each day.
                             <br>
-                            <img style="display: block; margin: 20px auto" src="/images/bullseye/stage-4-pic-2.png">
+                            <img style="width: min(90vw, 400px); display: block; margin: 20px auto" src="/images/bullseye/stage-4-pic-2.png">
 
                         <br/>
                         <br/>

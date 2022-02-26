@@ -53,15 +53,15 @@
                         @if ($cb==0)
                         1.&nbsp;&nbsp;	Find the corresponding alphabet of the number which can replace the question mark.
 						<br>
-						<img style="display: block; margin: 20px auto" src="/images/bullseye/stage-5-pic-1.png">
+						<img style="width: min(90vw, 400px); display: block; margin: 20px auto" src="/images/bullseye/stage-5-pic-1.png">
                         <br><br>
                         2.&nbsp;&nbsp; Find the corresponding alphabet to the appropriate number that can fill the empty box below.
 						<br>
-						<img style="display: block; margin: 20px auto" src="/images/bullseye/stage-5-pic-2.png">
+						<img style="width: min(90vw, 400px); display: block; margin: 20px auto" src="/images/bullseye/stage-5-pic-2.png">
                         <br><br>
                         3.  &nbsp;&nbsp;	Find the missing letter in the empty box.
 						<br>
-						<img style="display: block; margin: 20px auto" src="/images/bullseye/stage-5-pic-3.png">
+						<img style="width: min(90vw, 400px); display: block; margin: 20px auto" src="/images/bullseye/stage-5-pic-3.png">
                         <br><br>
                         4.	&nbsp;&nbsp; There are 3 wall clocks attached on the wall, if they are named as A, B and C. The clock A is accurate whereas clock B gains 5 mins every day and clock C loses 5 mins every day. At exactly midnight, all three clocks were showing same time. If today is 15 February 2022, then on which date all three clocks will show the same time again? 
 						<br>
