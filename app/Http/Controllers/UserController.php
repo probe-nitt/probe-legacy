@@ -621,6 +621,7 @@ class UserController extends Controller
     }
 
     public function beq(Request $request, $slug){
+        return view('comingsoon');
         $email = Session::get('email');
         $bu = Users::where('email','=',$email)->first();
         $id = $bu->id;
