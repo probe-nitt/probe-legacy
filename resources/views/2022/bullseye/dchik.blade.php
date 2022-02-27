@@ -38,15 +38,14 @@
 			<!-- Main -->
 				<div id="main" class="wrapper style1">
 					<div class="container">
-						<header class="major">
-							<h2>
-							Congratulations on completing all 5 stages of Bullseye. Checkout the <a href="/bullseye-event/leaderboard">leaderboad</a> to see your rankings
-							</h2>
-                        </header>
                         @if ($message = session('message'))
                             <p style="text-align: center;">{{ $message }}</p>
                         @endif
-
+						<p style="font-size: 2em">
+						Congratulations on completing all 5 stages of Bullseye. Checkout the <a href="/bullseye-event/leaderboard">leaderboad</a> to see your rankings.
+							<br><br>
+							Consider filling our <a href="https://forms.gle/rWtd487f1wRqo9Br6">feedback form</a> to help us know what we can do better
+						</p>
                         <br/>
                         <br/>
 					</div>

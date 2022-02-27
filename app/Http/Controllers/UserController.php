@@ -649,7 +649,7 @@ class UserController extends Controller
         $cr = BullseyeData::where('level','=',$cl)->first(); // user's level
         $sr = BullseyeData::where('answer','=',$slug)->first(); // slug's level
         if (!$sr) {
-            return redirect('/bullseye-event/first');
+            return redirect('/bullseye-event/begin');
         }
         if ($cl > $sr->level + 1) {
             $newcr = BullseyeData::where('level','=',$cl - 1)->first(); // user's level
@@ -713,7 +713,7 @@ class UserController extends Controller
         $page = 1;
         $ranklist = BullseyeUsers::orderBy('cl', 'desc')
                                 ->leftJoin('users', 'users.id', '=', 'bullseye_users.participant')
-                                ->select(['users.id','users.name','bullseye_users.cl'])
+                                ->select(['users.id','users.name','bullseye_users.cl', 'bullseye_users.updated_at'])
                                 ->orderBy('bullseye_users.updated_at')
                                 ->orderBy('bullseye_users.created_at')
                                 ->get();
@@ -721,7 +721,7 @@ class UserController extends Controller
 
         $frl = BullseyeUsers::orderBy('cl', 'desc')
                                 ->leftJoin('users', 'users.id', '=', 'bullseye_users.participant')
-                                ->select(['users.id','users.name','users.email','bullseye_users.cl'])
+                                ->select(['users.id','users.name','users.email','bullseye_users.cl', 'bullseye_users.updated_at'])
                                 ->orderBy('bullseye_users.updated_at')
                                 ->orderBy('bullseye_users.created_at')
                                 ->limit(3)
@@ -763,15 +763,7 @@ class UserController extends Controller
             }
         }
 
-        $ind = 0;
-
-        $leaderboard = array();
-
-        foreach ($frl as $usr) {
-            $leaderboard[$usr->cl] = (isset($leaderboard[$usr->cl])==true?$leaderboard[$usr->cl]:"")."<div>".$usr->name."</div>"; 
-        }
-
-        return view('bel',['frl' => $frl, 'rank' => $rank, 'page' => $page, 'users' => $users, 'limit' => $limit, '$userank' => $rank, 'user' => $userdetail, 'uf' => $uf, 'ind' => $ind,'leaderboard' => $leaderboard]);
+        return view('bel',['frl' => $frl, 'rank' => $rank, 'page' => $page, 'users' => $users, 'limit' => $limit, 'user' => $userdetail, 'uf' => $uf]);
         
 
     }

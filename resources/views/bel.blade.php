@@ -50,17 +50,10 @@
                                     <th>Rank</th>
                                     <th>Name</th>
                                     <th>Level</th>
+                                    <th>Completed at</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <!--
-                                @foreach ($leaderboard as $key => $leaderboard_row)
-                                <tr>
-                                    <td>{{$ind=$ind+1}}</td>
-                                    <td>{!! $leaderboard_row !!}</td>
-                                    <td>{{$key}}</td>
-                                </tr>
-                                @endforeach-->
                                 @foreach ($frl as $index => $userdetail)
                                 <tr @if($userdetail->id==$user->id) style="color:yellow;" @endif @if($userdetail->ifAdmin) style="color:red;" @endif>
                                     @if($userdetail->ifAdmin)
@@ -71,6 +64,7 @@
                                     @endif
                                     <td>{{$userdetail->name}}</td>
                                     <td>{{$userdetail->cl}}</td>
+                                    <td>{{\Carbon\Carbon::parse($userdetail->updated_at)->timezone('Asia/Kolkata')->format('g:i:s a, jS F')}}</td>
                                 </tr>
                                 @endforeach
                                 @if($uf)
@@ -78,6 +72,7 @@
                                     <td>{{$rank}}</td>
                                     <td>{{$user->name}}</td>
                                     <td>{{$user->cl}}</td>
+                                    <td>{{$user->updated_at}}</td>
                                 </tr>
                                 @endif
                                 <!-- <tr>
