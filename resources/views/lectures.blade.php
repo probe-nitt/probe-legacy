@@ -97,6 +97,26 @@
 		</div>
 		<div id="events">				
 			<div class="econtainer big">
+				<h4>Bad AI - current scary usages of AI</h4>
+				<h5>Rehan Ahmad, <i>Head of AI team, Qualcomm</i>
+				</h5>
+				
+				<img src="/images/rehan.png" >
+				<p>
+				Mr. Rehan Ahmad is currently the Head of AI team at Qualcomm, Chennai. His versatility can be demonstrated by his expertise in various aspects like telecommunications, power, security, marketing etc. He has been nurturing his various skills for 8 years, working as an AI specialist and Solution architect, supporting organizations across countries like the US, UK, Dubai, India in devising AI and Machine learning solutions. He is passionate about enhancing the impact of AI/ML technologies in the use cases of partners worldwide and utilizing his knowledge and expertise in making the planet and livelihood more sustainable and future resilient.
+				<br>
+				Join us to learn and interact with him regarding the dark and worrisome side of Artificial Intelligence.
+				</p>
+				<span>
+					Date: 27th February, 2 PM
+					<br>
+					Registration deadline: 27th February 1 PM
+				</span>
+				<button class="LM" ><a href="https://forms.gle/RABeHfB2sGdzssNx6">Register here</a></button>
+			</div>
+		</div>
+		<div id="events">				
+			<div class="econtainer big">
 				<h4>Personal Finance</h4>
 				<h5>Kaushik Akiwatkar, <i>Head of Product, Elearnmarkets</i>
 				</h5>
@@ -129,23 +149,6 @@
 					Registration deadline: 25th February
 				</span>
 				<button class="LM" ><a href="https://forms.gle/kUgWKUoFQShzCMGQA">Register here</a></button>
-			</div>
-		</div>
-
-		<div id="events">				
-			<div class="econtainer big">
-				<h4>Bad AI - current scary usages of AI</h4>
-				<h5>Rehan Ahmad, <i>Head of AI team, Qualcomm</i>
-				</h5>
-				
-				<img src="/images/rehan.png" >
-				<p></p>
-				<span>
-					Date: 27th February, 2 PM
-					<br>
-					Registration deadline: 27th February 1 PM
-				</span>
-				<button class="LM" ><a href="https://forms.gle/RABeHfB2sGdzssNx6">Register here</a></button>
 			</div>
 		</div>
 		
