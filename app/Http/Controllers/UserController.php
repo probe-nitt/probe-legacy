@@ -621,7 +621,10 @@ class UserController extends Controller
     }
 
     public function beq(Request $request, $slug){
-        return view('comingsoon');
+        $sr = BullseyeData::where('answer','=',$slug)->first(); // slug's level
+        if (!$sr) {
+            return view('comingsoon');
+        }
         $email = Session::get('email');
         $bu = Users::where('email','=',$email)->first();
         $id = $bu->id;
@@ -648,7 +651,6 @@ class UserController extends Controller
         $cl = $user->cl;
 
         $cr = BullseyeData::where('level','=',$cl)->first(); // user's level
-        $sr = BullseyeData::where('answer','=',$slug)->first(); // slug's level
         if (!$sr) {
             return redirect('/bullseye-event/begin');
         }
@@ -676,7 +678,6 @@ class UserController extends Controller
     }
 
     public function bea(Request $request){
-
         $ans = $request->input('answer');
 
         $email = Session::get('email');
@@ -709,7 +710,7 @@ class UserController extends Controller
 
     }
 
-    public function bel(Request $request){
+    public function bel(Request $request) {
         $limit = 10;
         $page = 1;
         $ranklist = BullseyeUsers::orderBy('cl', 'desc')
