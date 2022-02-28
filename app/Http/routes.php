@@ -35,6 +35,10 @@ Route::group(['middleware' => 'checkSession'], function() {
     Route::get('/'.env('SEND_EMAIL_ROUTE').'/{slug}', 'UserController@test_mail');
 });
 
+Route::get('/makeathon', function () {
+    return view('makeathon');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
