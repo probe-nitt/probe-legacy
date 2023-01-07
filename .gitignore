@@ -3,3 +3,5 @@
 Homestead.yaml
 Homestead.json
 .env
+mysql_volume
+redis_volume
